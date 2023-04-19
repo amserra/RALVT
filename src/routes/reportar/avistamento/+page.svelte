@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { PageData, ActionData } from './$types';
-	import { superForm } from 'sveltekit-superforms/client';
+	import { dateProxy, superForm } from 'sveltekit-superforms/client';
 	import SuperDebug from 'sveltekit-superforms/client/SuperDebug.svelte';
 	import Map from '../../../components/map.svelte';
 
@@ -8,6 +8,8 @@
 
 	// Client API:
 	const { form, errors, constraints } = superForm(data.form);
+	// https://github.com/ciscoheat/sveltekit-superforms/discussions/74
+	const sightingDateProxy = dateProxy(form, 'sightingDate', { format: 'datetime-local' });
 
 	let hasPhotos = true;
 	let receiveUpdates = false;
@@ -81,7 +83,7 @@
 			name="sightingDate"
 			id="sightingDate"
 			data-invalid={$errors.sightingDate}
-			bind:value={$form.sightingDate}
+			bind:value={$sightingDateProxy}
 			{...$constraints.sightingDate}
 		/>
 		{#if $errors.sightingDate}<span class="invalid">{$errors.sightingDate}</span>{/if}

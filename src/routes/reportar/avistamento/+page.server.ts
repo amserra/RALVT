@@ -21,15 +21,15 @@ const schema = z.object({
 	beachName: z.string(),
 	description: z.string(),
 	location: z.string(),
-	sightingDate: z.date(),
+	sightingDate: z.coerce.date(),
 	species: z.enum(['dolphin', 'whale', 'turtle']).default('dolphin'),
 	condition: z.enum(['alive', 'fresh', 'decomposition', 'mummified']).default('alive'),
 	email: z.string().email({ message: 'Invalid email address' }).optional(),
 	photos: photosSchema
 });
 
-export const load: PageServerLoad = async (event) => {
-	const form = await superValidate(event, schema);
+export const load: PageServerLoad = async () => {
+	const form = await superValidate(schema);
 
 	return { form };
 };
