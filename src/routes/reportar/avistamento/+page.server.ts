@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { fail } from '@sveltejs/kit';
 import { setError, superValidate } from 'sveltekit-superforms/server';
 
-const MAX_FILE_SIZE = 5000000;
+const MAX_FILE_SIZE = 5242880; // 5 MB
 const ACCEPTED_IMAGE_TYPES = ['image/jpeg', 'image/jpg', 'image/png', 'image/webp'];
 
 const photosSchema = z
@@ -16,7 +16,7 @@ const photosSchema = z
 	.optional(); // arr of files
 
 const schema = z.object({
-	name: z.string().max(2),
+	name: z.string(),
 	phoneNumber: z.string(),
 	beachName: z.string(),
 	description: z.string(),
@@ -51,43 +51,44 @@ export const actions: Actions = {
 
 		if (!form.valid) return fail(400, { form });
 
-		// TODO: upload images first and get their URL to associate with the stranding
+		const today = new Date().toISOString().slice(0, 19); // Only until seconds (e.g.: '2023-04-16T11:05:52.260Z' to '2023-04-16T11:05:52'
+		const folderName = `${today}-${form.data.name.trim().replace(' ', '-')}`;
+		let filesPaths: string[] = [];
 
-		const response = await locals.sb.from('Stranding').insert({
-			personName: form.data.name,
-			phoneNumber: form.data.phoneNumber,
-			description: form.data.description,
-			beachName: form.data.beachName,
-			location: form.data.location,
-			email: form.data.email,
-			sightingDate: form.data.sightingDate,
-			species: form.data.species,
-			condition: form.data.condition
-		});
+		for (let [index, f] of files.entries()) {
+			const file = f as File;
+			const extension = file.type.split('/').pop() ?? '.png';
+			const filePath = `${folderName}/file${index + 1}.${extension}`;
+			console.log(filePath);
 
-		// .then(
-		// 	(value) => {
-		// 		console.log(value);
-		// 	},
-		// 	(reason) => {
-		// 		console.log(reason);
-		// 		return fail(500, { form });
-		// 	}
-		// );
+			const { data, error } = await locals.sb.storage.from('avistamentos').upload(filePath, file);
+			if (data) filesPaths.push(data.path);
+		}
 
-		// Yep, return { form } here too
+		await locals.sb
+			.from('Stranding')
+			.insert({
+				name: form.data.name.trim(),
+				phoneNumber: form.data.phoneNumber,
+				description: form.data.description.trim(),
+				beachName: form.data.beachName.trim(),
+				location: form.data.location,
+				email: form.data.email,
+				sightingDate: form.data.sightingDate,
+				species: form.data.species,
+				condition: form.data.condition,
+				photos: filesPaths
+			})
+			.then(
+				(value) => {
+					console.log(value);
+				},
+				(reason) => {
+					console.log(reason);
+					return fail(500, { form });
+				}
+			);
+
 		return { form };
 	}
 };
-
-// const name = data.get('name');
-// const number = data.get('number');
-// const beachName = data.get('beachName');
-// const description = data.get('description');
-// const local = data.get('local');
-// const sightingDate = data.get('sightingDate');
-// const species = data.get('species');
-// const hasPhotos = data.get('hasPhotos');
-// const photos = data.get('photos');
-// const receiveUpdates = data.get('receiveUpdates');
-// const email = data.get('email');
