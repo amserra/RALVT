@@ -17,7 +17,7 @@
 
 <main>
 	<SuperDebug data={$form} />
-	<h1>Reportar avistamento</h1>
+	<h1>Reportar arrojamento</h1>
 	<form method="POST" enctype="multipart/form-data">
 		<label for="name">Nome</label>
 		<input type="text" name="name" id="name" data-invalid={$errors.name} bind:value={$form.name} />
@@ -77,7 +77,7 @@
 
 		<br />
 
-		<label for="sightingDate">Data de avistamento</label>
+		<label for="sightingDate">Data de arrojamento</label>
 		<input
 			type="datetime-local"
 			name="sightingDate"

@@ -61,7 +61,7 @@ export const actions: Actions = {
 			const filePath = `${folderName}/file${index + 1}.${extension}`;
 			console.log(filePath);
 
-			const { data, error } = await locals.sb.storage.from('avistamentos').upload(filePath, file);
+			const { data, error } = await locals.sb.storage.from('strandings').upload(filePath, file);
 			if (data) filesPaths.push(data.path);
 		}
 
