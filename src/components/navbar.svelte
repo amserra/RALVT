@@ -63,7 +63,7 @@
 						href="/ralvt"
 						class="nav-item"
 						class:inactive={$page.route.id != '/ralvt'}
-						class:active={$page.route.id == '/ralvt'}>RALVT</a
+						class:active={$page.route.id == '/ralvt'}>A RALVT</a
 					>
 					<a
 						href="/especies"
@@ -124,7 +124,7 @@
 				href="/ralvt"
 				class="nav-item-mobile"
 				class:inactive={$page.route.id != '/ralvt'}
-				class:active={$page.route.id == '/ralvt'}>RALVT</a
+				class:active={$page.route.id == '/ralvt'}>A RALVT</a
 			>
 			<a
 				href="/especies"

@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>RALVT</title>
+</svelte:head>
+
 <main>
 	<div class="h-navscreen relative">
 		<!-- <video autoplay muted loop class="h-full object-fill grayscale-[40%]">
