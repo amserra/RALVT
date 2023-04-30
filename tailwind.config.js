@@ -5,6 +5,10 @@ export default {
 		extend: {
 			fontFamily: {
 				montserrat: ['Montserrat', 'sans-serif']
+			},
+			height: {
+				// h-screen - navbar size (h-16 = 4rem)
+				navscreen: 'calc(100vh - 4rem)'
 			}
 		}
 	},

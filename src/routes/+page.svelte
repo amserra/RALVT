@@ -1,5 +1,5 @@
 <main>
-	<div class="h-screen relative">
+	<div class="h-navscreen relative">
 		<video autoplay muted loop class="h-full object-fill grayscale-[40%]">
 			<source
 				src="https://assets.mixkit.co/videos/preview/mixkit-dolphins-underwater-4133-large.mp4"
