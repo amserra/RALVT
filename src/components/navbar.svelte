@@ -118,7 +118,11 @@
 	</div>
 
 	<!-- Mobile menu, show/hide based on menu state. -->
-	<div class="md:hidden" id="mobile-menu" class:hidden={!isOpen}>
+	<div
+		class="md:hidden z-50 border-b border-b-gray-200 absolute bg-white w-full"
+		id="mobile-menu"
+		class:hidden={!isOpen}
+	>
 		<div class="pt-2 pb-3 space-y-1">
 			<a
 				href="/ralvt"
