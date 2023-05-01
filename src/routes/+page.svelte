@@ -1,9 +1,13 @@
+<script>
+	import Footer from '../components/footer.svelte';
+</script>
+
 <svelte:head>
 	<title>RALVT</title>
 </svelte:head>
 
 <main>
-	<div class="h-navscreen relative">
+	<section class="h-navscreen relative">
 		<!-- <video autoplay muted loop class="h-full object-fill grayscale-[40%]">
 			<source
 				src="https://assets.mixkit.co/videos/preview/mixkit-dolphins-underwater-4133-large.mp4"
@@ -16,5 +20,7 @@
 				Rede de Arrojamentos de Lisboa e Vale do Tejo
 			</h2>
 		</div>
-	</div>
+	</section>
 </main>
+
+<Footer />

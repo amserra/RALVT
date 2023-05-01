@@ -1,7 +1,5 @@
 <!-- Footer -->
-<footer
-	class="mx-auto mt-40 max-w-7xl overflow-hidden px-6 pb-14 sm:mt-64 sm:pb-20 lg:px-8 bg-sky-200"
->
+<footer class="mt-40 overflow-hidden px-6 pb-14 sm:mt-64 sm:pb-20 lg:px-8 bg-sky-200">
 	<nav class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12 mt-10" aria-label="Footer">
 		<div class="pb-6">
 			<a href="/ralvt" class="text-sm leading-6 text-gray-600 hover:text-gray-900">A RALVT</a>
