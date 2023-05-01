@@ -15,7 +15,7 @@
 		</video> -->
 		<img class="h-full w-full object-fill grayscale-[40%]" src="/video-image.jpeg" alt="" />
 		<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-			<h1 class="text-center text-white text-8xl font-bold">RALVT</h1>
+			<h1 class="text-center text-white text-8xl font-bold tracking-widest">RALVT</h1>
 			<h2 class="text-center text-white text-4xl mt-6">
 				Rede de Arrojamentos de Lisboa e Vale do Tejo
 			</h2>
