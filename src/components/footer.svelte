@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer
-	class="mx-auto mt-40 max-w-7xl overflow-hidden px-6 pb-10 sm:mt-64 sm:pb-16 lg:px-8 bg-sky-200"
+	class="mx-auto mt-40 max-w-7xl overflow-hidden px-6 pb-14 sm:mt-64 sm:pb-20 lg:px-8 bg-sky-200"
 >
 	<nav class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12 mt-10" aria-label="Footer">
 		<div class="pb-6">
