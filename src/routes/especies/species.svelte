@@ -19,10 +19,7 @@
 <!-- <img class="h-full w-full object-fill grayscale-[70%]" src={bgImage} alt="" /> -->
 <!-- <div class="absolute inset-0 mx-20 mt-20"> -->
 <!-- <div class={`w-full bg-[url('${bgImage}')] bg-cover bg-center px-6 py-10 md:px-20 md:py-20`}> -->
-<div
-	id="main-div"
-	class={`w-full bg-[url('${bgImage}')] bg-cover bg-center px-6 py-10 md:px-20 md:py-20`}
->
+<div class={`w-full bg-[url('${bgImage}')] bg-cover bg-center px-6 py-10 md:px-20 md:py-20`}>
 	<h1 class="text-center text-8xl text-white md:text-left">{name}</h1>
 	<div class="mt-10 flex flex-col-reverse items-center gap-10 md:flex-row md:items-start">
 		<div class="flex w-full flex-col items-center">
@@ -41,8 +38,8 @@
 				<p class="font-bold uppercase text-orange-400">{currentSpecie.conservationState}</p>
 			</div>
 		</div>
-		<!-- <div class="max-w-lg rounded-lg bg-gray-100/10 px-10 py-4 backdrop-blur-lg"> -->
-		<div class="max-w-lg rounded-lg">
+		<div class="max-w-lg rounded-lg bg-gray-900/20 px-10 py-4 backdrop-blur-lg">
+			<!-- <div class="max-w-lg rounded-lg"> -->
 			<p class="text-lg text-white">{description}</p>
 		</div>
 	</div>
