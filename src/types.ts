@@ -3,6 +3,7 @@ export interface Species {
 	latinName: string;
 	conservationState: string;
 	imgUrl: string;
+	description: string;
 }
 
 export interface Slide {
