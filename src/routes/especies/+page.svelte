@@ -21,7 +21,9 @@
 </script>
 
 <main>
-	<section class="relative h-navscreen">
+	<section
+		class="w-full bg-[url('/images/animals/birds/bg-birds-flying.jpeg')] bg-cover bg-top px-6 py-10 md:px-20 md:py-20"
+	>
 		<Species
 			name="Aves"
 			description="O alcatraz é uma ave muito bonita.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -31,7 +33,6 @@
     obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
     nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
     tenetur error, harum nesciunt ipsum debitis quas aliquid."
-			bgImage="/images/animals/birds/bg-birds-flying.jpeg"
 			species={birds}
 		/>
 	</section>
