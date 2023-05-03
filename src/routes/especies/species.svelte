@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Carousel from '../../components/carousel.svelte';
+	import StackedCarousel from '../../components/stacked-carousel.svelte';
 	import type { Species } from '../../types';
 	import type { Swiper } from 'swiper/types';
 	import { fade } from 'svelte/transition';
@@ -27,7 +27,7 @@
 	} md:items-start`}
 >
 	<div class="flex w-full flex-col items-center">
-		<Carousel
+		<StackedCarousel
 			slideChangeHandler={onSlideChange}
 			slides={species.map((specie) => {
 				return {
@@ -37,9 +37,7 @@
 			})}
 		/>
 	</div>
-	<div
-		class="max-w-lg rounded-lg bg-gray-100/10 px-10 py-4 backdrop-blur-lg md:-mt-8 md:min-w-[60%]"
-	>
+	<div class="max-w-lg rounded-lg bg-gray-100/10 px-10 py-4 backdrop-blur-lg md:min-w-[60%]">
 		{#key currentSpecie}
 			<div in:fade class="mt-6 text-center text-lg md:text-left">
 				<p class="font-bold uppercase text-sky-800">{currentSpecie.regularName}</p>

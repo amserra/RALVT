@@ -1,11 +1,8 @@
 <script lang="ts">
-	import { register } from 'swiper/element/bundle';
 	import type { Slide } from '../types';
 
 	export let slideChangeHandler: Function;
 	export let slides: Slide[];
-
-	register();
 </script>
 
 <swiper-container

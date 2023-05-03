@@ -3,6 +3,8 @@
 	import Floating from '../components/floating.svelte';
 	import Footer from '../components/footer.svelte';
 	import Navbar from '../components/navbar.svelte';
+	import { register } from 'swiper/element/bundle';
+	register();
 </script>
 
 <Navbar />

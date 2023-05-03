@@ -72,10 +72,10 @@
 						class:active={$page.route.id == '/especies'}>Espécies</a
 					>
 					<a
-						href="/alertas"
+						href="/arrojamentos"
 						class="nav-item"
-						class:inactive={$page.route.id != '/alertas'}
-						class:active={$page.route.id == '/alertas'}>Alertas</a
+						class:inactive={$page.route.id != '/arrojamentos'}
+						class:active={$page.route.id == '/arrojamentos'}>Arrojamentos</a
 					>
 					<a
 						href="/eventos"
@@ -138,10 +138,10 @@
 				class:active={$page.route.id == '/especies'}>Espécies</a
 			>
 			<a
-				href="/alertas"
+				href="/arrojamentos"
 				class="nav-item-mobile"
-				class:inactive={$page.route.id != '/alertas'}
-				class:active={$page.route.id == '/alertas'}>Alertas</a
+				class:inactive={$page.route.id != '/arrojamentos'}
+				class:active={$page.route.id == '/arrojamentos'}>Arrojamentos</a
 			>
 			<a
 				href="/eventos"
