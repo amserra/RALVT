@@ -1,6 +1,6 @@
 <!-- Footer -->
-<footer class="mt-40 overflow-hidden px-6 pb-14 sm:mt-64 sm:pb-20 lg:px-8 bg-sky-200">
-	<nav class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12 mt-10" aria-label="Footer">
+<footer class="overflow-hidden bg-sky-200 px-6 pb-14 sm:pb-20 lg:px-8">
+	<nav class="-mb-6 mt-10 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
 		<div class="pb-6">
 			<a href="/ralvt" class="text-sm leading-6 text-gray-600 hover:text-gray-900">A RALVT</a>
 		</div>
@@ -40,7 +40,7 @@
 				/>
 			</svg>
 		</a>
-		<a href="mailto:geral@ralvt.pt" class="text-gray-500 hover:text-gray-600 flex">
+		<a href="mailto:geral@ralvt.pt" class="flex text-gray-500 hover:text-gray-600">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="h-6 w-6"
@@ -58,14 +58,14 @@
 			</svg>
 			<span class="ml-2 text-sm">geral@ralvt.pt</span>
 		</a>
-		<a href="tel:+351911111241" class="text-gray-500 hover:text-gray-600 flex">
+		<a href="tel:+351911111241" class="flex text-gray-500 hover:text-gray-600">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
 				viewBox="0 0 24 24"
 				stroke-width="1.5"
 				stroke="currentColor"
-				class="w-6 h-6"
+				class="h-6 w-6"
 				aria-hidden="true"
 			>
 				<path
@@ -74,10 +74,12 @@
 					d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
 				/>
 			</svg>
-			<span class="ml-2 text-sm">(+351) 911 111 241</span>
+			<span class="ml-2 text-sm"
+				>(+351) 911 111 241 <span class="text-xs">(Chamada para rede móvel nacional)</span></span
+			>
 		</a>
 	</div>
-	<img src="/logo.png" class="mx-auto h-10 mt-10" alt="Logo RALVT" />
+	<img src="/logo.png" class="mx-auto mt-10 h-10" alt="Logo RALVT" />
 	<p class="mt-6 text-center text-xs leading-5 text-gray-500">
 		&copy; Rede de Arrojamentos de Lisboa e Vale do Tejo
 	</p>

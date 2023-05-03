@@ -7,7 +7,7 @@
 </script>
 
 <div class="bg-white">
-	<main class="isolate">
+	<main class="isolate mb-40">
 		<!-- Hero section -->
 		<Hero />
 
