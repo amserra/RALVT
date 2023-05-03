@@ -9,14 +9,14 @@
 	});
 </script>
 
-<nav class="bg-white shadow h-16">
-	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-		<div class="flex justify-between h-16">
+<nav class="h-16 bg-white shadow">
+	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+		<div class="flex h-16 justify-between">
 			<div class="flex">
 				<div class="-ml-2 mr-2 flex items-center md:hidden">
 					<button
 						type="button"
-						class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500"
+						class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500"
 						aria-controls="mobile-menu"
 						aria-expanded={isOpen}
 						on:click={() => (isOpen = !isOpen)}
@@ -54,9 +54,9 @@
 						</svg>
 					</button>
 				</div>
-				<a href="/" class="flex-shrink-0 flex items-center">
-					<img class="block lg:hidden h-8 w-auto" src="/logo.png" alt="RALVT logo" />
-					<img class="hidden lg:block h-8 w-auto" src="/logo.png" alt="RALVT logo" />
+				<a href="/" class="flex flex-shrink-0 items-center">
+					<img class="block h-8 w-auto lg:hidden" src="/logo.png" alt="RALVT logo" />
+					<img class="hidden h-8 w-auto lg:block" src="/logo.png" alt="RALVT logo" />
 				</a>
 				<div class="hidden md:ml-6 md:flex md:space-x-8">
 					<a
@@ -93,9 +93,10 @@
 			</div>
 			<div class="flex items-center">
 				<div class="flex-shrink-0">
-					<button
+					<a
+						href="/contactos"
 						type="button"
-						class="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-sky-600 shadow-sm hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
+						class="relative inline-flex items-center rounded-md border border-transparent bg-sky-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
 					>
 						<svg
 							class="-ml-1 mr-2 h-5 w-5 fill-current"
@@ -111,7 +112,7 @@
 						</svg>
 
 						<span>Contactos</span>
-					</button>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -119,11 +120,11 @@
 
 	<!-- Mobile menu, show/hide based on menu state. -->
 	<div
-		class="md:hidden z-50 border-b border-b-gray-200 absolute bg-white w-full"
+		class="absolute z-50 w-full border-b border-b-gray-200 bg-white md:hidden"
 		id="mobile-menu"
 		class:hidden={!isOpen}
 	>
-		<div class="pt-2 pb-3 space-y-1">
+		<div class="space-y-1 pb-3 pt-2">
 			<a
 				href="/ralvt"
 				class="nav-item-mobile"
@@ -160,7 +161,7 @@
 
 <style lang="scss">
 	.nav-item {
-		@apply inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium;
+		@apply inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium;
 	}
 
 	.nav-item.active {
@@ -172,14 +173,14 @@
 	}
 
 	.nav-item-mobile {
-		@apply block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6;
+		@apply block border-l-4 py-2 pl-3 pr-4 text-base font-medium sm:pl-5 sm:pr-6;
 	}
 
 	.nav-item-mobile.active {
-		@apply bg-sky-50 border-sky-500 text-sky-700;
+		@apply border-sky-500 bg-sky-50 text-sky-700;
 	}
 
 	.nav-item-mobile.inactive {
-		@apply border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700;
+		@apply border-transparent text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700;
 	}
 </style>
