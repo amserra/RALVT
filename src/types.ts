@@ -10,3 +10,12 @@ export interface Slide {
 	imgUrl: string;
 	alt: string;
 }
+
+export interface Event {
+	date: string;
+	hour: string;
+	title: string;
+	description: string;
+	location: string;
+	imgUrl: string;
+}
