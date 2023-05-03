@@ -2,6 +2,7 @@
 	import Carousel from '../../components/carousel.svelte';
 	import type { Species } from '../../types';
 	import type { Swiper } from 'swiper/types';
+	import { fade } from 'svelte/transition';
 
 	export let name: string;
 	export let description: string;
@@ -30,11 +31,13 @@
 		/>
 	</div>
 	<div class="max-w-lg rounded-lg bg-gray-100/10 px-10 py-4 backdrop-blur-lg md:min-w-[60%]">
-		<div class="mt-6 text-center md:text-left">
-			<p class="font-bold uppercase text-sky-800">{currentSpecie.regularName}</p>
-			<p class="font-light uppercase text-sky-800">{currentSpecie.latinName}</p>
-			<p class="font-bold uppercase text-orange-400">{currentSpecie.conservationState}</p>
-		</div>
-		<p class="mt-6 text-lg">{currentSpecie.description}</p>
+		{#key currentSpecie}
+			<div in:fade class="mt-6 text-center md:text-left">
+				<p class="font-bold uppercase text-sky-800">{currentSpecie.regularName}</p>
+				<p class="font-light uppercase text-sky-800">{currentSpecie.latinName}</p>
+				<p class="font-bold uppercase text-orange-400">{currentSpecie.conservationState}</p>
+			</div>
+			<p in:fade class="mt-6 text-lg">{currentSpecie.description}</p>
+		{/key}
 	</div>
 </div>
