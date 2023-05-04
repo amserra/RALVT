@@ -57,7 +57,7 @@
 											<div class="relative h-40 sm:h-56">
 												<img
 													class="absolute h-full w-full object-cover"
-													src={data.imgUrl}
+													src={data.imgurl}
 													alt={data.title} />
 											</div>
 											<div class="mt-6 px-4 sm:mt-8 sm:flex sm:items-end sm:px-6">
@@ -93,7 +93,7 @@
 												<dt class="text-sm font-medium text-gray-500 sm:w-40 sm:flex-shrink-0">
 													Hora
 												</dt>
-												<dd class="mt-1 text-sm text-gray-900 sm:col-span-2">{data.hour}</dd>
+												<dd class="mt-1 text-sm text-gray-900 sm:col-span-2">{data.time}</dd>
 											</div>
 											<div>
 												<dt class="text-sm font-medium text-gray-500 sm:w-40 sm:flex-shrink-0">
