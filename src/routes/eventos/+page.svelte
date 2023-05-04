@@ -11,43 +11,45 @@
 	let currentEvent: Event;
 </script>
 
-<section class="pt-14 sm:pt-32">
-	<div class="mx-auto max-w-7xl px-6 lg:px-8">
-		<div class="mx-auto max-w-2xl text-center">
-			<h1 class="header">Eventos</h1>
-			<p class="mt-6 text-lg leading-8 text-gray-600">
-				Todos os anos arrojam na costa Portuguesas mais de 1000 animais...
-			</p>
+<main class="bg-white">
+	<section class="pt-14 sm:pt-32">
+		<div class="mx-auto max-w-7xl px-6 lg:px-8">
+			<div class="mx-auto max-w-2xl text-center">
+				<h1 class="header">Eventos</h1>
+				<p class="mt-6 text-lg leading-8 text-gray-600">
+					Todos os anos arrojam na costa Portuguesas mais de 1000 animais...
+				</p>
+			</div>
 		</div>
-	</div>
-	<div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
-		<img
-			src="/images/Imagem11.jpg"
-			alt=""
-			class="aspect-[5/2] w-full object-cover xl:rounded-3xl" />
-	</div>
-</section>
+		<div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
+			<img
+				src="/images/Imagem11.jpg"
+				alt=""
+				class="aspect-[5/2] w-full object-cover xl:rounded-3xl" />
+		</div>
+	</section>
 
-<section class="mx-auto mb-20 mt-20 max-w-7xl px-6 lg:px-8">
-	<h2 class="text-base font-semibold leading-6 text-gray-900">Próximos eventos</h2>
-	<ol class="mt-2 divide-y divide-gray-200 text-sm leading-6 text-gray-500">
-		{#each data.events as event}
-			<li class="py-4 md:flex">
-				<p class="w-52 flex-none">{event.date}</p>
-				<p class="mt-2 flex-auto font-semibold text-gray-900 md:mt-0">{event.title}</p>
-				<button
-					on:click={() => {
-						detailsIsOpen = true;
-						currentEvent = event;
-					}}
-					class="mt-2 inline-block rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 md:mt-0">
-					&#43; Detalhes
-				</button>
-			</li>
-		{:else}
-			<p>Não há eventos de momento. Verifica mais tarde!</p>
-		{/each}
-	</ol>
+	<section id="lista-eventos" class="mx-auto mb-20 mt-20 max-w-7xl px-6 lg:px-8">
+		<h2 class="text-base font-semibold leading-6 text-gray-900">Próximos eventos</h2>
+		<ol class="mt-2 divide-y divide-gray-200 text-sm leading-6 text-gray-500">
+			{#each data.events as event}
+				<li class="py-4 md:flex">
+					<p class="w-52 flex-none">{event.date}</p>
+					<p class="mt-2 flex-auto font-semibold text-gray-900 md:mt-0">{event.title}</p>
+					<button
+						on:click={() => {
+							detailsIsOpen = true;
+							currentEvent = event;
+						}}
+						class="mt-2 inline-block rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 md:mt-0">
+						&#43; Detalhes
+					</button>
+				</li>
+			{:else}
+				<p>Não há eventos de momento. Verifica mais tarde!</p>
+			{/each}
+		</ol>
 
-	<Details open={detailsIsOpen} toggleHandler={toggleDetails} data={currentEvent} />
-</section>
+		<Details open={detailsIsOpen} toggleHandler={toggleDetails} data={currentEvent} />
+	</section>
+</main>

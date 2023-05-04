@@ -1,0 +1,100 @@
+<script>
+	const items = [
+		{
+			title: 'Voluntariado e estágios',
+			description:
+				'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
+			buttonText: 'Candidata-te a um estágio',
+			buttonLink: '/voluntariado-e-estagios'
+		},
+		{
+			title: 'Limpezas de praia',
+			description:
+				'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
+			buttonText: 'Vê o noso calendário',
+			buttonLink: '/eventos#lista-eventos'
+		},
+		{
+			title: 'Reportar',
+			description:
+				'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
+			buttonText: 'Reporta um novo arrojamento',
+			buttonLink: '/reportar/arrojamento'
+		}
+	];
+</script>
+
+<main class="isolate mb-32 bg-white">
+	<!-- Hero section -->
+	<div class="relative isolate -z-10 overflow-hidden bg-gradient-to-b from-sky-100/20 pt-14">
+		<div class="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
+			<div
+				class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
+				<h1
+					class="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
+					We’re a passionate group of people working from around the world to build the future of
+					ecommerce.
+				</h1>
+				<div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
+					<p class="text-lg leading-8 text-gray-600">
+						Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
+						commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua
+						ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+					</p>
+				</div>
+				<img
+					src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
+					alt=""
+					class="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36" />
+			</div>
+		</div>
+	</div>
+
+	<!-- Content section -->
+	<div class="mx-auto mt-6 max-w-7xl px-6 sm:mt-10 lg:px-8">
+		<div
+			class="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
+			<div class="w-full lg:max-w-lg lg:flex-auto">
+				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+					Estamos sempre à procura de pessoas incríveis para nos ajudar
+				</h2>
+				<p class="mt-6 text-xl leading-8 text-gray-600">
+					Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est euismod lacus. Est non
+					placerat nam arcu. Cras purus nibh cursus sit eu in id.
+				</p>
+				<img
+					src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&h=1104&q=80"
+					alt=""
+					class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]" />
+			</div>
+			<div class="w-full lg:max-w-xl lg:flex-auto">
+				<h3 class="sr-only">Job openings</h3>
+				<ul class="-my-4 divide-y divide-gray-100">
+					{#each items as item}
+						<li class="py-8">
+							<dl class="relative flex flex-wrap gap-x-3">
+								<dt class="sr-only">Role</dt>
+								<dd class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+									{item.title}
+								</dd>
+								<dt class="sr-only">Description</dt>
+								<dd class="mt-2 w-full flex-none text-base leading-7 text-gray-600">
+									{item.description}
+								</dd>
+								<dt class="sr-only">Saber mais</dt>
+								<dd class="mt-4 text-base font-semibold leading-7 text-gray-900">
+									<a
+										href={item.buttonLink}
+										type="button"
+										class="cursor-pointer rounded bg-sky-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+										>{item.buttonText} <span aria-hidden="true">→</span>
+									</a>
+								</dd>
+							</dl>
+						</li>
+					{/each}
+				</ul>
+			</div>
+		</div>
+	</div>
+</main>

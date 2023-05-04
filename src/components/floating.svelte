@@ -1,11 +1,9 @@
 <div
-	class="pointer-events-none fixed inset-x-0 bottom-0 z-10 sm:flex sm:justify-center sm:px-6 sm:pb-5 lg:px-8"
->
+	class="pointer-events-none fixed inset-x-0 bottom-0 z-10 sm:flex sm:justify-center sm:px-6 sm:pb-5 lg:px-8">
 	<div
-		class="pointer-events-auto flex items-center justify-between gap-x-6 bg-sky-900 px-6 py-2.5 sm:rounded-xl sm:py-3 sm:pl-4 sm:pr-3.5"
-	>
+		class="pointer-events-auto flex items-center justify-between gap-x-6 bg-sky-900 px-6 py-2.5 sm:rounded-xl sm:py-3 sm:pl-4 sm:pr-3.5">
 		<p class="text-sm leading-6 text-white">
-			<a href="#">
+			<a href="/reportar/arrojamento">
 				<strong class="font-semibold">Encontrou um animal arrojado?</strong><svg
 					viewBox="0 0 2 2"
 					class="mx-2 inline h-0.5 w-0.5 fill-current"
