@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"leaflet": "^1.9.3"
+		"leaflet": "^1.9.3",
+		"svelte-file-dropzone": "^2.0.1"
 	}
 }

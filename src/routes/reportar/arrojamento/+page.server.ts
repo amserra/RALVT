@@ -21,7 +21,7 @@ const schema = z.object({
 	beachName: z.string(),
 	description: z.string(),
 	location: z.string(),
-	sightingDate: z.coerce.date(),
+	sightingDate: z.coerce.date().max(new Date()),
 	species: z.enum(['dolphin', 'whale', 'turtle']).default('dolphin'),
 	condition: z.enum(['alive', 'fresh', 'decomposition', 'mummified']).default('alive'),
 	email: z.string().email({ message: 'Invalid email address' }).optional(),

@@ -1,4 +1,5 @@
 <script>
+	import { page } from '$app/stores';
 	import '../app.css';
 	import Floating from '../components/floating.svelte';
 	import Footer from '../components/footer.svelte';
@@ -13,4 +14,6 @@
 
 <Footer />
 
-<Floating />
+{#if $page.route.id != '/reportar/arrojamento'}
+	<Floating />
+{/if}

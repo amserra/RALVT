@@ -3,6 +3,8 @@
 	import { dateProxy, superForm } from 'sveltekit-superforms/client';
 	import SuperDebug from 'sveltekit-superforms/client/SuperDebug.svelte';
 	import Map from '../../../components/map.svelte';
+	import DropZone from '../../../components/drop-zone.svelte';
+	import Modal from '../../../components/modal.svelte';
 
 	export let data: PageData;
 
@@ -15,150 +17,199 @@
 	let receiveUpdates = false;
 </script>
 
-<main>
-	<SuperDebug data={$form} />
-	<h1>Reportar arrojamento</h1>
-	<form method="POST" enctype="multipart/form-data">
-		<label for="name">Nome</label>
-		<input type="text" name="name" id="name" data-invalid={$errors.name} bind:value={$form.name} />
-		{#if $errors.name}<span class="invalid">{$errors.name}</span>{/if}
+<main class="mx-auto my-20 max-w-7xl px-4 sm:px-6 lg:px-8">
+	<!-- <SuperDebug data={$form} /> -->
+	<div class="mx-auto max-w-3xl">
+		<h1 class="sub-header text-center">Reportar arrojamento</h1>
+		<p class="mt-6 text-lg leading-8 text-gray-600">
+			Encontrou um animal arrojado? Reporte-nos e nós iremos verificar a situação. Se não sabe, ou
+			não tem a certeza de o que é um arrojamento, veja a <a
+				class=" text-sky-600 hover:underline"
+				href="/arrojamentos">nossa página sobre arrojamentos</a
+			>.
+		</p>
+		<form class="mt-16" method="POST" enctype="multipart/form-data">
+			<div class="flex flex-col-reverse">
+				<input
+					type="text"
+					name="name"
+					id="name"
+					autocomplete="name"
+					class="form-input mt-2"
+					data-invalid={$errors.name}
+					bind:value={$form.name}
+					{...$constraints.name} />
+				<label for="name" class="form-label">O seu nome</label>
+			</div>
+			{#if $errors.name}<p class="mt-2 text-sm text-red-600">{$errors.name}</p>{/if}
 
-		<br />
+			<div class="mt-6 flex flex-col-reverse">
+				<input
+					type="tel"
+					name="phoneNumber"
+					id="phoneNumber"
+					autocomplete="tel"
+					class="form-input mt-2"
+					data-invalid={$errors.phoneNumber}
+					bind:value={$form.phoneNumber}
+					{...$constraints.phoneNumber} />
+				<label for="phoneNumber" class="form-label">Número de telefone</label>
+			</div>
+			{#if $errors.phoneNumber}<p class="mt-2 text-sm text-red-600">{$errors.phoneNumber}</p>{/if}
 
-		<label for="phoneNumber">Número</label>
-		<input
-			type="tel"
-			name="phoneNumber"
-			id="phoneNumber"
-			data-invalid={$errors.phoneNumber}
-			bind:value={$form.phoneNumber}
-			{...$constraints.phoneNumber}
-		/>
-		{#if $errors.phoneNumber}<span class="invalid">{$errors.phoneNumber}</span>{/if}
+			<div class="mt-6 flex flex-col-reverse">
+				<input
+					type="text"
+					name="beachName"
+					id="beachName"
+					class="form-input mt-2"
+					placeholder="e.x. Praia de Carcavelos"
+					data-invalid={$errors.beachName}
+					bind:value={$form.beachName}
+					{...$constraints.beachName} />
+				<label for="beachName" class="form-label">Nome da praia</label>
+			</div>
+			{#if $errors.beachName}<p class="mt-2 text-sm text-red-600">{$errors.beachName}</p>{/if}
 
-		<br />
+			<div class="mt-6 flex flex-col-reverse">
+				<textarea
+					name="description"
+					id="description"
+					rows="4"
+					class="form-input mt-2"
+					data-invalid={$errors.description}
+					bind:value={$form.description}
+					{...$constraints.description} />
+				<label for="description" class="form-label sibling-required:text-red-600">Descrição</label>
+			</div>
+			{#if $errors.description}<p class="mt-2 text-sm text-red-600">{$errors.description}</p>{/if}
 
-		<label for="beachName">Nome da praia</label>
-		<input
-			type="text"
-			name="beachName"
-			id="beachName"
-			data-invalid={$errors.beachName}
-			bind:value={$form.beachName}
-			{...$constraints.beachName}
-		/>
-		{#if $errors.beachName}<span class="invalid">{$errors.beachName}</span>{/if}
+			<div class="mt-6 flex flex-col-reverse">
+				<input
+					type="text"
+					name="location"
+					id="location"
+					class="form-input mt-2"
+					data-invalid={$errors.location}
+					bind:value={$form.location}
+					{...$constraints.location} />
+				<label for="location" class="form-label">Localização</label>
+			</div>
+			{#if $errors.location}<p class="mt-2 text-sm text-red-600">{$errors.location}</p>{/if}
 
-		<br />
+			<div class="mt-6 flex flex-col-reverse">
+				<input
+					type="datetime-local"
+					name="sightingDate"
+					id="sightingDate"
+					class="form-input mt-2"
+					data-invalid={$errors.sightingDate}
+					bind:value={$sightingDateProxy}
+					{...$constraints.sightingDate} />
+				<label for="sightingDate" class="form-label">Data do arrojamento</label>
+			</div>
+			{#if $errors.sightingDate}<p class="mt-2 text-sm text-red-600">{$errors.sightingDate}</p>{/if}
 
-		<label for="description">Descrição</label>
-		<textarea
-			name="description"
-			id="description"
-			rows="4"
-			data-invalid={$errors.description}
-			bind:value={$form.description}
-			{...$constraints.description}
-		/>
-		{#if $errors.description}<span class="invalid">{$errors.description}</span>{/if}
+			<div class="mt-6 flex flex-col-reverse">
+				<select
+					name="species"
+					id="species"
+					class="form-input mt-2"
+					data-invalid={$errors.species}
+					bind:value={$form.species}
+					{...$constraints.species}>
+					<option value="dolphin" selected>Golfinho</option>
+					<option value="whale">Baleia</option>
+					<option value="turtle">Tartaruga</option>
+				</select>
+				<label for="species" class="form-label">Espécie</label>
+			</div>
+			{#if $errors.species}<p class="mt-2 text-sm text-red-600">{$errors.species}</p>{/if}
 
-		<br />
+			<div class="mt-6 flex flex-col-reverse">
+				<select
+					name="condition"
+					id="condition"
+					class="form-input mt-2"
+					data-invalid={$errors.condition}
+					bind:value={$form.condition}
+					{...$constraints.condition}>
+					<option value="alive" selected>Vivo</option>
+					<option value="fresh">Fresco</option>
+					<option value="decomposition">Em decomposição</option>
+					<option value="mummified">Mumificado</option>
+				</select>
+				<label for="condition" class="form-label">Condição do animal</label>
+			</div>
+			{#if $errors.condition}<p class="mt-2 text-sm text-red-600">{$errors.condition}</p>{/if}
 
-		<label for="location">Location</label>
-		<input
-			type="text"
-			name="location"
-			id="location"
-			data-invalid={$errors.location}
-			bind:value={$form.location}
-			{...$constraints.location}
-		/>
-		{#if $errors.location}<span class="invalid">{$errors.location}</span>{/if}
+			<div class="relative mt-6 flex gap-x-3">
+				<div class="flex h-6 items-center">
+					<input
+						type="checkbox"
+						name="hasPhotos"
+						id="hasPhotos"
+						bind:checked={hasPhotos}
+						class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-600" />
+				</div>
+				<div class="text-sm leading-6">
+					<label for="hasPhotos" class="font-medium text-gray-900">Fotografias</label>
+					<p class="text-gray-500">Adicione fotografias do arrojamento.</p>
+				</div>
+			</div>
 
-		<br />
+			{#if hasPhotos}
+				<div class="mt-6">
+					<DropZone required={hasPhotos} />
+					{#if $errors.photos}<p class="mt-2 text-sm text-red-600">{$errors.photos}</p>{/if}
+				</div>
+			{/if}
 
-		<label for="sightingDate">Data de arrojamento</label>
-		<input
-			type="datetime-local"
-			name="sightingDate"
-			id="sightingDate"
-			data-invalid={$errors.sightingDate}
-			bind:value={$sightingDateProxy}
-			{...$constraints.sightingDate}
-		/>
-		{#if $errors.sightingDate}<span class="invalid">{$errors.sightingDate}</span>{/if}
+			<div class="relative mt-6 flex gap-x-3">
+				<div class="flex h-6 items-center">
+					<input
+						type="checkbox"
+						name="receiveUpdates"
+						id="receiveUpdates"
+						bind:checked={receiveUpdates}
+						class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-600" />
+				</div>
+				<div class="text-sm leading-6">
+					<label for="receiveUpdates" class="font-medium text-gray-900">Receber atualizações</label>
+					<p class="text-gray-500">Receba notificações sobre os desenvolvimentos do arrojamento.</p>
+				</div>
+			</div>
 
-		<br />
+			{#if receiveUpdates}
+				<label for="email" class="form-label mt-6">Email</label>
+				<input
+					type="email"
+					name="email"
+					id="email"
+					class="form-input mt-2"
+					data-invalid={$errors.email}
+					bind:value={$form.email}
+					{...$constraints.email} />
+				{#if $errors.email}<p class="mt-2 text-sm text-red-600">{$errors.email}</p>{/if}
+			{/if}
 
-		<label for="species">Espécie</label>
-		<select
-			name="species"
-			id="species"
-			data-invalid={$errors.species}
-			bind:value={$form.species}
-			{...$constraints.species}
-		>
-			<option value="dolphin" selected>Golfinho</option>
-			<option value="whale">Baleia</option>
-			<option value="turtle">Tartaruga</option>
-		</select>
-		{#if $errors.species}<span class="invalid">{$errors.species}</span>{/if}
+			<!-- <Map /> -->
+			<!-- <Modal /> -->
 
-		<br />
-
-		<label for="condition">Condição do animal</label>
-		<select
-			name="condition"
-			id="condition"
-			data-invalid={$errors.condition}
-			bind:value={$form.condition}
-			{...$constraints.condition}
-		>
-			<option value="alive" selected>Vivo</option>
-			<option value="fresh">Fresco</option>
-			<option value="decomposition">Em decomposição</option>
-			<option value="mummified">Mumificado</option>
-		</select>
-		{#if $errors.condition}<span class="invalid">{$errors.condition}</span>{/if}
-
-		<br />
-
-		<label for="hasPhotos">Fotos</label>
-		<input type="checkbox" name="hasPhotos" id="hasPhotos" bind:checked={hasPhotos} />
-
-		{#if hasPhotos}
-			<label for="photos">Fotos</label>
-			<input type="file" name="photos" id="photos" accept="image/*" multiple />
-			{#if $errors.photos}<span class="invalid">{$errors.photos}</span>{/if}
-		{/if}
-
-		<br />
-
-		<label for="receiveUpdates">Receber atualizações?</label>
-		<input
-			type="checkbox"
-			name="receiveUpdates"
-			id="receiveUpdates"
-			bind:checked={receiveUpdates}
-		/>
-
-		{#if receiveUpdates}
-			<label for="email">Email</label>
-			<input
-				type="email"
-				name="email"
-				id="email"
-				data-invalid={$errors.email}
-				bind:value={$form.email}
-				{...$constraints.email}
-			/>
-			{#if $errors.email}<span class="invalid">{$errors.email}</span>{/if}
-		{/if}
-
-		<br />
-
-		<!-- <Map /> -->
-
-		<button type="submit" class="btn btn-primary">Reportar</button>
-	</form>
+			<button
+				type="submit"
+				class="mt-16 rounded-md bg-sky-600 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+				>Reportar arrojamento</button>
+		</form>
+	</div>
 </main>
+
+<style>
+	input:required + label::after,
+	select:required + label::after,
+	textarea:required + label::after {
+		content: '*';
+		margin-left: 0.2rem;
+		color: rgb(239, 68, 68);
+	}
+</style>
