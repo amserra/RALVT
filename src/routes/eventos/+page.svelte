@@ -62,7 +62,7 @@
 	</div>
 </section>
 
-<section class="mx-10 mb-20 mt-20 max-w-7xl px-6 lg:px-8">
+<section class="mx-auto mb-20 mt-20 max-w-7xl px-6 lg:px-8">
 	<h2 class="text-base font-semibold leading-6 text-gray-900">Próximos eventos</h2>
 	<ol class="mt-2 divide-y divide-gray-200 text-sm leading-6 text-gray-500">
 		{#each events as event}
