@@ -19,8 +19,6 @@
 
 	let files: ExtendedFile[] = [];
 
-	$: console.log(files);
-
 	function handleFilesSelect(e: CustomEvent<EventDetails>) {
 		const { acceptedFiles } = e.detail;
 		if (acceptedFiles.length + files.length > MAX_FILES) {
@@ -47,6 +45,7 @@
 </script>
 
 <Dropzone
+	name="photos"
 	containerClasses="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10"
 	on:drop={handleFilesSelect}
 	accept={['image/*']}

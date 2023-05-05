@@ -1,7 +1,7 @@
 import type { Actions, PageServerLoad } from './$types';
 import { z } from 'zod';
 import { fail } from '@sveltejs/kit';
-import { setError, superValidate } from 'sveltekit-superforms/server';
+import { setError, superValidate, message } from 'sveltekit-superforms/server';
 
 const MAX_FILE_SIZE = 5242880; // 5 MB
 const ACCEPTED_IMAGE_TYPES = ['image/jpeg', 'image/jpg', 'image/png', 'image/webp'];
@@ -21,10 +21,10 @@ const schema = z.object({
 	beachName: z.string(),
 	description: z.string(),
 	location: z.string(),
-	sightingDate: z.coerce.date().max(new Date()),
-	species: z.enum(['dolphin', 'whale', 'turtle']).default('dolphin'),
+	sightingDate: z.coerce.date().max(new Date(), { message: 'Datas futuras não são permitidas' }),
+	species: z.enum(['dolphin', 'whale', 'turtle', 'bird']).default('dolphin'),
 	condition: z.enum(['alive', 'fresh', 'decomposition', 'mummified']).default('alive'),
-	email: z.string().email({ message: 'Invalid email address' }).optional(),
+	email: z.string().email({ message: 'Endereço de email inválido' }).optional(),
 	photos: photosSchema
 });
 
@@ -59,7 +59,6 @@ export const actions: Actions = {
 			const file = f as File;
 			const extension = file.type.split('/').pop() ?? '.png';
 			const filePath = `${folderName}/file${index + 1}.${extension}`;
-			console.log(filePath);
 
 			const { data, error } = await locals.sb.storage.from('strandings').upload(filePath, file);
 			if (data) filesPaths.push(data.path);
@@ -85,10 +84,12 @@ export const actions: Actions = {
 				},
 				(reason) => {
 					console.log(reason);
-					return fail(500, { form });
+					return message(form, 'error', {
+						status: 500
+					});
 				}
 			);
 
-		return { form };
+		return message(form, 'valid');
 	}
 };

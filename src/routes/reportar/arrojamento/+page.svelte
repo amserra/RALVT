@@ -5,16 +5,19 @@
 	import Map from '../../../components/map.svelte';
 	import DropZone from '../../../components/drop-zone.svelte';
 	import Modal from '../../../components/modal.svelte';
+	import { page } from '$app/stores';
 
 	export let data: PageData;
 
 	// Client API:
-	const { form, errors, constraints } = superForm(data.form);
+	const { form, errors, constraints, message, enhance, delayed } = superForm(data.form);
 	// https://github.com/ciscoheat/sveltekit-superforms/discussions/74
 	const sightingDateProxy = dateProxy(form, 'sightingDate', { format: 'datetime-local' });
 
 	let hasPhotos = true;
 	let receiveUpdates = false;
+
+	const getNowDate = () => new Date().toISOString().substring(0, 16);
 </script>
 
 <main class="mx-auto my-20 max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -28,7 +31,7 @@
 				href="/arrojamentos">nossa página sobre arrojamentos</a
 			>.
 		</p>
-		<form class="mt-16" method="POST" enctype="multipart/form-data">
+		<form class="mt-16" method="POST" enctype="multipart/form-data" use:enhance>
 			<div class="flex flex-col-reverse">
 				<input
 					type="text"
@@ -105,8 +108,9 @@
 					class="form-input mt-2"
 					data-invalid={$errors.sightingDate}
 					bind:value={$sightingDateProxy}
-					{...$constraints.sightingDate} />
-				<label for="sightingDate" class="form-label">Data do arrojamento</label>
+					{...$constraints.sightingDate}
+					max={getNowDate()} />
+				<label for="sightingDate" class="form-label">Data em que detetou o arrojamento</label>
 			</div>
 			{#if $errors.sightingDate}<p class="mt-2 text-sm text-red-600">{$errors.sightingDate}</p>{/if}
 
@@ -121,6 +125,7 @@
 					<option value="dolphin" selected>Golfinho</option>
 					<option value="whale">Baleia</option>
 					<option value="turtle">Tartaruga</option>
+					<option value="bird">Ave</option>
 				</select>
 				<label for="species" class="form-label">Espécie</label>
 			</div>
@@ -194,9 +199,17 @@
 			{/if}
 
 			<!-- <Map /> -->
-			<!-- <Modal /> -->
+			<!-- <Modal isOpen /> -->
+			{#if $message}
+				<Modal
+					title={$page.status == 200 ? 'Formulário submetido' : 'Erro ao submeter formulário'}
+					description={$page.status == 200
+						? 'Obrigado por submeter o formulário'
+						: 'Erro interno ao submeter formulário. Em caso de urgência, contacte-nos por telefone.'} />
+			{/if}
 
 			<button
+				disabled={$delayed}
 				type="submit"
 				class="mt-16 rounded-md bg-sky-600 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
 				>Reportar arrojamento</button>
