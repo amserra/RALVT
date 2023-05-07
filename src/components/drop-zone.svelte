@@ -2,8 +2,6 @@
 	import { onDestroy } from 'svelte';
 	import Dropzone from 'svelte-file-dropzone/Dropzone.svelte';
 
-	export let required: boolean = false;
-
 	const MAX_FILES = 10;
 
 	interface ExtendedFile extends File {
@@ -51,8 +49,7 @@
 	accept={['image/*']}
 	multiple
 	inputElement
-	disableDefaultStyles
-	{required}>
+	disableDefaultStyles>
 	<div class="text-center">
 		<svg
 			class="mx-auto h-12 w-12 text-gray-300"

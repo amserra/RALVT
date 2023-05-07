@@ -20,7 +20,9 @@ const schema = z.object({
 	phoneNumber: z.string(),
 	beachName: z.string(),
 	description: z.string(),
-	location: z.string(),
+	location: z
+		.string({ invalid_type_error: 'Introduza uma localização' })
+		.nonempty('Introduza uma localização'),
 	sightingDate: z.coerce.date().max(new Date(), { message: 'Datas futuras não são permitidas' }),
 	species: z.enum(['dolphin', 'whale', 'turtle', 'bird']).default('dolphin'),
 	condition: z.enum(['alive', 'fresh', 'decomposition', 'mummified']).default('alive'),

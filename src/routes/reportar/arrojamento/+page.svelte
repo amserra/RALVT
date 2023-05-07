@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PageData, ActionData } from './$types';
+	import type { Marker } from 'leaflet';
 	import { dateProxy, superForm } from 'sveltekit-superforms/client';
-	import SuperDebug from 'sveltekit-superforms/client/SuperDebug.svelte';
 	import Map from '../../../components/map.svelte';
 	import DropZone from '../../../components/drop-zone.svelte';
 	import Modal from '../../../components/modal.svelte';
@@ -14,14 +14,21 @@
 	// https://github.com/ciscoheat/sveltekit-superforms/discussions/74
 	const sightingDateProxy = dateProxy(form, 'sightingDate', { format: 'datetime-local' });
 
-	let hasPhotos = true;
+	let hasPhotos = false;
 	let receiveUpdates = false;
+	let mapMarker: Marker | undefined;
+	$: coordinates = mapMarker
+		? `${mapMarker.getLatLng().lat},${mapMarker.getLatLng().lng}`
+		: undefined;
+	// let locationCoordinates =
+
+	// TODO: make input of the location hidden
+	// DO: mapMarker.getPosition(); to get the position, set the value of the input to the value of the mapMarker
 
 	const getNowDate = () => new Date().toISOString().substring(0, 16);
 </script>
 
 <main class="mx-auto my-20 max-w-7xl px-4 sm:px-6 lg:px-8">
-	<!-- <SuperDebug data={$form} /> -->
 	<div class="mx-auto max-w-3xl">
 		<h1 class="sub-header text-center">Reportar arrojamento</h1>
 		<p class="mt-6 text-lg leading-8 text-gray-600">
@@ -92,10 +99,10 @@
 					type="text"
 					name="location"
 					id="location"
-					class="form-input mt-2"
+					class="form-input mt-2 !hidden"
 					data-invalid={$errors.location}
-					bind:value={$form.location}
-					{...$constraints.location} />
+					bind:value={coordinates} />
+				<Map class="mt-2" bind:marker={mapMarker} />
 				<label for="location" class="form-label">Localização</label>
 			</div>
 			{#if $errors.location}<p class="mt-2 text-sm text-red-600">{$errors.location}</p>{/if}
@@ -165,7 +172,7 @@
 
 			{#if hasPhotos}
 				<div class="mt-6">
-					<DropZone required={hasPhotos} />
+					<DropZone />
 					{#if $errors.photos}<p class="mt-2 text-sm text-red-600">{$errors.photos}</p>{/if}
 				</div>
 			{/if}
@@ -198,8 +205,6 @@
 				{#if $errors.email}<p class="mt-2 text-sm text-red-600">{$errors.email}</p>{/if}
 			{/if}
 
-			<!-- <Map /> -->
-			<!-- <Modal isOpen /> -->
 			{#if $message}
 				<Modal
 					title={$page.status == 200 ? 'Formulário submetido' : 'Erro ao submeter formulário'}
@@ -211,8 +216,30 @@
 			<button
 				disabled={$delayed}
 				type="submit"
-				class="mt-16 rounded-md bg-sky-600 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-				>Reportar arrojamento</button>
+				class="mt-16 inline-flex rounded-md bg-sky-600 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
+				{#if $delayed}
+					<svg
+						class="-ml-1 mr-3 h-5 w-5 animate-spin text-white"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24">
+						<circle
+							class="opacity-25"
+							cx="12"
+							cy="12"
+							r="10"
+							stroke="currentColor"
+							stroke-width="4" />
+						<path
+							class="opacity-75"
+							fill="currentColor"
+							d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+					</svg>
+					A enviar...
+				{:else}
+					Reportar arrojamento
+				{/if}
+			</button>
 		</form>
 	</div>
 </main>

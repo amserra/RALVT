@@ -15,7 +15,7 @@
 </script>
 
 <Transition appear show={isOpen}>
-	<Dialog as="div" class="fixed inset-0 z-10 overflow-y-auto">
+	<Dialog as="div" class="fixed inset-0 z-[9999] overflow-y-auto">
 		<DialogOverlay class="fixed inset-0 bg-black/30" aria-hidden="true" />
 		<div class="min-h-screen px-4 text-center">
 			<TransitionChild

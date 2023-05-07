@@ -1,16 +1,19 @@
 <script lang="ts">
+	import 'leaflet/dist/leaflet.css';
 	import { onMount, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
-	import type { Map } from 'leaflet';
+	import type { Map, Marker } from 'leaflet';
 
 	let mapElement: HTMLDivElement;
 	let map: Map;
+	export let marker: Marker | undefined;
 
 	onMount(async () => {
 		if (browser) {
 			const leaflet = await import('leaflet');
 
-			map = leaflet.map(mapElement).setView([51.505, -0.09], 13);
+			// Coordinates near Lisbon
+			map = leaflet.map(mapElement).setView([38.83, -9], 10);
 
 			leaflet
 				.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -19,7 +22,10 @@
 				})
 				.addTo(map);
 
-			leaflet.marker([51.5, -0.09]).addTo(map);
+			map.on('click', (e) => {
+				if (marker) marker.remove();
+				marker = leaflet.marker(e.latlng).addTo(map);
+			});
 		}
 	});
 
@@ -31,11 +37,4 @@
 	});
 </script>
 
-<div bind:this={mapElement} />
-
-<style scoped>
-	@import 'leaflet/dist/leaflet.css';
-	div {
-		height: 800px;
-	}
-</style>
+<div class={`h-60 ${$$props.class}`} bind:this={mapElement} />
