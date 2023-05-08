@@ -64,33 +64,32 @@ export const actions: Actions = {
 
 			const { data, error } = await locals.sb.storage.from('strandings').upload(filePath, file);
 			if (data) filesPaths.push(data.path);
+
+			if (error) {
+				return message(form, 'error', {
+					status: 500
+				});
+			}
 		}
 
-		await locals.sb
-			.from('Stranding')
-			.insert({
-				name: form.data.name.trim(),
-				phoneNumber: form.data.phoneNumber,
-				description: form.data.description.trim(),
-				beachName: form.data.beachName.trim(),
-				location: form.data.location,
-				email: form.data.email,
-				sightingDate: form.data.sightingDate,
-				species: form.data.species,
-				condition: form.data.condition,
-				photos: filesPaths
-			})
-			.then(
-				(value) => {
-					console.log(value);
-				},
-				(reason) => {
-					console.log(reason);
-					return message(form, 'error', {
-						status: 500
-					});
-				}
-			);
+		const { error } = await locals.sb.from('Stranding').insert({
+			name: form.data.name.trim(),
+			phoneNumber: form.data.phoneNumber,
+			description: form.data.description.trim(),
+			beachName: form.data.beachName.trim(),
+			location: form.data.location,
+			email: form.data.email,
+			sightingDate: form.data.sightingDate,
+			species: form.data.species,
+			condition: form.data.condition,
+			photos: filesPaths
+		});
+
+		if (error) {
+			return message(form, 'error', {
+				status: 500
+			});
+		}
 
 		return message(form, 'valid');
 	}
