@@ -4,22 +4,26 @@
 			title: 'Voluntariado e estágios',
 			description:
 				'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
-			buttonText: 'Candidata-te a um estágio',
-			buttonLink: '/voluntariado-e-estagios'
+			buttonText: 'Inscrever como voluntário',
+			buttonLink:
+				'https://docs.google.com/forms/d/e/1FAIpQLScT5VCP4M0G9Jido-uA1bBQvTcA7bL2EuGTWnBMwI3lxRfnZw/viewform',
+			externalLink: true
 		},
 		{
 			title: 'Limpezas de praia',
 			description:
 				'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
-			buttonText: 'Vê o noso calendário',
-			buttonLink: '/eventos#lista-eventos'
+			buttonText: 'Ver o noso calendário',
+			buttonLink: '/eventos#lista-eventos',
+			externalLink: false
 		},
 		{
 			title: 'Reportar',
 			description:
 				'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
-			buttonText: 'Reporta um novo arrojamento',
-			buttonLink: '/reportar/arrojamento'
+			buttonText: 'Reportar um novo arrojamento',
+			buttonLink: '/reportar/arrojamento',
+			externalLink: false
 		}
 	];
 </script>
@@ -86,6 +90,7 @@
 									<a
 										href={item.buttonLink}
 										type="button"
+										target={item.externalLink ? '_blank' : '_self'}
 										class="cursor-pointer rounded bg-sky-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
 										>{item.buttonText} <span aria-hidden="true">→</span>
 									</a>
