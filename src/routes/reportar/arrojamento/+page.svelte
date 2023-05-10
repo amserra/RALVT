@@ -1,11 +1,11 @@
 <script lang="ts">
-	import type { PageData, ActionData } from './$types';
-	import type { Marker } from 'leaflet';
+	import type { PageData } from './$types';
 	import { dateProxy, superForm } from 'sveltekit-superforms/client';
 	import Map from '../../../components/map.svelte';
 	import DropZone from '../../../components/drop-zone.svelte';
 	import Modal from '../../../components/modal.svelte';
 	import { page } from '$app/stores';
+	import type { Marker } from 'leaflet';
 
 	export let data: PageData;
 
@@ -20,10 +20,6 @@
 	$: coordinates = mapMarker
 		? `${mapMarker.getLatLng().lat},${mapMarker.getLatLng().lng}`
 		: undefined;
-	// let locationCoordinates =
-
-	// TODO: make input of the location hidden
-	// DO: mapMarker.getPosition(); to get the position, set the value of the input to the value of the mapMarker
 
 	const getNowDate = () => new Date().toISOString().substring(0, 16);
 </script>
