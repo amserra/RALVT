@@ -1,6 +1,6 @@
 <script lang="ts">
 	import 'leaflet/dist/leaflet.css';
-	import 'leaflet/dist/images/marker-icon-2x.png';
+	import markerIcon from 'leaflet/dist/images/marker-icon.png';
 	import { onMount, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
 	import type { Map, Marker } from 'leaflet';
@@ -12,14 +12,16 @@
 
 	onMount(async () => {
 		if (browser) {
-			const { Marker, LatLng, Map, TileLayer } = await import('leaflet');
+			const { Marker, LatLng, Map, TileLayer, Icon } = await import('leaflet');
+
+			const icon = new Icon({ iconUrl: markerIcon, iconSize: [25, 41], iconAnchor: [12, 41] });
 
 			const enableClickAndMove = () => {
 				loading = false;
 				map.dragging.enable();
 				map.on('click', (e) => {
 					if (marker) marker.remove();
-					marker = new Marker(e.latlng).addTo(map);
+					marker = new Marker(e.latlng, { icon: icon }).addTo(map);
 				});
 			};
 
@@ -35,9 +37,9 @@
 			if ('geolocation' in navigator) {
 				navigator.geolocation.getCurrentPosition(
 					(position) => {
-						marker = new Marker(
-							new LatLng(position.coords.latitude, position.coords.longitude)
-						).addTo(map);
+						marker = new Marker(new LatLng(position.coords.latitude, position.coords.longitude), {
+							icon: icon
+						}).addTo(map);
 						enableClickAndMove();
 					},
 					() => enableClickAndMove(),
