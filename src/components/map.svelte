@@ -1,5 +1,6 @@
 <script lang="ts">
 	import 'leaflet/dist/leaflet.css';
+	import 'leaflet/dist/images/marker-icon-2x.png';
 	import { onMount, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
 	import type { Map, Marker } from 'leaflet';
