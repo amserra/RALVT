@@ -99,7 +99,10 @@
 					data-invalid={$errors.location}
 					bind:value={coordinates} />
 				<Map class="mt-2" bind:marker={mapMarker} />
-				<label for="location" class="form-label">Localização</label>
+				<label for="location" class="form-label"
+					>Localização <span class="form-label text-xs text-gray-700"
+						>Clique no mapa para selecionar o ponto</span
+					></label>
 			</div>
 			{#if $errors.location}<p class="mt-2 text-sm text-red-600">{$errors.location}</p>{/if}
 
