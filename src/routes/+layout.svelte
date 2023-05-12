@@ -8,7 +8,9 @@
 	register();
 </script>
 
-<Navbar />
+{#if $page.route.id != null}
+	<Navbar />
+{/if}
 
 <slot />
 

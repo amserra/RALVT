@@ -23,7 +23,10 @@
 	</nav>
 	<div
 		class="mt-10 grid grid-cols-3 place-items-center items-center gap-y-4 md:flex md:justify-center md:space-x-10">
-		<a href="https://facebook.com/ralvtispa/" class="text-gray-500 hover:text-gray-600">
+		<a
+			href="https://facebook.com/ralvtispa/"
+			target="_blank"
+			class="text-gray-500 hover:text-gray-600">
 			<span class="sr-only">Facebook</span>
 			<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 				<path
@@ -32,7 +35,10 @@
 					clip-rule="evenodd" />
 			</svg>
 		</a>
-		<a href="https://instagram.com/ralvtispa/" class="text-gray-500 hover:text-gray-600">
+		<a
+			href="https://instagram.com/ralvtispa/"
+			target="_blank"
+			class="text-gray-500 hover:text-gray-600">
 			<span class="sr-only">Instagram</span>
 			<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 				<path
