@@ -9,7 +9,7 @@
 		<Hero />
 	</section>
 
-	<section class="mx-auto max-w-7xl px-6 pb-24 md:pb-40 lg:px-8">
+	<section id="o-que-e-um-arrojamento" class="mx-auto max-w-7xl px-6 pb-24 md:pb-40 lg:px-8">
 		<WhatIs />
 	</section>
 

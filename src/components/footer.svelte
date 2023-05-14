@@ -20,6 +20,10 @@
 			<a href="/como-ajudar" class="text-sm leading-6 text-gray-600 hover:text-gray-900"
 				>Como ajudar</a>
 		</div>
+		<div class="pb-6">
+			<a href="/politica-de-privacidade" class="text-sm leading-6 text-gray-600 hover:text-gray-900"
+				>Política de Privacidade</a>
+		</div>
 	</nav>
 	<div
 		class="mt-10 grid grid-cols-3 place-items-center items-center gap-y-4 md:flex md:justify-center md:space-x-10">
