@@ -32,7 +32,13 @@
 			on:change={(event) => {
 				active = event.detail;
 				// Load new translation
-				goto(`${$page.url.pathname}?lang=${active}`, { invalidateAll: true });
+				// goto(`${$page.url.pathname}?lang=${active}`, {
+				// 	invalidateAll: true,
+				// 	noScroll: true,
+				// 	keepFocus: true,
+				// 	replaceState: true
+				// });
+				window.location.href = `${$page.url.pathname}?lang=${active}`;
 			}}>
 			<ListboxLabel class="sr-only">Languages</ListboxLabel>
 
