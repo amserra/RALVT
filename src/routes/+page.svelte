@@ -1,3 +1,7 @@
+<script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
+</script>
+
 <svelte:head>
 	<title>RALVT</title>
 </svelte:head>
@@ -12,9 +16,7 @@
 		<img class="h-full w-full object-fill grayscale-[40%]" src="/video-image.jpeg" alt="" />
 		<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform">
 			<h1 class="text-center text-8xl font-bold tracking-widest text-white">RALVT</h1>
-			<h2 class="mt-6 text-center text-4xl text-white">
-				Rede de Arrojamentos de Lisboa e Vale do Tejo
-			</h2>
+			<h2 class="mt-6 text-center text-4xl text-white">{$LL.RALVT()}</h2>
 		</div>
 	</section>
 
