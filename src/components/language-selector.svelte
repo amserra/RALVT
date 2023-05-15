@@ -30,22 +30,23 @@
 		<Listbox
 			value={active}
 			on:change={(event) => {
+				if (event.detail == active) return;
 				active = event.detail;
 				// Load new translation
-				// goto(`${$page.url.pathname}?lang=${active}`, {
-				// 	invalidateAll: true,
-				// 	noScroll: true,
-				// 	keepFocus: true,
-				// 	replaceState: true
-				// });
-				window.location.href = `${$page.url.pathname}?lang=${active}`;
+				goto(`${$page.url.pathname}?lang=${active}`, {
+					invalidateAll: true,
+					noScroll: true,
+					keepFocus: true,
+					replaceState: true
+				});
+				// window.location.href = `${$page.url.pathname}?lang=${active}`;
 			}}>
 			<ListboxLabel class="sr-only">Languages</ListboxLabel>
 
 			<div class="relative">
 				<span class="inline-block w-full rounded-md shadow-sm">
 					<ListboxButton
-						class="focus:shadow-outline-blue relative w-full cursor-default rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out focus:border-blue-300 focus:outline-none sm:text-sm sm:leading-5">
+						class="focus:shadow-outline-blue relative w-full cursor-pointer rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out focus:border-blue-300 focus:outline-none sm:text-sm sm:leading-5">
 						<div class="inline-flex items-center truncate">
 							<img class="mr-2 h-4 w-4 rounded" src={assetToFlag(active)} alt="" />
 							<span>{$LL.languages[active]()}</span>
@@ -78,7 +79,7 @@
 								value={code}
 								class={({ active }) => {
 									return classNames(
-										'relative cursor-default select-none py-2 pl-3 pr-9 focus:outline-none',
+										'relative cursor-pointer select-none py-2 pl-3 pr-9 focus:outline-none',
 										active ? 'bg-sky-600 text-white' : 'text-gray-900'
 									);
 								}}
