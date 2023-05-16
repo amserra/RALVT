@@ -93,6 +93,9 @@
 	</div>
 	<img src="/logo.png" class="mx-auto mt-10 h-10" alt="Logo RALVT" />
 	<p class="mt-6 text-center text-xs leading-5 text-gray-500">
-		&copy; Rede de Arrojamentos de Lisboa e Vale do Tejo
+		&copy; Rede de Arrojamentos de Lisboa e Vale do Tejo &#9702; Webiste criado por <a
+			target="_blank"
+			class="text-sky-600 hover:text-sky-800"
+			href="https://alexandreserra.com">Alexandre Serra</a>
 	</p>
 </footer>
