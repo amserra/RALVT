@@ -124,6 +124,22 @@
 				</div>
 			{/if}
 
+			<div class="mt-6 flex items-center gap-x-3">
+				<input
+					type="checkbox"
+					name="acceptedPrivacyPolicy"
+					id="acceptedPrivacyPolicy"
+					class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-600"
+					required />
+				<label for="acceptedPrivacyPolicy" class="form-label"
+					>Declaro que li e aceito a <a
+						target="_blank"
+						href="/politica-de-privacidade"
+						class="hover:text-underline text-blue-600 hover:text-blue-800"
+						>política de privacidade</a
+					>.</label>
+			</div>
+
 			{#if $message}
 				<Modal
 					title={$page.status == 200 ? 'Formulário submetido' : 'Erro ao submeter formulário'}

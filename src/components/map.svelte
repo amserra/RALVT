@@ -37,9 +37,11 @@
 			if ('geolocation' in navigator) {
 				navigator.geolocation.getCurrentPosition(
 					(position) => {
-						marker = new Marker(new LatLng(position.coords.latitude, position.coords.longitude), {
+						const latLngPosition = new LatLng(position.coords.latitude, position.coords.longitude);
+						marker = new Marker(latLngPosition, {
 							icon: icon
 						}).addTo(map);
+						map.setView(latLngPosition);
 						enableClickAndMove();
 					},
 					() => enableClickAndMove(),
