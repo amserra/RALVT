@@ -23,6 +23,6 @@
 	<Floating />
 {/if}
 
-<div class="fixed bottom-0 right-2">
+<div class="fixed bottom-0 right-2 z-[9999]">
 	<LanguageSelector currentLocale={data.locale} />
 </div>
