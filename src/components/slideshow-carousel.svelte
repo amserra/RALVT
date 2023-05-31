@@ -19,8 +19,7 @@
 	}}
 	autoplay-delay={autoPlayDelay}
 	grab-cursor={true}
-	keyboard={true}
->
+	keyboard={true}>
 	{#each slides as slide}
 		<swiper-slide>
 			<img src={slide.imgUrl} alt={slide.alt} class="aspect-[2/3] w-full rounded-xl object-cover" />

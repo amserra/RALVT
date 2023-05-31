@@ -16,8 +16,8 @@ const photosSchema = z
 	.optional(); // arr of files
 
 const schema = z.object({
-	name: z.string(),
-	phoneNumber: z.string(),
+	name: z.string().optional(),
+	phoneNumber: z.string().optional(),
 	beachName: z.string(),
 	description: z.string(),
 	location: z
@@ -53,8 +53,8 @@ export const actions: Actions = {
 
 		if (!form.valid) return fail(400, { form });
 
-		const today = new Date().toISOString().slice(0, 19); // Only until seconds (e.g.: '2023-04-16T11:05:52.260Z' to '2023-04-16T11:05:52'
-		const folderName = `${today}-${form.data.name.trim().replace(' ', '-')}`;
+		const today = new Date().toISOString();
+		const folderName = today;
 		let filesPaths: string[] = [];
 
 		for (let [index, f] of files.entries()) {
@@ -73,7 +73,7 @@ export const actions: Actions = {
 		}
 
 		const { error } = await locals.sb.from('Stranding').insert({
-			name: form.data.name.trim(),
+			name: form.data.name?.trim(),
 			phoneNumber: form.data.phoneNumber,
 			description: form.data.description.trim(),
 			beachName: form.data.beachName.trim(),

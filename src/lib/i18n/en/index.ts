@@ -6,7 +6,8 @@ const en = {
 	languages: {
 		pt: 'Portuguese',
 		en: 'English'
-	}
+	},
+	partners: 'With the support of:'
 } satisfies BaseTranslation;
 
 export default en;

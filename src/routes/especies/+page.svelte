@@ -65,37 +65,35 @@
 </script>
 
 <main>
-	<section
-		class="w-full bg-[url('/images/backgrounds/dolphins.jpeg')] bg-cover bg-top px-6 py-10 md:px-20 md:py-20"
-	>
+	<div
+		class="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
+		aria-hidden="true">
+		<div
+			class="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-sky-500 to-blue-800 opacity-30"
+			style="clip-path: polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)" />
+	</div>
+	<section class="w-full bg-cover bg-top px-6 py-10 md:px-20 md:py-20">
 		<Species
 			name="Cetáceos"
 			nameColor="text-sky-600"
 			description="Os cetáceos (latim científico: Cetacea) constituem uma infraordem[1][2] de animais predominantemente marinhos e pertencentes à classe dos mamíferos. O nome da ordem deriva do grego ketos que significa monstro marinho.O nome Cetacea foi usado pela primeira vez em 1762 por Mathurin Jacques Brisson em seu livro Regnum animale in classes IX. distributum, sive, Synopsis methodica, para classificar animais marinhos descritos como tendo corpo alongado e sem pelos, com nadadeiras carnosas e cauda horizontalmente achatada, que respiram por meio de pulmões, que apresentam um coração dividido em dois ventrículos e cujas fêmeas vivíparas alimentam seus filhotes com leite."
 			species={cetaceans}
-			reverse={false}
-		/>
+			reverse={false} />
 	</section>
-	<section
-		class="w-full bg-[url('/images/backgrounds/turtles.jpeg')] bg-cover bg-top px-6 py-10 md:px-20 md:py-20"
-	>
+	<section class="w-full bg-cover bg-top px-6 py-10 md:px-20 md:py-20">
 		<Species
 			name="Tartarugas"
 			nameColor="text-yellow-600"
 			description="Os Testudines, quelónios ou tartarugas são uma ordem de répteis pertencentes ao clado Testudinata. Existem 14 famílias que somam em torno de 356 espécies, ocorrendo em regiões tropicais e temperadas do globo, sendo algumas delas ameaçadas de extinção. Os termos populares cágado (água doce), jabuti (terrestres) e tartarugas (marinhas) não refletem classificação taxonômica. A ordem dos Testudines estão divididas filogeneticamente em dois grandes grupos: Cryptodira (retração do pescoço anteroposterior) e Pleurodira (retração do pescoço lateral)."
 			species={turtles}
-			reverse={true}
-		/>
+			reverse={true} />
 	</section>
-	<section
-		class="w-full bg-[url('/images/backgrounds/birds.jpeg')] bg-cover bg-top px-6 py-10 md:px-20 md:py-20"
-	>
+	<section class="w-full bg-cover bg-top px-6 py-10 md:px-20 md:py-20">
 		<Species
 			name="Aves"
 			nameColor="text-sky-600"
 			description="Aves são uma classe de seres vivos vertebrados endotérmicos caracterizada pela presença de penas, um bico sem dentes, oviparidade de casca rígida, elevado metabolismo, um coração com quatro câmaras e um esqueleto pneumático resistente e leve. As aves estão presentes em todas as regiões do mundo e variam significativamente de tamanho, desde os 5 cm do colibri até aos 2,75 m da avestruz. São a classe de tetrápodes com o maior número de espécies vivas, aproximadamente dez mil, das quais mais de metade são passeriformes. As aves apresentam asas, que são mais ou menos desenvolvidas dependendo da espécie."
 			species={birds}
-			reverse={false}
-		/>
+			reverse={false} />
 	</section>
 </main>

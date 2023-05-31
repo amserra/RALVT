@@ -6,7 +6,8 @@ const pt = {
 	languages: {
 		pt: 'Português',
 		en: 'Inglês'
-	}
+	},
+	partners: 'Com o apoio de:'
 } satisfies Translation;
 
 export default pt;

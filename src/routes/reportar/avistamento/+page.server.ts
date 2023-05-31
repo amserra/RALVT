@@ -16,7 +16,7 @@ const photosSchema = z
 	.optional(); // arr of files
 
 const schema = z.object({
-	name: z.string(),
+	name: z.string().optional(),
 	description: z.string(),
 	location: z
 		.string({ invalid_type_error: 'Introduza uma localização' })
@@ -49,8 +49,8 @@ export const actions: Actions = {
 
 		if (!form.valid) return fail(400, { form });
 
-		const today = new Date().toISOString().slice(0, 19); // Only until seconds (e.g.: '2023-04-16T11:05:52.260Z' to '2023-04-16T11:05:52'
-		const folderName = `${today}-${form.data.name.trim().replace(' ', '-')}`;
+		const today = new Date().toISOString();
+		const folderName = today;
 		let filesPaths: string[] = [];
 
 		for (let [index, f] of files.entries()) {
@@ -69,7 +69,7 @@ export const actions: Actions = {
 		}
 
 		const { error } = await locals.sb.from('Sighting').insert({
-			name: form.data.name.trim(),
+			name: form.data.name?.trim(),
 			description: form.data.description.trim(),
 			location: form.data.location,
 			sightingDate: form.data.sightingDate,

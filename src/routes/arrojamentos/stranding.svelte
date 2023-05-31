@@ -11,10 +11,13 @@
 <div
 	class={`mt-10 flex flex-col items-center gap-10 md:items-start ${
 		reverse ? 'md:flex-row-reverse' : 'md:flex-row'
-	}`}
->
+	}`}>
 	<div class="w-full">
-		<SlideshowCarousel slides={photos} />
+		{#if photos.length === 1}
+			<img src={photos[0].imgUrl} alt={photos[0].alt} class="rounded-xl object-cover" />
+		{:else}
+			<SlideshowCarousel slides={photos} />
+		{/if}
 	</div>
 	<div class="max-w-lg px-10 py-4 md:min-w-[60%]">
 		<h2 class="font-bold uppercase text-sky-800">{title}</h2>

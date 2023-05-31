@@ -28,6 +28,10 @@ type RootTranslation = {
 		 */
 		en: string
 	}
+	/**
+	 * C​o​m​ ​o​ ​a​p​o​i​o​ ​d​e​:
+	 */
+	partners: string
 }
 
 export type TranslationFunctions = {
@@ -45,6 +49,10 @@ export type TranslationFunctions = {
 		 */
 		en: () => LocalizedString
 	}
+	/**
+	 * Com o apoio de:
+	 */
+	partners: () => LocalizedString
 }
 
 export type Formatters = {}

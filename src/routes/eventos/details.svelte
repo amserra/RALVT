@@ -85,15 +85,14 @@
 											</div>
 											<div>
 												<dt class="text-sm font-medium text-gray-500 sm:w-40 sm:flex-shrink-0">
-													Data
+													Data e hora
 												</dt>
-												<dd class="mt-1 text-sm text-gray-900 sm:col-span-2">{data.date}</dd>
-											</div>
-											<div>
-												<dt class="text-sm font-medium text-gray-500 sm:w-40 sm:flex-shrink-0">
-													Hora
-												</dt>
-												<dd class="mt-1 text-sm text-gray-900 sm:col-span-2">{data.time}</dd>
+												<dd class="mt-1 text-sm text-gray-900 sm:col-span-2">
+													{data.date.toLocaleString('pt', {
+														timeStyle: 'short',
+														dateStyle: 'short'
+													})}
+												</dd>
 											</div>
 											<div>
 												<dt class="text-sm font-medium text-gray-500 sm:w-40 sm:flex-shrink-0">

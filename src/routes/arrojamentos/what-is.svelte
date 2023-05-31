@@ -1,16 +1,24 @@
 <script>
 	import Stranding from './stranding.svelte';
 
+	const aliveStranding = [
+		{
+			imgUrl: '/images/pages/strandings/alive.jpeg',
+			alt: ''
+		}
+	];
 	const deadStranding = [
 		{
-			imgUrl:
-				'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Blackfish.jpg/260px-Blackfish.jpg',
-			alt: 'Dead stranding'
+			imgUrl: '/images/pages/strandings/dead1.jpg',
+			alt: ''
 		},
 		{
-			imgUrl:
-				'https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-04/220415-dolphin-stranded-texas-mn-1335-e28c20.jpg',
-			alt: 'Dead stranding dolphin'
+			imgUrl: '/images/pages/strandings/dead2.jpg',
+			alt: ''
+		},
+		{
+			imgUrl: '/images/pages/strandings/dead3.jpg',
+			alt: ''
 		}
 	];
 </script>
@@ -28,13 +36,13 @@
 	</p>
 </div>
 <Stranding
-	photos={deadStranding}
+	photos={aliveStranding}
 	title="Arrojamento vivo"
 	description="Os arrojamentos são frequentes ao longo de todo o ano. No verão estão mais relacionados com as
     artes de pesca sendo frequente os indivíduos aparecerem vivos, ainda que em stress. No inverno
     estes arrojamentos podem estar relacionados tanto com as artes de pesca como com condições
-    climatéricas extremas como tempestades."
-/>
+    climatéricas extremas como tempestades." />
+<div class="h-20" />
 <Stranding
 	photos={deadStranding}
 	title="Arrojamento morto"
@@ -42,5 +50,4 @@
   artes de pesca sendo frequente os indivíduos aparecerem vivos, ainda que em stress. No inverno
   estes arrojamentos podem estar relacionados tanto com as artes de pesca como com condições
   climatéricas extremas como tempestades."
-	reverse
-/>
+	reverse />

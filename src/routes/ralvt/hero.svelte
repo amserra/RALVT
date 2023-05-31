@@ -23,7 +23,7 @@
 						class="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
 						<div class="relative">
 							<img
-								src="/images/Imagem3.jpg"
+								src="/images/pages/ralvt/photo1.jpg"
 								alt=""
 								class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover object-left shadow-lg" />
 							<div
@@ -33,7 +33,7 @@
 					<div class="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
 						<div class="relative">
 							<img
-								src="/images/Imagem1.jpg"
+								src="/images/pages/ralvt/photo3.jpg"
 								alt=""
 								class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
 							<div
@@ -41,7 +41,7 @@
 						</div>
 						<div class="relative">
 							<img
-								src="/images/Imagem6.jpg"
+								src="/images/pages/ralvt/photo4.jpg"
 								alt=""
 								class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
 							<div
@@ -51,7 +51,7 @@
 					<div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
 						<div class="relative">
 							<img
-								src="/images/Imagem8.png"
+								src="/images/pages/ralvt/photo5.png"
 								alt=""
 								class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
 							<div
@@ -59,7 +59,7 @@
 						</div>
 						<div class="relative">
 							<img
-								src="/images/Imagem2.jpg"
+								src="/images/pages/ralvt/photo2.jpg"
 								alt=""
 								class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
 							<div

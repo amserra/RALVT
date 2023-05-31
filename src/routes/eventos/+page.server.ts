@@ -11,6 +11,7 @@ export const load = (async ({ locals }) => {
 
 	data?.forEach((el) => {
 		el.imgurl = baseUrl + el.imgurl;
+		el.date = new Date(el.date);
 	});
 
 	return {

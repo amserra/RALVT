@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="overflow-hidden bg-sky-200 px-6 pb-20 lg:px-8">
+<footer class="overflow-hidden bg-sky-100 px-6 pb-20 lg:px-8">
 	<nav
 		class="-mb-6 mt-10 columns-2 text-center sm:flex sm:justify-center sm:space-x-12 sm:text-left"
 		aria-label="Footer">

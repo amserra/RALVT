@@ -12,8 +12,7 @@ export interface Slide {
 }
 
 export interface Event {
-	date: string;
-	time: string;
+	date: Date;
 	title: string;
 	description: string;
 	location: string;

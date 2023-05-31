@@ -3,22 +3,26 @@
 		{
 			name: 'Miguel Grilo',
 			imgUrl: '/images/Miguel-Grilo.jpg',
-			role: 'Médico Veterinário'
+			role: 'Médico Veterinário',
+			department: 'Coordenador'
 		},
 		{
 			name: 'Sofia Pardal',
 			imgUrl: '/images/Miguel-Grilo.jpg',
-			role: 'Bióloga Marinha'
+			role: 'Bióloga Marinha',
+			department: 'Operações'
 		},
 		{
 			name: 'Beatriz Costa',
 			imgUrl: '/images/Miguel-Grilo.jpg',
-			role: 'Bióloga Marinha'
+			role: 'Bióloga Marinha',
+			department: 'Administrativo'
 		},
 		{
 			name: 'Catarina Fogaça',
 			imgUrl: '/images/Miguel-Grilo.jpg',
-			role: 'Médica Veterinária'
+			role: 'Médica Veterinária',
+			department: 'Divulgação'
 		}
 	];
 </script>
@@ -32,19 +36,18 @@
 		</p>
 	</div>
 	<ul
-		class="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
-	>
+		class="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6">
 		{#each people as person}
 			<li>
 				<img
-					class="mx-auto h-24 w-24 rounded-full"
+					class="mx-auto h-32 w-32 rounded-full"
 					src={person.imgUrl}
-					alt={`Foto ${person.name}`}
-				/>
+					alt={`Foto ${person.name}`} />
 				<h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">
 					{person.name}
 				</h3>
 				<p class="text-sm leading-6 text-gray-600">{person.role}</p>
+				<p class="text-sm leading-6 text-sky-600">{person.department}</p>
 			</li>
 		{/each}
 

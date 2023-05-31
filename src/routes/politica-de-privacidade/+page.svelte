@@ -11,8 +11,8 @@
 		<li class="mt-6">
 			<h3 class="text-lg font-semibold text-gray-900">1. Responsável pelo Tratamento</h3>
 			<p class="mt-4">
-				A RALVT, com sede na XXX, com o NIF XXX é a Responsável pelo Tratamento dos dados recolhidos
-				neste sítio da internet. Poderá contactar-nos, por escrito, através do endereço eletrónico <a
+				A RALVT, é a Responsável pelo Tratamento dos dados recolhidos neste sítio da internet.
+				Poderá contactar-nos, por escrito, através do endereço eletrónico <a
 					class="text-blue-600 hover:text-blue-800 hover:underline"
 					href="mailto:geral@ralvt.pt">geral@ralvt.pt</a
 				>.
