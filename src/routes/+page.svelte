@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { LL } from '$lib/i18n/i18n-svelte';
 	let scroll: number;
-
-	// style:opacity={`${scroll > 138 ? 0 : 100}%`}
+	// Threshold where the video stops appearing on the screen (in pixels)
+	const threshold = 138;
 </script>
 
 <svelte:head>
@@ -12,14 +12,13 @@
 <svelte:window bind:scrollY={scroll} />
 
 <main class="mt-16">
-	<p class="fixed top-0 z-10 text-red-700">Scroll: {scroll}</p>
 	<section class="relative h-navscreen">
 		<video
 			autoplay
 			muted
 			loop
 			class="h-full w-full object-fill grayscale-[40%]"
-			style:transform={`translate3d(0, ${scroll > 138 ? 0 : scroll}px, 0)`}>
+			style:transform={`translate3d(0, ${scroll > threshold ? 0 : scroll}px, 0)`}>
 			<source src="/video/dolphins-swimming.mp4" />
 		</video>
 		<!-- <img class="h-full w-full object-fill grayscale-[40%]" src="/video-image.jpeg" alt="" /> -->
