@@ -8,7 +8,7 @@
 
 <main>
 	<section class="relative h-navscreen">
-		<video autoplay muted loop class="h-full object-fill grayscale-[40%]">
+		<video autoplay muted loop class="h-full w-full object-fill grayscale-[40%]">
 			<source src="/video/dolphins-swimming.mp4" />
 		</video>
 		<!-- <img class="h-full w-full object-fill grayscale-[40%]" src="/video-image.jpeg" alt="" /> -->
