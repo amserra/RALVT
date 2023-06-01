@@ -1,33 +1,47 @@
 <script lang="ts">
 	import { LL } from '$lib/i18n/i18n-svelte';
+	let scroll: number;
+
+	// style:opacity={`${scroll > 138 ? 0 : 100}%`}
 </script>
 
 <svelte:head>
 	<title>RALVT</title>
 </svelte:head>
 
-<main>
+<svelte:window bind:scrollY={scroll} />
+
+<main class="mt-16">
+	<p class="fixed top-0 z-10 text-red-700">Scroll: {scroll}</p>
 	<section class="relative h-navscreen">
-		<video autoplay muted loop class="h-full w-full object-fill grayscale-[40%]">
+		<video
+			autoplay
+			muted
+			loop
+			class="h-full w-full object-fill grayscale-[40%]"
+			style:transform={`translate3d(0, ${scroll > 138 ? 0 : scroll}px, 0)`}>
 			<source src="/video/dolphins-swimming.mp4" />
 		</video>
 		<!-- <img class="h-full w-full object-fill grayscale-[40%]" src="/video-image.jpeg" alt="" /> -->
 		<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform">
-			<h1 class="text-center text-8xl font-bold tracking-widest text-white">RALVT</h1>
-			<h2 class="mt-6 text-center text-4xl text-white">{$LL.RALVT()}</h2>
+			<div style:transform={`translate3d(0, ${scroll * -2}px, 0)`}>
+				<h1 class="text-center text-8xl font-bold tracking-widest text-white">RALVT</h1>
+				<h2 class="mt-6 text-center text-4xl text-white">{$LL.RALVT()}</h2>
+			</div>
 		</div>
-	</section>
-
-	<section class="mx-auto mt-20 max-w-7xl px-4 sm:px-6 lg:px-8">
-		<div class="mx-auto flex h-60 max-w-4xl justify-center gap-6 md:h-96 md:gap-10 lg:gap-28">
-			<a class="card-zoom" href="/reportar/arrojamento">
-				<div class="card-zoom-image bg-[url('/images/pages/home/photo1.jpeg')]" />
-				<h1 class="card-zoom-text">Reportar<br />arrojamento</h1>
-			</a>
-			<a class="card-zoom" href="/reportar/avistamento">
-				<div class="card-zoom-image bg-[url('/images/Imagem1.jpg')]" />
-				<h1 class="card-zoom-text">Reportar<br />avistamento</h1>
-			</a>
+		<div
+			class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+			style:transform={`translate3d(0, ${scroll * -3}px, 0)`}>
+			<div class="mx-auto flex h-60 max-w-4xl justify-center gap-6 md:h-96 md:gap-10 lg:gap-28">
+				<a class="card-zoom" href="/reportar/arrojamento">
+					<div class="card-zoom-image bg-[url('/images/pages/home/photo1.jpeg')]" />
+					<h1 class="card-zoom-text">Reportar<br />arrojamento</h1>
+				</a>
+				<a class="card-zoom" href="/reportar/avistamento">
+					<div class="card-zoom-image bg-[url('/images/Imagem1.jpg')]" />
+					<h1 class="card-zoom-text">Reportar<br />avistamento</h1>
+				</a>
+			</div>
 		</div>
 	</section>
 

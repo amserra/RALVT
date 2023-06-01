@@ -12,7 +12,7 @@
 </script>
 
 {#if $page.route.id != null}
-	<Navbar />
+	<Navbar currentPage={$page.route.id} />
 {/if}
 
 <slot />
