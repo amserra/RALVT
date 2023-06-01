@@ -1,12 +1,16 @@
-<script>
+<script lang="ts">
 	import Hero from './hero.svelte';
 	import Proceding from './proceding.svelte';
 	import WhatIs from './what-is.svelte';
+	import type { Stranding } from '../../types';
+	export let data: { strandings: Stranding[] };
+
+	console.log(data);
 </script>
 
 <main class="bg-white">
 	<section class="relative isolate py-24 pt-14 sm:py-32 lg:pb-40">
-		<Hero />
+		<Hero strandings={data.strandings} />
 	</section>
 
 	<section id="o-que-e-um-arrojamento" class="mx-auto max-w-7xl px-6 pb-24 md:pb-40 lg:px-8">

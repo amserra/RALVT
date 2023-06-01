@@ -18,3 +18,9 @@ export interface Event {
 	location: string;
 	imgurl: string;
 }
+
+export interface Stranding {
+	species: string;
+	location: string;
+	created_at: string;
+}
