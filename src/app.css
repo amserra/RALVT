@@ -1,11 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;800;900&display=swap'); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
 	html {
-		font-family: Montserrat, system-ui, sans-serif;
+		font-family: Nexa, system-ui, sans-serif;
+	}
+
+	@font-face {
+		font-family: 'Nexa';
+		font-weight: 200;
+		src: url('/fonts/NexaLight.otf');
+	}
+
+	@font-face {
+		font-family: 'Nexa';
+		font-weight: 800;
+		src: url('/fonts/NexaBold.otf');
 	}
 
 	.form-label {

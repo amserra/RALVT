@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				montserrat: ['Montserrat', 'sans-serif']
+				// montserrat: ['Montserrat', 'sans-serif'],
+				nexa: ['Nexa', 'sans-serif']
 			},
 			height: {
 				// h-screen - navbar size (h-16 = 4rem)
