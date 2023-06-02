@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>RALVT &#183; Página não encontrada</title>
+</svelte:head>
+
 <main class="grid place-items-center bg-white px-6 py-24 sm:py-40 lg:px-8">
 	<div class="text-center">
 		<p class="text-base font-semibold text-sky-600">404</p>

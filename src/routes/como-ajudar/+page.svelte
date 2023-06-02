@@ -28,6 +28,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>RALVT &#183; Como ajudar</title>
+</svelte:head>
+
 <main class="isolate mb-32 bg-white">
 	<!-- Hero section -->
 	<div class="relative isolate -z-10 overflow-hidden bg-gradient-to-b from-sky-100/20">

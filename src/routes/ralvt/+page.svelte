@@ -5,6 +5,10 @@
 	import History from './history.svelte';
 </script>
 
+<svelte:head>
+	<title>RALVT &#183; Sobre a RALVT</title>
+</svelte:head>
+
 <main class="isolate mb-40 bg-white">
 	<!-- Hero section -->
 	<Hero />

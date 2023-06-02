@@ -64,6 +64,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>RALVT &#183; Espécies</title>
+</svelte:head>
+
 <main>
 	<div
 		class="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"

@@ -16,6 +16,10 @@
 	let currentEvent: Event;
 </script>
 
+<svelte:head>
+	<title>RALVT &#183; Eventos</title>
+</svelte:head>
+
 <main class="bg-white">
 	<section class="pt-14 sm:pt-32">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">

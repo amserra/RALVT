@@ -23,6 +23,10 @@
 	const getNowDate = () => new Date().toISOString().substring(0, 16);
 </script>
 
+<svelte:head>
+	<title>RALVT &#183; Reportar avistamento</title>
+</svelte:head>
+
 <main class="mx-auto my-20 max-w-7xl px-4 sm:px-6 lg:px-8">
 	<div class="mx-auto max-w-3xl">
 		<h1 class="sub-header text-center">Reportar avistamento</h1>

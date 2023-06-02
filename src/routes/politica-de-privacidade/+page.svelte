@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>RALVT &#183; Política de privacidade</title>
+</svelte:head>
+
 <div class="mx-auto my-20 max-w-7xl px-6 lg:px-8">
 	<h1 class="text-center text-4xl font-bold text-gray-900">Política de Privacidade</h1>
 	<h2 class="mt-4 text-center text-xl font-bold text-gray-900">

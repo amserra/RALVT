@@ -8,6 +8,10 @@
 	console.log(data);
 </script>
 
+<svelte:head>
+	<title>RALVT &#183; Arrojamentos</title>
+</svelte:head>
+
 <main class="bg-white">
 	<section class="relative isolate py-24 pt-14 sm:py-32 lg:pb-40">
 		<Hero strandings={data.strandings} />
