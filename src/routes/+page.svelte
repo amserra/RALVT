@@ -12,7 +12,6 @@
 <svelte:window bind:scrollY={scroll} />
 
 <main class="mt-16">
-	<p class="fixed left-0 top-0 z-10 text-red-600">Scroll: {scroll}</p>
 	<section class="relative h-navscreen">
 		<div
 			class="relative h-full w-full"
