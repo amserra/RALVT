@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	export const prerender = true;
 
 	import { page } from '$app/stores';
@@ -11,10 +11,11 @@
 	register();
 
 	export let data;
+	let open = false;
 </script>
 
 {#if $page.route.id != null}
-	<Navbar currentPage={$page.route.id} />
+	<Navbar bind:isOpen={open} currentPage={$page.route.id} />
 {/if}
 
 <slot />
@@ -22,7 +23,7 @@
 <Footer />
 
 {#if $page.route.id != '/reportar/arrojamento'}
-	<Floating />
+	<Floating mobileNavIsOpen={open} />
 {/if}
 
 <div class="fixed bottom-0 right-2 z-[9999]">

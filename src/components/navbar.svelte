@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	let isOpen = false;
+	export let isOpen = false;
 	export let currentPage: string;
 	console.log(currentPage);
 

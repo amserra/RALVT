@@ -19,13 +19,12 @@
 	};
 </script>
 
-<h1 class={`text-center text-8xl ${nameColor} md:text-left`}>{name}</h1>
+<h1 class={`text-center text-5xl md:text-8xl ${nameColor} md:text-left`}>{name}</h1>
 <h2 class="mt-6 text-center text-xl font-light text-gray-700 md:text-left">{description}</h2>
 <div
 	class={`mt-10 flex flex-col items-center gap-10 ${
 		reverse ? 'md:flex-row-reverse' : 'md:flex-row'
-	} md:items-start`}
->
+	} md:items-start`}>
 	<div class="flex w-full flex-col items-center">
 		<StackedCarousel
 			slideChangeHandler={onSlideChange}
@@ -34,8 +33,7 @@
 					imgUrl: specie.imgUrl,
 					alt: specie.regularName
 				};
-			})}
-		/>
+			})} />
 	</div>
 	<div class="max-w-lg rounded-lg bg-gray-100/10 px-10 py-4 backdrop-blur-lg md:min-w-[60%]">
 		{#key currentSpecie}

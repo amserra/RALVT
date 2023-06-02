@@ -32,7 +32,7 @@
 		<div
 			class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
 			style:transform={`translate3d(0, ${scroll * -3}px, 0)`}>
-			<div class="mx-auto flex h-60 max-w-4xl justify-center gap-6 md:h-96 md:gap-10 lg:gap-28">
+			<div class="mx-auto flex h-40 max-w-4xl justify-center gap-6 md:h-96 md:gap-10 lg:gap-28">
 				<a class="card-zoom" href="/reportar/arrojamento">
 					<div class="card-zoom-image bg-[url('/images/pages/home/photo1.jpeg')]" />
 					<h1 class="card-zoom-text">Reportar<br />arrojamento</h1>
@@ -91,7 +91,7 @@
 	}
 
 	.card-zoom-text {
-		@apply absolute scale-150 transform text-center text-lg font-black text-gray-50 transition-all duration-500 ease-in-out md:text-3xl;
+		@apply absolute scale-150 transform text-center text-xs font-black text-gray-50 transition-all duration-500 ease-in-out md:text-3xl;
 	}
 
 	.card-zoom:hover .card-zoom-image {

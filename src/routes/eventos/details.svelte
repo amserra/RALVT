@@ -11,7 +11,8 @@
 	<Dialog class="relative z-10">
 		<div class="fixed inset-0 overflow-hidden">
 			<div class="absolute inset-0 overflow-hidden">
-				<div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
+				<div
+					class="pointer-events-none fixed inset-y-0 right-10 flex max-w-full pl-10 sm:right-0 sm:pl-16">
 					<TransitionChild
 						enter="transform transition ease-in-out duration-500 sm:duration-700"
 						enterFrom="translate-x-full"
