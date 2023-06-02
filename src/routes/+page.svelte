@@ -12,15 +12,17 @@
 <svelte:window bind:scrollY={scroll} />
 
 <main class="mt-16">
+	<p class="fixed left-0 top-0 z-10 text-red-600">Scroll: {scroll}</p>
 	<section class="relative h-navscreen">
-		<video
-			autoplay
-			muted
-			loop
-			class="h-full w-full object-fill grayscale-[40%]"
+		<div
+			class="relative h-full w-full"
 			style:transform={`translate3d(0, ${scroll > threshold ? 0 : scroll}px, 0)`}>
-			<source src="/video/dolphins-swimming.mp4" />
-		</video>
+			<video autoplay muted loop class="h-full w-full object-fill grayscale-[40%]">
+				<source src="/video/dolphins-swimming.mp4" />
+			</video>
+			<span class="absolute right-0 top-0 z-[999] m-4 text-sm text-white"
+				>@ Francisco Neves, David Jacinto</span>
+		</div>
 		<!-- <img class="h-full w-full object-fill grayscale-[40%]" src="/video-image.jpeg" alt="" /> -->
 		<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform">
 			<div style:transform={`translate3d(0, ${scroll * -2}px, 0)`}>
