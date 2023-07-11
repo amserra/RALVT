@@ -3,24 +3,23 @@
 		{
 			title: 'Voluntariado e estágios',
 			description:
-				'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
+				'Programa de voluntariado e estágios, que permite a pessoas de todo o mundo integrarem a nossa equipa e se juntarem na preservação dos oceanos. Tens também a oportunidade de fazeres o teu relatório ou tese connosco.',
 			buttonText: 'Inscrever como voluntário',
 			buttonLink:
 				'https://docs.google.com/forms/d/e/1FAIpQLScT5VCP4M0G9Jido-uA1bBQvTcA7bL2EuGTWnBMwI3lxRfnZw/viewform',
 			externalLink: true
 		},
 		{
-			title: 'Limpezas de praia',
-			description:
-				'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
+			title: 'Limpezas de praia, webinars e outras ações',
+			description: 'Consulta a nossa página de eventos para saber mais.',
 			buttonText: 'Ver o noso calendário',
 			buttonLink: '/eventos#lista-eventos',
 			externalLink: false
 		},
 		{
-			title: 'Reportar',
+			title: 'Reportar, Reportar, Reportar',
 			description:
-				'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
+				'Contacta-nos o mais rápido possível sempre que vires um animal arrojado , para nos ajudar na recolha de dados sistemática. Para além disto, se vires algum animal vivo perto da costa podes também dizer-nos e ajudar-nos a monitorizar estes animais.',
 			buttonText: 'Reportar um novo arrojamento',
 			buttonLink: '/reportar/arrojamento',
 			externalLink: false
@@ -40,14 +39,14 @@
 				class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
 				<h1
 					class="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
-					We're a passionate group of people working from around the world to build the future of
-					ecommerce.
+					Somos uma equipa dedicada e inclusiva, que tem como objetivo a conservação dos oceanos.
 				</h1>
 				<div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
 					<p class="text-lg leading-8 text-gray-600">
-						Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
-						commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua
-						ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+						Para que seja possível realizar o nosso trabalho, precisamos de ajuda da comunidade e
+						das pessoas que nos rodeiam. Deste modo, tentamos envolver a comunidade nas nossas
+						atividades e damos a oportunidade de te juntares a nós nesta caminhada para a proteção
+						dos cetáceos e tartarugas da nossa costa.
 					</p>
 				</div>
 				<img
@@ -64,11 +63,11 @@
 			class="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
 			<div class="w-full lg:max-w-lg lg:flex-auto">
 				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-					Estamos sempre à procura de pessoas incríveis para nos ajudar
+					Estamos sempre à procura de pessoas incríveis como tu para nos ajudar
 				</h2>
 				<p class="mt-6 text-xl leading-8 text-gray-600">
-					Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est euismod lacus. Est non
-					placerat nam arcu. Cras purus nibh cursus sit eu in id.
+					Apoiando-nos estás a contribuir para a conservação dos cetáceos e tartarugas marinhas da
+					costa portuguesa. Por isso, junta-te a nós através de:
 				</p>
 				<img
 					src="/images/pages/como-ajudar/photo2.jpg"

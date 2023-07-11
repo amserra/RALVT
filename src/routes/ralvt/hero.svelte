@@ -12,9 +12,17 @@
 				<div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
 					<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Somos a RALVT</h1>
 					<p class="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-						A RALVT foi criada em 2021 para preencher uma lacuna existente na zona de Lisboa e Vale
-						do Tejo. Temos como principal objetivo dar resposta a alertas de arrojamentos de
-						cetáceos e tartarugas marinhas entre os concelhos da Lourinhã e de Setúbal.
+						A RALVT, Rede de Arrojamentos de Lisboa e Vale do Tejo, entrou em funções em 2021 e
+						integra a Rede Nacional de Arrojamentos, atuando entre a região de Lisboa e Vale do
+						Tejo, entre os municípios da Lourinhã e Setúbal. É o resultado de uma parceria entre o
+						Fundo Ambiental o ICNF (Instituto da Conservação da Natureza e das Florestas) e o MARE -
+						ISPA (Instituto Superior de Psicologia Aplicada). O nosso principal objetivo é dar
+						resposta a alertas de arrojamentos mortos ou vivos de cetáceos e tartarugas marinhas que
+						aconteçam na nossa área de atuação.
+						<br /><br />
+						Além da RALVT, existem mais 3 redes de arrojamentos regionais: Rede do Norte (Caminha a Peniche),
+						ARROJAL (Tróia a Odeceixe) e RAAlg (Odeceixe a Vila Real de Santo António), sendo que todas
+						integram a Rede Nacional de Arrojamentos, coordenada pelo ICNF.
 					</p>
 				</div>
 				<div

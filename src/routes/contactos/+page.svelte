@@ -108,9 +108,7 @@
 			<div class="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
 				<div class="col-span-1">
 					<h2 class="text-3xl font-bold tracking-tight text-gray-900">Fale connosco</h2>
-					<p class="mt-4 leading-7 text-gray-600">
-						Quam nunc nunc eu sed. Sed rhoncus quis ultricies ac pellentesque.
-					</p>
+					<p class="mt-4 leading-7 text-gray-600">Contactos úteis em caso de emergência.</p>
 				</div>
 				<div class="col-span-1 lg:col-span-2">
 					{#each contacts as contactGroup}

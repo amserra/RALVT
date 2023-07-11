@@ -25,9 +25,6 @@
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto max-w-2xl text-center">
 				<h1 class="header">Eventos</h1>
-				<p class="mt-6 text-lg leading-8 text-gray-600">
-					Todos os anos arrojam na costa Portuguesas mais de 1000 animais...
-				</p>
 			</div>
 		</div>
 		<div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
@@ -76,6 +73,8 @@
 							&#43; Detalhes
 						</button>
 					</li>
+				{:else}
+					<p>Ainda não fizemos nenhum evento. Verifica mais tarde!</p>
 				{/each}
 			</ol>
 		</section>

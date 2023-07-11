@@ -31,8 +31,11 @@
 	<div class="mx-auto max-w-2xl lg:mx-0">
 		<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A nossa equipa</h2>
 		<p class="mt-6 text-lg leading-8 text-gray-600">
-			Sit facilis neque ab nulla vel. Cum eos in laudantium. Temporibus eos totam in dolorum. Nemo
-			vel facere repellendus ut eos dolores similique.
+			A RALVT é formada por uma equipa multifacetada constituída por biólogos marinhos e médicos
+			veterinários, permitindo uma maior amplitude de áreas de atuação. Somos um grupo de pessoas
+			com uma enorme paixão pelos oceanos e pela sua biodiversidade e a inclusão destas duas
+			profissões permite uma melhor resposta em qualquer situação de arrojamento vivo ou morto e um
+			conhecimento amplo sobre as espécies, quer a nível biológico quer a nível veterinário.
 		</p>
 	</div>
 	<ul

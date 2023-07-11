@@ -17,7 +17,8 @@
 	<div class="mx-auto max-w-2xl text-center">
 		<h1 class="header">Arrojamentos</h1>
 		<p class="mt-6 text-lg leading-8 text-gray-600">
-			Todos os anos arrojam na costa Portuguesas mais de 1000 animais...
+			<b>Qual a proporção de arrojamentos vivos vs mortos?</b> Entre Janeiro e Outubro de 2022 a RALVT
+			registou 7% de arrojamentos vivos para 93% de arrojamentos mortos.
 		</p>
 		<div class="mt-10 flex items-center justify-center gap-x-6">
 			<a
