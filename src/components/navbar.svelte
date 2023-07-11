@@ -3,7 +3,6 @@
 
 	export let isOpen = false;
 	export let currentPage: string;
-	console.log(currentPage);
 
 	// Close the navbar when the page closes
 	page.subscribe(() => {

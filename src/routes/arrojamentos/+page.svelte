@@ -4,8 +4,6 @@
 	import WhatIs from './what-is.svelte';
 	import type { Stranding } from '../../types';
 	export let data: { strandings: Stranding[] };
-
-	console.log(data);
 </script>
 
 <svelte:head>
