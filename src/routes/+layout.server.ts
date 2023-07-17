@@ -3,6 +3,8 @@ import { detectLocale, locales } from '$lib/i18n/i18n-util';
 import { redirect } from '@sveltejs/kit';
 import { pick } from 'accept-language-parser';
 
+export const prerender = true;
+
 const langParam = 'lang';
 
 export const load = (async (event) => {

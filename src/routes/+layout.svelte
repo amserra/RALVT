@@ -1,6 +1,4 @@
 <script lang="ts">
-	export const prerender = true;
-
 	import { page } from '$app/stores';
 	import '../app.css';
 	import Floating from '../components/floating.svelte';
