@@ -39,7 +39,7 @@
 		{#key currentSpecie}
 			<div in:fade class="mt-6 text-center text-lg md:text-left">
 				<p class="font-bold uppercase text-sky-800">{currentSpecie.regularName}</p>
-				<p class="font-light uppercase text-sky-800">{currentSpecie.latinName}</p>
+				<p class="font-light uppercase italic text-sky-800">{currentSpecie.latinName}</p>
 				<p class="font-bold uppercase text-orange-400">{currentSpecie.conservationState}</p>
 			</div>
 			<p in:fade class="mt-6 text-base md:text-lg">{currentSpecie.description}</p>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
 	import Hero from './hero.svelte';
 	import Proceding from './proceding.svelte';
 	import WhatIs from './what-is.svelte';
@@ -7,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; Arrojamentos</title>
+	<title>RALVT &#183; {$LL.metaHeads.strandings()}</title>
 </svelte:head>
 
 <main class="bg-white">
@@ -19,7 +20,7 @@
 		<WhatIs />
 	</section>
 
-	<section class="mx-auto max-w-7xl px-6 lg:px-8">
+	<!-- <section class="mx-auto max-w-7xl px-6 lg:px-8">
 		<Proceding />
-	</section>
+	</section> -->
 </main>

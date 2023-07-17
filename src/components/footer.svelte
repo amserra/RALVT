@@ -1,28 +1,34 @@
-<!-- Footer -->
+<script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
+</script>
+
 <footer class="overflow-hidden bg-sky-100 px-6 pb-20 lg:px-8">
 	<nav
 		class="-mb-6 mt-10 columns-2 text-center sm:flex sm:justify-center sm:space-x-12 sm:text-left"
 		aria-label="Footer">
 		<div class="pb-6">
-			<a href="/ralvt" class="text-sm leading-6 text-gray-600 hover:text-gray-900">A RALVT</a>
+			<a href="/ralvt" class="text-sm leading-6 text-gray-600 hover:text-gray-900"
+				>{$LL.links.theRalvt()}</a>
 		</div>
 		<div class="pb-6">
-			<a href="/especies" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Espécies</a>
+			<a href="/especies" class="text-sm leading-6 text-gray-600 hover:text-gray-900"
+				>{$LL.links.species()}</a>
 		</div>
 		<div class="pb-6">
 			<a href="/arrojamentos" class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-				>Arrojamentos</a>
+				>{$LL.links.strandings()}</a>
 		</div>
 		<div class="pb-6">
-			<a href="/eventos" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Eventos</a>
+			<a href="/eventos" class="text-sm leading-6 text-gray-600 hover:text-gray-900"
+				>{$LL.links.events()}</a>
 		</div>
 		<div class="pb-6">
 			<a href="/como-ajudar" class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-				>Como ajudar</a>
+				>{$LL.links.howToHelp()}</a>
 		</div>
 		<div class="pb-6">
 			<a href="/politica-de-privacidade" class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-				>Política de Privacidade</a>
+				>{$LL.links.privacyPolicy()}</a>
 		</div>
 	</nav>
 	<div
@@ -87,15 +93,14 @@
 			</svg>
 			<div class="ml-2 text-center text-sm md:inline-flex md:items-center">
 				<p>(+351) 911 111 241</p>
-				<span class="text-xs md:ml-2">(Chamada para rede móvel nacional)</span>
+				<span class="text-xs md:ml-2">({$LL.callForTheNationalMobileNetwork()})</span>
 			</div>
 		</a>
 	</div>
 	<img src="/logo.png" class="mx-auto mt-10 h-10" alt="Logo RALVT" />
 	<p class="mt-6 text-center text-xs leading-5 text-gray-500">
-		&copy; Rede de Arrojamentos de Lisboa e Vale do Tejo &#9702; Webiste criado por <a
-			target="_blank"
-			class="text-sky-600 hover:text-sky-800"
-			href="https://alexandreserra.com">Alexandre Serra</a>
+		&copy; {$LL.RALVT()} &#9702; {$LL.websiteCreatedBy()}
+		<a target="_blank" class="text-sky-600 hover:text-sky-800" href="https://alexandreserra.com"
+			>Alexandre Serra</a>
 	</p>
 </footer>

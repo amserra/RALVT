@@ -1,14 +1,17 @@
+<script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
+</script>
+
 <div class="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
 	<div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-		<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A nossa missão</h2>
+		<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+			{$LL.theRalvt.mission.title()}
+		</h2>
 		<div class="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
 			<div class="lg:w-full lg:max-w-2xl lg:flex-auto">
 				<p class="text-xl leading-8 text-gray-600">
-					Com o objetivo de ajudar em arrojamentos de animais marinhos, a nossa missão é contribuir
-					para a Literacia dos Oceanos, dando a conhecer mais sobre estes animais e sobre a
-					conservação dos Oceanos e das várias espécies que nele habitam. <br /><br />A recolha de
-					informação em qualquer tipo de arrojamento é essencial para tentar compreender mais sobre
-					a biologia destas espécies e sobre os fenómenos que as podem estar a afetar.
+					{$LL.theRalvt.mission.text1()} <br /><br />
+					{$LL.theRalvt.mission.text2()}
 				</p>
 				<div class="mt-10 max-w-xl text-base leading-7 text-gray-700">
 					<dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
@@ -25,16 +28,10 @@
 										clip-rule="evenodd"
 										d="M16.5052 12.0249C21.6372 12.0249 21.8612 18.1431 21.8384 21.798C21.8982 21.772 21.9583 21.7427 22.0178 21.71C22.2673 21.5725 22.5008 21.3764 22.6759 21.087C22.85 20.7995 23.0002 20.3642 23.0002 19.6943L23.0001 6.0017C23.0001 6.0017 23.0001 6.00122 24.0001 6.00122C25.0001 6.00122 25.0001 6.00134 25.0001 6.00134L25.0002 19.6919C25.0002 20.3617 25.1505 20.7971 25.3245 21.0846C25.4996 21.374 25.7331 21.5701 25.9827 21.7075C26.0291 21.7331 26.0759 21.7565 26.1226 21.7779C26.0999 18.1227 26.3255 12.0086 31.4558 12.0086C38.9064 12.0086 44.2283 38.0151 41.0351 40.6688C37.842 43.3225 31.4558 41.7303 28.2626 38.5458C25.6846 35.9748 25.9077 29.9671 26.0678 25.6546C26.0913 25.0215 26.1135 24.425 26.1252 23.8812C25.8039 23.8056 25.4142 23.6777 25.0178 23.4594C24.6705 23.2681 24.3155 23.0056 24.0013 22.649C23.6866 23.0069 23.3307 23.2701 22.9827 23.4618C22.5699 23.6892 22.1642 23.8184 21.8357 23.8928C21.8474 24.4377 21.8696 25.0357 21.8931 25.6704C22.0533 29.983 22.2763 35.9912 19.6984 38.5621C16.5052 41.7466 10.119 43.3388 6.92583 40.6851C3.73268 38.0314 9.05459 12.0249 16.5052 12.0249ZM34.042 16.9985C34.042 18.1022 33.1466 18.9969 32.042 18.9969C30.9375 18.9969 30.042 18.1022 30.042 16.9985C30.042 15.8947 30.9375 15 32.042 15C33.1466 15 34.042 15.8947 34.042 16.9985ZM14.0019 17.0032C14.0029 18.1078 14.899 19.0025 16.0036 19.0016C17.1082 19.0007 18.0029 18.1045 18.0019 16.9999C18.001 15.8954 17.1049 15.0007 16.0003 15.0016C14.8957 15.0025 14.001 15.8986 14.0019 17.0032ZM8.98877 37.0032C8.98968 38.1078 9.88584 39.0025 10.9904 39.0016C12.095 39.0006 12.9897 38.1045 12.9888 36.9999C12.9879 35.8953 12.0917 35.0007 10.9871 35.0016C9.88256 35.0025 8.98787 35.8986 8.98877 37.0032ZM17.0036 34.0016C15.899 34.0025 15.0028 33.1078 15.0019 32.0032C15.001 30.8986 15.8957 30.0025 17.0003 30.0016C18.1049 30.0006 19.001 30.8953 19.0019 31.9999C19.0028 33.1045 18.1081 34.0006 17.0036 34.0016ZM10.0019 28.0032C10.0028 29.1078 10.899 30.0025 12.0036 30.0016C13.1081 30.0006 14.0028 29.1045 14.0019 27.9999C14.001 26.8953 13.1049 26.0006 12.0003 26.0016C10.8957 26.0025 10.001 26.8986 10.0019 28.0032ZM17.0036 25.0016C15.899 25.0025 15.0028 24.1078 15.0019 23.0032C15.001 21.8986 15.8957 21.0025 17.0003 21.0016C18.1049 21.0006 19.001 21.8953 19.0019 22.9999C19.0028 24.1045 18.1081 25.0006 17.0036 25.0016ZM37.0257 38.9969C38.1303 38.9969 39.0257 38.1022 39.0257 36.9985C39.0257 35.8947 38.1303 35 37.0257 35C35.9211 35 35.0257 35.8947 35.0257 36.9985C35.0257 38.1022 35.9211 38.9969 37.0257 38.9969ZM33.0298 31.9985C33.0298 33.1022 32.1344 33.9969 31.0298 33.9969C29.9253 33.9969 29.0298 33.1022 29.0298 31.9985C29.0298 30.8947 29.9253 30 31.0298 30C32.1344 30 33.0298 30.8947 33.0298 31.9985ZM36.0331 29.9969C37.1377 29.9969 38.0331 29.1022 38.0331 27.9985C38.0331 26.8947 37.1377 26 36.0331 26C34.9286 26 34.0331 26.8947 34.0331 27.9985C34.0331 29.1022 34.9286 29.9969 36.0331 29.9969ZM33.0372 22.9985C33.0372 24.1022 32.1417 24.9969 31.0372 24.9969C29.9326 24.9969 29.0372 24.1022 29.0372 22.9985C29.0372 21.8947 29.9326 21 31.0372 21C32.1417 21 33.0372 21.8947 33.0372 22.9985Z" />
 								</svg>
-								Necrópsias e assistência a arrojamentos vivos.
+								{$LL.theRalvt.mission.bulletPoints.necropsies.title()}
 							</dt>
 							<dd class="inline">
-								A equipa multifacetada e disponível 24h/7 permite à RALVT responder em situações em
-								que os animais arrojem na praia. No caso de arrojamentos mortos agilizamos com as
-								autoridades competentes o processo desde o alerta até ao destino final do animal.
-								Procedemos à necropsia e colheita de amostras biológicas, na tentativa de determinar
-								uma possível causa de morte. Esta mesma equipa, permite também dar resposta a
-								arrojamentos vivos, auxiliando no resgate e eventual encaminhamento para um centro
-								de reabilitação.
+								{$LL.theRalvt.mission.bulletPoints.necropsies.text()}
 							</dd>
 						</div>
 						<div class="relative pl-9">
@@ -46,14 +43,10 @@
 									fill="currentColor"
 									><path
 										d="M128 32h32c17.7 0 32 14.3 32 32V96H96V64c0-17.7 14.3-32 32-32zm64 96V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V388.9c0-34.6 9.4-68.6 27.2-98.3C40.9 267.8 49.7 242.4 53 216L60.5 156c2-16 15.6-28 31.8-28H192zm227.8 0c16.1 0 29.8 12 31.8 28L459 216c3.3 26.4 12.1 51.8 25.8 74.6c17.8 29.7 27.2 63.7 27.2 98.3V448c0 17.7-14.3 32-32 32H352c-17.7 0-32-14.3-32-32V128h99.8zM320 64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V96H320V64zm-32 64V288H224V128h64z" /></svg>
-								Monitorizações.
+								{$LL.theRalvt.mission.bulletPoints.monitorings.title()}
 							</dt>
 							<dd class="inline">
-								Realizamos monitorizações regulares às praias da área de atuação, de modo a permitir
-								uma recolha de informação sistemática, podendo detetar arrojamentos sem alerta. Além
-								disso, conseguimos ter um melhor conhecimento das morfologias das praias ao longo do
-								ano e planear formas de acesso às praias com difíceis acessos caso seja necessário
-								agir rapidamente.
+								{$LL.theRalvt.mission.bulletPoints.monitorings.text()}
 							</dd>
 						</div>
 						<div class="relative pl-9">
@@ -66,14 +59,10 @@
 									<path
 										d="M11.25 4.533A9.707 9.707 0 006 3a9.735 9.735 0 00-3.25.555.75.75 0 00-.5.707v14.25a.75.75 0 001 .707A8.237 8.237 0 016 18.75c1.995 0 3.823.707 5.25 1.886V4.533zM12.75 20.636A8.214 8.214 0 0118 18.75c.966 0 1.89.166 2.75.47a.75.75 0 001-.708V4.262a.75.75 0 00-.5-.707A9.735 9.735 0 0018 3a9.707 9.707 0 00-5.25 1.533v16.103z" />
 								</svg>
-								Educação ambiental.
+								{$LL.theRalvt.mission.bulletPoints.education.title()}
 							</dt>
 							<dd class="inline">
-								Queremos promover a Literacia do Oceano através de atividades de ciência cidadã,
-								como formações e webinars para organizações locais que nos queiram ajudar. Além
-								disso, contamos ainda com programas de voluntariado e de estágios curriculares de
-								forma a transmitir o conhecimento a todos os estudantes interessados e que pretendam
-								seguir esta área.
+								{$LL.theRalvt.mission.bulletPoints.education.text()}
 							</dd>
 						</div>
 					</dl>
@@ -82,18 +71,28 @@
 			<div class="lg:flex lg:flex-auto lg:justify-center">
 				<dl class="w-64 space-y-8 xl:w-80">
 					<div class="flex flex-col-reverse gap-y-4">
-						<dt class="text-base leading-7 text-gray-600">Desde 2022</dt>
-						<dd class="text-5xl font-semibold tracking-tight text-gray-900">+60 necrópsias</dd>
-					</div>
-					<div class="flex flex-col-reverse gap-y-4">
-						<dt class="text-base leading-7 text-gray-600">De lixo apanhado em 2023</dt>
-						<dd class="text-5xl font-semibold tracking-tight text-gray-900">+400 kg</dd>
+						<dt class="text-base leading-7 text-gray-600">
+							{$LL.theRalvt.mission.highlights.necropsies.text()}
+						</dt>
+						<dd class="text-5xl font-semibold tracking-tight text-gray-900">
+							{$LL.theRalvt.mission.highlights.necropsies.number()}
+						</dd>
 					</div>
 					<div class="flex flex-col-reverse gap-y-4">
 						<dt class="text-base leading-7 text-gray-600">
-							Alcançadas em ações de educação ambiental
+							{$LL.theRalvt.mission.highlights.trash.text()}
 						</dt>
-						<dd class="text-5xl font-semibold tracking-tight text-gray-900">+30 pessoas</dd>
+						<dd class="text-5xl font-semibold tracking-tight text-gray-900">
+							{$LL.theRalvt.mission.highlights.trash.number()}
+						</dd>
+					</div>
+					<div class="flex flex-col-reverse gap-y-4">
+						<dt class="text-base leading-7 text-gray-600">
+							{$LL.theRalvt.mission.highlights.education.text()}
+						</dt>
+						<dd class="text-5xl font-semibold tracking-tight text-gray-900">
+							{$LL.theRalvt.mission.highlights.education.number()}
+						</dd>
 					</div>
 				</dl>
 			</div>

@@ -40,11 +40,11 @@
 			<div class="mx-auto flex h-40 max-w-4xl justify-center gap-6 md:h-96 md:gap-10 lg:gap-28">
 				<a class="card-zoom" href="/reportar/arrojamento">
 					<div class="card-zoom-image bg-[url('/images/pages/home/photo1.jpeg')]" />
-					<h1 class="card-zoom-text">Reportar<br />arrojamento</h1>
+					<h1 class="card-zoom-text">{$LL.report()}<br />{$LL.stranding()}</h1>
 				</a>
 				<a class="card-zoom" href="/reportar/avistamento">
 					<div class="card-zoom-image bg-[url('/images/Imagem1.jpg')]" />
-					<h1 class="card-zoom-text">Reportar<br />avistamento</h1>
+					<h1 class="card-zoom-text">{$LL.report()}<br />{$LL.sighting()}</h1>
 				</a>
 			</div>
 		</div>

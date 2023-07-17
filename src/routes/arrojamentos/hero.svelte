@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
 	import type { Stranding } from '../../types';
 	import Map from './map.svelte';
 	export let strandings: Stranding[];
@@ -15,18 +16,18 @@
 </div> -->
 <div class="mx-auto max-w-7xl px-6 lg:px-8">
 	<div class="mx-auto max-w-2xl text-center">
-		<h1 class="header">Arrojamentos</h1>
+		<h1 class="header">{$LL.strandings.hero.title()}</h1>
 		<p class="mt-6 text-lg leading-8 text-gray-600">
-			<b>Qual a proporção de arrojamentos vivos vs mortos?</b> Entre Janeiro e Outubro de 2022 a RALVT
-			registou 7% de arrojamentos vivos para 93% de arrojamentos mortos.
+			<b>{$LL.strandings.hero.text1()}</b>
+			{$LL.strandings.hero.text2()}
 		</p>
 		<div class="mt-10 flex items-center justify-center gap-x-6">
 			<a
 				href="/reportar/arrojamento"
 				class="rounded-md bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-				>Reportar um arrojamento</a>
+				>{$LL.callToAction.reportStranding()}</a>
 			<a href="#o-que-e-um-arrojamento" class="text-sm font-semibold leading-6 text-gray-900"
-				>Saber mais <span aria-hidden="true">→</span></a>
+				>{$LL.callToAction.knowMore()} <span aria-hidden="true">→</span></a>
 		</div>
 	</div>
 	<div class="mt-16 flow-root sm:mt-24">

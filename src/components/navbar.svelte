@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { LL } from '$lib/i18n/i18n-svelte';
 
 	export let isOpen = false;
 	export let currentPage: string;
@@ -59,27 +60,27 @@
 						href="/ralvt"
 						class="nav-item"
 						class:inactive={$page.route.id != '/ralvt'}
-						class:active={$page.route.id == '/ralvt'}>A RALVT</a>
+						class:active={$page.route.id == '/ralvt'}>{$LL.links.theRalvt()}</a>
 					<a
 						href="/especies"
 						class="nav-item"
 						class:inactive={$page.route.id != '/especies'}
-						class:active={$page.route.id == '/especies'}>Espécies</a>
+						class:active={$page.route.id == '/especies'}>{$LL.links.species()}</a>
 					<a
 						href="/arrojamentos"
 						class="nav-item"
 						class:inactive={$page.route.id != '/arrojamentos'}
-						class:active={$page.route.id == '/arrojamentos'}>Arrojamentos</a>
+						class:active={$page.route.id == '/arrojamentos'}>{$LL.links.strandings()}</a>
 					<a
 						href="/eventos"
 						class="nav-item"
 						class:inactive={$page.route.id != '/eventos'}
-						class:active={$page.route.id == '/eventos'}>Eventos</a>
+						class:active={$page.route.id == '/eventos'}>{$LL.links.events()}</a>
 					<a
 						href="/como-ajudar"
 						class="nav-item"
 						class:inactive={$page.route.id != '/como-ajudar'}
-						class:active={$page.route.id == '/como-ajudar'}>Como ajudar</a>
+						class:active={$page.route.id == '/como-ajudar'}>{$LL.links.howToHelp()}</a>
 				</div>
 			</div>
 			<div class="flex items-center">
@@ -99,7 +100,7 @@
 								d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z" />
 						</svg>
 
-						<span>Contactos</span>
+						<span>{$LL.links.contacts()}</span>
 					</a>
 				</div>
 			</div>
@@ -116,27 +117,27 @@
 				href="/ralvt"
 				class="nav-item-mobile"
 				class:inactive={$page.route.id != '/ralvt'}
-				class:active={$page.route.id == '/ralvt'}>A RALVT</a>
+				class:active={$page.route.id == '/ralvt'}>{$LL.links.theRalvt()}</a>
 			<a
 				href="/especies"
 				class="nav-item-mobile"
 				class:inactive={$page.route.id != '/especies'}
-				class:active={$page.route.id == '/especies'}>Espécies</a>
+				class:active={$page.route.id == '/especies'}>{$LL.links.species()}</a>
 			<a
 				href="/arrojamentos"
 				class="nav-item-mobile"
 				class:inactive={$page.route.id != '/arrojamentos'}
-				class:active={$page.route.id == '/arrojamentos'}>Arrojamentos</a>
+				class:active={$page.route.id == '/arrojamentos'}>{$LL.links.strandings()}</a>
 			<a
 				href="/eventos"
 				class="nav-item-mobile"
 				class:inactive={$page.route.id != '/eventos'}
-				class:active={$page.route.id == '/eventos'}>Eventos</a>
+				class:active={$page.route.id == '/eventos'}>{$LL.links.events()}</a>
 			<a
 				href="/como-ajudar"
 				class="nav-item-mobile"
 				class:inactive={$page.route.id != '/como-ajudar'}
-				class:active={$page.route.id == '/como-ajudar'}>Como ajudar</a>
+				class:active={$page.route.id == '/como-ajudar'}>{$LL.links.howToHelp()}</a>
 		</div>
 	</div>
 </nav>

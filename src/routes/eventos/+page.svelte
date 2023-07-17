@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
 	import Details from './details.svelte';
 	import type { Event } from '../../types';
 	export let data: { events: Event[] };
@@ -17,14 +18,14 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; Eventos</title>
+	<title>RALVT &#183; {$LL.metaHeads.events()}</title>
 </svelte:head>
 
 <main class="bg-white">
 	<section class="pt-14 sm:pt-32">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto max-w-2xl text-center">
-				<h1 class="header">Eventos</h1>
+				<h1 class="header">{$LL.events.title()}</h1>
 			</div>
 		</div>
 		<div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
@@ -36,7 +37,7 @@
 	</section>
 
 	<section id="lista-eventos" class="mx-auto mb-20 mt-20 max-w-7xl px-6 lg:px-8">
-		<h2 class="text-base font-semibold leading-6 text-gray-900">Próximos eventos</h2>
+		<h2 class="text-base font-semibold leading-6 text-gray-900">{$LL.events.futureEvents()}</h2>
 		<ol class="mt-2 divide-y divide-gray-200 text-sm leading-6 text-gray-500">
 			{#each futureEvents as event}
 				<li class="py-4 md:flex">
@@ -52,13 +53,13 @@
 					</button>
 				</li>
 			{:else}
-				<p>Não há eventos de momento. Verifica mais tarde!</p>
+				<p>{$LL.events.noFutureEvents()}</p>
 			{/each}
 		</ol>
 	</section>
 	{#if pastEvents.length > 0}
 		<section class="mx-auto mb-20 mt-20 max-w-7xl px-6 lg:px-8">
-			<h2 class="text-base font-semibold leading-6 text-gray-900">Eventos passados</h2>
+			<h2 class="text-base font-semibold leading-6 text-gray-900">{$LL.events.pastEvents()}</h2>
 			<ol class="mt-2 divide-y divide-gray-200 text-sm leading-6 text-gray-500">
 				{#each pastEvents as event}
 					<li class="py-4 md:flex">
@@ -74,7 +75,7 @@
 						</button>
 					</li>
 				{:else}
-					<p>Ainda não fizemos nenhum evento. Verifica mais tarde!</p>
+					<p>{$LL.events.noPastEvents()}</p>
 				{/each}
 			</ol>
 		</section>

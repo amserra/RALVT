@@ -1,41 +1,41 @@
 <script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
+
 	const people = [
 		{
 			name: 'Miguel Grilo',
 			imgUrl: '/images/Miguel-Grilo.jpg',
-			role: 'Médico Veterinário',
-			department: 'Coordenador'
+			role: $LL.theRalvt.team.roles.VeterinarianMale(),
+			department: $LL.theRalvt.team.roles.coordinator()
 		},
 		{
 			name: 'Sofia Pardal',
 			imgUrl: '/images/Miguel-Grilo.jpg',
-			role: 'Bióloga Marinha',
-			department: 'Operações'
+			role: $LL.theRalvt.team.roles.marineBiologistFemale(),
+			department: $LL.theRalvt.team.roles.operations()
 		},
 		{
 			name: 'Beatriz Costa',
 			imgUrl: '/images/Miguel-Grilo.jpg',
-			role: 'Bióloga Marinha',
-			department: 'Administrativo'
+			role: $LL.theRalvt.team.roles.marineBiologistFemale(),
+			department: $LL.theRalvt.team.roles.administrative()
 		},
 		{
 			name: 'Catarina Fogaça',
 			imgUrl: '/images/Miguel-Grilo.jpg',
-			role: 'Médica Veterinária',
-			department: 'Divulgação'
+			role: $LL.theRalvt.team.roles.VeterinarianFemale(),
+			department: $LL.theRalvt.team.roles.outreach()
 		}
 	];
 </script>
 
 <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-48 lg:px-8">
 	<div class="mx-auto max-w-2xl lg:mx-0">
-		<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A nossa equipa</h2>
+		<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+			{$LL.theRalvt.team.title()}
+		</h2>
 		<p class="mt-6 text-lg leading-8 text-gray-600">
-			A RALVT é formada por uma equipa multifacetada constituída por biólogos marinhos e médicos
-			veterinários, permitindo uma maior amplitude de áreas de atuação. Somos um grupo de pessoas
-			com uma enorme paixão pelos oceanos e pela sua biodiversidade e a inclusão destas duas
-			profissões permite uma melhor resposta em qualquer situação de arrojamento vivo ou morto e um
-			conhecimento amplo sobre as espécies, quer a nível biológico quer a nível veterinário.
+			{$LL.theRalvt.team.text()}
 		</p>
 	</div>
 	<ul
@@ -53,7 +53,5 @@
 				<p class="text-sm leading-6 text-sky-600">{person.department}</p>
 			</li>
 		{/each}
-
-		<!-- More people... -->
 	</ul>
 </div>

@@ -1,4 +1,5 @@
 <script>
+	import { LL } from '$lib/i18n/i18n-svelte';
 	import Team from '../../components/team.svelte';
 	import Mission from './mission.svelte';
 	import Hero from './hero.svelte';
@@ -6,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; Sobre a RALVT</title>
+	<title>RALVT &#183; {$LL.metaHeads.theRalvt()}</title>
 </svelte:head>
 
 <main class="isolate mb-40 bg-white">
