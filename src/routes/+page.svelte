@@ -16,7 +16,12 @@
 		<div
 			class="relative h-full w-full"
 			style:transform={`translate3d(0, ${scroll > threshold ? 0 : scroll}px, 0)`}>
-			<video autoplay muted loop class="min-h-full min-w-full object-cover grayscale-[40%]">
+			<video
+				autoplay
+				muted
+				loop
+				playsinline
+				class="min-h-full min-w-full object-cover grayscale-[40%]">
 				<source src="/video/dolphins-swimming.mp4" type="video/mp4" />
 			</video>
 			<span class="absolute right-0 top-0 z-[999] m-4 text-sm text-white"
