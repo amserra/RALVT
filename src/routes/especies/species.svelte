@@ -25,7 +25,7 @@
 	class={`mt-10 flex flex-col items-center gap-10 ${
 		reverse ? 'md:flex-row-reverse' : 'md:flex-row'
 	} md:items-start`}>
-	<div class="flex w-full flex-col items-center">
+	<div class="flex w-full flex-col items-center self-center">
 		<StackedCarousel
 			slideChangeHandler={onSlideChange}
 			slides={species.map((specie) => {

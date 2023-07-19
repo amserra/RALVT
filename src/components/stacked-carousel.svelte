@@ -15,11 +15,10 @@
 	effect="cards"
 	grab-cursor={true}
 	keyboard={true}
-	on:slidechange={slideChangeHandler}
->
+	on:slidechange={slideChangeHandler}>
 	{#each slides as slide}
 		<swiper-slide>
-			<img src={slide.imgUrl} alt={slide.alt} class="aspect-[2/3] w-full rounded-xl object-cover" />
+			<img src={slide.imgUrl} alt={slide.alt} class="w-full rounded-xl object-scale-down" />
 		</swiper-slide>
 	{/each}
 </swiper-container>
