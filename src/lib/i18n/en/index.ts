@@ -15,16 +15,31 @@ const en = {
 		contacts: 'Contacts',
 		privacyPolicy: 'Privacy Policy'
 	},
-	metaHeads: {
-		theRalvt: 'About RALVT',
-		species: 'Species',
-		strandings: 'Strandings',
-		events: 'Events',
-		howToHelp: 'How to help',
-		contacts: 'Contacts',
-		privacyPolicy: 'Privacy Policy',
-		reportStranding: 'Report stranding',
-		reportSighting: 'Report sighting'
+	meta: {
+		head: {
+			theRalvt: 'About RALVT',
+			species: 'Species',
+			strandings: 'Strandings',
+			events: 'Events',
+			howToHelp: 'How to help',
+			contacts: 'Contacts',
+			privacyPolicy: 'Privacy Policy',
+			reportStranding: 'Report stranding',
+			reportSighting: 'Report sighting'
+		},
+		description: {
+			home: 'RALVT is the stranding network for the region of Lisbon and Tagus Valley in Portugal.',
+			theRalvt:
+				'About RALVT, the stranding network for the region of Lisbon and Tagus Valley in Portugal.',
+			species: 'Find out more about what species we assist at RALVT.',
+			strandings: 'Find out what a stranding is and what to do in case you see one.',
+			events: 'Find out our upcoming events.',
+			howToHelp: 'Find out how to help us in our mission.',
+			contacts: 'Find relevant contacts related to RALVT.',
+			privacyPolicy: 'Find out how we handle your data.',
+			reportStranding: 'Report a stranding of an animal.',
+			reportSighting: 'Report a sighting of an animal.'
+		}
 	},
 	partners: 'With the support of:',
 	report: 'Report',

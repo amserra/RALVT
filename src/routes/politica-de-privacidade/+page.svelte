@@ -3,7 +3,8 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; {$LL.metaHeads.privacyPolicy()}</title>
+	<title>RALVT &#183; {$LL.meta.head.privacyPolicy()}</title>
+	<meta name="description" content={$LL.meta.description.privacyPolicy()} />
 </svelte:head>
 
 <div class="mx-auto my-20 max-w-7xl px-6 lg:px-8">

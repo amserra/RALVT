@@ -25,7 +25,8 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; {$LL.metaHeads.reportSighting()}</title>
+	<title>RALVT &#183; {$LL.meta.head.reportSighting()}</title>
+	<meta name="description" content={$LL.meta.description.reportSighting()} />
 </svelte:head>
 
 <main class="mx-auto my-20 max-w-7xl px-4 sm:px-6 lg:px-8">

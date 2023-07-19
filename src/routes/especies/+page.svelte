@@ -97,7 +97,8 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; {$LL.metaHeads.species()}</title>
+	<title>RALVT &#183; {$LL.meta.head.species()}</title>
+	<meta name="description" content={$LL.meta.description.species()} />
 </svelte:head>
 
 <main>

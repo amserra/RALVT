@@ -101,7 +101,8 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; {$LL.metaHeads.contacts()}</title>
+	<title>RALVT &#183; {$LL.meta.head.contacts()}</title>
+	<meta name="description" content={$LL.meta.description.contacts()} />
 </svelte:head>
 
 <div class="bg-white py-24 sm:py-32">

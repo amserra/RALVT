@@ -7,6 +7,7 @@
 
 <svelte:head>
 	<title>RALVT</title>
+	<meta name="description" content={$LL.meta.description.home()} />
 </svelte:head>
 
 <svelte:window bind:scrollY={scroll} />

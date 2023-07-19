@@ -28,7 +28,8 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; {$LL.metaHeads.howToHelp()}</title>
+	<title>RALVT &#183; {$LL.meta.head.howToHelp()}</title>
+	<meta name="description" content={$LL.meta.description.howToHelp()} />
 </svelte:head>
 
 <main class="isolate mb-32 bg-white">

@@ -18,7 +18,8 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; {$LL.metaHeads.events()}</title>
+	<title>RALVT &#183; {$LL.meta.head.events()}</title>
+	<meta name="description" content={$LL.meta.description.events()} />
 </svelte:head>
 
 <main class="bg-white">

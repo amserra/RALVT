@@ -7,7 +7,8 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; {$LL.metaHeads.theRalvt()}</title>
+	<title>RALVT &#183; {$LL.meta.head.theRalvt()}</title>
+	<meta name="description" content={$LL.meta.description.theRalvt()} />
 </svelte:head>
 
 <main class="isolate mb-40 bg-white">

@@ -8,7 +8,8 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; {$LL.metaHeads.strandings()}</title>
+	<title>RALVT &#183; {$LL.meta.head.strandings()}</title>
+	<meta name="description" content={$LL.meta.description.strandings()} />
 </svelte:head>
 
 <main class="bg-white">

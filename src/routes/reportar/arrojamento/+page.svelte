@@ -26,7 +26,8 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; {$LL.metaHeads.reportStranding()}</title>
+	<title>RALVT &#183; {$LL.meta.head.reportStranding()}</title>
+	<meta name="description" content={$LL.meta.description.reportStranding()} />
 </svelte:head>
 
 <main class="mx-auto my-20 max-w-7xl px-4 sm:px-6 lg:px-8">

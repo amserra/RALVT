@@ -15,16 +15,30 @@ const pt = {
 		contacts: 'Contactos',
 		privacyPolicy: 'Política de Privacidade'
 	},
-	metaHeads: {
-		theRalvt: 'Sobre a RALVT',
-		species: 'Espécies',
-		strandings: 'Arrojamentos',
-		events: 'Eventos',
-		howToHelp: 'Como ajudar',
-		contacts: 'Contactos',
-		privacyPolicy: 'Política de Privacidade',
-		reportStranding: 'Reportar arrojamento',
-		reportSighting: 'Reportar avistamento'
+	meta: {
+		head: {
+			theRalvt: 'About RALVT',
+			species: 'Species',
+			strandings: 'Strandings',
+			events: 'Events',
+			howToHelp: 'How to help',
+			contacts: 'Contacts',
+			privacyPolicy: 'Privacy Policy',
+			reportStranding: 'Report stranding',
+			reportSighting: 'Report sighting'
+		},
+		description: {
+			home: 'A RALVT é a rede de arrojamentos da região de Lisboa e Vale do Tejo.',
+			theRalvt: 'Sobre a RALVT, a rede de arrojamentos da região de Lisboa e Vale do Tejo.',
+			species: 'Descobra mais sobre as espécies que tratamos na RALVT.',
+			strandings: 'Aprenda sobre o que é um arrojamento e o que fazer caso detete um.',
+			events: 'Descubra os nossos próximos eventos.',
+			howToHelp: 'Descubra como nos pode ajudar na nossa missão.',
+			contacts: 'Tenha acesso a contactos relevantes.',
+			privacyPolicy: 'Descubra como tratamos dos seus dados.',
+			reportStranding: 'Reporte um arrojamento de um animal.',
+			reportSighting: 'Reporte um avistamento de um animal.'
+		}
 	},
 	partners: 'Com o apoio de:',
 	report: 'Reportar',

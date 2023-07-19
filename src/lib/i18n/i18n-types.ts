@@ -58,43 +58,87 @@ type RootTranslation = {
 		 */
 		privacyPolicy: string
 	}
-	metaHeads: {
-		/**
-		 * S​o​b​r​e​ ​a​ ​R​A​L​V​T
-		 */
-		theRalvt: string
-		/**
-		 * E​s​p​é​c​i​e​s
-		 */
-		species: string
-		/**
-		 * A​r​r​o​j​a​m​e​n​t​o​s
-		 */
-		strandings: string
-		/**
-		 * E​v​e​n​t​o​s
-		 */
-		events: string
-		/**
-		 * C​o​m​o​ ​a​j​u​d​a​r
-		 */
-		howToHelp: string
-		/**
-		 * C​o​n​t​a​c​t​o​s
-		 */
-		contacts: string
-		/**
-		 * P​o​l​í​t​i​c​a​ ​d​e​ ​P​r​i​v​a​c​i​d​a​d​e
-		 */
-		privacyPolicy: string
-		/**
-		 * R​e​p​o​r​t​a​r​ ​a​r​r​o​j​a​m​e​n​t​o
-		 */
-		reportStranding: string
-		/**
-		 * R​e​p​o​r​t​a​r​ ​a​v​i​s​t​a​m​e​n​t​o
-		 */
-		reportSighting: string
+	meta: {
+		head: {
+			/**
+			 * A​b​o​u​t​ ​R​A​L​V​T
+			 */
+			theRalvt: string
+			/**
+			 * S​p​e​c​i​e​s
+			 */
+			species: string
+			/**
+			 * S​t​r​a​n​d​i​n​g​s
+			 */
+			strandings: string
+			/**
+			 * E​v​e​n​t​s
+			 */
+			events: string
+			/**
+			 * H​o​w​ ​t​o​ ​h​e​l​p
+			 */
+			howToHelp: string
+			/**
+			 * C​o​n​t​a​c​t​s
+			 */
+			contacts: string
+			/**
+			 * P​r​i​v​a​c​y​ ​P​o​l​i​c​y
+			 */
+			privacyPolicy: string
+			/**
+			 * R​e​p​o​r​t​ ​s​t​r​a​n​d​i​n​g
+			 */
+			reportStranding: string
+			/**
+			 * R​e​p​o​r​t​ ​s​i​g​h​t​i​n​g
+			 */
+			reportSighting: string
+		}
+		description: {
+			/**
+			 * A​ ​R​A​L​V​T​ ​é​ ​a​ ​r​e​d​e​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​d​a​ ​r​e​g​i​ã​o​ ​d​e​ ​L​i​s​b​o​a​ ​e​ ​V​a​l​e​ ​d​o​ ​T​e​j​o​.
+			 */
+			home: string
+			/**
+			 * S​o​b​r​e​ ​a​ ​R​A​L​V​T​,​ ​a​ ​r​e​d​e​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​d​a​ ​r​e​g​i​ã​o​ ​d​e​ ​L​i​s​b​o​a​ ​e​ ​V​a​l​e​ ​d​o​ ​T​e​j​o​.
+			 */
+			theRalvt: string
+			/**
+			 * D​e​s​c​o​b​r​a​ ​m​a​i​s​ ​s​o​b​r​e​ ​a​s​ ​e​s​p​é​c​i​e​s​ ​q​u​e​ ​t​r​a​t​a​m​o​s​ ​n​a​ ​R​A​L​V​T​.
+			 */
+			species: string
+			/**
+			 * A​p​r​e​n​d​a​ ​s​o​b​r​e​ ​o​ ​q​u​e​ ​é​ ​u​m​ ​a​r​r​o​j​a​m​e​n​t​o​ ​e​ ​o​ ​q​u​e​ ​f​a​z​e​r​ ​c​a​s​o​ ​d​e​t​e​t​e​ ​u​m​.
+			 */
+			strandings: string
+			/**
+			 * D​e​s​c​u​b​r​a​ ​o​s​ ​n​o​s​s​o​s​ ​p​r​ó​x​i​m​o​s​ ​e​v​e​n​t​o​s​.
+			 */
+			events: string
+			/**
+			 * D​e​s​c​u​b​r​a​ ​c​o​m​o​ ​n​o​s​ ​p​o​d​e​ ​a​j​u​d​a​r​ ​n​a​ ​n​o​s​s​a​ ​m​i​s​s​ã​o​.
+			 */
+			howToHelp: string
+			/**
+			 * T​e​n​h​a​ ​a​c​e​s​s​o​ ​a​ ​c​o​n​t​a​c​t​o​s​ ​r​e​l​e​v​a​n​t​e​s​.
+			 */
+			contacts: string
+			/**
+			 * D​e​s​c​u​b​r​a​ ​c​o​m​o​ ​t​r​a​t​a​m​o​s​ ​d​o​s​ ​s​e​u​s​ ​d​a​d​o​s​.
+			 */
+			privacyPolicy: string
+			/**
+			 * R​e​p​o​r​t​e​ ​u​m​ ​a​r​r​o​j​a​m​e​n​t​o​ ​d​e​ ​u​m​ ​a​n​i​m​a​l​.
+			 */
+			reportStranding: string
+			/**
+			 * R​e​p​o​r​t​e​ ​u​m​ ​a​v​i​s​t​a​m​e​n​t​o​ ​d​e​ ​u​m​ ​a​n​i​m​a​l​.
+			 */
+			reportSighting: string
+		}
 	}
 	/**
 	 * C​o​m​ ​o​ ​a​p​o​i​o​ ​d​e​:
@@ -948,43 +992,87 @@ export type TranslationFunctions = {
 		 */
 		privacyPolicy: () => LocalizedString
 	}
-	metaHeads: {
-		/**
-		 * Sobre a RALVT
-		 */
-		theRalvt: () => LocalizedString
-		/**
-		 * Espécies
-		 */
-		species: () => LocalizedString
-		/**
-		 * Arrojamentos
-		 */
-		strandings: () => LocalizedString
-		/**
-		 * Eventos
-		 */
-		events: () => LocalizedString
-		/**
-		 * Como ajudar
-		 */
-		howToHelp: () => LocalizedString
-		/**
-		 * Contactos
-		 */
-		contacts: () => LocalizedString
-		/**
-		 * Política de Privacidade
-		 */
-		privacyPolicy: () => LocalizedString
-		/**
-		 * Reportar arrojamento
-		 */
-		reportStranding: () => LocalizedString
-		/**
-		 * Reportar avistamento
-		 */
-		reportSighting: () => LocalizedString
+	meta: {
+		head: {
+			/**
+			 * About RALVT
+			 */
+			theRalvt: () => LocalizedString
+			/**
+			 * Species
+			 */
+			species: () => LocalizedString
+			/**
+			 * Strandings
+			 */
+			strandings: () => LocalizedString
+			/**
+			 * Events
+			 */
+			events: () => LocalizedString
+			/**
+			 * How to help
+			 */
+			howToHelp: () => LocalizedString
+			/**
+			 * Contacts
+			 */
+			contacts: () => LocalizedString
+			/**
+			 * Privacy Policy
+			 */
+			privacyPolicy: () => LocalizedString
+			/**
+			 * Report stranding
+			 */
+			reportStranding: () => LocalizedString
+			/**
+			 * Report sighting
+			 */
+			reportSighting: () => LocalizedString
+		}
+		description: {
+			/**
+			 * A RALVT é a rede de arrojamentos da região de Lisboa e Vale do Tejo.
+			 */
+			home: () => LocalizedString
+			/**
+			 * Sobre a RALVT, a rede de arrojamentos da região de Lisboa e Vale do Tejo.
+			 */
+			theRalvt: () => LocalizedString
+			/**
+			 * Descobra mais sobre as espécies que tratamos na RALVT.
+			 */
+			species: () => LocalizedString
+			/**
+			 * Aprenda sobre o que é um arrojamento e o que fazer caso detete um.
+			 */
+			strandings: () => LocalizedString
+			/**
+			 * Descubra os nossos próximos eventos.
+			 */
+			events: () => LocalizedString
+			/**
+			 * Descubra como nos pode ajudar na nossa missão.
+			 */
+			howToHelp: () => LocalizedString
+			/**
+			 * Tenha acesso a contactos relevantes.
+			 */
+			contacts: () => LocalizedString
+			/**
+			 * Descubra como tratamos dos seus dados.
+			 */
+			privacyPolicy: () => LocalizedString
+			/**
+			 * Reporte um arrojamento de um animal.
+			 */
+			reportStranding: () => LocalizedString
+			/**
+			 * Reporte um avistamento de um animal.
+			 */
+			reportSighting: () => LocalizedString
+		}
 	}
 	/**
 	 * Com o apoio de:
