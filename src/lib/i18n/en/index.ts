@@ -22,7 +22,9 @@ const en = {
 		events: 'Events',
 		howToHelp: 'How to help',
 		contacts: 'Contacts',
-		privacyPolicy: 'Privacy Policy'
+		privacyPolicy: 'Privacy Policy',
+		reportStranding: 'Report stranding',
+		reportSighting: 'Report sighting'
 	},
 	partners: 'With the support of:',
 	report: 'Report',
@@ -174,6 +176,13 @@ const en = {
 				description:
 					'It can only be found in the North Atlantic and in mainland Portugal it is a wintering species and a passage migrator. It can be seen between October and April along the coast. This species spends most of its life in the open sea. It feeds mostly on fish, but little is known about its diet.'
 			}
+		},
+		names: {
+			dolphin: 'Dolphin',
+			whale: 'Whale',
+			turtle: 'Turtle',
+			bird: 'Bird',
+			animal: 'Animal'
 		}
 	},
 	strandings: {
@@ -185,6 +194,12 @@ const en = {
 			callToAction: {
 				reportStranding: 'Report a stranding',
 				knowMore: 'Know more'
+			},
+			map: {
+				specie: 'Specie',
+				reportedOn: 'Reported on',
+				helpText:
+					'The map above shows the strandings reported to us. Click on a marker to check their details!'
 			}
 		},
 		whatIs: {
@@ -264,6 +279,63 @@ const en = {
 	floating: {
 		title: 'Found a stranded animal?',
 		text: 'Give us the alert via our form'
+	},
+	form: {
+		stranding: {
+			text: 'Report stranding',
+			description:
+				"Found a stranded animal? Report it to us and we will check it out. If you don't know, or aren't sure what a stranding is, check out our",
+			link: 'page on strandings'
+		},
+		sighting: {
+			text: 'Report sighting',
+			description: ''
+		},
+		fields: {
+			name: 'Your name',
+			phone: 'Phone number',
+			beachName: 'Beach name',
+			beachNameHelpText: 'e.g. Praia de Carcavelos',
+			description: 'Description of the situation',
+			location: 'Location',
+			locationHelpText: 'Click on the map to select the point',
+			dateOfStranding: 'Date on which you detected the stranding',
+			dateOfSighting: 'Date on which you sighted the animal',
+			species: 'Species',
+			animalCondition: 'Animal condition',
+			photos: 'Photos',
+			photosStrandingHelpText: 'Optionally add photos of the stranding',
+			photosSightingHelpText: 'Optionally add photos of the sighting',
+			dropzone: {
+				photosText: '{0:number} photo{{s}} selected',
+				uploadText1: 'Upload one or more photos',
+				uploadText2: 'or drop here',
+				uploadText3: 'PNG, JPG, GIF up to 5MB, maximum of {maxFiles:number} files'
+			},
+			receiveUpdates: 'Receive updates',
+			receiveUpdatesHelpText: 'Optionally receive updates on the developments of the stranding',
+			email: 'Email',
+			privacyPolicyConsentText: 'I declare that I have read and accepted the',
+			privacyPolicyConsentLink: 'privacy policy',
+			animalConditions: {
+				alive: 'Alive',
+				fresh: 'Fresh',
+				decomposing: 'Decomposing',
+				mummified: 'Mummified'
+			}
+		},
+		buttons: {
+			reportStranding: 'Report stranding',
+			reportSighting: 'Report sighting'
+		},
+		messages: {
+			sending: 'Sending',
+			formSuccessTitle: 'Form submitted',
+			formErrorTitle: 'Error submitting the form',
+			formSuccessBody: 'Thank you for submitting the form.',
+			formErrorBody:
+				'Internal error submitting the form. If the error persists, please contact us through our phone number: (+351) 911 111 241.'
+		}
 	}
 } satisfies BaseTranslation;
 

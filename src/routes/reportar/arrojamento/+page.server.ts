@@ -20,13 +20,11 @@ const schema = z.object({
 	phoneNumber: z.string().optional(),
 	beachName: z.string(),
 	description: z.string(),
-	location: z
-		.string({ invalid_type_error: 'Introduza uma localização' })
-		.nonempty('Introduza uma localização'),
-	sightingDate: z.coerce.date().max(new Date(), { message: 'Datas futuras não são permitidas' }),
+	location: z.string({ invalid_type_error: 'Enter a location' }).nonempty('Enter a location'),
+	sightingDate: z.coerce.date().max(new Date(), { message: 'Future dates are not allowed' }),
 	species: z.enum(['dolphin', 'whale', 'turtle', 'bird']).default('dolphin'),
 	condition: z.enum(['alive', 'fresh', 'decomposition', 'mummified']).default('alive'),
-	email: z.string().email({ message: 'Endereço de email inválido' }).optional(),
+	email: z.string().email({ message: 'Invalid email address' }).optional(),
 	photos: photosSchema
 });
 

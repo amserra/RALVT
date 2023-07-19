@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
 	import type { PageData } from './$types';
 	import { dateProxy, superForm } from 'sveltekit-superforms/client';
 	import Map from '../../../components/map.svelte';
@@ -24,13 +25,13 @@
 </script>
 
 <svelte:head>
-	<title>RALVT &#183; Reportar avistamento</title>
+	<title>RALVT &#183; {$LL.metaHeads.reportSighting()}</title>
 </svelte:head>
 
 <main class="mx-auto my-20 max-w-7xl px-4 sm:px-6 lg:px-8">
 	<div class="mx-auto max-w-3xl">
-		<h1 class="sub-header text-center">Reportar avistamento</h1>
-		<p class="mt-6 text-lg leading-8 text-gray-600">Avistou um animal? ...</p>
+		<h1 class="sub-header text-center">{$LL.form.sighting.text()}</h1>
+		<p class="mt-6 text-lg leading-8 text-gray-600">{$LL.form.sighting.description()}</p>
 		<form class="mt-16" method="POST" enctype="multipart/form-data" use:enhance>
 			<div class="flex flex-col-reverse">
 				<input
@@ -42,7 +43,7 @@
 					data-invalid={$errors.name}
 					bind:value={$form.name}
 					{...$constraints.name} />
-				<label for="name" class="form-label">O seu nome</label>
+				<label for="name" class="form-label">{$LL.form.fields.name()}</label>
 			</div>
 			{#if $errors.name}<p class="mt-2 text-sm text-red-600">{$errors.name}</p>{/if}
 
@@ -55,7 +56,8 @@
 					data-invalid={$errors.description}
 					bind:value={$form.description}
 					{...$constraints.description} />
-				<label for="description" class="form-label sibling-required:text-red-600">Descrição</label>
+				<label for="description" class="form-label sibling-required:text-red-600"
+					>{$LL.form.fields.description()}</label>
 			</div>
 			{#if $errors.description}<p class="mt-2 text-sm text-red-600">{$errors.description}</p>{/if}
 
@@ -69,8 +71,8 @@
 					bind:value={coordinates} />
 				<Map class="mt-2" bind:marker={mapMarker} />
 				<label for="location" class="form-label"
-					>Localização <span class="form-label text-xs text-gray-700"
-						>Clique no mapa para selecionar o ponto</span
+					>{$LL.form.fields.location()}
+					<span class="form-label text-xs text-gray-700">{$LL.form.fields.locationHelpText()}</span
 					></label>
 			</div>
 			{#if $errors.location}<p class="mt-2 text-sm text-red-600">{$errors.location}</p>{/if}
@@ -85,7 +87,7 @@
 					bind:value={$sightingDateProxy}
 					{...$constraints.sightingDate}
 					max={getNowDate()} />
-				<label for="sightingDate" class="form-label">Data em que avistou o animal</label>
+				<label for="sightingDate" class="form-label">{$LL.form.fields.dateOfSighting()}</label>
 			</div>
 			{#if $errors.sightingDate}<p class="mt-2 text-sm text-red-600">{$errors.sightingDate}</p>{/if}
 
@@ -97,12 +99,12 @@
 					data-invalid={$errors.species}
 					bind:value={$form.species}
 					{...$constraints.species}>
-					<option value="dolphin" selected>Golfinho</option>
-					<option value="whale">Baleia</option>
-					<option value="turtle">Tartaruga</option>
-					<option value="bird">Ave</option>
+					<option value="dolphin" selected>{$LL.species.names.dolphin()}</option>
+					<option value="whale">{$LL.species.names.whale()}</option>
+					<option value="turtle">{$LL.species.names.turtle()}</option>
+					<option value="bird">{$LL.species.names.bird()}</option>
 				</select>
-				<label for="species" class="form-label">Espécie</label>
+				<label for="species" class="form-label">{$LL.form.fields.species()}</label>
 			</div>
 			{#if $errors.species}<p class="mt-2 text-sm text-red-600">{$errors.species}</p>{/if}
 
@@ -116,8 +118,9 @@
 						class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-600" />
 				</div>
 				<div class="text-sm leading-6">
-					<label for="hasPhotos" class="font-medium text-gray-900">Fotografias</label>
-					<p class="text-gray-500">Opcionalmente dicione fotografias do avistamento.</p>
+					<label for="hasPhotos" class="font-medium text-gray-900"
+						>{$LL.form.fields.photos()}</label>
+					<p class="text-gray-500">{$LL.form.fields.photosSightingHelpText()}.</p>
 				</div>
 			</div>
 
@@ -136,20 +139,23 @@
 					class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-600"
 					required />
 				<label for="acceptedPrivacyPolicy" class="form-label"
-					>Declaro que li e aceito a <a
+					>{$LL.form.fields.privacyPolicyConsentText()}
+					<a
 						target="_blank"
 						href="/politica-de-privacidade"
 						class="hover:text-underline text-blue-600 hover:text-blue-800"
-						>política de privacidade</a
+						>{$LL.form.fields.privacyPolicyConsentLink()}</a
 					>.</label>
 			</div>
 
 			{#if $message}
 				<Modal
-					title={$page.status == 200 ? 'Formulário submetido' : 'Erro ao submeter formulário'}
+					title={$page.status == 200
+						? $LL.form.messages.formSuccessTitle()
+						: $LL.form.messages.formErrorTitle()}
 					description={$page.status == 200
-						? 'Obrigado por submeter o formulário'
-						: 'Erro interno ao submeter formulário. Em caso de urgência, contacte-nos por telefone.'} />
+						? $LL.form.messages.formSuccessBody()
+						: $LL.form.messages.formErrorBody()} />
 			{/if}
 
 			<button
@@ -174,9 +180,9 @@
 							fill="currentColor"
 							d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
 					</svg>
-					A enviar...
+					{$LL.form.messages.sending()}...
 				{:else}
-					Reportar avistamento
+					{$LL.form.buttons.reportSighting()}
 				{/if}
 			</button>
 		</form>

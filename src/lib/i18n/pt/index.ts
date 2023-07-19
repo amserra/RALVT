@@ -22,7 +22,9 @@ const pt = {
 		events: 'Eventos',
 		howToHelp: 'Como ajudar',
 		contacts: 'Contactos',
-		privacyPolicy: 'Política de Privacidade'
+		privacyPolicy: 'Política de Privacidade',
+		reportStranding: 'Reportar arrojamento',
+		reportSighting: 'Reportar avistamento'
 	},
 	partners: 'Com o apoio de:',
 	report: 'Reportar',
@@ -174,6 +176,13 @@ const pt = {
 				description:
 					'Pode ser apenas encontrado no atlântico norte e em Portugal continental é uma espécie invernante e migrador de passagem. Pode ser visto entre outubro e abril ao longo da costa. Esta espécie passa a maior parte da sua vida em alto-mar. Alimenta-se maioritariamente de peixe, mas pouco se sobre a sua dieta.'
 			}
+		},
+		names: {
+			dolphin: 'Golfinho',
+			whale: 'Baleia',
+			turtle: 'Tartaruga',
+			bird: 'Pássaro',
+			animal: 'Animal'
 		}
 	},
 	strandings: {
@@ -185,6 +194,12 @@ const pt = {
 			callToAction: {
 				reportStranding: 'Reportar um arrojamento',
 				knowMore: 'Saber mais'
+			},
+			map: {
+				specie: 'Espécie',
+				reportedOn: 'Reportado a',
+				helpText:
+					'O mapa acima mostra os arrojamentos que nos foram reportados. Clique num marcador para ver os detalhes!'
 			}
 		},
 		whatIs: {
@@ -265,6 +280,63 @@ const pt = {
 	floating: {
 		title: 'Encontrou um animal arrojado?',
 		text: 'Dê-nos o alerta através do nosso formulário'
+	},
+	form: {
+		stranding: {
+			text: 'Reportar arrojamento',
+			description:
+				'Encontrou um animal arrojado? Reporte-nos e nós iremos averiguar a situação. Se não sabe, ou não tem a certeza de o que é um arrojamento, veja a',
+			link: 'nossa página sobre arrojamentos'
+		},
+		sighting: {
+			text: 'Reportar avistamento',
+			description: ''
+		},
+		fields: {
+			name: 'O seu nome',
+			phone: 'Número de telefone',
+			beachName: 'Nome da praia',
+			beachNameHelpText: 'e.x. Praia de Carcavelos',
+			description: 'Descrição da situação',
+			location: 'Localização',
+			locationHelpText: 'Clique no mapa para selecionar o ponto',
+			dateOfStranding: 'Data em que detetou o arrojamento',
+			dateOfSighting: 'Data em que avistou o animal',
+			species: 'Espécie',
+			animalCondition: 'Condição do animal',
+			photos: 'Fotografias',
+			photosStrandingHelpText: 'Opcionalmente adicione fotografias do arrojamento',
+			photosSightingHelpText: 'Opcionalmente adicione fotografias do avistamento',
+			dropzone: {
+				photosText: '{0} fotografia{{s}} selecionada{{s}}',
+				uploadText1: 'Faça upload de um uma ou mais fotografias',
+				uploadText2: 'ou large aqui',
+				uploadText3: 'PNG, JPG, GIF até 5MB, máximo de {maxFiles} ficheiros'
+			},
+			receiveUpdates: 'Receber atualizações',
+			receiveUpdatesHelpText: 'Opcionalmente receba atualizações do desenvolvimento do arrojamento',
+			email: 'Endereço de email',
+			privacyPolicyConsentText: 'Declaro que li e aceito os termos descritos na',
+			privacyPolicyConsentLink: 'política de privacidade',
+			animalConditions: {
+				alive: 'Vivo',
+				fresh: 'Fresco',
+				decomposing: 'Em decomposição',
+				mummified: 'Mumificado'
+			}
+		},
+		buttons: {
+			reportStranding: 'Reportar arrojamento',
+			reportSighting: 'Reportar avistamento'
+		},
+		messages: {
+			sending: 'A enviar',
+			formSuccessTitle: 'Formulário submetido',
+			formErrorTitle: 'Erro ao submeter formulário',
+			formSuccessBody: 'Obrigado por submeter o formulário',
+			formErrorBody:
+				'Erro interno ao submeter formulário. Se o erro persistir, por favor contacte-nos por telefone: (+351) 911 111 241.'
+		}
 	}
 } satisfies Translation;
 

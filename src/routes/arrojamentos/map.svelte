@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
 	import 'leaflet/dist/leaflet.css';
 	import markerIcon from 'leaflet/dist/images/marker-icon.png';
 	import { onMount, onDestroy } from 'svelte';
@@ -38,7 +39,9 @@
 				})
 					.addTo(map)
 					.bindPopup(
-						`Espécie: ${stranding.species}<br>Reportado a: ${new Date(
+						`<b>${$LL.strandings.hero.map.specie()}</b>: ${translateAnimalName(stranding.species)}
+            <br>
+            <b>${$LL.strandings.hero.map.reportedOn()}</b>: ${new Date(
 							stranding.created_at
 						).toLocaleString('pt', {
 							timeStyle: 'short',
@@ -54,6 +57,21 @@
 			map.remove();
 		}
 	});
+
+	function translateAnimalName(animal: string) {
+		switch (animal) {
+			case 'dolphin':
+				return $LL.species.names.dolphin();
+			case 'whale':
+				return $LL.species.names.whale();
+			case 'turtle':
+				return $LL.species.names.turtle();
+			case 'bird':
+				return $LL.species.names.bird();
+			default:
+				return $LL.species.names.animal();
+		}
+	}
 </script>
 
 <div class={$$props.class} bind:this={mapElement} />

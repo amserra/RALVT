@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
 	import { onDestroy } from 'svelte';
 	import Dropzone from 'svelte-file-dropzone/Dropzone.svelte';
 
@@ -44,7 +45,7 @@
 
 <Dropzone
 	name="photos"
-	containerClasses="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10"
+	containerClasses="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10 hover:bg-gray-100"
 	on:drop={handleFilesSelect}
 	accept={['image/*']}
 	multiple
@@ -62,20 +63,18 @@
 				clip-rule="evenodd" />
 		</svg>
 		<p class="text-md mt-4 font-bold text-gray-700">
-			{files.length} fotografia{files.length == 1 ? '' : 's'} selecionada{files.length == 1
-				? ''
-				: 's'}
+			{$LL.form.fields.dropzone.photosText(files.length)}
 		</p>
 		<div class="flex text-sm leading-6 text-gray-600">
 			<label
 				for="photos"
-				class="relative cursor-pointer rounded-md bg-white font-semibold text-sky-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-sky-600 focus-within:ring-offset-2 hover:text-sky-500">
-				<span>Faça upload de um uma ou mais fotografias</span>
+				class="relative cursor-pointer rounded-md font-semibold text-sky-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-sky-600 focus-within:ring-offset-2 hover:text-sky-500">
+				<span>{$LL.form.fields.dropzone.uploadText1()}</span>
 			</label>
-			<p class="pl-1">ou large aqui</p>
+			<p class="pl-1">{$LL.form.fields.dropzone.uploadText2()}</p>
 		</div>
 		<p class="text-xs leading-5 text-gray-600">
-			PNG, JPG, GIF até 5MB, máximo de {MAX_FILES} ficheiros
+			{$LL.form.fields.dropzone.uploadText3({ maxFiles: MAX_FILES })}
 		</p>
 	</div>
 </Dropzone>

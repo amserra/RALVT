@@ -25,9 +25,9 @@
 			<a
 				href="/reportar/arrojamento"
 				class="rounded-md bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-				>{$LL.callToAction.reportStranding()}</a>
+				>{$LL.strandings.hero.callToAction.reportStranding()}</a>
 			<a href="#o-que-e-um-arrojamento" class="text-sm font-semibold leading-6 text-gray-900"
-				>{$LL.callToAction.knowMore()} <span aria-hidden="true">→</span></a>
+				>{$LL.strandings.hero.callToAction.knowMore()} <span aria-hidden="true">→</span></a>
 		</div>
 	</div>
 	<div class="mt-16 flow-root sm:mt-24">
@@ -36,6 +36,7 @@
 			<Map {strandings} class="h-80" />
 		</div>
 	</div>
+	<p class="mt-10 text-center text-sm font-light">{$LL.strandings.hero.map.helpText()}</p>
 </div>
 <div
 	class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
