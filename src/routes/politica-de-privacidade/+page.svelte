@@ -1,5 +1,9 @@
+<script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
+</script>
+
 <svelte:head>
-	<title>RALVT &#183; Política de privacidade</title>
+	<title>RALVT &#183; {$LL.metaHeads.privacyPolicy()}</title>
 </svelte:head>
 
 <div class="mx-auto my-20 max-w-7xl px-6 lg:px-8">
