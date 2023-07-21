@@ -18,7 +18,11 @@
 	on:slidechange={slideChangeHandler}>
 	{#each slides as slide}
 		<swiper-slide>
-			<img src={slide.imgUrl} alt={slide.alt} class="w-full rounded-xl object-scale-down" />
+			<img
+				src={slide.imgUrl}
+				alt={slide.alt}
+				class="w-full rounded-xl object-scale-down"
+				loading="lazy" />
 		</swiper-slide>
 	{/each}
 </swiper-container>

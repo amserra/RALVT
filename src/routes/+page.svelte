@@ -22,7 +22,8 @@
 				muted
 				loop
 				playsinline
-				class="min-h-full min-w-full object-cover grayscale-[40%]">
+				class="min-h-full min-w-full object-cover grayscale-[40%]"
+				poster="/images/video-image.webp">
 				<source src="/video/dolphins-swimming.mp4" type="video/mp4" />
 			</video>
 			<span class="absolute right-0 top-0 z-[999] m-4 text-sm text-white"

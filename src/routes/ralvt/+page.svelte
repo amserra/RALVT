@@ -23,7 +23,8 @@
 		<img
 			src="/images/pages/ralvt/photo6.webp"
 			alt=""
-			class="aspect-[5/2] w-full object-cover xl:rounded-3xl" />
+			class="aspect-[5/2] w-full object-cover xl:rounded-3xl"
+			loading="lazy" />
 	</div>
 
 	<!-- A nossa historia section -->

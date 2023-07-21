@@ -45,7 +45,8 @@
 				<img
 					class="mx-auto h-32 w-32 rounded-full"
 					src={person.imgUrl}
-					alt={`Foto ${person.name}`} />
+					alt={`Foto ${person.name}`}
+					loading="lazy" />
 				<h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">
 					{person.name}
 				</h3>

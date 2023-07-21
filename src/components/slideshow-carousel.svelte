@@ -22,7 +22,11 @@
 	keyboard={true}>
 	{#each slides as slide}
 		<swiper-slide>
-			<img src={slide.imgUrl} alt={slide.alt} class="aspect-[2/3] w-full rounded-xl object-cover" />
+			<img
+				src={slide.imgUrl}
+				alt={slide.alt}
+				class="aspect-[2/3] w-full rounded-xl object-cover"
+				loading="lazy" />
 		</swiper-slide>
 	{/each}
 </swiper-container>
