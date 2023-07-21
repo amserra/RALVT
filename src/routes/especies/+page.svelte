@@ -7,35 +7,35 @@
 			regularName: $LL.species.cetaceans.commonDolphin.regularName(),
 			latinName: 'Delphinus delphis',
 			conservationState: $LL.species.cetaceans.commonDolphin.conservationState(),
-			imgUrl: '/images/animals/cetaceans/golfinho_comum.png',
+			imgUrl: '/images/animals/cetaceans/golfinho_comum.webp',
 			description: $LL.species.cetaceans.commonDolphin.description()
 		},
 		{
 			regularName: $LL.species.cetaceans.stripedDolphin.regularName(),
 			latinName: 'Stenella coeruleoalba',
 			conservationState: $LL.species.cetaceans.stripedDolphin.conservationState(),
-			imgUrl: '/images/animals/cetaceans/golfinho_riscado.png',
+			imgUrl: '/images/animals/cetaceans/golfinho_riscado.webp',
 			description: $LL.species.cetaceans.stripedDolphin.description()
 		},
 		{
 			regularName: $LL.species.cetaceans.bottlenoseDolphin.regularName(),
 			latinName: 'Tursiops truncatus',
 			conservationState: $LL.species.cetaceans.bottlenoseDolphin.conservationState(),
-			imgUrl: '/images/animals/cetaceans/roaz.png',
+			imgUrl: '/images/animals/cetaceans/roaz.webp',
 			description: $LL.species.cetaceans.bottlenoseDolphin.description()
 		},
 		{
 			regularName: $LL.species.cetaceans.minkeWhale.regularName(),
 			latinName: 'Balaenoptera acutorostrata',
 			conservationState: $LL.species.cetaceans.minkeWhale.conservationState(),
-			imgUrl: '/images/animals/cetaceans/baleia_ana.png',
+			imgUrl: '/images/animals/cetaceans/baleia_ana.webp',
 			description: $LL.species.cetaceans.minkeWhale.description()
 		},
 		{
 			regularName: $LL.species.cetaceans.spermWhale.regularName(),
 			latinName: 'Physeter macrocephalus',
 			conservationState: $LL.species.cetaceans.spermWhale.conservationState(),
-			imgUrl: '/images/animals/cetaceans/cachalote.png',
+			imgUrl: '/images/animals/cetaceans/cachalote.webp',
 			description: $LL.species.cetaceans.spermWhale.description()
 		}
 	];
@@ -45,21 +45,21 @@
 			regularName: $LL.species.turtles.leatherbackTurtle.regularName(),
 			latinName: 'Dermochelys coriacea',
 			conservationState: $LL.species.turtles.leatherbackTurtle.conservationState(),
-			imgUrl: '/images/animals/turtles/tartaruga_de_couro.png',
+			imgUrl: '/images/animals/turtles/tartaruga_de_couro.webp',
 			description: $LL.species.turtles.leatherbackTurtle.description()
 		},
 		{
 			regularName: $LL.species.turtles.greenTurtle.regularName(),
 			latinName: 'Chelonia mydas',
 			conservationState: $LL.species.turtles.greenTurtle.conservationState(),
-			imgUrl: '/images/animals/turtles/tartaruga_verde.png',
+			imgUrl: '/images/animals/turtles/tartaruga_verde.webp',
 			description: $LL.species.turtles.greenTurtle.description()
 		},
 		{
 			regularName: $LL.species.turtles.commonTurtle.regularName(),
 			latinName: 'Caretta caretta',
 			conservationState: $LL.species.turtles.commonTurtle.conservationState(),
-			imgUrl: '/images/animals/turtles/tartaruga_comum.png',
+			imgUrl: '/images/animals/turtles/tartaruga_comum.webp',
 			description: $LL.species.turtles.commonTurtle.description()
 		}
 	];
@@ -69,28 +69,28 @@
 			regularName: $LL.species.birds.yellowLeggedGull.regularName(),
 			latinName: 'Larus michahellis',
 			conservationState: $LL.species.birds.yellowLeggedGull.conservationState(),
-			imgUrl: '/images/animals/birds/gaivota_de_patas_amarelas.png',
+			imgUrl: '/images/animals/birds/gaivota_de_patas_amarelas.webp',
 			description: $LL.species.birds.yellowLeggedGull.description()
 		},
 		{
 			regularName: $LL.species.birds.greatCormorant.regularName(),
 			latinName: 'Phalacrocorax carbo',
 			conservationState: $LL.species.birds.greatCormorant.conservationState(),
-			imgUrl: '/images/animals/birds/corvo_marinho.png',
+			imgUrl: '/images/animals/birds/corvo_marinho.webp',
 			description: $LL.species.birds.greatCormorant.description()
 		},
 		{
 			regularName: $LL.species.birds.razorbill.regularName(),
 			latinName: 'Alca torda',
 			conservationState: $LL.species.birds.razorbill.conservationState(),
-			imgUrl: '/images/animals/birds/torda_mergulheira.png',
+			imgUrl: '/images/animals/birds/torda_mergulheira.webp',
 			description: $LL.species.birds.razorbill.description()
 		},
 		{
 			regularName: $LL.species.birds.atlanticPuffin.regularName(),
 			latinName: 'Fratercula arctica',
 			conservationState: $LL.species.birds.atlanticPuffin.conservationState(),
-			imgUrl: '/images/animals/birds/papagaio_do_mar.png',
+			imgUrl: '/images/animals/birds/papagaio_do_mar.webp',
 			description: $LL.species.birds.atlanticPuffin.description()
 		}
 	];

@@ -31,7 +31,7 @@
 		</div>
 		<div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
 			<img
-				src="/images/pages/events/photo1.jpg"
+				src="/images/pages/events/photo1.webp"
 				alt=""
 				class="aspect-[5/2] w-full object-cover xl:rounded-3xl" />
 		</div>

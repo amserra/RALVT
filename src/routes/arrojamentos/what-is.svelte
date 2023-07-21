@@ -10,15 +10,15 @@
 	];
 	const deadStranding = [
 		{
-			imgUrl: '/images/pages/strandings/dead1.jpg',
+			imgUrl: '/images/pages/strandings/dead1.webp',
 			alt: ''
 		},
 		{
-			imgUrl: '/images/pages/strandings/dead2.jpg',
+			imgUrl: '/images/pages/strandings/dead2.webp',
 			alt: ''
 		},
 		{
-			imgUrl: '/images/pages/strandings/dead3.jpg',
+			imgUrl: '/images/pages/strandings/dead3.webp',
 			alt: ''
 		}
 	];

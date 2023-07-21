@@ -48,7 +48,7 @@
 					</p>
 				</div>
 				<img
-					src="/images/pages/como-ajudar/photo1.jpg"
+					src="/images/pages/como-ajudar/photo1.webp"
 					alt=""
 					class="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36" />
 			</div>
@@ -67,7 +67,7 @@
 					{$LL.howToHelp.actions.text()}
 				</p>
 				<img
-					src="/images/pages/como-ajudar/photo2.jpg"
+					src="/images/pages/como-ajudar/photo2.webp"
 					alt=""
 					class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]" />
 			</div>
