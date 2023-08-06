@@ -10,10 +10,8 @@ export const load = (async (event) => {
 	const newLocale = event.url.searchParams.get(langParam);
 	if (newLocale) {
 		event.cookies.set(langParam, newLocale, { path: '/' });
-		const url = event.url;
-		url.searchParams.delete(langParam);
 		// Redirect to remove the GET var
-		throw redirect(303, url.toString());
+		throw redirect(303, event.url.origin);
 	}
 	// Get locale based on cookie or based on accept-language (if cookie not set)
 	let lang = event.cookies.get(langParam);
