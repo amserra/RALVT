@@ -4,27 +4,39 @@
 	const people = [
 		{
 			name: 'Miguel Grilo',
-			imgUrl: '/images/Miguel-Grilo.jpg',
+			imgUrl: '/images/team/miguel-grilo.jpeg',
 			role: $LL.theRalvt.team.roles.VeterinarianMale(),
-			department: $LL.theRalvt.team.roles.coordinator()
+			department: $LL.theRalvt.team.roles.coordinatorMale()
 		},
 		{
 			name: 'Sofia Pardal',
-			imgUrl: '/images/Miguel-Grilo.jpg',
+			imgUrl: '/images/team/sofia-pardal.jpeg',
 			role: $LL.theRalvt.team.roles.marineBiologistFemale(),
-			department: $LL.theRalvt.team.roles.operations()
+			department: $LL.theRalvt.team.roles.coordinatorFemale()
 		},
 		{
 			name: 'Beatriz Costa',
-			imgUrl: '/images/Miguel-Grilo.jpg',
+			imgUrl: '/images/team/beatriz-costa.jpeg',
 			role: $LL.theRalvt.team.roles.marineBiologistFemale(),
-			department: $LL.theRalvt.team.roles.administrative()
+			department: $LL.theRalvt.team.roles.scientificDepartment()
 		},
 		{
-			name: 'Catarina Fogaça',
-			imgUrl: '/images/Miguel-Grilo.jpg',
-			role: $LL.theRalvt.team.roles.VeterinarianFemale(),
+			name: 'João Molarinho',
+			imgUrl: '/images/team/default-photo.webp',
+			role: $LL.theRalvt.team.roles.VeterinarianMale(),
+			department: $LL.theRalvt.team.roles.operations()
+		},
+		{
+			name: 'Teresa Vale',
+			imgUrl: '/images/team/default-photo.webp',
+			role: $LL.theRalvt.team.roles.biologistFemale(),
 			department: $LL.theRalvt.team.roles.outreach()
+		},
+		{
+			name: 'Carolina Sousa',
+			imgUrl: '/images/team/default-photo.webp',
+			role: $LL.theRalvt.team.roles.VeterinarianFemale(),
+			department: $LL.theRalvt.team.roles.administrative()
 		}
 	];
 </script>

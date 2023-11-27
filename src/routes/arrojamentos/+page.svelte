@@ -21,7 +21,7 @@
 		<WhatIs />
 	</section>
 
-	<!-- <section class="mx-auto max-w-7xl px-6 lg:px-8">
+	<section class="mx-auto max-w-7xl px-6 lg:px-8">
 		<Proceding />
-	</section> -->
+	</section>
 </main>

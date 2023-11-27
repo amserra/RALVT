@@ -50,56 +50,61 @@ const pt = {
 		hero: {
 			title: 'Somos a RALVT',
 			text1:
-				'A RALVT, Rede de Arrojamentos de Lisboa e Vale do Tejo, entrou em funções em 2021 e integra a Rede Nacional de Arrojamentos, atuando entre a região de Lisboa e Vale do Tejo, entre os municípios da Lourinhã e Setúbal. É o resultado de uma parceria entre o Fundo Ambiental o ICNF (Instituto da Conservação da Natureza e das Florestas) e o MARE - ISPA (Instituto Superior de Psicologia Aplicada). O nosso principal objetivo é dar resposta a alertas de arrojamentos mortos ou vivos de cetáceos e tartarugas marinhas que aconteçam na nossa área de atuação.',
+				'A RALVT, Rede de Arrojamentos de Lisboa e Vale do Tejo, iniciou em funções em 2021 e integra a Rede Nacional de Arrojamentos, atuando entre a região de Lisboa e Vale do Tejo, entre os municípios da Lourinhã e Setúbal. É o resultado de uma parceria entre MARE - ISPA (Instituto Superior de Psicologia Aplicada), o ICNF (Instituto de Conservação da Natureza e das Florestas), e o Fundo Ambiental (Ministério do Ambiente). O nosso principal objetivo é dar resposta a alertas de arrojamentos mortos ou vivos de cetáceos e tartarugas marinhas que ocorram na área de atuação da rede.',
 			text2:
 				'Além da RALVT, existem mais 3 redes de arrojamentos regionais: Rede do Norte (Caminha a Peniche), ARROJAL (Tróia a Odeceixe) e RAAlg (Odeceixe a Vila Real de Santo António), sendo que todas integram a Rede Nacional de Arrojamentos, coordenada pelo ICNF.'
 		},
 		mission: {
 			title: 'A nossa missão',
 			text1:
-				'Com o objetivo de ajudar em arrojamentos de animais marinhos, a nossa missão é contribuir para a Literacia dos Oceanos, dando a conhecer mais sobre estes animais e sobre a conservação dos Oceanos e das várias espécies que nele habitam.',
-			text2:
-				'A recolha de informação em qualquer tipo de arrojamento é essencial para tentar compreender mais sobre a biologia destas espécies e sobre os fenómenos que as podem estar a afetar.',
+				'Através do auxílio prestado em situações arrojamentos de animais marinhos e da recolha de informação sobre estas espécies, a nossa missão divide-se entre o estabelecimento de conhecimento de base que permita implementar medidas de conservação eficientes para as espécies marinhas, e a promoção da Literacia dos Oceanos através de atividades de educação da população em geral.',
 			bulletPoints: {
 				necropsies: {
-					title: 'Necrópsias e assistência a arrojamentos vivos.',
-					text: 'A equipa multifacetada e disponível 24h/7 permite à RALVT responder em situações que os animais arrojem vivos na praia. No caso de arrojamentos mortos agilizamos com as autoridades competentes o processo desde o alerta até ao destino final do animal. Procedemos à necropsia e colheita de amostras biológicas, na tentativa de determinar uma possível causa de morte. Esta mesma equipa, permite também dar resposta a arrojamentos vivos, auxiliando no resgate e eventual encaminhamento para um centro de reabilitação.'
+					title: 'Necrópsias.',
+					text: 'Essenciais para a obtenção de informação sobre estas espécies marinhas, as necrópsias são uma parte essencial do nosso trabalho, permitindo a elaboração de relatórios sobre a causa de morte dos animais quando o estado do animal assim o permite. Estando disponíveis 24/7, a nossa equipa procura agilizar com as autoridades a recolha e o transporte do animal e dar resposta às diversas situações que possam surgir.'
+				},
+				liveSightings: {
+					title: 'Assistência a arrojamentos vivos.',
+					text: 'A disponibilidade 24h/7 permite à RALVT responder em situações em que os animais arrojem vivos na praia. Nestas situações, o objetivo principal será sempre estabilizar o animal e tentar dar-lhe o maior conforto possível.'
 				},
 				monitorings: {
 					title: 'Monitorizações.',
-					text: 'Realizamos monitorizações regulares às praias da área de atuação, de modo a permitir uma recolha de informação sistemática, podendo detetar arrojamentos sem alerta. Além disso, conseguimos ter um melhor conhecimento das morfologias das praias ao longo do ano e planear formas de acesso às praias com difíceis acessos caso seja necessário agir rapidamente.'
+					text: 'Realizamos monitorizações regulares às praias da área de atuação, de modo a permitir uma recolha de informação sistemática, podendo detetar arrojamentos sem alerta. Além disso, este trabalho permite-nos obter um melhor conhecimento das morfologias das praias ao longo do ano e planear formas de acesso às praias com difíceis acessos em situações em que é necessário agir rapidamente.'
 				},
 				education: {
 					title: 'Educação ambiental.',
-					text: 'Queremos promover a Literacia do Oceano através de atividades de ciência cidadã, como formações e webinars para organizações locais que nos queiram ajudar. Além disso, contamos ainda com programas de voluntariado e de estágios curriculares de forma a transmitir o conhecimento a todos os estudantes interessados e que pretendam seguir esta área.'
+					text: 'Queremos promover a Literacia do Oceano através de atividades de educação ambiental, projetos de ciência cidadã, formações e webinars para a população em geral e organizações locais que nos queiram ajudar.  Além disso, contamos ainda com programas de voluntariado e de estágios curriculares de forma a transmitir o conhecimento a estudantes interessados em explorar esta área.'
 				}
 			},
 			highlights: {
 				necropsies: {
-					number: '+60 necrópsias',
-					text: 'Desde 2022'
+					number: '+150 necrópsias',
+					text: 'Desde 2021'
 				},
 				trash: {
 					number: '+400 kg',
 					text: 'De lixo apanhado em 2023'
 				},
-				education: {
-					number: '+30 pessoas',
-					text: 'Alcançadas em ações de educação ambiental'
+				events: {
+					number: '+15 eventos',
+					text: 'Realizados desde 2021'
 				}
 			}
 		},
 		team: {
 			title: 'A nossa equipa',
-			text: 'A RALVT é formada por uma equipa multifacetada constituída por biólogos marinhos e médicos veterinários, permitindo uma maior amplitude de áreas de atuação. Somos um grupo de pessoas com uma enorme paixão pelos oceanos e pela sua biodiversidade e a inclusão destas duas profissões permite uma melhor resposta em qualquer situação de arrojamento vivo ou morto e um conhecimento amplo sobre as espécies, quer a nível biológico quer a nível veterinário.',
+			text: 'A RALVT é formada por uma equipa multifacetada constituída por biólogos marinhos e médicos veterinários, permitindo uma complementaridade de áreas de atuação. Somos um grupo de pessoas com interesse pelos oceanos e pela sua biodiversidade e a inclusão destas duas profissões permite uma melhor resposta em qualquer situação de arrojamento vivo ou morto e um conhecimento amplo sobre as espécies, quer a nível biológico quer a nível veterinário.',
 			roles: {
 				VeterinarianMale: 'Médico Veterinário',
 				VeterinarianFemale: 'Médica Veterinária',
 				marineBiologistFemale: 'Bióloga Marinha',
-				coordinator: 'Coordenador',
+				biologistFemale: 'Bióloga',
+				coordinatorMale: 'Coordenador',
+				coordinatorFemale: 'Coordenadora',
 				operations: 'Operações',
 				administrative: 'Administrativo',
-				outreach: 'Divulgação'
+				outreach: 'Divulgação',
+				scientificDepartment: 'Departamento científico'
 			}
 		}
 	},
@@ -107,12 +112,12 @@ const pt = {
 		cetaceans: {
 			title: 'Cetáceos',
 			description:
-				'Em Portugal continental, existem 28 espécies de mamíferos marinhos, no entanto globalmente existem pelo menos 90 espécies conhecidas. Estes animais são também denominados de cetáceos e pertencem à ordem Cetartiodáctilos. São um grupo extremamente diversificado, que possuem dialetos e estruturas hierárquicas, alimentação e rotinas diferentes. Os cetáceos são divididos em dois grupos, os odontocetes ou baleias com dentes e os misticetos ou baleias de barbas. Estes animais têm uma representatividade ecológica muito significativa, sendo bastante impactados por várias atividades antropogénicas como por exemplo: a poluição, a pesca acidental, tráfego marítimo e por atividades que interrompam os eventos de alimentação e reprodução.',
+				'Em Portugal continental, estão descritas 28 espécies de mamíferos marinhos. A nível mundial, esse número aumenta para pelo menos 90 espécies conhecidas. São um grupo extremamente diversificado, que possuem dialetos e estruturas hierárquicas, alimentação e rotinas diferentes. Os cetáceos dividem-se em dois grupos, os odontocetos ou baleias com dentes e os misticetos ou baleias de barbas. Estes animais têm uma representatividade ecológica muito significativa, sendo bastante impactados por várias atividades antropogénicas, incluindo poluição, pesca acidental, tráfego marítimo e por atividades que interrompam os eventos de alimentação e reprodução.',
 			commonDolphin: {
 				regularName: 'Golfinho Comum',
 				conservationState: 'Pouco Preocupante',
 				description:
-					'O golfinho-comum é uma espécie que pode ser encontrada em todos os oceanos do mundo. Em adultos podem atingir os 2,7 m e pesar até 200 kg, enquanto as crias pesam à volta dos 10kg e têm apenas 85 cm. Geralmente, são encontrados em grupo até centenas de indivíduos. Considerados animais muito ágeis e que desenvolvem comportamentos aéreos, interagem com as embarcações num comportamento denominado de “bow riding”. A sua alimentação é à base de peixe e cefalópodes (lulas e polvos). A sua longevidade média é de 35 anos.'
+					'O golfinho-comum é uma espécie que pode ser encontrada em todos os oceanos do mundo. Em adultos podem atingir os 2,7 m e pesar até 200 kg, enquanto as crias pesam à volta dos 10 kg e têm cerca de 85 cm. Geralmente, são encontrados em grupo até centenas de indivíduos. Considerados animais muito ágeis e que desenvolvem comportamentos aéreos, interagem com as embarcações num comportamento denominado de “bow riding”. A sua alimentação é à base de peixe e cefalópodes (lulas e polvos). A sua longevidade média é de 35 anos.'
 			},
 			stripedDolphin: {
 				regularName: 'Golfinho-riscado',
@@ -124,25 +129,25 @@ const pt = {
 				regularName: 'Roaz',
 				conservationState: 'Pouco Preocupante',
 				description:
-					'O golfinho-roaz, podem ser encontrados mundialmente, sendo que em Portugal existe a população residente do estuário do Sado que conta com 31 indivíduos. Os adultos podem ter até 3,9 m e pesar até 635 kg. Esta espécie pode ser avistada em grupos sociais mais pequenos, entre 2 a 15 indivíduos, mas também em grupos maiores. Alimentam-se de peixes e cefalópodes. A sua longevidade média é de 52 anos.'
+					'O golfinho-roaz pode ser encontrado mundialmente, sendo que em Portugal conta com uma população residente no estuário do Sado com 28 indivíduos (é né?). Os adultos podem ter até 3,9 m e pesar até 635 kg. Esta espécie pode ser avistada em grupos sociais mais pequenos, entre 2 a 15 indivíduos, mas também em grupos maiores. Alimentam-se de peixes e cefalópodes. A sua longevidade média é de 52 anos.'
 			},
 			minkeWhale: {
 				regularName: 'Baleia-anã',
 				conservationState: 'Pouco Preocupante',
 				description:
-					'A baleia anã é uma espécie migratória e que está presente em vários oceanos do planeta. Os adultos podem ter até 9,8 m e pesar até 10 toneladas. É uma espécie solitária mas também pode ser encontrada em pequenos grupos. Alimentam-se de krill, crustáceos e peixe. A sua longevidade média é de 50 anos. São animais tímidos e que se afastam dos barcos.'
+					'A baleia anã é uma espécie migratória e que está presente em vários oceanos do planeta. Os adultos podem ter até 9,8 m e pesar até 10 toneladas. É uma espécie solitária, mas também pode ser encontrada em pequenos grupos. Alimentam-se de krill, crustáceos e peixe. A sua longevidade média é de 50 anos. São animais tímidos e que se afastam dos barcos.'
 			},
 			spermWhale: {
 				regularName: 'Cachalote',
 				conservationState: 'Vulnerável',
 				description:
-					'O cachalote é o maior cetáceo com dentes, tendo apenas um espiráculo e este localiza-se na parte frontal da cabeça e desviado ligeiramente para a esquerda. Estes animais possuem um crânio grande quando comparado com o resto do corpo e com uma forma quadrada. Os adultos podem ter até 20 m e pesar até 57 toneladas. Alimentam-se de lulas, crustáceos e peixe. A sua longevidade média é de 60 anos. Podem mergulhar até 600 m e estes mergulhos podem durar 45 minutos.'
+					'O cachalote é o maior cetáceo com dentes, tendo apenas um espiráculo que se localiza na parte frontal da cabeça e desviado ligeiramente para a esquerda. Estes animais possuem um crânio grande quando comparado com o resto do corpo e com uma forma quadrada. Os adultos podem medir até 20 m e pesar até 57 toneladas. Alimentam-se de lulas, crustáceos e peixe. A sua longevidade média é de 60 anos. Podem mergulhar até 2000 m e estes mergulhos podem durar 45 minutos.'
 			}
 		},
 		turtles: {
 			title: 'Tartarugas',
 			description:
-				'Em todo o mundo existem mais de 300 espécies de tartarugas mas apenas 7 são marinhas, sendo que em Portugal temos presentes 5 dessas espécies. Tendo as tartarugas marinhas evoluído de animais terrestes, ainda possuem características dos mesmos, tal como a respiração através do ar e a necessidade de incubarem os ovos em ninhos escavados nas praias, sendo que as fêmeas regressam à praia onde nasceram para colocar os seus ovos. Das 5 espécies em Portugal, as mais comuns de observar em águas continentais são: tartaruga-de-couro e a tartaruga-comum.',
+				'Em todo o mundo existem mais de 300 espécies de tartarugas mas apenas 7 são marinhas, sendo que em Portugal podemos observar 5 espécies. Tendo as tartarugas marinhas evoluído de animais terrestes, ainda possuem características dos mesmos, tal como a respiração através do ar e a necessidade de incubarem os ovos em ninhos escavados nas praias, sendo que as fêmeas regressam à praia onde nasceram para colocar os seus ovos. Das 5 espécies em Portugal, as mais comuns de observar em águas continentais são a tartaruga-de-couro e a tartaruga-comum.',
 			leatherbackTurtle: {
 				regularName: 'Tartaruga-de-couro',
 				conservationState: 'Vulnerável',
@@ -153,13 +158,13 @@ const pt = {
 				regularName: 'Tartaruga-verde',
 				conservationState: 'Em Perigo',
 				description:
-					'Esta espécie possui uma distribuição circumglobal, e apresenta comportamentos migratórios. Podem atingir até 1,5m e podem pesar até 200 kg. São tartarugas solitárias. São herbívoras e a sua longevidade média é de 80 anos. O seu bico serrilhado é adaptado ao consumo de plantas e algas. A sua gordura interna é verde.'
+					'Esta espécie possui uma distribuição global, e apresenta comportamentos migratórios. Podem atingir até 1,5 m e podem pesar até 190 kg. São tartarugas solitárias. São herbívoras e a sua longevidade média é de 80 anos. O seu bico serrilhado é adaptado ao consumo de plantas e algas. A sua gordura interna é verde.'
 			},
 			commonTurtle: {
 				regularName: 'Tartaruga-comum',
 				conservationState: 'Vulnerável',
 				description:
-					'Distribuída globalmente, estas tartarugas podem medir até 2,13m e pode pesar até 140 kg. A sua longevidade média é de 70 anos. é uma espécie solitária e omnívora, alimentando-se de diversos animais. Estas tartarugas, geralmente, possuem muitos organismos na sua carapaça, como lapas e caranguejos, algas e outros invertebrados (epibiontes).'
+					'Distribuídas globalmente, estas tartarugas podem medir até 1,5 m e pode pesar até 180 kg. A sua longevidade média é de 70 anos. É uma espécie solitária e omnívora, alimentando-se de diversos animais. Estas tartarugas podem possuem muitos organismos na sua carapaça, como lapas, caranguejos, algas e outros invertebrados (epibiontes).'
 			}
 		},
 		birds: {
@@ -170,19 +175,19 @@ const pt = {
 				regularName: 'Gaivota-de-patas-amarelas',
 				conservationState: 'Pouco Preocupante',
 				description:
-					'Espécie residente em Portugal possuindo uma envergadura de até 140 cm. Podem pesar entre 620-1100g e alimentam-se de peixe, invertebrados, répteis, pequenos mamíferos e lixo.  Em Portugal, podemos observar esta espécie todo o ano, mais perto da orla costeira, incluindo áreas naturais e zonas urbanas. Pode viver até 20 anos.'
+					'Espécie residente em Portugal possuindo uma envergadura de até 140 cm. Podem pesar entre 620-1100 g e alimentam-se de peixe, invertebrados, répteis, pequenos mamíferos e lixo.  Em Portugal, podemos observar esta espécie todo o ano, mais perto da orla costeira, incluindo áreas naturais e zonas urbanas. Pode viver até 20 anos.'
 			},
 			greatCormorant: {
 				regularName: 'Corvo-marinho',
 				conservationState: 'Pouco Preocupante',
 				description:
-					'Espécie invernante e residente em Portugal continental, sendo mais comum entre setembro e abril. A sua dieta é maioritariamente composta por peixe. Pode medir de envergadura 110cm e pesar até 2500g. Podem estar mais de 1m debaixo de água, sendo que não possuem penas impermeáveis após os mergulhos, tendo a necessidade de se secar.'
+					'Espécie invernante e residente em Portugal continental, sendo mais comum entre setembro e abril. A sua dieta é maioritariamente composta por peixe. Pode medir de envergadura 110 cm e pesar até 2500 g. Podem estar mais de um minuto debaixo de água, sendo que não possuem penas impermeáveis após os mergulhos, tendo a necessidade de se secar.'
 			},
 			razorbill: {
 				regularName: 'Torda-mergulheira',
 				conservationState: 'Pouco Preocupante',
 				description:
-					'Espécie pequena e que se pode observar em Portugal entre novembro a março ao longo da costa. Ave que é mais encontrada arrojada morta nas praias. Pode ter uma envergadura de 67cm e pode pesar entre 590-730g. Alimentam-se maioritariamente de pequenos peixes e krill. A sua longevidade média é de 20 anos, mas podem até aos 40 anos. Têm a capacidade de mergulhar até os 120 metros de profundidade, o equivalente a um prédio de 10 andares.'
+					'Espécie pequena e que se pode observar em Portugal entre novembro a março ao longo da costa. Pode ter uma envergadura de 67 cm e pode pesar entre 590-730 g. Alimentam-se maioritariamente de pequenos peixes e krill. A sua longevidade média é de 20 anos, mas podem viver até aos 40 anos. Têm a capacidade de mergulhar até os 120 metros de profundidade, o equivalente a um prédio de 10 andares.'
 			},
 			atlanticPuffin: {
 				regularName: 'Papagaio-do-mar',
@@ -218,14 +223,14 @@ const pt = {
 		},
 		whatIs: {
 			title: 'O que é um arrojamento?',
-			text: 'É denominado de arrojamento quando um animal marinho, vivo ou morto, encalha na costa e não consegue regressar à água sem qualquer auxílio. Os animais mais comuns de arrojar são os cetáceos (baleias e golfinhos), as tartarugas marinhas e as aves marinhas. Este fenómeno tem vindo a ser cada vez mais comum em Portugal, mas também em outros lugares do mundo, como em França, Escócia e Irlanda. Contudo, temos de ter em conta que a quantidade de entidades a registar este tipo de fenómenos é cada vez maior, assim como cada vez mais pessoas estão consciencializadas para dar alertas destes acontecimentos.',
+			text: 'É denominado de arrojamento quando um animal marinho, vivo ou morto, encalha na costa e não consegue regressar à água sem auxílio. Os animais mais comuns de arrojar são os cetáceos (baleias e golfinhos), as tartarugas marinhas e as aves marinhas. Este fenómeno tem vindo a ser cada vez mais reportado em Portugal, mas também em outros lugares do mundo, como em França, Escócia e Irlanda. Contudo, é importante ter em conta que a quantidade de entidades a registar este tipo de fenómenos é cada vez maior, assim como o número de cidadãos que estão consciencializadas para dar alertas destes acontecimentos.',
 			aliveStranding: {
 				title: 'Arrojamento vivo',
-				text: 'Os arrojamentos vivos são situações muito complexas, em que cada situação vai ser diferente. Por norma, os animais que arrojam vivos nas praias já não se encontram nas melhores condições de saúde e, por isso mesmo, o desfeche de um arrojamento vivo nem sempre é a sobrevivência do animal e a sua devolução ao oceano. O objetivo será sempre avaliar o estado de saúde do animal, e tomar uma decisão sobre qual será a melhor opção para reduzir o sofrimento do animal e como é que podemos evitar induzir mais stress.'
+				text: 'Os arrojamentos vivos são situações muito complexas, em que cada situação tem particularidades únicas. Por norma, os animais que arrojam vivos nas praias não se encontram nas melhores condições de saúde e, por isso mesmo, nem sempre é possível devolver os animais ao oceano. O objetivo será sempre avaliar o estado de saúde do animal e tomar uma decisão sobre qual será a melhor opção para reduzir o sofrimento do animal e a viabilidade da sua recuperação/reflutuação.'
 			},
 			deadStranding: {
 				title: 'Arrojamento morto',
-				text: 'Um arrojamento de um animal morto vai ser sempre um dado importante, porque a quantidade real de animais a morrer é muito superior à quantidade daqueles que arrojam nas praias. No entanto, a quantidade de dados a retirar em cada arrojamento vai depender do estado de decomposição do animal que arrojou. Alguns dos dados que podem ser obtidos nesta situação.'
+				text: 'Um arrojamento de um animal morto vai ser sempre um dado importante, porque a quantidade real de animais a morrer é muito superior à quantidade daqueles que arrojam nas praias. No entanto, a quantidade de dados a retirar em cada arrojamento vai depender do estado de decomposição do animal que arrojou. Alguns dos dados que podem ser obtidos nesta situação incluem os dados biométricos (tamanho, peso), amostras biológicas e causas de mortalidade.'
 			}
 		}
 	},
@@ -244,11 +249,11 @@ const pt = {
 			text: 'Para que seja possível realizar o nosso trabalho, precisamos de ajuda da comunidade e das pessoas que nos rodeiam. Deste modo, tentamos envolver a comunidade nas nossas atividades e damos a oportunidade de te juntares a nós nesta caminhada para a proteção dos cetáceos e tartarugas da nossa costa.'
 		},
 		actions: {
-			title: 'Estamos sempre à procura de pessoas incríveis como tu para nos ajudar',
+			title: 'Estamos sempre à procura de pessoas que queiram ajudar',
 			text: 'Apoiando-nos estás a contribuir para a conservação dos cetáceos e tartarugas marinhas da costa portuguesa. Por isso, junta-te a nós através de:',
 			volunteering: {
 				title: 'Voluntariado e estágios',
-				text: 'Programa de voluntariado e estágios, que permite a pessoas de todo o mundo integrarem a nossa equipa e se juntarem na preservação dos oceanos. Tens também a oportunidade de fazeres o teu relatório ou tese connosco.',
+				text: 'Programa de voluntariado e estágios, que permite a pessoas de todo o mundo integrarem a nossa equipa e se juntarem na preservação dos oceanos. Consoante as áreas de estudo, existe a possibilidade de realizar trabalhos no âmbito de relatórios de estágio ou dissertações.',
 				buttonText: 'Inscrever como voluntário'
 			},
 			beachCleaning: {
@@ -258,7 +263,7 @@ const pt = {
 			},
 			report: {
 				title: 'Reportar, Reportar, Reportar',
-				text: 'Contacta-nos o mais rápido possível sempre que vires um animal arrojado , para nos ajudar na recolha de dados sistemática. Para além disto, se vires algum animal vivo perto da costa podes também dizer-nos e ajudar-nos a monitorizar estes animais.',
+				text: 'Contacta-nos o mais rápido possível sempre que vires um animal arrojado, para nos ajudar na recolha de dados sistemática. Para além disto, se vires algum animal vivo perto da costa podes também dizer-nos e ajudar-nos a monitorizar estes animais.',
 				buttonText: 'Reportar um arrojamento'
 			}
 		}

@@ -41,11 +41,11 @@
 			style:transform={`translate3d(0, ${scroll * -3}px, 0)`}>
 			<div class="mx-auto flex h-40 max-w-4xl justify-center gap-6 md:h-96 md:gap-10 lg:gap-28">
 				<a class="card-zoom" href="/reportar/arrojamento">
-					<div class="card-zoom-image bg-[url('/images/pages/home/photo1.jpeg')]" />
+					<div class="card-zoom-image bg-[url('/images/report-stranding.jpeg')]" />
 					<h1 class="card-zoom-text">{$LL.report()}<br />{$LL.stranding()}</h1>
 				</a>
 				<a class="card-zoom" href="/reportar/avistamento">
-					<div class="card-zoom-image bg-[url('/images/Imagem1.jpg')]" />
+					<div class="card-zoom-image bg-[url('/images/report-sighting.jpeg')]" />
 					<h1 class="card-zoom-text">{$LL.report()}<br />{$LL.sighting()}</h1>
 				</a>
 			</div>

@@ -51,9 +51,7 @@ const en = {
 		hero: {
 			title: 'We are RALVT',
 			text1:
-				'RALVT, Lisbon and Tagus Valley Stranding Network, started operating in 2021 and is part of the National Network of Arrojamentos, operating between the region of Lisbon and Tagus Valley, between the municipalities of Lourinhã and Setúbal. It is the result of a partnership between the Environmental Fund, ICNF (Institute for Nature Conservation and Forests) and MARE - ISPA (Higher Institute of Applied Psychology). Our main objective is to respond to alerts of dead or live strandings of cetaceans and sea turtles that occur in our area of operation.',
-			text2:
-				'In addition to RALVT, there are 3 more regional stranding networks: Rede do Norte (Caminha to Peniche), ARROJAL (Tróia to Odeceixe) and RAAlg (Odeceixe to Vila Real de Santo António), all of which are part of the National Stranding Network, coordinated by ICNF.'
+				'RALVT, Lisbon and Tagus Valley Stranding Network, started operating in 2021 and is part of the National Network of Arrojamentos, operating between the region of Lisbon and Tagus Valley, between the municipalities of Lourinhã and Setúbal. It is the result of a partnership between the Environmental Fund, ICNF (Institute for Nature Conservation and Forests) and MARE - ISPA (Higher Institute of Applied Psychology). Our main objective is to respond to alerts of dead or live strandings of cetaceans and sea turtles that occur in our area of operation.'
 		},
 		mission: {
 			title: 'Our mission',
@@ -65,6 +63,10 @@ const en = {
 				necropsies: {
 					title: 'Necropsies and assistance to living strandings.',
 					text: 'The multifaceted team available 24/7 allows RALVT to respond in situations where animals are thrown alive on the beach. In the case of dead strandings, we expedite with the competent authorities the process from the alert to the final destination of the animal. We proceed to necropsy and collection of biological samples in an attempt to determine a possible cause of death. This same team can also respond to live strandings, assisting in the rescue and eventual referral to a rehabilitation center.'
+				},
+				liveSightings: {
+					title: 'Necrópsias e assistência a arrojamentos vivos.',
+					text: 'A equipa multifacetada e disponível 24h/7 permite à RALVT responder em situações que os animais arrojem vivos na praia. No caso de arrojamentos mortos agilizamos com as autoridades competentes o processo desde o alerta até ao destino final do animal. Procedemos à necropsia e colheita de amostras biológicas, na tentativa de determinar uma possível causa de morte. Esta mesma equipa, permite também dar resposta a arrojamentos vivos, auxiliando no resgate e eventual encaminhamento para um centro de reabilitação.'
 				},
 				monitorings: {
 					title: 'Monitoring.',
@@ -84,7 +86,7 @@ const en = {
 					number: '+400 kg',
 					text: 'Of garbage collected in 2023'
 				},
-				education: {
+				events: {
 					number: '+30 people',
 					text: 'Reached in environmental education actions'
 				}
@@ -97,10 +99,13 @@ const en = {
 				VeterinarianMale: 'Veterinarian',
 				VeterinarianFemale: 'Veterinarian',
 				marineBiologistFemale: 'Marine Biologist',
-				coordinator: 'Coordinator',
+				biologistFemale: 'Biologist',
+				coordinatorMale: 'Coordinator',
+				coordinatorFemale: 'Coordinator',
 				operations: 'Operations',
 				administrative: 'Administrative',
-				outreach: 'Outreach'
+				outreach: 'Outreach',
+				scientificDepartment: 'Scientific Department'
 			}
 		}
 	},

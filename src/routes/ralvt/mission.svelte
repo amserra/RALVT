@@ -10,8 +10,7 @@
 		<div class="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
 			<div class="lg:w-full lg:max-w-2xl lg:flex-auto">
 				<p class="text-xl leading-8 text-gray-600">
-					{$LL.theRalvt.mission.text1()} <br /><br />
-					{$LL.theRalvt.mission.text2()}
+					{$LL.theRalvt.mission.text1()}
 				</p>
 				<div class="mt-10 max-w-xl text-base leading-7 text-gray-700">
 					<dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
@@ -32,6 +31,19 @@
 							</dt>
 							<dd class="inline">
 								{$LL.theRalvt.mission.bulletPoints.necropsies.text()}
+							</dd>
+						</div>
+						<div class="relative pl-9">
+							<dt class="inline font-semibold text-gray-900">
+								<img
+									src="/dolphin-icon.png"
+									class="absolute left-1 top-1 h-5 w-5 text-sky-600"
+									alt="" />
+
+								{$LL.theRalvt.mission.bulletPoints.liveSightings.title()}
+							</dt>
+							<dd class="inline">
+								{$LL.theRalvt.mission.bulletPoints.liveSightings.text()}
 							</dd>
 						</div>
 						<div class="relative pl-9">
@@ -88,10 +100,10 @@
 					</div>
 					<div class="flex flex-col-reverse gap-y-4">
 						<dt class="text-base leading-7 text-gray-600">
-							{$LL.theRalvt.mission.highlights.education.text()}
+							{$LL.theRalvt.mission.highlights.events.text()}
 						</dt>
 						<dd class="text-5xl font-semibold tracking-tight text-gray-900">
-							{$LL.theRalvt.mission.highlights.education.number()}
+							{$LL.theRalvt.mission.highlights.events.number()}
 						</dd>
 					</div>
 				</dl>
