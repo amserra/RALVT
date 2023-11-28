@@ -55,7 +55,7 @@
 		{#each people as person}
 			<li>
 				<img
-					class="mx-auto h-32 w-32 rounded-full"
+					class="mx-auto h-32 w-32 rounded-full object-cover"
 					src={person.imgUrl}
 					alt={`Foto ${person.name}`}
 					loading="lazy" />
