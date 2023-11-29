@@ -64,7 +64,7 @@ const en = {
 					text: 'Essential for obtaining information about these marine species, necropsies are an essential part of our work, allowing us to prepare reports on the cause of death of animals when the condition of the animal allows it. '
 				},
 				liveSightings: {
-					title: 'Assistance to live launches.',
+					title: 'Assistance to live strandings.',
 					text: '24/7 availability allows RALVT to respond in situations where animals wash up on the beach alive. '
 				},
 				monitorings: {
