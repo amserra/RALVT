@@ -149,7 +149,7 @@ type RootTranslation = {
 	 */
 	report: string
 	/**
-	 * A​r​o​j​a​m​e​n​t​o
+	 * A​r​r​o​j​a​m​e​n​t​o
 	 */
 	stranding: string
 	/**
@@ -1101,7 +1101,7 @@ export type TranslationFunctions = {
 	 */
 	report: () => LocalizedString
 	/**
-	 * Arojamento
+	 * Arrojamento
 	 */
 	stranding: () => LocalizedString
 	/**

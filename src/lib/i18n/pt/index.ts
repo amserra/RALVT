@@ -42,7 +42,7 @@ const pt = {
 	},
 	partners: 'Com o apoio de:',
 	report: 'Reportar',
-	stranding: 'Arojamento',
+	stranding: 'Arrojamento',
 	sighting: 'Avistamento',
 	websiteCreatedBy: 'Website criado por',
 	callForTheNationalMobileNetwork: 'Chamada para a rede móvel nacional',
