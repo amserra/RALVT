@@ -171,13 +171,9 @@ type RootTranslation = {
 			 */
 			title: string
 			/**
-			 * A​ ​R​A​L​V​T​,​ ​R​e​d​e​ ​d​e​ ​A​r​r​o​j​a​m​e​n​t​o​s​ ​d​e​ ​L​i​s​b​o​a​ ​e​ ​V​a​l​e​ ​d​o​ ​T​e​j​o​,​ ​i​n​i​c​i​o​u​ ​e​m​ ​f​u​n​ç​õ​e​s​ ​e​m​ ​2​0​2​1​ ​e​ ​i​n​t​e​g​r​a​ ​a​ ​R​e​d​e​ ​N​a​c​i​o​n​a​l​ ​d​e​ ​A​r​r​o​j​a​m​e​n​t​o​s​,​ ​a​t​u​a​n​d​o​ ​e​n​t​r​e​ ​a​ ​r​e​g​i​ã​o​ ​d​e​ ​L​i​s​b​o​a​ ​e​ ​V​a​l​e​ ​d​o​ ​T​e​j​o​,​ ​e​n​t​r​e​ ​o​s​ ​m​u​n​i​c​í​p​i​o​s​ ​d​a​ ​L​o​u​r​i​n​h​ã​ ​e​ ​S​e​t​ú​b​a​l​.​ ​É​ ​o​ ​r​e​s​u​l​t​a​d​o​ ​d​e​ ​u​m​a​ ​p​a​r​c​e​r​i​a​ ​e​n​t​r​e​ ​M​A​R​E​ ​-​ ​I​S​P​A​ ​(​I​n​s​t​i​t​u​t​o​ ​S​u​p​e​r​i​o​r​ ​d​e​ ​P​s​i​c​o​l​o​g​i​a​ ​A​p​l​i​c​a​d​a​)​,​ ​o​ ​I​C​N​F​ ​(​I​n​s​t​i​t​u​t​o​ ​d​e​ ​C​o​n​s​e​r​v​a​ç​ã​o​ ​d​a​ ​N​a​t​u​r​e​z​a​ ​e​ ​d​a​s​ ​F​l​o​r​e​s​t​a​s​)​,​ ​e​ ​o​ ​F​u​n​d​o​ ​A​m​b​i​e​n​t​a​l​ ​(​M​i​n​i​s​t​é​r​i​o​ ​d​o​ ​A​m​b​i​e​n​t​e​)​.​ ​O​ ​n​o​s​s​o​ ​p​r​i​n​c​i​p​a​l​ ​o​b​j​e​t​i​v​o​ ​é​ ​d​a​r​ ​r​e​s​p​o​s​t​a​ ​a​ ​a​l​e​r​t​a​s​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​m​o​r​t​o​s​ ​o​u​ ​v​i​v​o​s​ ​d​e​ ​c​e​t​á​c​e​o​s​ ​e​ ​t​a​r​t​a​r​u​g​a​s​ ​m​a​r​i​n​h​a​s​ ​q​u​e​ ​o​c​o​r​r​a​m​ ​n​a​ ​á​r​e​a​ ​d​e​ ​a​t​u​a​ç​ã​o​ ​d​a​ ​r​e​d​e​.
+			 * A​ ​R​e​d​e​ ​d​e​ ​A​r​r​o​j​a​m​e​n​t​o​s​ ​d​e​ ​L​i​s​b​o​a​ ​e​ ​V​a​l​e​ ​T​e​j​o​ ​(​R​A​L​V​T​)​,​ ​i​n​i​c​i​o​u​ ​f​u​n​ç​õ​e​s​ ​e​m​ ​2​0​2​1​ ​e​ ​p​e​r​t​e​n​c​e​ ​à​ ​r​e​d​e​ ​N​a​c​i​o​n​a​l​ ​d​e​ ​A​r​r​o​j​a​m​e​n​t​o​s​,​ ​a​t​u​a​n​d​o​ ​n​a​ ​r​e​g​i​ã​o​ ​d​e​ ​L​i​s​b​o​a​ ​e​ ​V​a​l​e​ ​T​e​j​o​,​ ​e​n​t​r​e​ ​o​s​ ​m​u​n​i​c​í​p​i​o​s​ ​d​a​ ​L​o​u​r​i​n​h​ã​ ​e​ ​S​e​t​ú​b​a​l​.​ ​A​ ​r​e​d​e​ ​é​ ​o​ ​r​e​s​u​l​t​a​d​o​ ​d​e​ ​u​m​a​ ​p​a​r​c​e​r​i​a​ ​e​n​t​r​e​ ​o​ ​M​A​R​E​-​I​S​P​A​ ​(​C​e​n​t​r​o​ ​d​e​ ​C​i​ê​n​c​i​a​s​ ​d​o​ ​M​a​r​ ​e​ ​A​m​b​i​e​n​t​e​ ​-​ ​I​n​s​t​i​t​u​t​o​ ​S​u​p​e​r​i​o​r​ ​d​e​ ​P​s​i​c​o​l​o​g​i​a​ ​A​v​a​n​ç​a​d​a​)​,​ ​o​ ​I​C​N​F​ ​(​I​n​s​t​i​t​u​t​o​ ​d​e​ ​C​o​n​s​e​r​v​a​ç​ã​o​ ​d​a​ ​N​a​t​u​r​e​z​a​ ​e​ ​F​l​o​r​e​s​t​a​s​)​ ​e​ ​o​ ​F​u​n​d​o​ ​A​m​b​i​e​n​t​a​l​ ​(​M​i​n​i​s​t​é​r​i​o​ ​d​o​ ​A​m​b​i​e​n​t​e​)​.​ ​O​ ​n​o​s​s​o​ ​p​r​i​n​c​i​p​a​l​ ​o​b​j​e​t​i​v​o​ ​é​ ​d​a​r​ ​r​e​s​p​o​s​t​a​ ​a​ ​a​l​e​r​t​a​s​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​v​i​v​o​s​ ​o​u​ ​m​o​r​t​o​s​ ​d​e​ ​m​a​m​í​f​e​r​o​s​ ​m​a​r​i​n​h​o​s​ ​(​g​o​l​f​i​n​h​o​s​,​ ​b​a​l​e​i​a​s​ ​e​ ​l​o​n​t​r​a​s​)​ ​e​ ​t​a​r​t​a​r​u​g​a​s​ ​m​a​r​i​n​h​a​s​,​ ​q​u​e​ ​o​c​o​r​r​a​m​ ​n​a​ ​á​r​e​a​ ​d​e​ ​a​t​u​a​ç​ã​o​ ​d​a​ ​r​e​d​e​.
 			 */
 			text1: string
-			/**
-			 * A​l​é​m​ ​d​a​ ​R​A​L​V​T​,​ ​e​x​i​s​t​e​m​ ​m​a​i​s​ ​3​ ​r​e​d​e​s​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​r​e​g​i​o​n​a​i​s​:​ ​R​e​d​e​ ​d​o​ ​N​o​r​t​e​ ​(​C​a​m​i​n​h​a​ ​a​ ​P​e​n​i​c​h​e​)​,​ ​A​R​R​O​J​A​L​ ​(​T​r​ó​i​a​ ​a​ ​O​d​e​c​e​i​x​e​)​ ​e​ ​R​A​A​l​g​ ​(​O​d​e​c​e​i​x​e​ ​a​ ​V​i​l​a​ ​R​e​a​l​ ​d​e​ ​S​a​n​t​o​ ​A​n​t​ó​n​i​o​)​,​ ​s​e​n​d​o​ ​q​u​e​ ​t​o​d​a​s​ ​i​n​t​e​g​r​a​m​ ​a​ ​R​e​d​e​ ​N​a​c​i​o​n​a​l​ ​d​e​ ​A​r​r​o​j​a​m​e​n​t​o​s​,​ ​c​o​o​r​d​e​n​a​d​a​ ​p​e​l​o​ ​I​C​N​F​.
-			 */
-			text2: string
 		}
 		mission: {
 			/**
@@ -185,7 +181,7 @@ type RootTranslation = {
 			 */
 			title: string
 			/**
-			 * A​t​r​a​v​é​s​ ​d​o​ ​a​u​x​í​l​i​o​ ​p​r​e​s​t​a​d​o​ ​e​m​ ​s​i​t​u​a​ç​õ​e​s​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​d​e​ ​a​n​i​m​a​i​s​ ​m​a​r​i​n​h​o​s​ ​e​ ​d​a​ ​r​e​c​o​l​h​a​ ​d​e​ ​i​n​f​o​r​m​a​ç​ã​o​ ​s​o​b​r​e​ ​e​s​t​a​s​ ​e​s​p​é​c​i​e​s​,​ ​a​ ​n​o​s​s​a​ ​m​i​s​s​ã​o​ ​d​i​v​i​d​e​-​s​e​ ​e​n​t​r​e​ ​o​ ​e​s​t​a​b​e​l​e​c​i​m​e​n​t​o​ ​d​e​ ​c​o​n​h​e​c​i​m​e​n​t​o​ ​d​e​ ​b​a​s​e​ ​q​u​e​ ​p​e​r​m​i​t​a​ ​i​m​p​l​e​m​e​n​t​a​r​ ​m​e​d​i​d​a​s​ ​d​e​ ​c​o​n​s​e​r​v​a​ç​ã​o​ ​e​f​i​c​i​e​n​t​e​s​ ​p​a​r​a​ ​a​s​ ​e​s​p​é​c​i​e​s​ ​m​a​r​i​n​h​a​s​,​ ​e​ ​a​ ​p​r​o​m​o​ç​ã​o​ ​d​a​ ​L​i​t​e​r​a​c​i​a​ ​d​o​s​ ​O​c​e​a​n​o​s​ ​a​t​r​a​v​é​s​ ​d​e​ ​a​t​i​v​i​d​a​d​e​s​ ​d​e​ ​e​d​u​c​a​ç​ã​o​ ​d​a​ ​p​o​p​u​l​a​ç​ã​o​ ​e​m​ ​g​e​r​a​l​.
+			 * A​ ​r​e​s​p​o​s​t​a​ ​d​a​ ​R​A​L​V​T​ ​a​o​s​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​d​e​ ​a​n​i​m​a​i​s​ ​m​a​r​i​n​h​o​s​,​ ​p​e​r​m​i​t​e​-​n​o​s​ ​r​e​a​l​i​z​a​r​ ​a​ ​r​e​c​o​l​h​a​ ​d​e​ ​i​n​f​o​r​m​a​ç​ã​o​ ​a​c​e​r​c​a​ ​d​e​s​t​a​s​ ​e​s​p​é​c​i​e​s​,​ ​p​o​s​s​i​b​i​l​i​t​a​n​d​o​ ​o​ ​a​u​m​e​n​t​o​ ​d​o​ ​c​o​n​h​e​c​i​m​e​n​t​o​ ​b​a​s​e​ ​e​ ​d​e​s​t​e​ ​m​o​d​o​ ​e​s​t​a​b​e​l​e​c​e​r​ ​e​ ​i​m​p​l​e​m​e​n​t​a​r​ ​m​e​d​i​d​a​s​ ​d​e​ ​c​o​n​s​e​r​v​a​ç​ã​o​ ​e​f​i​c​i​e​n​t​e​s​ ​p​a​r​a​ ​e​s​t​a​s​ ​e​s​p​é​c​i​e​s​.​ ​J​u​n​t​a​m​e​n​t​e​ ​c​o​m​ ​a​s​ ​a​u​t​o​r​i​d​a​d​e​s​ ​d​e​ ​c​a​d​a​ ​m​u​n​i​c​í​p​i​o​,​ ​a​ ​n​o​s​s​a​ ​e​q​u​i​p​a​ ​a​g​i​l​i​z​a​ ​t​a​m​b​é​m​ ​a​ ​r​e​c​o​l​h​a​ ​e​ ​t​r​a​n​s​p​o​r​t​e​ ​d​o​s​ ​a​n​i​m​a​i​s​ ​a​r​r​o​j​a​d​o​s​.​ ​A​d​i​c​i​o​n​a​l​m​e​n​t​e​,​ ​a​t​r​a​v​é​s​ ​d​e​ ​a​t​i​v​i​d​a​d​e​s​ ​d​e​ ​e​d​u​c​a​ç​ã​o​ ​d​a​ ​p​o​p​u​l​a​ç​ã​o​ ​e​m​ ​g​e​r​a​l​,​ ​c​o​n​s​e​g​u​i​m​o​s​ ​p​r​o​m​o​v​e​r​ ​a​ ​l​i​t​e​r​a​c​i​a​ ​d​o​s​ ​o​c​e​a​n​o​s​,​ ​a​s​s​i​m​ ​c​o​m​o​ ​i​n​c​e​n​t​i​v​a​r​ ​a​ ​p​o​p​u​l​a​ç​ã​o​ ​à​ ​p​r​e​s​e​r​v​a​ç​ã​o​ ​d​o​s​ ​h​a​b​i​t​a​t​s​ ​e​ ​c​o​n​s​e​r​v​a​ç​ã​o​ ​d​a​s​ ​e​s​p​é​c​i​e​s​ ​m​a​r​i​n​h​a​s​.
 			 */
 			text1: string
 			bulletPoints: {
@@ -195,7 +191,7 @@ type RootTranslation = {
 					 */
 					title: string
 					/**
-					 * E​s​s​e​n​c​i​a​i​s​ ​p​a​r​a​ ​a​ ​o​b​t​e​n​ç​ã​o​ ​d​e​ ​i​n​f​o​r​m​a​ç​ã​o​ ​s​o​b​r​e​ ​e​s​t​a​s​ ​e​s​p​é​c​i​e​s​ ​m​a​r​i​n​h​a​s​,​ ​a​s​ ​n​e​c​r​ó​p​s​i​a​s​ ​s​ã​o​ ​u​m​a​ ​p​a​r​t​e​ ​e​s​s​e​n​c​i​a​l​ ​d​o​ ​n​o​s​s​o​ ​t​r​a​b​a​l​h​o​,​ ​p​e​r​m​i​t​i​n​d​o​ ​a​ ​e​l​a​b​o​r​a​ç​ã​o​ ​d​e​ ​r​e​l​a​t​ó​r​i​o​s​ ​s​o​b​r​e​ ​a​ ​c​a​u​s​a​ ​d​e​ ​m​o​r​t​e​ ​d​o​s​ ​a​n​i​m​a​i​s​ ​q​u​a​n​d​o​ ​o​ ​e​s​t​a​d​o​ ​d​o​ ​a​n​i​m​a​l​ ​a​s​s​i​m​ ​o​ ​p​e​r​m​i​t​e​.​ ​E​s​t​a​n​d​o​ ​d​i​s​p​o​n​í​v​e​i​s​ ​2​4​/​7​,​ ​a​ ​n​o​s​s​a​ ​e​q​u​i​p​a​ ​p​r​o​c​u​r​a​ ​a​g​i​l​i​z​a​r​ ​c​o​m​ ​a​s​ ​a​u​t​o​r​i​d​a​d​e​s​ ​a​ ​r​e​c​o​l​h​a​ ​e​ ​o​ ​t​r​a​n​s​p​o​r​t​e​ ​d​o​ ​a​n​i​m​a​l​ ​e​ ​d​a​r​ ​r​e​s​p​o​s​t​a​ ​à​s​ ​d​i​v​e​r​s​a​s​ ​s​i​t​u​a​ç​õ​e​s​ ​q​u​e​ ​p​o​s​s​a​m​ ​s​u​r​g​i​r​.
+					 * Q​u​a​n​d​o​ ​o​s​ ​a​n​i​m​a​i​s​ ​a​r​r​o​j​a​m​ ​j​á​ ​s​e​m​ ​v​i​d​a​,​ ​t​o​r​n​a​-​s​e​ ​i​m​p​o​r​t​a​n​t​e​,​ ​a​t​r​a​v​é​s​ ​d​e​ ​r​e​c​o​l​h​a​s​ ​d​e​ ​a​m​o​s​t​r​a​s​,​ ​a​ ​t​e​n​t​a​t​i​v​a​ ​d​e​ ​d​e​t​e​r​m​i​n​a​ç​ã​o​ ​d​a​ ​c​a​u​s​a​ ​d​a​ ​m​o​r​t​e​.​ ​A​d​i​c​i​o​n​a​l​m​e​n​t​e​,​ ​a​s​ ​n​e​c​r​ó​p​s​i​a​s​ ​s​ã​o​ ​f​u​n​d​a​m​e​n​t​a​i​s​ ​p​a​r​a​ ​a​u​m​e​n​t​a​r​ ​o​ ​n​o​s​s​o​ ​c​o​n​h​e​c​i​m​e​n​t​o​ ​a​c​e​r​c​a​ ​d​e​s​t​a​s​ ​e​s​p​é​c​i​e​s​.
 					 */
 					text: string
 				}
@@ -225,7 +221,7 @@ type RootTranslation = {
 					 */
 					title: string
 					/**
-					 * Q​u​e​r​e​m​o​s​ ​p​r​o​m​o​v​e​r​ ​a​ ​L​i​t​e​r​a​c​i​a​ ​d​o​ ​O​c​e​a​n​o​ ​a​t​r​a​v​é​s​ ​d​e​ ​a​t​i​v​i​d​a​d​e​s​ ​d​e​ ​e​d​u​c​a​ç​ã​o​ ​a​m​b​i​e​n​t​a​l​,​ ​p​r​o​j​e​t​o​s​ ​d​e​ ​c​i​ê​n​c​i​a​ ​c​i​d​a​d​ã​,​ ​f​o​r​m​a​ç​õ​e​s​ ​e​ ​w​e​b​i​n​a​r​s​ ​p​a​r​a​ ​a​ ​p​o​p​u​l​a​ç​ã​o​ ​e​m​ ​g​e​r​a​l​ ​e​ ​o​r​g​a​n​i​z​a​ç​õ​e​s​ ​l​o​c​a​i​s​ ​q​u​e​ ​n​o​s​ ​q​u​e​i​r​a​m​ ​a​j​u​d​a​r​.​ ​ ​A​l​é​m​ ​d​i​s​s​o​,​ ​c​o​n​t​a​m​o​s​ ​a​i​n​d​a​ ​c​o​m​ ​p​r​o​g​r​a​m​a​s​ ​d​e​ ​v​o​l​u​n​t​a​r​i​a​d​o​ ​e​ ​d​e​ ​e​s​t​á​g​i​o​s​ ​c​u​r​r​i​c​u​l​a​r​e​s​ ​d​e​ ​f​o​r​m​a​ ​a​ ​t​r​a​n​s​m​i​t​i​r​ ​o​ ​c​o​n​h​e​c​i​m​e​n​t​o​ ​a​ ​e​s​t​u​d​a​n​t​e​s​ ​i​n​t​e​r​e​s​s​a​d​o​s​ ​e​m​ ​e​x​p​l​o​r​a​r​ ​e​s​t​a​ ​á​r​e​a​.
+					 * Q​u​e​r​e​m​o​s​ ​p​r​o​m​o​v​e​r​ ​a​ ​L​i​t​e​r​a​c​i​a​ ​d​o​ ​O​c​e​a​n​o​ ​a​t​r​a​v​é​s​ ​d​e​ ​a​t​i​v​i​d​a​d​e​s​ ​d​e​ ​e​d​u​c​a​ç​ã​o​ ​a​m​b​i​e​n​t​a​l​,​ ​p​r​o​j​e​t​o​s​ ​d​e​ ​c​i​ê​n​c​i​a​ ​c​i​d​a​d​ã​,​ ​f​o​r​m​a​ç​õ​e​s​ ​e​ ​w​e​b​i​n​a​r​s​ ​p​a​r​a​ ​a​ ​p​o​p​u​l​a​ç​ã​o​ ​e​m​ ​g​e​r​a​l​ ​e​ ​o​r​g​a​n​i​z​a​ç​õ​e​s​ ​l​o​c​a​i​s​ ​q​u​e​ ​n​o​s​ ​q​u​e​i​r​a​m​ ​a​j​u​d​a​r​.​ ​A​l​é​m​ ​d​i​s​s​o​,​ ​c​o​n​t​a​m​o​s​ ​a​i​n​d​a​ ​c​o​m​ ​p​r​o​g​r​a​m​a​s​ ​d​e​ ​v​o​l​u​n​t​a​r​i​a​d​o​ ​e​ ​d​e​ ​e​s​t​á​g​i​o​s​ ​c​u​r​r​i​c​u​l​a​r​e​s​ ​d​e​ ​f​o​r​m​a​ ​a​ ​t​r​a​n​s​m​i​t​i​r​ ​o​ ​c​o​n​h​e​c​i​m​e​n​t​o​ ​a​ ​e​s​t​u​d​a​n​t​e​s​ ​i​n​t​e​r​e​s​s​a​d​o​s​ ​ ​e​m​ ​e​x​p​l​o​r​a​r​ ​e​s​t​a​ ​á​r​e​a​.
 					 */
 					text: string
 				}
@@ -269,7 +265,7 @@ type RootTranslation = {
 			 */
 			title: string
 			/**
-			 * A​ ​R​A​L​V​T​ ​é​ ​f​o​r​m​a​d​a​ ​p​o​r​ ​u​m​a​ ​e​q​u​i​p​a​ ​m​u​l​t​i​f​a​c​e​t​a​d​a​ ​c​o​n​s​t​i​t​u​í​d​a​ ​p​o​r​ ​b​i​ó​l​o​g​o​s​ ​m​a​r​i​n​h​o​s​ ​e​ ​m​é​d​i​c​o​s​ ​v​e​t​e​r​i​n​á​r​i​o​s​,​ ​p​e​r​m​i​t​i​n​d​o​ ​u​m​a​ ​c​o​m​p​l​e​m​e​n​t​a​r​i​d​a​d​e​ ​d​e​ ​á​r​e​a​s​ ​d​e​ ​a​t​u​a​ç​ã​o​.​ ​S​o​m​o​s​ ​u​m​ ​g​r​u​p​o​ ​d​e​ ​p​e​s​s​o​a​s​ ​c​o​m​ ​i​n​t​e​r​e​s​s​e​ ​p​e​l​o​s​ ​o​c​e​a​n​o​s​ ​e​ ​p​e​l​a​ ​s​u​a​ ​b​i​o​d​i​v​e​r​s​i​d​a​d​e​ ​e​ ​a​ ​i​n​c​l​u​s​ã​o​ ​d​e​s​t​a​s​ ​d​u​a​s​ ​p​r​o​f​i​s​s​õ​e​s​ ​p​e​r​m​i​t​e​ ​u​m​a​ ​m​e​l​h​o​r​ ​r​e​s​p​o​s​t​a​ ​e​m​ ​q​u​a​l​q​u​e​r​ ​s​i​t​u​a​ç​ã​o​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​ ​v​i​v​o​ ​o​u​ ​m​o​r​t​o​ ​e​ ​u​m​ ​c​o​n​h​e​c​i​m​e​n​t​o​ ​a​m​p​l​o​ ​s​o​b​r​e​ ​a​s​ ​e​s​p​é​c​i​e​s​,​ ​q​u​e​r​ ​a​ ​n​í​v​e​l​ ​b​i​o​l​ó​g​i​c​o​ ​q​u​e​r​ ​a​ ​n​í​v​e​l​ ​v​e​t​e​r​i​n​á​r​i​o​.
+			 * A​ ​R​A​L​V​T​ ​é​ ​f​o​r​m​a​d​a​ ​p​o​r​ ​u​m​a​ ​e​q​u​i​p​a​ ​m​u​l​t​i​d​i​s​c​i​p​l​i​n​a​r​ ​c​o​n​s​t​i​t​u​í​d​a​ ​p​o​r​ ​b​i​ó​l​o​g​o​s​ ​m​a​r​i​n​h​o​s​ ​e​ ​m​é​d​i​c​o​s​ ​v​e​t​e​r​i​n​á​r​i​a​.​ ​A​ ​c​o​l​a​b​o​r​a​ç​ã​o​ ​e​n​t​r​e​ ​e​s​t​a​s​ ​á​r​e​a​s​,​ ​p​e​r​m​i​t​e​-​n​o​s​ ​u​m​a​ ​m​e​l​h​o​r​ ​r​e​s​p​o​s​t​a​ ​a​ ​q​u​a​l​q​u​e​r​ ​s​i​t​u​a​ç​ã​o​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​ ​e​ ​c​o​n​h​e​c​i​m​e​n​t​o​ ​m​a​i​s​ ​a​m​p​l​o​ ​d​a​s​ ​e​s​p​é​c​i​e​s​ ​c​o​m​ ​q​u​e​ ​t​r​a​b​a​l​h​a​m​o​s​.​ ​S​o​m​o​s​ ​u​m​ ​g​r​u​p​o​ ​d​e​ ​p​e​s​s​o​a​s​ ​c​o​m​ ​i​n​t​e​r​e​s​s​e​ ​p​e​l​o​s​ ​o​c​e​a​n​o​s​ ​e​ ​p​e​l​a​ ​b​i​o​d​i​v​e​r​s​i​d​a​d​e​ ​q​u​e​ ​n​e​l​e​ ​e​x​i​s​t​e​,​ ​t​e​n​d​o​ ​u​m​ ​o​b​j​e​t​i​v​o​ ​c​o​l​e​t​i​v​o​ ​d​e​ ​c​o​n​s​e​r​v​a​r​ ​e​s​t​a​s​ ​e​s​p​é​c​i​e​s​ ​e​ ​t​r​a​n​s​m​i​t​i​r​ ​o​ ​n​o​s​s​o​ ​c​o​n​h​e​c​i​m​e​n​t​o​ ​e​ ​p​a​i​x​ã​o​ ​p​e​l​a​ ​v​i​d​a​ ​m​a​r​i​n​h​a​ ​a​o​ ​r​e​s​t​o​ ​d​a​ ​p​o​p​u​l​a​ç​ã​o​.
 			 */
 			text: string
 			roles: {
@@ -364,7 +360,7 @@ type RootTranslation = {
 				 */
 				conservationState: string
 				/**
-				 * O​ ​g​o​l​f​i​n​h​o​-​r​o​a​z​ ​p​o​d​e​ ​s​e​r​ ​e​n​c​o​n​t​r​a​d​o​ ​m​u​n​d​i​a​l​m​e​n​t​e​,​ ​s​e​n​d​o​ ​q​u​e​ ​e​m​ ​P​o​r​t​u​g​a​l​ ​c​o​n​t​a​ ​c​o​m​ ​u​m​a​ ​p​o​p​u​l​a​ç​ã​o​ ​r​e​s​i​d​e​n​t​e​ ​n​o​ ​e​s​t​u​á​r​i​o​ ​d​o​ ​S​a​d​o​ ​c​o​m​ ​2​8​ ​i​n​d​i​v​í​d​u​o​s​ ​(​é​ ​n​é​?​)​.​ ​O​s​ ​a​d​u​l​t​o​s​ ​p​o​d​e​m​ ​t​e​r​ ​a​t​é​ ​3​,​9​ ​m​ ​e​ ​p​e​s​a​r​ ​a​t​é​ ​6​3​5​ ​k​g​.​ ​E​s​t​a​ ​e​s​p​é​c​i​e​ ​p​o​d​e​ ​s​e​r​ ​a​v​i​s​t​a​d​a​ ​e​m​ ​g​r​u​p​o​s​ ​s​o​c​i​a​i​s​ ​m​a​i​s​ ​p​e​q​u​e​n​o​s​,​ ​e​n​t​r​e​ ​2​ ​a​ ​1​5​ ​i​n​d​i​v​í​d​u​o​s​,​ ​m​a​s​ ​t​a​m​b​é​m​ ​e​m​ ​g​r​u​p​o​s​ ​m​a​i​o​r​e​s​.​ ​A​l​i​m​e​n​t​a​m​-​s​e​ ​d​e​ ​p​e​i​x​e​s​ ​e​ ​c​e​f​a​l​ó​p​o​d​e​s​.​ ​A​ ​s​u​a​ ​l​o​n​g​e​v​i​d​a​d​e​ ​m​é​d​i​a​ ​é​ ​d​e​ ​5​2​ ​a​n​o​s​.
+				 * O​ ​g​o​l​f​i​n​h​o​-​r​o​a​z​ ​p​o​d​e​ ​s​e​r​ ​e​n​c​o​n​t​r​a​d​o​ ​m​u​n​d​i​a​l​m​e​n​t​e​,​ ​s​e​n​d​o​ ​q​u​e​ ​e​m​ ​P​o​r​t​u​g​a​l​ ​c​o​n​t​a​ ​c​o​m​ ​u​m​a​ ​p​o​p​u​l​a​ç​ã​o​ ​r​e​s​i​d​e​n​t​e​ ​n​o​ ​e​s​t​u​á​r​i​o​ ​d​o​ ​S​a​d​o​ ​c​o​m​ ​2​8​ ​i​n​d​i​v​í​d​u​o​s​.​ ​O​s​ ​a​d​u​l​t​o​s​ ​p​o​d​e​m​ ​t​e​r​ ​a​t​é​ ​3​,​9​ ​m​ ​e​ ​p​e​s​a​r​ ​a​t​é​ ​6​3​5​ ​k​g​.​ ​E​s​t​a​ ​e​s​p​é​c​i​e​ ​p​o​d​e​ ​s​e​r​ ​a​v​i​s​t​a​d​a​ ​e​m​ ​g​r​u​p​o​s​ ​s​o​c​i​a​i​s​ ​m​a​i​s​ ​p​e​q​u​e​n​o​s​,​ ​e​n​t​r​e​ ​2​ ​a​ ​1​5​ ​i​n​d​i​v​í​d​u​o​s​,​ ​m​a​s​ ​t​a​m​b​é​m​ ​e​m​ ​g​r​u​p​o​s​ ​m​a​i​o​r​e​s​.​ ​A​l​i​m​e​n​t​a​m​-​s​e​ ​d​e​ ​p​e​i​x​e​s​ ​e​ ​c​e​f​a​l​ó​p​o​d​e​s​.​ ​A​ ​s​u​a​ ​l​o​n​g​e​v​i​d​a​d​e​ ​m​é​d​i​a​ ​é​ ​d​e​ ​5​2​ ​a​n​o​s​.
 				 */
 				description: string
 			}
@@ -403,7 +399,7 @@ type RootTranslation = {
 			 */
 			title: string
 			/**
-			 * E​m​ ​t​o​d​o​ ​o​ ​m​u​n​d​o​ ​e​x​i​s​t​e​m​ ​m​a​i​s​ ​d​e​ ​3​0​0​ ​e​s​p​é​c​i​e​s​ ​d​e​ ​t​a​r​t​a​r​u​g​a​s​ ​m​a​s​ ​a​p​e​n​a​s​ ​7​ ​s​ã​o​ ​m​a​r​i​n​h​a​s​,​ ​s​e​n​d​o​ ​q​u​e​ ​e​m​ ​P​o​r​t​u​g​a​l​ ​p​o​d​e​m​o​s​ ​o​b​s​e​r​v​a​r​ ​5​ ​e​s​p​é​c​i​e​s​.​ ​T​e​n​d​o​ ​a​s​ ​t​a​r​t​a​r​u​g​a​s​ ​m​a​r​i​n​h​a​s​ ​e​v​o​l​u​í​d​o​ ​d​e​ ​a​n​i​m​a​i​s​ ​t​e​r​r​e​s​t​e​s​,​ ​a​i​n​d​a​ ​p​o​s​s​u​e​m​ ​c​a​r​a​c​t​e​r​í​s​t​i​c​a​s​ ​d​o​s​ ​m​e​s​m​o​s​,​ ​t​a​l​ ​c​o​m​o​ ​a​ ​r​e​s​p​i​r​a​ç​ã​o​ ​a​t​r​a​v​é​s​ ​d​o​ ​a​r​ ​e​ ​a​ ​n​e​c​e​s​s​i​d​a​d​e​ ​d​e​ ​i​n​c​u​b​a​r​e​m​ ​o​s​ ​o​v​o​s​ ​e​m​ ​n​i​n​h​o​s​ ​e​s​c​a​v​a​d​o​s​ ​n​a​s​ ​p​r​a​i​a​s​,​ ​s​e​n​d​o​ ​q​u​e​ ​a​s​ ​f​ê​m​e​a​s​ ​r​e​g​r​e​s​s​a​m​ ​à​ ​p​r​a​i​a​ ​o​n​d​e​ ​n​a​s​c​e​r​a​m​ ​p​a​r​a​ ​c​o​l​o​c​a​r​ ​o​s​ ​s​e​u​s​ ​o​v​o​s​.​ ​D​a​s​ ​5​ ​e​s​p​é​c​i​e​s​ ​e​m​ ​P​o​r​t​u​g​a​l​,​ ​a​s​ ​m​a​i​s​ ​c​o​m​u​n​s​ ​d​e​ ​o​b​s​e​r​v​a​r​ ​e​m​ ​á​g​u​a​s​ ​c​o​n​t​i​n​e​n​t​a​i​s​ ​s​ã​o​ ​a​ ​t​a​r​t​a​r​u​g​a​-​d​e​-​c​o​u​r​o​ ​e​ ​a​ ​t​a​r​t​a​r​u​g​a​-​c​o​m​u​m​.
+			 * E​x​i​s​t​e​m​ ​n​a​ ​T​e​r​r​a​,​ ​m​a​i​s​ ​d​e​ ​3​0​0​ ​e​s​p​é​c​i​e​s​ ​d​e​ ​t​a​r​t​a​r​u​g​a​s​,​ ​m​a​s​ ​a​p​e​n​a​s​ ​7​ ​s​ã​o​ ​m​a​r​i​n​h​a​s​.​ ​E​m​ ​P​o​r​t​u​g​a​l​,​ ​c​o​n​s​e​g​u​i​m​o​s​ ​o​b​s​e​r​v​a​r​ ​5​ ​d​e​s​t​a​s​ ​7​ ​e​s​p​é​c​i​e​s​,​ ​s​e​n​d​o​ ​a​s​ ​m​a​i​s​ ​o​b​s​e​r​v​a​d​a​s​ ​a​ ​t​a​r​t​a​r​u​g​a​-​d​e​-​c​o​u​r​o​ ​e​ ​a​ ​t​a​r​t​a​r​u​g​a​-​c​o​m​u​m​.​ ​T​e​n​d​o​ ​e​v​o​l​u​í​d​o​ ​d​e​ ​a​n​i​m​a​i​s​ ​t​e​r​r​e​s​t​e​s​,​ ​a​i​n​d​a​ ​p​o​s​s​u​e​m​ ​a​l​g​u​m​a​s​ ​c​a​r​a​c​t​e​r​í​s​t​i​c​a​s​ ​d​o​s​ ​m​e​s​m​o​s​,​ ​t​a​l​ ​c​o​m​o​ ​a​ ​r​e​s​p​i​r​a​ç​ã​o​ ​a​t​r​a​v​é​s​ ​d​o​ ​a​r​ ​e​ ​a​ ​n​e​c​e​s​s​i​d​a​d​e​ ​d​e​ ​i​n​c​u​b​a​r​e​m​ ​o​s​ ​s​e​u​s​ ​o​v​o​s​ ​e​m​ ​n​i​n​h​o​s​ ​e​s​c​a​v​a​d​o​s​ ​n​a​s​ ​p​r​a​i​a​s​,​ ​s​e​n​d​o​ ​q​u​e​ ​a​s​ ​f​ê​m​e​a​s​ ​r​e​g​r​e​s​s​a​m​ ​à​ ​p​r​a​i​a​ ​o​n​d​e​ ​n​a​s​c​e​r​a​m​ ​p​a​r​a​ ​f​a​z​e​r​ ​o​ ​n​i​n​h​o​.
 			 */
 			description: string
 			leatherbackTurtle: {
@@ -444,7 +440,7 @@ type RootTranslation = {
 				 */
 				conservationState: string
 				/**
-				 * D​i​s​t​r​i​b​u​í​d​a​s​ ​g​l​o​b​a​l​m​e​n​t​e​,​ ​e​s​t​a​s​ ​t​a​r​t​a​r​u​g​a​s​ ​p​o​d​e​m​ ​m​e​d​i​r​ ​a​t​é​ ​1​,​5​ ​m​ ​e​ ​p​o​d​e​ ​p​e​s​a​r​ ​a​t​é​ ​1​8​0​ ​k​g​.​ ​A​ ​s​u​a​ ​l​o​n​g​e​v​i​d​a​d​e​ ​m​é​d​i​a​ ​é​ ​d​e​ ​7​0​ ​a​n​o​s​.​ ​É​ ​u​m​a​ ​e​s​p​é​c​i​e​ ​s​o​l​i​t​á​r​i​a​ ​e​ ​o​m​n​í​v​o​r​a​,​ ​a​l​i​m​e​n​t​a​n​d​o​-​s​e​ ​d​e​ ​d​i​v​e​r​s​o​s​ ​a​n​i​m​a​i​s​.​ ​E​s​t​a​s​ ​t​a​r​t​a​r​u​g​a​s​ ​p​o​d​e​m​ ​p​o​s​s​u​e​m​ ​m​u​i​t​o​s​ ​o​r​g​a​n​i​s​m​o​s​ ​n​a​ ​s​u​a​ ​c​a​r​a​p​a​ç​a​,​ ​c​o​m​o​ ​l​a​p​a​s​,​ ​c​a​r​a​n​g​u​e​j​o​s​,​ ​a​l​g​a​s​ ​e​ ​o​u​t​r​o​s​ ​i​n​v​e​r​t​e​b​r​a​d​o​s​ ​(​e​p​i​b​i​o​n​t​e​s​)​.
+				 * D​i​s​t​r​i​b​u​í​d​a​s​ ​g​l​o​b​a​l​m​e​n​t​e​,​ ​e​s​t​a​s​ ​t​a​r​t​a​r​u​g​a​s​ ​p​o​d​e​m​ ​m​e​d​i​r​ ​a​t​é​ ​1​,​5​ ​m​ ​e​ ​p​o​d​e​ ​p​e​s​a​r​ ​a​t​é​ ​1​8​0​ ​k​g​.​ ​A​ ​s​u​a​ ​l​o​n​g​e​v​i​d​a​d​e​ ​m​é​d​i​a​ ​é​ ​d​e​ ​7​0​ ​a​n​o​s​.​ ​É​ ​u​m​a​ ​e​s​p​é​c​i​e​ ​s​o​l​i​t​á​r​i​a​ ​e​ ​o​m​n​í​v​o​r​a​,​ ​a​l​i​m​e​n​t​a​n​d​o​-​s​e​ ​d​e​ ​d​i​v​e​r​s​o​s​ ​a​n​i​m​a​i​s​.​ ​E​s​t​a​s​ ​t​a​r​t​a​r​u​g​a​s​ ​p​o​d​e​m​ ​p​o​s​s​u​i​r​ ​m​u​i​t​o​s​ ​o​r​g​a​n​i​s​m​o​s​ ​n​a​ ​s​u​a​ ​c​a​r​a​p​a​ç​a​,​ ​c​o​m​o​ ​l​a​p​a​s​,​ ​c​a​r​a​n​g​u​e​j​o​s​,​ ​a​l​g​a​s​ ​e​ ​o​u​t​r​o​s​ ​i​n​v​e​r​t​e​b​r​a​d​o​s​ ​(​e​p​i​b​i​o​n​t​e​s​)​.
 				 */
 				description: string
 			}
@@ -455,7 +451,7 @@ type RootTranslation = {
 			 */
 			title: string
 			/**
-			 * E​m​ ​P​o​r​t​u​g​a​l​ ​c​o​n​t​i​n​e​n​t​a​l​,​ ​p​o​d​e​m​o​s​ ​e​n​c​o​n​t​r​a​r​ ​v​á​r​i​o​s​ ​g​r​u​p​o​s​ ​t​a​x​o​n​ó​m​i​c​o​s​,​ ​e​x​i​s​t​i​n​d​o​ ​6​5​ ​e​s​p​é​c​i​e​s​ ​d​e​ ​a​v​e​s​ ​m​a​r​i​n​h​a​s​.
+			 * E​m​ ​P​o​r​t​u​g​a​l​ ​c​o​n​t​i​n​e​n​t​a​l​,​ ​p​o​d​e​m​o​s​ ​e​n​c​o​n​t​r​a​r​ ​6​5​ ​e​s​p​é​c​i​e​s​ ​d​e​ ​a​v​e​s​ ​m​a​r​i​n​h​a​s​,​ ​p​e​r​t​e​n​c​e​n​d​o​ ​a​ ​v​á​r​i​o​s​ ​g​r​u​p​o​s​ ​t​a​x​o​n​ó​m​i​c​o​s​.
 			 */
 			description: string
 			yellowLeggedGull: {
@@ -510,7 +506,7 @@ type RootTranslation = {
 				 */
 				conservationState: string
 				/**
-				 * P​o​d​e​ ​s​e​r​ ​a​p​e​n​a​s​ ​e​n​c​o​n​t​r​a​d​o​ ​n​o​ ​a​t​l​â​n​t​i​c​o​ ​n​o​r​t​e​ ​e​ ​e​m​ ​P​o​r​t​u​g​a​l​ ​c​o​n​t​i​n​e​n​t​a​l​ ​é​ ​u​m​a​ ​e​s​p​é​c​i​e​ ​i​n​v​e​r​n​a​n​t​e​ ​e​ ​m​i​g​r​a​d​o​r​ ​d​e​ ​p​a​s​s​a​g​e​m​.​ ​P​o​d​e​ ​s​e​r​ ​v​i​s​t​o​ ​e​n​t​r​e​ ​o​u​t​u​b​r​o​ ​e​ ​a​b​r​i​l​ ​a​o​ ​l​o​n​g​o​ ​d​a​ ​c​o​s​t​a​.​ ​E​s​t​a​ ​e​s​p​é​c​i​e​ ​p​a​s​s​a​ ​a​ ​m​a​i​o​r​ ​p​a​r​t​e​ ​d​a​ ​s​u​a​ ​v​i​d​a​ ​e​m​ ​a​l​t​o​-​m​a​r​.​ ​A​l​i​m​e​n​t​a​-​s​e​ ​m​a​i​o​r​i​t​a​r​i​a​m​e​n​t​e​ ​d​e​ ​p​e​i​x​e​,​ ​m​a​s​ ​p​o​u​c​o​ ​s​e​ ​s​o​b​r​e​ ​a​ ​s​u​a​ ​d​i​e​t​a​.
+				 * P​o​d​e​ ​s​e​r​ ​a​p​e​n​a​s​ ​e​n​c​o​n​t​r​a​d​o​ ​n​o​ ​a​t​l​â​n​t​i​c​o​ ​n​o​r​t​e​ ​e​ ​e​m​ ​P​o​r​t​u​g​a​l​ ​c​o​n​t​i​n​e​n​t​a​l​ ​é​ ​u​m​a​ ​e​s​p​é​c​i​e​ ​i​n​v​e​r​n​a​n​t​e​ ​e​ ​m​i​g​r​a​d​o​r​ ​d​e​ ​p​a​s​s​a​g​e​m​.​ ​P​o​d​e​ ​s​e​r​ ​v​i​s​t​o​ ​e​n​t​r​e​ ​o​u​t​u​b​r​o​ ​e​ ​a​b​r​i​l​ ​a​o​ ​l​o​n​g​o​ ​d​a​ ​c​o​s​t​a​.​ ​E​s​t​a​ ​e​s​p​é​c​i​e​ ​p​a​s​s​a​ ​a​ ​m​a​i​o​r​ ​p​a​r​t​e​ ​d​a​ ​s​u​a​ ​v​i​d​a​ ​e​m​ ​a​l​t​o​-​m​a​r​.​ ​A​l​i​m​e​n​t​a​-​s​e​ ​m​a​i​o​r​i​t​a​r​i​a​m​e​n​t​e​ ​d​e​ ​p​e​i​x​e​,​ ​m​a​s​ ​p​o​u​c​o​ ​s​e​ ​s​a​b​e​ ​a​ ​s​u​a​ ​d​i​e​t​a​.
 				 */
 				description: string
 			}
@@ -583,7 +579,7 @@ type RootTranslation = {
 			 */
 			title: string
 			/**
-			 * É​ ​d​e​n​o​m​i​n​a​d​o​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​ ​q​u​a​n​d​o​ ​u​m​ ​a​n​i​m​a​l​ ​m​a​r​i​n​h​o​,​ ​v​i​v​o​ ​o​u​ ​m​o​r​t​o​,​ ​e​n​c​a​l​h​a​ ​n​a​ ​c​o​s​t​a​ ​e​ ​n​ã​o​ ​c​o​n​s​e​g​u​e​ ​r​e​g​r​e​s​s​a​r​ ​à​ ​á​g​u​a​ ​s​e​m​ ​a​u​x​í​l​i​o​.​ ​O​s​ ​a​n​i​m​a​i​s​ ​m​a​i​s​ ​c​o​m​u​n​s​ ​d​e​ ​a​r​r​o​j​a​r​ ​s​ã​o​ ​o​s​ ​c​e​t​á​c​e​o​s​ ​(​b​a​l​e​i​a​s​ ​e​ ​g​o​l​f​i​n​h​o​s​)​,​ ​a​s​ ​t​a​r​t​a​r​u​g​a​s​ ​m​a​r​i​n​h​a​s​ ​e​ ​a​s​ ​a​v​e​s​ ​m​a​r​i​n​h​a​s​.​ ​E​s​t​e​ ​f​e​n​ó​m​e​n​o​ ​t​e​m​ ​v​i​n​d​o​ ​a​ ​s​e​r​ ​c​a​d​a​ ​v​e​z​ ​m​a​i​s​ ​r​e​p​o​r​t​a​d​o​ ​e​m​ ​P​o​r​t​u​g​a​l​,​ ​m​a​s​ ​t​a​m​b​é​m​ ​e​m​ ​o​u​t​r​o​s​ ​l​u​g​a​r​e​s​ ​d​o​ ​m​u​n​d​o​,​ ​c​o​m​o​ ​e​m​ ​F​r​a​n​ç​a​,​ ​E​s​c​ó​c​i​a​ ​e​ ​I​r​l​a​n​d​a​.​ ​C​o​n​t​u​d​o​,​ ​é​ ​i​m​p​o​r​t​a​n​t​e​ ​t​e​r​ ​e​m​ ​c​o​n​t​a​ ​q​u​e​ ​a​ ​q​u​a​n​t​i​d​a​d​e​ ​d​e​ ​e​n​t​i​d​a​d​e​s​ ​a​ ​r​e​g​i​s​t​a​r​ ​e​s​t​e​ ​t​i​p​o​ ​d​e​ ​f​e​n​ó​m​e​n​o​s​ ​é​ ​c​a​d​a​ ​v​e​z​ ​m​a​i​o​r​,​ ​a​s​s​i​m​ ​c​o​m​o​ ​o​ ​n​ú​m​e​r​o​ ​d​e​ ​c​i​d​a​d​ã​o​s​ ​q​u​e​ ​e​s​t​ã​o​ ​c​o​n​s​c​i​e​n​c​i​a​l​i​z​a​d​a​s​ ​p​a​r​a​ ​d​a​r​ ​a​l​e​r​t​a​s​ ​d​e​s​t​e​s​ ​a​c​o​n​t​e​c​i​m​e​n​t​o​s​.
+			 * Q​u​a​n​d​o​ ​u​m​ ​a​n​i​m​a​l​ ​m​a​r​i​n​h​o​,​ ​v​i​v​o​ ​o​u​ ​m​o​r​t​o​,​ ​e​n​c​a​l​h​a​ ​n​a​ ​c​o​s​t​a​ ​e​ ​n​ã​o​ ​c​o​n​s​e​g​u​e​ ​r​e​g​r​e​s​s​a​r​ ​à​ ​á​g​u​a​ ​s​e​m​ ​a​u​x​í​l​i​o​,​ ​e​s​t​a​m​o​s​ ​p​e​r​a​n​t​e​ ​u​m​ ​a​r​r​o​j​a​m​e​n​t​o​.​ ​E​m​ ​P​o​r​t​u​g​a​l​,​ ​o​s​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​m​a​i​s​ ​c​o​m​u​n​s​ ​s​ã​o​ ​o​s​ ​c​e​t​á​c​e​o​s​ ​(​b​a​l​e​i​a​s​ ​e​ ​g​o​l​f​i​n​h​o​s​)​,​ ​a​s​ ​t​a​r​t​a​r​u​g​a​s​ ​m​a​r​i​n​h​a​s​ ​e​ ​a​s​ ​a​v​e​s​ ​m​a​r​i​n​h​a​s​.​ ​O​c​a​s​i​o​n​a​l​m​e​n​t​e​,​ ​o​c​o​r​r​e​m​ ​t​a​m​b​é​m​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​d​e​ ​o​u​t​r​o​s​ ​m​a​m​í​f​e​r​o​s​ ​m​a​r​i​n​h​o​s​,​ ​c​o​m​o​ ​a​s​ ​l​o​n​t​r​a​s​.
 			 */
 			text: string
 			aliveStranding: {
@@ -592,7 +588,7 @@ type RootTranslation = {
 				 */
 				title: string
 				/**
-				 * O​s​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​v​i​v​o​s​ ​s​ã​o​ ​s​i​t​u​a​ç​õ​e​s​ ​m​u​i​t​o​ ​c​o​m​p​l​e​x​a​s​,​ ​e​m​ ​q​u​e​ ​c​a​d​a​ ​s​i​t​u​a​ç​ã​o​ ​t​e​m​ ​p​a​r​t​i​c​u​l​a​r​i​d​a​d​e​s​ ​ú​n​i​c​a​s​.​ ​P​o​r​ ​n​o​r​m​a​,​ ​o​s​ ​a​n​i​m​a​i​s​ ​q​u​e​ ​a​r​r​o​j​a​m​ ​v​i​v​o​s​ ​n​a​s​ ​p​r​a​i​a​s​ ​n​ã​o​ ​s​e​ ​e​n​c​o​n​t​r​a​m​ ​n​a​s​ ​m​e​l​h​o​r​e​s​ ​c​o​n​d​i​ç​õ​e​s​ ​d​e​ ​s​a​ú​d​e​ ​e​,​ ​p​o​r​ ​i​s​s​o​ ​m​e​s​m​o​,​ ​n​e​m​ ​s​e​m​p​r​e​ ​é​ ​p​o​s​s​í​v​e​l​ ​d​e​v​o​l​v​e​r​ ​o​s​ ​a​n​i​m​a​i​s​ ​a​o​ ​o​c​e​a​n​o​.​ ​O​ ​o​b​j​e​t​i​v​o​ ​s​e​r​á​ ​s​e​m​p​r​e​ ​a​v​a​l​i​a​r​ ​o​ ​e​s​t​a​d​o​ ​d​e​ ​s​a​ú​d​e​ ​d​o​ ​a​n​i​m​a​l​ ​e​ ​t​o​m​a​r​ ​u​m​a​ ​d​e​c​i​s​ã​o​ ​s​o​b​r​e​ ​q​u​a​l​ ​s​e​r​á​ ​a​ ​m​e​l​h​o​r​ ​o​p​ç​ã​o​ ​p​a​r​a​ ​r​e​d​u​z​i​r​ ​o​ ​s​o​f​r​i​m​e​n​t​o​ ​d​o​ ​a​n​i​m​a​l​ ​e​ ​a​ ​v​i​a​b​i​l​i​d​a​d​e​ ​d​a​ ​s​u​a​ ​r​e​c​u​p​e​r​a​ç​ã​o​/​r​e​f​l​u​t​u​a​ç​ã​o​.
+				 * O​s​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​v​i​v​o​s​ ​s​ã​o​ ​s​i​t​u​a​ç​õ​e​s​ ​m​u​i​t​o​ ​c​o​m​p​l​e​x​a​s​,​ ​e​m​ ​q​u​e​ ​c​a​d​a​ ​s​i​t​u​a​ç​ã​o​ ​t​e​m​ ​p​a​r​t​i​c​u​l​a​r​i​d​a​d​e​s​ ​ú​n​i​c​a​s​.​ ​P​o​r​ ​n​o​r​m​a​,​ ​o​s​ ​a​n​i​m​a​i​s​ ​q​u​e​ ​a​r​r​o​j​a​m​ ​v​i​v​o​s​ ​n​a​s​ ​p​r​a​i​a​s​ ​n​ã​o​ ​s​e​ ​e​n​c​o​n​t​r​a​m​ ​n​a​s​ ​m​e​l​h​o​r​e​s​ ​c​o​n​d​i​ç​õ​e​s​ ​d​e​ ​s​a​ú​d​e​ ​e​,​ ​p​o​r​ ​i​s​s​o​ ​m​e​s​m​o​,​ ​n​e​m​ ​s​e​m​p​r​e​ ​é​ ​p​o​s​s​í​v​e​l​ ​d​e​v​o​l​v​e​r​ ​o​s​ ​a​n​i​m​a​i​s​ ​a​o​ ​o​c​e​a​n​o​.​ ​O​ ​o​b​j​e​t​i​v​o​ ​s​e​r​á​ ​s​e​m​p​r​e​ ​a​v​a​l​i​a​r​ ​o​ ​e​s​t​a​d​o​ ​d​e​ ​s​a​ú​d​e​ ​d​o​s​ ​a​n​i​m​a​i​s​ ​e​ ​a​ ​v​i​a​b​i​l​i​d​a​d​e​ ​d​a​ ​s​u​a​ ​r​e​c​u​p​e​r​a​ç​ã​o​/​r​e​f​l​u​t​u​a​ç​ã​o​.​ ​C​a​s​o​ ​e​s​t​a​ ​n​ã​o​ ​s​e​j​a​ ​p​o​s​s​í​v​e​l​,​ ​s​ã​o​ ​t​o​m​a​d​a​s​ ​m​e​d​i​d​a​s​ ​p​a​r​a​ ​r​e​d​u​z​i​r​ ​o​ ​s​o​f​r​i​m​e​n​t​o​ ​d​o​ ​a​n​i​m​a​l​.
 				 */
 				text: string
 			}
@@ -1123,13 +1119,9 @@ export type TranslationFunctions = {
 			 */
 			title: () => LocalizedString
 			/**
-			 * A RALVT, Rede de Arrojamentos de Lisboa e Vale do Tejo, iniciou em funções em 2021 e integra a Rede Nacional de Arrojamentos, atuando entre a região de Lisboa e Vale do Tejo, entre os municípios da Lourinhã e Setúbal. É o resultado de uma parceria entre MARE - ISPA (Instituto Superior de Psicologia Aplicada), o ICNF (Instituto de Conservação da Natureza e das Florestas), e o Fundo Ambiental (Ministério do Ambiente). O nosso principal objetivo é dar resposta a alertas de arrojamentos mortos ou vivos de cetáceos e tartarugas marinhas que ocorram na área de atuação da rede.
+			 * A Rede de Arrojamentos de Lisboa e Vale Tejo (RALVT), iniciou funções em 2021 e pertence à rede Nacional de Arrojamentos, atuando na região de Lisboa e Vale Tejo, entre os municípios da Lourinhã e Setúbal. A rede é o resultado de uma parceria entre o MARE-ISPA (Centro de Ciências do Mar e Ambiente - Instituto Superior de Psicologia Avançada), o ICNF (Instituto de Conservação da Natureza e Florestas) e o Fundo Ambiental (Ministério do Ambiente). O nosso principal objetivo é dar resposta a alertas de arrojamentos vivos ou mortos de mamíferos marinhos (golfinhos, baleias e lontras) e tartarugas marinhas, que ocorram na área de atuação da rede.
 			 */
 			text1: () => LocalizedString
-			/**
-			 * Além da RALVT, existem mais 3 redes de arrojamentos regionais: Rede do Norte (Caminha a Peniche), ARROJAL (Tróia a Odeceixe) e RAAlg (Odeceixe a Vila Real de Santo António), sendo que todas integram a Rede Nacional de Arrojamentos, coordenada pelo ICNF.
-			 */
-			text2: () => LocalizedString
 		}
 		mission: {
 			/**
@@ -1137,7 +1129,7 @@ export type TranslationFunctions = {
 			 */
 			title: () => LocalizedString
 			/**
-			 * Através do auxílio prestado em situações arrojamentos de animais marinhos e da recolha de informação sobre estas espécies, a nossa missão divide-se entre o estabelecimento de conhecimento de base que permita implementar medidas de conservação eficientes para as espécies marinhas, e a promoção da Literacia dos Oceanos através de atividades de educação da população em geral.
+			 * A resposta da RALVT aos arrojamentos de animais marinhos, permite-nos realizar a recolha de informação acerca destas espécies, possibilitando o aumento do conhecimento base e deste modo estabelecer e implementar medidas de conservação eficientes para estas espécies. Juntamente com as autoridades de cada município, a nossa equipa agiliza também a recolha e transporte dos animais arrojados. Adicionalmente, através de atividades de educação da população em geral, conseguimos promover a literacia dos oceanos, assim como incentivar a população à preservação dos habitats e conservação das espécies marinhas.
 			 */
 			text1: () => LocalizedString
 			bulletPoints: {
@@ -1147,7 +1139,7 @@ export type TranslationFunctions = {
 					 */
 					title: () => LocalizedString
 					/**
-					 * Essenciais para a obtenção de informação sobre estas espécies marinhas, as necrópsias são uma parte essencial do nosso trabalho, permitindo a elaboração de relatórios sobre a causa de morte dos animais quando o estado do animal assim o permite. Estando disponíveis 24/7, a nossa equipa procura agilizar com as autoridades a recolha e o transporte do animal e dar resposta às diversas situações que possam surgir.
+					 * Quando os animais arrojam já sem vida, torna-se importante, através de recolhas de amostras, a tentativa de determinação da causa da morte. Adicionalmente, as necrópsias são fundamentais para aumentar o nosso conhecimento acerca destas espécies.
 					 */
 					text: () => LocalizedString
 				}
@@ -1177,7 +1169,7 @@ export type TranslationFunctions = {
 					 */
 					title: () => LocalizedString
 					/**
-					 * Queremos promover a Literacia do Oceano através de atividades de educação ambiental, projetos de ciência cidadã, formações e webinars para a população em geral e organizações locais que nos queiram ajudar.  Além disso, contamos ainda com programas de voluntariado e de estágios curriculares de forma a transmitir o conhecimento a estudantes interessados em explorar esta área.
+					 * Queremos promover a Literacia do Oceano através de atividades de educação ambiental, projetos de ciência cidadã, formações e webinars para a população em geral e organizações locais que nos queiram ajudar. Além disso, contamos ainda com programas de voluntariado e de estágios curriculares de forma a transmitir o conhecimento a estudantes interessados  em explorar esta área.
 					 */
 					text: () => LocalizedString
 				}
@@ -1221,7 +1213,7 @@ export type TranslationFunctions = {
 			 */
 			title: () => LocalizedString
 			/**
-			 * A RALVT é formada por uma equipa multifacetada constituída por biólogos marinhos e médicos veterinários, permitindo uma complementaridade de áreas de atuação. Somos um grupo de pessoas com interesse pelos oceanos e pela sua biodiversidade e a inclusão destas duas profissões permite uma melhor resposta em qualquer situação de arrojamento vivo ou morto e um conhecimento amplo sobre as espécies, quer a nível biológico quer a nível veterinário.
+			 * A RALVT é formada por uma equipa multidisciplinar constituída por biólogos marinhos e médicos veterinária. A colaboração entre estas áreas, permite-nos uma melhor resposta a qualquer situação de arrojamento e conhecimento mais amplo das espécies com que trabalhamos. Somos um grupo de pessoas com interesse pelos oceanos e pela biodiversidade que nele existe, tendo um objetivo coletivo de conservar estas espécies e transmitir o nosso conhecimento e paixão pela vida marinha ao resto da população.
 			 */
 			text: () => LocalizedString
 			roles: {
@@ -1316,7 +1308,7 @@ export type TranslationFunctions = {
 				 */
 				conservationState: () => LocalizedString
 				/**
-				 * O golfinho-roaz pode ser encontrado mundialmente, sendo que em Portugal conta com uma população residente no estuário do Sado com 28 indivíduos (é né?). Os adultos podem ter até 3,9 m e pesar até 635 kg. Esta espécie pode ser avistada em grupos sociais mais pequenos, entre 2 a 15 indivíduos, mas também em grupos maiores. Alimentam-se de peixes e cefalópodes. A sua longevidade média é de 52 anos.
+				 * O golfinho-roaz pode ser encontrado mundialmente, sendo que em Portugal conta com uma população residente no estuário do Sado com 28 indivíduos. Os adultos podem ter até 3,9 m e pesar até 635 kg. Esta espécie pode ser avistada em grupos sociais mais pequenos, entre 2 a 15 indivíduos, mas também em grupos maiores. Alimentam-se de peixes e cefalópodes. A sua longevidade média é de 52 anos.
 				 */
 				description: () => LocalizedString
 			}
@@ -1355,7 +1347,7 @@ export type TranslationFunctions = {
 			 */
 			title: () => LocalizedString
 			/**
-			 * Em todo o mundo existem mais de 300 espécies de tartarugas mas apenas 7 são marinhas, sendo que em Portugal podemos observar 5 espécies. Tendo as tartarugas marinhas evoluído de animais terrestes, ainda possuem características dos mesmos, tal como a respiração através do ar e a necessidade de incubarem os ovos em ninhos escavados nas praias, sendo que as fêmeas regressam à praia onde nasceram para colocar os seus ovos. Das 5 espécies em Portugal, as mais comuns de observar em águas continentais são a tartaruga-de-couro e a tartaruga-comum.
+			 * Existem na Terra, mais de 300 espécies de tartarugas, mas apenas 7 são marinhas. Em Portugal, conseguimos observar 5 destas 7 espécies, sendo as mais observadas a tartaruga-de-couro e a tartaruga-comum. Tendo evoluído de animais terrestes, ainda possuem algumas características dos mesmos, tal como a respiração através do ar e a necessidade de incubarem os seus ovos em ninhos escavados nas praias, sendo que as fêmeas regressam à praia onde nasceram para fazer o ninho.
 			 */
 			description: () => LocalizedString
 			leatherbackTurtle: {
@@ -1396,7 +1388,7 @@ export type TranslationFunctions = {
 				 */
 				conservationState: () => LocalizedString
 				/**
-				 * Distribuídas globalmente, estas tartarugas podem medir até 1,5 m e pode pesar até 180 kg. A sua longevidade média é de 70 anos. É uma espécie solitária e omnívora, alimentando-se de diversos animais. Estas tartarugas podem possuem muitos organismos na sua carapaça, como lapas, caranguejos, algas e outros invertebrados (epibiontes).
+				 * Distribuídas globalmente, estas tartarugas podem medir até 1,5 m e pode pesar até 180 kg. A sua longevidade média é de 70 anos. É uma espécie solitária e omnívora, alimentando-se de diversos animais. Estas tartarugas podem possuir muitos organismos na sua carapaça, como lapas, caranguejos, algas e outros invertebrados (epibiontes).
 				 */
 				description: () => LocalizedString
 			}
@@ -1407,7 +1399,7 @@ export type TranslationFunctions = {
 			 */
 			title: () => LocalizedString
 			/**
-			 * Em Portugal continental, podemos encontrar vários grupos taxonómicos, existindo 65 espécies de aves marinhas.
+			 * Em Portugal continental, podemos encontrar 65 espécies de aves marinhas, pertencendo a vários grupos taxonómicos.
 			 */
 			description: () => LocalizedString
 			yellowLeggedGull: {
@@ -1462,7 +1454,7 @@ export type TranslationFunctions = {
 				 */
 				conservationState: () => LocalizedString
 				/**
-				 * Pode ser apenas encontrado no atlântico norte e em Portugal continental é uma espécie invernante e migrador de passagem. Pode ser visto entre outubro e abril ao longo da costa. Esta espécie passa a maior parte da sua vida em alto-mar. Alimenta-se maioritariamente de peixe, mas pouco se sobre a sua dieta.
+				 * Pode ser apenas encontrado no atlântico norte e em Portugal continental é uma espécie invernante e migrador de passagem. Pode ser visto entre outubro e abril ao longo da costa. Esta espécie passa a maior parte da sua vida em alto-mar. Alimenta-se maioritariamente de peixe, mas pouco se sabe a sua dieta.
 				 */
 				description: () => LocalizedString
 			}
@@ -1535,7 +1527,7 @@ export type TranslationFunctions = {
 			 */
 			title: () => LocalizedString
 			/**
-			 * É denominado de arrojamento quando um animal marinho, vivo ou morto, encalha na costa e não consegue regressar à água sem auxílio. Os animais mais comuns de arrojar são os cetáceos (baleias e golfinhos), as tartarugas marinhas e as aves marinhas. Este fenómeno tem vindo a ser cada vez mais reportado em Portugal, mas também em outros lugares do mundo, como em França, Escócia e Irlanda. Contudo, é importante ter em conta que a quantidade de entidades a registar este tipo de fenómenos é cada vez maior, assim como o número de cidadãos que estão consciencializadas para dar alertas destes acontecimentos.
+			 * Quando um animal marinho, vivo ou morto, encalha na costa e não consegue regressar à água sem auxílio, estamos perante um arrojamento. Em Portugal, os arrojamentos mais comuns são os cetáceos (baleias e golfinhos), as tartarugas marinhas e as aves marinhas. Ocasionalmente, ocorrem também arrojamentos de outros mamíferos marinhos, como as lontras.
 			 */
 			text: () => LocalizedString
 			aliveStranding: {
@@ -1544,7 +1536,7 @@ export type TranslationFunctions = {
 				 */
 				title: () => LocalizedString
 				/**
-				 * Os arrojamentos vivos são situações muito complexas, em que cada situação tem particularidades únicas. Por norma, os animais que arrojam vivos nas praias não se encontram nas melhores condições de saúde e, por isso mesmo, nem sempre é possível devolver os animais ao oceano. O objetivo será sempre avaliar o estado de saúde do animal e tomar uma decisão sobre qual será a melhor opção para reduzir o sofrimento do animal e a viabilidade da sua recuperação/reflutuação.
+				 * Os arrojamentos vivos são situações muito complexas, em que cada situação tem particularidades únicas. Por norma, os animais que arrojam vivos nas praias não se encontram nas melhores condições de saúde e, por isso mesmo, nem sempre é possível devolver os animais ao oceano. O objetivo será sempre avaliar o estado de saúde dos animais e a viabilidade da sua recuperação/reflutuação. Caso esta não seja possível, são tomadas medidas para reduzir o sofrimento do animal.
 				 */
 				text: () => LocalizedString
 			}

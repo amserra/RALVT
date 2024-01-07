@@ -50,18 +50,16 @@ const pt = {
 		hero: {
 			title: 'Somos a RALVT',
 			text1:
-				'A RALVT, Rede de Arrojamentos de Lisboa e Vale do Tejo, iniciou em funções em 2021 e integra a Rede Nacional de Arrojamentos, atuando entre a região de Lisboa e Vale do Tejo, entre os municípios da Lourinhã e Setúbal. É o resultado de uma parceria entre MARE - ISPA (Instituto Superior de Psicologia Aplicada), o ICNF (Instituto de Conservação da Natureza e das Florestas), e o Fundo Ambiental (Ministério do Ambiente). O nosso principal objetivo é dar resposta a alertas de arrojamentos mortos ou vivos de cetáceos e tartarugas marinhas que ocorram na área de atuação da rede.',
-			text2:
-				'Além da RALVT, existem mais 3 redes de arrojamentos regionais: Rede do Norte (Caminha a Peniche), ARROJAL (Tróia a Odeceixe) e RAAlg (Odeceixe a Vila Real de Santo António), sendo que todas integram a Rede Nacional de Arrojamentos, coordenada pelo ICNF.'
+				'A Rede de Arrojamentos de Lisboa e Vale Tejo (RALVT), iniciou funções em 2021 e pertence à rede Nacional de Arrojamentos, atuando na região de Lisboa e Vale Tejo, entre os municípios da Lourinhã e Setúbal. A rede é o resultado de uma parceria entre o MARE-ISPA (Centro de Ciências do Mar e Ambiente - Instituto Superior de Psicologia Avançada), o ICNF (Instituto de Conservação da Natureza e Florestas) e o Fundo Ambiental (Ministério do Ambiente). O nosso principal objetivo é dar resposta a alertas de arrojamentos vivos ou mortos de mamíferos marinhos (golfinhos, baleias e lontras) e tartarugas marinhas, que ocorram na área de atuação da rede.'
 		},
 		mission: {
 			title: 'A nossa missão',
 			text1:
-				'Através do auxílio prestado em situações arrojamentos de animais marinhos e da recolha de informação sobre estas espécies, a nossa missão divide-se entre o estabelecimento de conhecimento de base que permita implementar medidas de conservação eficientes para as espécies marinhas, e a promoção da Literacia dos Oceanos através de atividades de educação da população em geral.',
+				'A resposta da RALVT aos arrojamentos de animais marinhos, permite-nos realizar a recolha de informação acerca destas espécies, possibilitando o aumento do conhecimento base e deste modo estabelecer e implementar medidas de conservação eficientes para estas espécies. Juntamente com as autoridades de cada município, a nossa equipa agiliza também a recolha e transporte dos animais arrojados. Adicionalmente, através de atividades de educação da população em geral, conseguimos promover a literacia dos oceanos, assim como incentivar a população à preservação dos habitats e conservação das espécies marinhas.',
 			bulletPoints: {
 				necropsies: {
 					title: 'Necrópsias.',
-					text: 'Essenciais para a obtenção de informação sobre estas espécies marinhas, as necrópsias são uma parte essencial do nosso trabalho, permitindo a elaboração de relatórios sobre a causa de morte dos animais quando o estado do animal assim o permite. Estando disponíveis 24/7, a nossa equipa procura agilizar com as autoridades a recolha e o transporte do animal e dar resposta às diversas situações que possam surgir.'
+					text: 'Quando os animais arrojam já sem vida, torna-se importante, através de recolhas de amostras, a tentativa de determinação da causa da morte. Adicionalmente, as necrópsias são fundamentais para aumentar o nosso conhecimento acerca destas espécies.'
 				},
 				liveSightings: {
 					title: 'Assistência a arrojamentos vivos.',
@@ -73,7 +71,7 @@ const pt = {
 				},
 				education: {
 					title: 'Educação ambiental.',
-					text: 'Queremos promover a Literacia do Oceano através de atividades de educação ambiental, projetos de ciência cidadã, formações e webinars para a população em geral e organizações locais que nos queiram ajudar.  Além disso, contamos ainda com programas de voluntariado e de estágios curriculares de forma a transmitir o conhecimento a estudantes interessados em explorar esta área.'
+					text: 'Queremos promover a Literacia do Oceano através de atividades de educação ambiental, projetos de ciência cidadã, formações e webinars para a população em geral e organizações locais que nos queiram ajudar. Além disso, contamos ainda com programas de voluntariado e de estágios curriculares de forma a transmitir o conhecimento a estudantes interessados  em explorar esta área.'
 				}
 			},
 			highlights: {
@@ -93,7 +91,7 @@ const pt = {
 		},
 		team: {
 			title: 'A nossa equipa',
-			text: 'A RALVT é formada por uma equipa multifacetada constituída por biólogos marinhos e médicos veterinários, permitindo uma complementaridade de áreas de atuação. Somos um grupo de pessoas com interesse pelos oceanos e pela sua biodiversidade e a inclusão destas duas profissões permite uma melhor resposta em qualquer situação de arrojamento vivo ou morto e um conhecimento amplo sobre as espécies, quer a nível biológico quer a nível veterinário.',
+			text: 'A RALVT é formada por uma equipa multidisciplinar constituída por biólogos marinhos e médicos veterinária. A colaboração entre estas áreas, permite-nos uma melhor resposta a qualquer situação de arrojamento e conhecimento mais amplo das espécies com que trabalhamos. Somos um grupo de pessoas com interesse pelos oceanos e pela biodiversidade que nele existe, tendo um objetivo coletivo de conservar estas espécies e transmitir o nosso conhecimento e paixão pela vida marinha ao resto da população.',
 			roles: {
 				VeterinarianMale: 'Médico Veterinário',
 				VeterinarianFemale: 'Médica Veterinária',
@@ -129,7 +127,7 @@ const pt = {
 				regularName: 'Roaz',
 				conservationState: 'Pouco Preocupante',
 				description:
-					'O golfinho-roaz pode ser encontrado mundialmente, sendo que em Portugal conta com uma população residente no estuário do Sado com 28 indivíduos (é né?). Os adultos podem ter até 3,9 m e pesar até 635 kg. Esta espécie pode ser avistada em grupos sociais mais pequenos, entre 2 a 15 indivíduos, mas também em grupos maiores. Alimentam-se de peixes e cefalópodes. A sua longevidade média é de 52 anos.'
+					'O golfinho-roaz pode ser encontrado mundialmente, sendo que em Portugal conta com uma população residente no estuário do Sado com 28 indivíduos. Os adultos podem ter até 3,9 m e pesar até 635 kg. Esta espécie pode ser avistada em grupos sociais mais pequenos, entre 2 a 15 indivíduos, mas também em grupos maiores. Alimentam-se de peixes e cefalópodes. A sua longevidade média é de 52 anos.'
 			},
 			minkeWhale: {
 				regularName: 'Baleia-anã',
@@ -147,7 +145,7 @@ const pt = {
 		turtles: {
 			title: 'Tartarugas',
 			description:
-				'Em todo o mundo existem mais de 300 espécies de tartarugas mas apenas 7 são marinhas, sendo que em Portugal podemos observar 5 espécies. Tendo as tartarugas marinhas evoluído de animais terrestes, ainda possuem características dos mesmos, tal como a respiração através do ar e a necessidade de incubarem os ovos em ninhos escavados nas praias, sendo que as fêmeas regressam à praia onde nasceram para colocar os seus ovos. Das 5 espécies em Portugal, as mais comuns de observar em águas continentais são a tartaruga-de-couro e a tartaruga-comum.',
+				'Existem na Terra, mais de 300 espécies de tartarugas, mas apenas 7 são marinhas. Em Portugal, conseguimos observar 5 destas 7 espécies, sendo as mais observadas a tartaruga-de-couro e a tartaruga-comum. Tendo evoluído de animais terrestes, ainda possuem algumas características dos mesmos, tal como a respiração através do ar e a necessidade de incubarem os seus ovos em ninhos escavados nas praias, sendo que as fêmeas regressam à praia onde nasceram para fazer o ninho.',
 			leatherbackTurtle: {
 				regularName: 'Tartaruga-de-couro',
 				conservationState: 'Vulnerável',
@@ -164,13 +162,13 @@ const pt = {
 				regularName: 'Tartaruga-comum',
 				conservationState: 'Vulnerável',
 				description:
-					'Distribuídas globalmente, estas tartarugas podem medir até 1,5 m e pode pesar até 180 kg. A sua longevidade média é de 70 anos. É uma espécie solitária e omnívora, alimentando-se de diversos animais. Estas tartarugas podem possuem muitos organismos na sua carapaça, como lapas, caranguejos, algas e outros invertebrados (epibiontes).'
+					'Distribuídas globalmente, estas tartarugas podem medir até 1,5 m e pode pesar até 180 kg. A sua longevidade média é de 70 anos. É uma espécie solitária e omnívora, alimentando-se de diversos animais. Estas tartarugas podem possuir muitos organismos na sua carapaça, como lapas, caranguejos, algas e outros invertebrados (epibiontes).'
 			}
 		},
 		birds: {
 			title: 'Aves',
 			description:
-				'Em Portugal continental, podemos encontrar vários grupos taxonómicos, existindo 65 espécies de aves marinhas.',
+				'Em Portugal continental, podemos encontrar 65 espécies de aves marinhas, pertencendo a vários grupos taxonómicos.',
 			yellowLeggedGull: {
 				regularName: 'Gaivota-de-patas-amarelas',
 				conservationState: 'Pouco Preocupante',
@@ -193,7 +191,7 @@ const pt = {
 				regularName: 'Papagaio-do-mar',
 				conservationState: 'Vulnerável',
 				description:
-					'Pode ser apenas encontrado no atlântico norte e em Portugal continental é uma espécie invernante e migrador de passagem. Pode ser visto entre outubro e abril ao longo da costa. Esta espécie passa a maior parte da sua vida em alto-mar. Alimenta-se maioritariamente de peixe, mas pouco se sobre a sua dieta.'
+					'Pode ser apenas encontrado no atlântico norte e em Portugal continental é uma espécie invernante e migrador de passagem. Pode ser visto entre outubro e abril ao longo da costa. Esta espécie passa a maior parte da sua vida em alto-mar. Alimenta-se maioritariamente de peixe, mas pouco se sabe a sua dieta.'
 			}
 		},
 		names: {
@@ -223,10 +221,10 @@ const pt = {
 		},
 		whatIs: {
 			title: 'O que é um arrojamento?',
-			text: 'É denominado de arrojamento quando um animal marinho, vivo ou morto, encalha na costa e não consegue regressar à água sem auxílio. Os animais mais comuns de arrojar são os cetáceos (baleias e golfinhos), as tartarugas marinhas e as aves marinhas. Este fenómeno tem vindo a ser cada vez mais reportado em Portugal, mas também em outros lugares do mundo, como em França, Escócia e Irlanda. Contudo, é importante ter em conta que a quantidade de entidades a registar este tipo de fenómenos é cada vez maior, assim como o número de cidadãos que estão consciencializadas para dar alertas destes acontecimentos.',
+			text: 'Quando um animal marinho, vivo ou morto, encalha na costa e não consegue regressar à água sem auxílio, estamos perante um arrojamento. Em Portugal, os arrojamentos mais comuns são os cetáceos (baleias e golfinhos), as tartarugas marinhas e as aves marinhas. Ocasionalmente, ocorrem também arrojamentos de outros mamíferos marinhos, como as lontras.',
 			aliveStranding: {
 				title: 'Arrojamento vivo',
-				text: 'Os arrojamentos vivos são situações muito complexas, em que cada situação tem particularidades únicas. Por norma, os animais que arrojam vivos nas praias não se encontram nas melhores condições de saúde e, por isso mesmo, nem sempre é possível devolver os animais ao oceano. O objetivo será sempre avaliar o estado de saúde do animal e tomar uma decisão sobre qual será a melhor opção para reduzir o sofrimento do animal e a viabilidade da sua recuperação/reflutuação.'
+				text: 'Os arrojamentos vivos são situações muito complexas, em que cada situação tem particularidades únicas. Por norma, os animais que arrojam vivos nas praias não se encontram nas melhores condições de saúde e, por isso mesmo, nem sempre é possível devolver os animais ao oceano. O objetivo será sempre avaliar o estado de saúde dos animais e a viabilidade da sua recuperação/reflutuação. Caso esta não seja possível, são tomadas medidas para reduzir o sofrimento do animal.'
 			},
 			deadStranding: {
 				title: 'Arrojamento morto',

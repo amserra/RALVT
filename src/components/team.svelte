@@ -22,19 +22,19 @@
 		},
 		{
 			name: 'João Molarinho',
-			imgUrl: '/images/team/default-photo.webp',
+			imgUrl: '/images/team/joao-molarinho.jpg',
 			role: $LL.theRalvt.team.roles.VeterinarianMale(),
 			department: $LL.theRalvt.team.roles.operations()
 		},
 		{
 			name: 'Teresa Vale',
-			imgUrl: '/images/team/default-photo.webp',
+			imgUrl: '/images/team/teresa-vale.jpg',
 			role: $LL.theRalvt.team.roles.biologistFemale(),
 			department: $LL.theRalvt.team.roles.outreach()
 		},
 		{
 			name: 'Carolina Sousa',
-			imgUrl: '/images/team/default-photo.webp',
+			imgUrl: '/images/team/carolina-sousa.jpg',
 			role: $LL.theRalvt.team.roles.VeterinarianFemale(),
 			department: $LL.theRalvt.team.roles.administrative()
 		}
