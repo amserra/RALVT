@@ -233,7 +233,7 @@ const en = {
 	},
 	events: {
 		title: 'Events',
-		futureEvents: 'next events',
+		futureEvents: 'Next events',
 		pastEvents: 'Past events',
 		details: 'Details',
 		noFutureEvents: 'There are no events at the moment. ',
