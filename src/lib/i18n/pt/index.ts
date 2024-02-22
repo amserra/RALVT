@@ -50,7 +50,7 @@ const pt = {
 		hero: {
 			title: 'Somos a RALVT',
 			text1:
-				'A Rede de Arrojamentos de Lisboa e Vale Tejo (RALVT), iniciou funções em 2021 e pertence à rede Nacional de Arrojamentos, atuando na região de Lisboa e Vale Tejo, entre os municípios da Lourinhã e Setúbal. A rede é o resultado de uma parceria entre o MARE-ISPA (Centro de Ciências do Mar e Ambiente - Instituto Superior de Psicologia Avançada), o ICNF (Instituto de Conservação da Natureza e Florestas) e o Fundo Ambiental (Ministério do Ambiente). O nosso principal objetivo é dar resposta a alertas de arrojamentos vivos ou mortos de mamíferos marinhos (golfinhos, baleias e lontras) e tartarugas marinhas, que ocorram na área de atuação da rede.'
+				'A Rede de Arrojamentos de Lisboa e Vale Tejo (RALVT), iniciou funções em 2021 e pertence à rede Nacional de Arrojamentos, atuando na região de Lisboa e Vale Tejo, entre os municípios da Lourinhã e Setúbal. A rede é o resultado de uma parceria entre o MARE-ISPA (Centro de Ciências do Mar e Ambiente - Instituto Superior de Psicologia Avançada), o ICNF (Instituto de Conservação da Natureza e Florestas) e o Fundo Ambiental (Ministério do Ambiente). O nosso principal objetivo é dar resposta a alertas de arrojamentos vivos ou mortos de mamíferos marinhos (golfinhos, baleias e focas) e tartarugas marinhas, que ocorram na área de atuação da rede.'
 		},
 		mission: {
 			title: 'A nossa missão',
@@ -221,7 +221,7 @@ const pt = {
 		},
 		whatIs: {
 			title: 'O que é um arrojamento?',
-			text: 'Quando um animal marinho, vivo ou morto, encalha na costa e não consegue regressar à água sem auxílio, estamos perante um arrojamento. Em Portugal, os arrojamentos mais comuns são os cetáceos (baleias e golfinhos), as tartarugas marinhas e as aves marinhas. Ocasionalmente, ocorrem também arrojamentos de outros mamíferos marinhos, como as lontras.',
+			text: 'Quando um animal marinho, vivo ou morto, encalha na costa e não consegue regressar à água sem auxílio, estamos perante um arrojamento. Em Portugal, os arrojamentos mais comuns são os cetáceos (baleias e golfinhos), as tartarugas marinhas e as aves marinhas. Ocasionalmente, ocorrem também arrojamentos de outros mamíferos marinhos, como as focas.',
 			aliveStranding: {
 				title: 'Arrojamento vivo',
 				text: 'Os arrojamentos vivos são situações muito complexas, em que cada situação tem particularidades únicas. Por norma, os animais que arrojam vivos nas praias não se encontram nas melhores condições de saúde e, por isso mesmo, nem sempre é possível devolver os animais ao oceano. O objetivo será sempre avaliar o estado de saúde dos animais e a viabilidade da sua recuperação/reflutuação. Caso esta não seja possível, são tomadas medidas para reduzir o sofrimento do animal.'
