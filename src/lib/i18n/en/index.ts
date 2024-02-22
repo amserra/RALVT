@@ -220,7 +220,7 @@ const en = {
 		},
 		whatIs: {
 			title: 'What is a stranding?',
-			text: 'A stranding is a situation where a marine animal, alive or dead, beaches on shore and can’t return to the water without aid. In Portugal most strandings are of cetaceans (whales and dolphins), marine turtles or marine birds. Occasionally, strandings of other marine mammals occur, such as otters.',
+			text: 'A stranding is a situation where a marine animal, alive or dead, beaches on shore and can’t return to the water without aid. In Portugal most strandings are of cetaceans (whales and dolphins), marine turtles or marine birds. Occasionally, strandings of other marine mammals occur, such as seals.',
 			aliveStranding: {
 				title: 'Live stranding',
 				text: 'Live strandings are very complex situations, and each case is different and unique. Usually, animals that beach alive aren’t very healthy and for this reason it may not always be possible to return them to the sea. The main goal is always to assess the animal’s heath status and the viability of its recovery/refloating. In cases where the recovery/refloating of the animal is not viable, measures are taken to reduce its suffering.'
