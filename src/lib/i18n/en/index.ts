@@ -260,7 +260,7 @@ const en = {
 			report: {
 				title: 'Report, Report, Report!',
 				text: 'Contact us as soon as possible if you find a stranded animal to help us collect data. Also, if you sight a live animal close to the shore let us know so we can monitor these animals as well.',
-				buttonText: 'Report a dare'
+				buttonText: 'Report a stranding'
 			}
 		}
 	},
