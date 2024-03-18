@@ -205,9 +205,9 @@ const en = {
 	strandings: {
 		hero: {
 			title: 'Strandings',
-			text1: 'What is the proportion of live vs. dead attacks?',
+			text1: 'What is the proportion of live vs. dead strandings?',
 			text2:
-				'Between January and October 2022, RALVT recorded 7% of live attacks to 93% of dead attacks.',
+				'Between January and December 2023, RALVT recorded 2.5% of live strandings and 97.5% of dead strandings.',
 			callToAction: {
 				reportStranding: 'Report a dare',
 				knowMore: 'To know more'
@@ -215,7 +215,7 @@ const en = {
 			map: {
 				specie: 'Species',
 				reportedOn: 'Reported to',
-				helpText: 'The map above shows the attacks that were reported to us. '
+				helpText: 'The map above shows the strandings that were reported to us. '
 			}
 		},
 		whatIs: {
