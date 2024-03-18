@@ -207,7 +207,7 @@ const pt = {
 			title: 'Arrojamentos',
 			text1: 'Qual a proporção de arrojamentos vivos vs mortos?',
 			text2:
-				'Entre Janeiro e Outubro de 2022 a RALVT registou 7% de arrojamentos vivos para 93% de arrojamentos mortos.',
+				'Entre Janeiro e Dezembro de 2023 a RALVT registou 2.5% de arrojamentos vivos para 97.5% de arrojamentos mortos.',
 			callToAction: {
 				reportStranding: 'Reportar um arrojamento',
 				knowMore: 'Saber mais'
