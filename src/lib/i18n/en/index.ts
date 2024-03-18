@@ -209,7 +209,7 @@ const en = {
 			text2:
 				'Between January and December 2023, RALVT recorded 2.5% of live strandings and 97.5% of dead strandings.',
 			callToAction: {
-				reportStranding: 'Report a dare',
+				reportStranding: 'Report a stranding',
 				knowMore: 'To know more'
 			},
 			map: {
