@@ -198,7 +198,7 @@ const pt = {
 			dolphin: 'Golfinho',
 			whale: 'Baleia',
 			turtle: 'Tartaruga',
-			bird: 'Pássaro',
+			bird: 'Ave',
 			animal: 'Animal'
 		}
 	},
