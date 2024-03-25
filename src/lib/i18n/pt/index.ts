@@ -84,7 +84,7 @@ const pt = {
 					text: 'De lixo apanhado desde 2021'
 				},
 				events: {
-					number: '+15 eventos',
+					number: '+18 eventos',
 					text: 'Realizados desde 2021'
 				}
 			}
