@@ -76,7 +76,7 @@ const en = {
 			},
 			highlights: {
 				necropsies: {
-					number: '+150 necropsies',
+					number: '+190 strandings',
 					text: 'Since 2021'
 				},
 				trash: {
