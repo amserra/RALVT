@@ -76,7 +76,7 @@ const pt = {
 			},
 			highlights: {
 				necropsies: {
-					number: '+150 necrópsias',
+					number: '+190 arrojamentos',
 					text: 'Desde 2021'
 				},
 				trash: {
