@@ -80,11 +80,11 @@ const en = {
 					text: 'Since 2021'
 				},
 				trash: {
-					number: '+400kg',
-					text: 'Of garbage collected in 2023'
+					number: '+574kg',
+					text: 'Of garbage collected since 2021'
 				},
 				events: {
-					number: '+15 events',
+					number: '+18 events',
 					text: 'Held since 2021'
 				}
 			}
@@ -282,7 +282,7 @@ const en = {
 			title: 'Other stranding networks',
 			arrojal:
 				'ARROJAL - Support for the National Arrojamentos Network - Alentejo Regional Network',
-			abrigos: 'SHELTERS - Marine Mammal Support Network / ICNF',
+			abrigos: 'ABRIGOS - Marine Mammal Support Network / ICNF',
 			raalg: 'Algarve Arrojamentos Network (RAAlg)'
 		},
 		recoveryCenters: {
