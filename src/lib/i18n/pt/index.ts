@@ -80,8 +80,8 @@ const pt = {
 					text: 'Desde 2021'
 				},
 				trash: {
-					number: '+400 kg',
-					text: 'De lixo apanhado em 2023'
+					number: '+574 kg',
+					text: 'De lixo apanhado desde 2021'
 				},
 				events: {
 					number: '+15 eventos',
