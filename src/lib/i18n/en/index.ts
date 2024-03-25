@@ -145,7 +145,7 @@ const en = {
 		turtles: {
 			title: 'Turtles',
 			description:
-				'There are over 300 species of turtles in the world, but only 7 of them are sea turtles. In Portugal, we can observe 5 of those 7 species, the most common being the Leather Turtle and the Loggerhead Turtle. Having evolved from land animals, the sea turtles still have some common characteristics, such as the need to breath air and to incubate their eggs in nests dug on the beach. Female turtles return to their birthplace in order to make their nests.',
+				'There are over 300 species of turtles in the world, but only 7 of them are sea turtles. In Portugal, we can observe 5 of those 7 species, the most common being the Loggerhead Turtle and the Leatherback Turtle. Having evolved from land animals, the sea turtles still have some common characteristics, such as the need to breath air and to incubate their eggs in nests dug on the beach. Female turtles return to their birthplace in order to make their nests.',
 			leatherbackTurtle: {
 				regularName: 'Leatherback turtle',
 				conservationState: 'Vulnerable',
@@ -182,16 +182,16 @@ const en = {
 					'The cormorant is a wintering species resident in mainland Portugal, most commonly between September and April. Their diet is composed mainly of fish. Their wingspan can measure up to 110cm and they can weigh up to 2500g. The cormorant can spend more than a minute underwater; however, their feathers aren’t waterproof creating the need to dry after a dive.'
 			},
 			razorbill: {
-				regularName: 'Diving thrush',
+				regularName: 'Razorbill',
 				conservationState: 'Little Concern',
 				description:
-					'The diving thrush is a small species that can be seen in Portugal between November and March along the coast. Their wingspan can measure up to 67cm and they can weigh up to 590-730g. They feed mostly of small fishes and krill. Their average lifespan is 20 years; however, some individuals can live up to 40 years. This species can dive to depths up to 120m, the equivalent of a 10-story building.'
+					'The razorbill is a small species that can be seen in Portugal between November and March along the coast. Their wingspan can measure up to 67cm and they can weigh up to 590-730g. They feed mostly of small fishes and krill. Their average lifespan is 20 years; however, some individuals can live up to 40 years. This species can dive to depths up to 120m, the equivalent of a 10-story building.'
 			},
 			atlanticPuffin: {
-				regularName: 'Sea parrot',
+				regularName: 'Atlantic Puffin',
 				conservationState: 'Vulnerable',
 				description:
-					'The sea parrot can only be found in the North Atlantic. In mainland Portugal it is a wintering species and a passing by migrant. They can be observed between October and April along our entire coast; however, they spend most of their time in high sea. The sea parrots feed mostly on fish, but there is not a lot of information on its diet.'
+					'The atlantic puffin can only be found in the North Atlantic. In mainland Portugal it is a wintering species and a passing by migrant. They can be observed between October and April along our entire coast; however, they spend most of their time in high sea. The atlantic puffin feeds mostly on fish, but there is not a lot of information on its diet.'
 			}
 		},
 		names: {
