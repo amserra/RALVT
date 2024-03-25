@@ -319,7 +319,7 @@ const pt = {
 			locationHelpText: 'Clique no mapa para selecionar o ponto',
 			dateOfStranding: 'Data em que detetou o arrojamento',
 			dateOfSighting: 'Data em que avistou o animal',
-			species: 'Espécie',
+			species: 'Animal',
 			animalCondition: 'Condição do animal',
 			photos: 'Fotografias',
 			photosStrandingHelpText: 'Opcionalmente adicione fotografias do arrojamento',
