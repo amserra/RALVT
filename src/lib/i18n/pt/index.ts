@@ -145,7 +145,7 @@ const pt = {
 		turtles: {
 			title: 'Tartarugas',
 			description:
-				'Existem na Terra, mais de 300 espécies de tartarugas, mas apenas 7 são marinhas. Em Portugal, conseguimos observar 5 destas 7 espécies, sendo as mais observadas a tartaruga-de-couro e a tartaruga-comum. Tendo evoluído de animais terrestes, ainda possuem algumas características dos mesmos, tal como a respiração através do ar e a necessidade de incubarem os seus ovos em ninhos escavados nas praias, sendo que as fêmeas regressam à praia onde nasceram para fazer o ninho.',
+				'Existem na Terra, mais de 300 espécies de tartarugas, mas apenas 7 são marinhas. Em Portugal, conseguimos observar 5 destas 7 espécies, sendo as mais observadas a tartaruga-comum e a tartaruga-de-couro. Tendo evoluído de animais terrestes, ainda possuem algumas características dos mesmos, tal como a respiração através do ar e a necessidade de incubarem os seus ovos em ninhos escavados nas praias, sendo que as fêmeas regressam à praia onde nasceram para fazer o ninho.',
 			leatherbackTurtle: {
 				regularName: 'Tartaruga-de-couro',
 				conservationState: 'Vulnerável',
