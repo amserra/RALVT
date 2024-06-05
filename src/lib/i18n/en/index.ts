@@ -115,7 +115,7 @@ const en = {
 				regularName: 'Common Dolphin',
 				conservationState: 'Little Concern',
 				description:
-					'The common dolphin is a species that can be found in every ocean. Adults can measure up to 2.7m and weigh up to 200kg, while calves can reach up to 85cm and weigh around 10kg. Generally speaking, they are found in pods of hundreds of individuals. Common dolphins are considered very agile and develop areal behaviours, often interacting with ships in a behaviour called “bow riding”. They feed mainly on fish and cephalopods (squid and octopi). Their average lifespan is 35 years.'
+					'The common dolphin is a species that can be found in every ocean. Adults can measure up to 2.7m and weigh up to 200kg, while calves can reach up to 85cm and weigh around 10kg. Generally speaking, they are found in pods of hundreds of individuals. Common dolphins are considered very agile and develop aerial behaviours, often interacting with ships in a behaviour called “bow riding”. They feed mainly on fish and cephalopods (squid and octopi). Their average lifespan is 35 years.'
 			},
 			stripedDolphin: {
 				regularName: 'striped dolphin',
@@ -259,7 +259,7 @@ const en = {
 			},
 			report: {
 				title: 'Report, Report, Report!',
-				text: 'Contact us as soon as possible if you find a stranded animal to help us collect data. Also, if you sight a live animal close to the shore let us know so we can monitor these animals as well.',
+				text: 'Contact us, as soon as possible, if you find a stranded animal to help us collect data. Also, if you sight a live animal close to the shore let us know so we can monitor these animals as well.',
 				buttonText: 'Report a stranding'
 			}
 		}
