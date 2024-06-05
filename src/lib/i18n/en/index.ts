@@ -227,7 +227,7 @@ const en = {
 			},
 			deadStranding: {
 				title: 'Dead stranding',
-				text: 'A dead animal being washed up will always be an important fact, because the real number of animals dying is much higher than the number of animals that wash up on the beaches. '
+				text: 'A dead animal being beached will always be an important fact, because the real number of animals dying is much higher than the number of animals that wash up on the beaches. However, the number of samples we collect in each stranding depends on the decomposition state of the stranded animal. Some of the data we collect includes biometric data (size and weight), biological/tissue samples and cause of death.'
 			}
 		}
 	},
