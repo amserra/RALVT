@@ -95,7 +95,7 @@
 				<li class="mt-4">
 					<b>3.2.</b> Por favor note que a RALVT ou as entidades por nós
 					<u>subcontratadas podem armazenar os seus dados fora do EEE</u>. Nesse caso garantiremos
-					que essas empresas subcontratadas estão sujeitas a legislação que foi considerada pela
+					que essas empresas subcontratadas estão sujeitas à legislação que foi considerada pela
 					Comissão Europeia como prestando um grau de proteção adequado estão por isso a coberto de
 					uma decisão de adequação ou equivalente.
 				</li>
