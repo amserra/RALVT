@@ -55,7 +55,7 @@ const en = {
 		mission: {
 			title: 'Our mission',
 			text1:
-				'RALVT is composed by a multidisciplinary team of marine biologists and veterinary doctors. The collaboration between these areas of expertise allows us to have a better response to the strandings and have a broader knowledge of the species we work with. We are a group of people interested in the oceans and the biodiversity within them and with a collective goal for the conservation of these species and for passing on our knowledge and passion of marine life to the rest of the population.',
+				'RALVT's response to marine animal strandings allows us to collect information about these species, allowing us to broaden out understanding and implement conservation strategies for these species. Together with each municipal authority, our team streamlines the transport of the stranded animal. Additionally, through educational activities of the population, we can promote the ocean literacy as well as incentivize the general population to preserve the habitats and promote the conservation of marine species.',
 			bulletPoints: {
 				necropsies: {
 					title: 'Necropsies.',
