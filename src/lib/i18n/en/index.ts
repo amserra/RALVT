@@ -154,7 +154,7 @@ const en = {
 			},
 			greenTurtle: {
 				regularName: 'Green turtle',
-				conservationState: 'In danger',
+				conservationState: 'Endangered',
 				description:
 					'The green turtle is a species that is widespread with migratory behaviours. They can measure up to 1.5m and weigh up to 190kg. This is a solitary species that has an herbivore diet composed mainly of plants and algaes, and because of this their beak is serrated. Their internal fat tissue is green.'
 			},
