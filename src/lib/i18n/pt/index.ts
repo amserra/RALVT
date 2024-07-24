@@ -76,15 +76,15 @@ const pt = {
 			},
 			highlights: {
 				necropsies: {
-					number: '+190 arrojamentos',
+					number: '+216 arrojamentos',
 					text: 'Desde 2021'
 				},
 				trash: {
-					number: '+574 kg',
+					number: '+613 kg',
 					text: 'De lixo apanhado desde 2021'
 				},
 				events: {
-					number: '+18 eventos',
+					number: '+30 eventos',
 					text: 'Realizados desde 2021'
 				}
 			}
