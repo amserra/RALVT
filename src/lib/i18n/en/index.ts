@@ -76,15 +76,15 @@ const en = {
 			},
 			highlights: {
 				necropsies: {
-					number: '+190 strandings',
+					number: '+216 strandings',
 					text: 'Since 2021'
 				},
 				trash: {
-					number: '+574kg',
+					number: '+613kg',
 					text: 'Of garbage collected since 2021'
 				},
 				events: {
-					number: '+18 events',
+					number: '+30 events',
 					text: 'Held since 2021'
 				}
 			}
