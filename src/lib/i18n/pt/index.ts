@@ -50,7 +50,7 @@ const pt = {
 		hero: {
 			title: 'Somos a RALVT',
 			text1:
-				'A Rede de Arrojamentos de Lisboa e Vale Tejo (RALVT), iniciou funções em 2021 e pertence à rede Nacional de Arrojamentos, atuando na região de Lisboa e Vale Tejo, entre os municípios da Lourinhã e Setúbal. A rede é o resultado de uma parceria entre o MARE-ISPA (Centro de Ciências do Mar e Ambiente - Instituto Superior de Psicologia Avançada), o ICNF (Instituto de Conservação da Natureza e Florestas) e o Fundo Ambiental (Ministério do Ambiente). O nosso principal objetivo é dar resposta a alertas de arrojamentos vivos ou mortos de mamíferos marinhos (golfinhos, bôtos, baleias e focas) e tartarugas marinhas, que ocorram na área de atuação da rede.'
+				'A Rede de Arrojamentos de Lisboa e Vale Tejo (RALVT), iniciou funções em 2021 e pertence à rede Nacional de Arrojamentos, atuando na região de Lisboa e Vale Tejo, entre os municípios da Lourinhã e Setúbal. A rede é o resultado de uma parceria entre o MARE-ISPA (Centro de Ciências do Mar e Ambiente - Instituto Universitário de Ciências Psicológicas, Sociais e da Vida), o ICNF (Instituto de Conservação da Natureza e Florestas) e o Fundo Ambiental (Ministério do Ambiente). O nosso principal objetivo é dar resposta a alertas de arrojamentos vivos ou mortos de mamíferos marinhos (golfinhos, bôtos, baleias e focas) e tartarugas marinhas, que ocorram na área de atuação da rede.'
 		},
 		mission: {
 			title: 'A nossa missão',
