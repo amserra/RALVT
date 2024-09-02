@@ -50,7 +50,7 @@ const en = {
 		hero: {
 			title: 'We are RALVT',
 			text1:
-				'The Lisbon and Tagus Valley Stranding Network (Rede de Arrojamentos de Lisboa e Vale Tejo – RALVT), started operating in 2021 and belongs to the National Stranding Network, acting in the Lisbon and Tagus Valley region, between Lourinhã and Setúbal. This network is the result of a collaboration between MARE-ISPA (Centro de Ciências do Mar e Ambiente – Instituto Superior de Psicologia Avançada), ICNF (Instituto de Conservação da Natureza e Florestas) and Fundo Ambiental (Ministério do Ambiente). Our main goal is to respond to alerts of marine mammals and sea turtles strandings (whether the animal is alive or not) that occur in our region.'
+				'The Lisbon and Tagus Valley Stranding Network (Rede de Arrojamentos de Lisboa e Vale Tejo – RALVT), started operating in 2021 and belongs to the National Stranding Network, acting in the Lisbon and Tagus Valley region, between Lourinhã and Setúbal. This network is the result of a collaboration between MARE-ISPA (Centro de Ciências do Mar e Ambiente – Instituto Universitário de Ciências Psicológicas, Sociais e da Vida), ICNF (Instituto de Conservação da Natureza e Florestas) and Fundo Ambiental (Ministério do Ambiente). Our main goal is to respond to alerts of marine mammals and sea turtles strandings (whether the animal is alive or not) that occur in our region.'
 		},
 		mission: {
 			title: 'Our mission',
