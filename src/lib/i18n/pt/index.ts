@@ -354,6 +354,98 @@ const pt = {
 			formErrorBody:
 				'Erro interno ao submeter formulário. Se o erro persistir, por favor contacte-nos por telefone: (+351) 911 111 241.'
 		}
+	},
+	privacyPolicy: {
+		header: 'Política de Privacidade',
+		subHeader:
+			'De acordo com o art. º13.º do Regulamento Europeu de Proteção de Dados Pessoais Reg. UE 2016/679',
+		intro:
+			'Nesta Política de Privacidade, poderá encontrar todas as informações necessárias para melhor compreender como tratamos os seus dados pessoais.',
+		sections: {
+			'1': {
+				title: '1. Responsável pelo Tratamento',
+				content:
+					'A RALVT, é a Responsável pelo Tratamento dos dados recolhidos neste sítio da internet. Poderá contactar-nos, por escrito, através do endereço eletrónico'
+			},
+			'2': {
+				title: '2. Finalidades do Tratamento e Fundamento Jurídico',
+				content: {
+					'21': 'No quadro infra, poderá verificar as categorias de dados pessoais que tratamos, e ainda para que finalidades os usamos.',
+					'22': 'É provável que nem todas as situações se apliquem ao seu caso concreto pois os dados recolhidos dependerão do formulário escolha preencher.',
+					'23': 'Os dados pessoais recolhidos em cada caso são os que são pedidos nos vários formulários e destinar-se-ão à finalidade inerente a cada ação ou situação em concreto. Os dados pessoais marcados com um asterisco (*) são de preenchimento obrigatório.',
+					dataCategories: {
+						title: 'Categoria de dados e Finalidades:',
+						'1': {
+							header: 'a) Dados de Identificação: nome, número de telefone, endereço de email.',
+							text: 'nome, número de telefone, endereço de email. Estes têm como finalidade a recolha de informações para possível posterior contacto de forma a esclarecer informações sobre o arrojamento/avistamento de um animal marinho, ou para comunicar o potencial desfecho de um arrojamento/avistamento.'
+						},
+						'2': {
+							header: 'b) Imagem: Fotografias.',
+							text: 'A submissão destas é opcional, e o intuito é recolher informações visuais sobre o avistamento/arrojamento de um animal marinho.'
+						},
+						'3': {
+							header: 'c) Localização.',
+							text: 'O fornecimento deste é opcional, sendo o seu acesso possível apenas após a expressa permissão do utilizador, escolha que é guardada e utilizada em futuras visitas. O utilizador poderá a qualquer momento alterar estas preferências. A localização é usada para identificar, em coordenadas GPS, a localização do animal arrojado/avistado.'
+						}
+					}
+				}
+			},
+			'3': {
+				title: '3. Categoria de destinatários dos dados',
+				content: {
+					'31': 'Para que sejam tratados de forma adequada para as finalidades referidas no n.º2, a RALVT possibilitará o acesso aos seus dados pessoais por parte das seguintes entidades:',
+					authorized:
+						'Pessoas individuais, trabalhadores e / ou colaboradores que tenham sido designados para desempenhar uma ou mais atividades de tratamento dos seus dados na qualidade de “Pessoas Autorizadas” tal como previsto no artigo 29.º do RGPD;',
+					publicEntities:
+						'Os seus dados pessoais poderão ser comunicados a entidades públicas ou autoridades judiciais, se assim for obrigatório por lei ou para prevenir ou punir a prática de crimes.',
+					authoroties:
+						'De acordo com o disposto no art.º4.º/9 do RGPD, “as autoridades públicas que possam receber dados pessoais no âmbito de inquéritos específicos nos termos do direito da União ou dos Estados-Membros não são consideradas destinatários”.',
+					outsideEEE:
+						'Por favor note que a RALVT ou as entidades por nós subcontratadas podem armazenar os seus dados fora do EEE. Nesse caso garantiremos que essas empresas subcontratadas estão sujeitas à legislação que foi considerada pela Comissão Europeia como prestando um grau de proteção adequado estão por isso a coberto de uma decisão de adequação ou equivalente.'
+				}
+			},
+			'4': {
+				title: '4. Prazo de Conservação',
+				content:
+					'A RALVT conservará os seus dados enquanto analisa o arrojamento/avistamento reportado, para as finalidades relacionadas com o seu processamento. Isto, sem prejuízo do exercício do seu direito de oposição quando aplicável. Após a cessação da análise da ocorrência poderemos conservar os seus dados para prova do cumprimento de obrigações legais, designadamente o RGPD, legislação fiscal, legislação respeitante a vendas à distância, entre outras. Neste caso apenas conservaremos os dados que sejam absolutamente necessários para esta finalidade e esses dados serão mantidos devidamente bloqueados e pseudonimizados. Apenas estarão acessíveis a pessoas especialmente autorizadas e exclusivamente para o cumprimento das finalidades suprarreferidas. Ainda assim, serão conservados apenas durante o prazo de prescrição da obrigação em causa, a qual poderá variar em função da legislação aplicável.'
+			},
+			'5': {
+				title: '5. Direitos dos Titulares dos Dados',
+				'51': 'Poderá exercer os seguintes direitos, conforme previstos pelo RGPD, através do email',
+				content: {
+					rights: [
+						'Direito de acesso à sua informação pessoal;',
+						'Direito de retificação dos seus dados;',
+						'Direito ao Apagamento dos dados;',
+						'Direito à limitação do tratamento;',
+						'Direito de Portabilidade;',
+						'Direito de oposição;',
+						'Direito de Oposição para efeitos de envio de comunicações de marketing;',
+						'Direito de apresentação de uma reclamação / queixa junto da CNPD - Comissão Nacional de Proteção de Dados (www.cnpd.pt); Neste caso, solicitamos o especial favor de nos contactar previamente à apresentação da reclamação junto da CNPD tendo em vista a resolução rápida do problema reportado.'
+					]
+				},
+				'52': 'Poderá ainda contactar-nos através do número 911 111 241, para pedir informações sobre a forma como poderá exercer os seus direitos.',
+				'53': 'Sempre que os seus dados sejam processados com base no consentimento poderá retirar o seu consentimento em qualquer altura, sem que isso comprometa a licitude do tratamento efetuado com base no consentimento previamente dado.',
+				'54': 'Para dar cumprimento aos seus pedidos poderemos solicitar informação adicional para o podermos identificar tal como resulta do disposto no art.º11.º do RGPD em conjugação com o considerando 67.',
+				final:
+					'No caso de recusa injustificada em identificar-se, se não estivermos possibilitados de o identificar de outra forma, reservamo-nos ao direito de não dar resposta ao seu pedido.'
+			},
+			'6': {
+				title: '6. Encarregado de Proteção de Dados',
+				content:
+					'A RALVT nomeou um Encarregado de Proteção de dados que poderá ser contactado através do email'
+			},
+			'7': {
+				title: '7. Segurança',
+				content:
+					'A RALVT implementou e manteve medidas de segurança e políticas técnicas e organizacionais para garantir a segurança dos dados pessoais que tratamos. Entre essas medidas encontram-se, designadamente, a execução de acordos de confidencialidade com os nossos colaboradores e fornecedores; políticas de restrição e controlo de acesso a dados pessoais; destruição ou anonimização de dados pessoais que já não são necessários para as finalidades que determinaram a sua recolha; Uma vez que a segurança de informação depende em parte da segurança do seu computador ou aparelho eletrónico que usa para comunicar connosco, e ainda da segurança que emprega para proteger nomes de utilizador e palavras-passe, por favor tome as medidas adequadas para proteger esta informação.'
+			},
+			'8': {
+				title: '8. Versão e alterações',
+				content:
+					'A última redação da presente Política de Privacidade é de 20 de maio de 2023. A RALVT poderá realizar alterações ao teor da presente Política de Privacidade. Tais alterações serão comunicadas, nos termos legais, ao utilizador.'
+			}
+		}
 	}
 } satisfies Translation;
 

@@ -171,7 +171,7 @@ type RootTranslation = {
 			 */
 			title: string
 			/**
-			 * A​ ​R​e​d​e​ ​d​e​ ​A​r​r​o​j​a​m​e​n​t​o​s​ ​d​e​ ​L​i​s​b​o​a​ ​e​ ​V​a​l​e​ ​T​e​j​o​ ​(​R​A​L​V​T​)​,​ ​i​n​i​c​i​o​u​ ​f​u​n​ç​õ​e​s​ ​e​m​ ​2​0​2​1​ ​e​ ​p​e​r​t​e​n​c​e​ ​à​ ​r​e​d​e​ ​N​a​c​i​o​n​a​l​ ​d​e​ ​A​r​r​o​j​a​m​e​n​t​o​s​,​ ​a​t​u​a​n​d​o​ ​n​a​ ​r​e​g​i​ã​o​ ​d​e​ ​L​i​s​b​o​a​ ​e​ ​V​a​l​e​ ​T​e​j​o​,​ ​e​n​t​r​e​ ​o​s​ ​m​u​n​i​c​í​p​i​o​s​ ​d​a​ ​L​o​u​r​i​n​h​ã​ ​e​ ​S​e​t​ú​b​a​l​.​ ​A​ ​r​e​d​e​ ​é​ ​o​ ​r​e​s​u​l​t​a​d​o​ ​d​e​ ​u​m​a​ ​p​a​r​c​e​r​i​a​ ​e​n​t​r​e​ ​o​ ​M​A​R​E​-​I​S​P​A​ ​(​C​e​n​t​r​o​ ​d​e​ ​C​i​ê​n​c​i​a​s​ ​d​o​ ​M​a​r​ ​e​ ​A​m​b​i​e​n​t​e​ ​-​ ​I​n​s​t​i​t​u​t​o​ ​S​u​p​e​r​i​o​r​ ​d​e​ ​P​s​i​c​o​l​o​g​i​a​ ​A​v​a​n​ç​a​d​a​)​,​ ​o​ ​I​C​N​F​ ​(​I​n​s​t​i​t​u​t​o​ ​d​e​ ​C​o​n​s​e​r​v​a​ç​ã​o​ ​d​a​ ​N​a​t​u​r​e​z​a​ ​e​ ​F​l​o​r​e​s​t​a​s​)​ ​e​ ​o​ ​F​u​n​d​o​ ​A​m​b​i​e​n​t​a​l​ ​(​M​i​n​i​s​t​é​r​i​o​ ​d​o​ ​A​m​b​i​e​n​t​e​)​.​ ​O​ ​n​o​s​s​o​ ​p​r​i​n​c​i​p​a​l​ ​o​b​j​e​t​i​v​o​ ​é​ ​d​a​r​ ​r​e​s​p​o​s​t​a​ ​a​ ​a​l​e​r​t​a​s​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​v​i​v​o​s​ ​o​u​ ​m​o​r​t​o​s​ ​d​e​ ​m​a​m​í​f​e​r​o​s​ ​m​a​r​i​n​h​o​s​ ​(​g​o​l​f​i​n​h​o​s​,​ ​b​a​l​e​i​a​s​ ​e​ ​l​o​n​t​r​a​s​)​ ​e​ ​t​a​r​t​a​r​u​g​a​s​ ​m​a​r​i​n​h​a​s​,​ ​q​u​e​ ​o​c​o​r​r​a​m​ ​n​a​ ​á​r​e​a​ ​d​e​ ​a​t​u​a​ç​ã​o​ ​d​a​ ​r​e​d​e​.
+			 * A​ ​R​e​d​e​ ​d​e​ ​A​r​r​o​j​a​m​e​n​t​o​s​ ​d​e​ ​L​i​s​b​o​a​ ​e​ ​V​a​l​e​ ​T​e​j​o​ ​(​R​A​L​V​T​)​,​ ​i​n​i​c​i​o​u​ ​f​u​n​ç​õ​e​s​ ​e​m​ ​2​0​2​1​ ​e​ ​p​e​r​t​e​n​c​e​ ​à​ ​r​e​d​e​ ​N​a​c​i​o​n​a​l​ ​d​e​ ​A​r​r​o​j​a​m​e​n​t​o​s​,​ ​a​t​u​a​n​d​o​ ​n​a​ ​r​e​g​i​ã​o​ ​d​e​ ​L​i​s​b​o​a​ ​e​ ​V​a​l​e​ ​T​e​j​o​,​ ​e​n​t​r​e​ ​o​s​ ​m​u​n​i​c​í​p​i​o​s​ ​d​a​ ​L​o​u​r​i​n​h​ã​ ​e​ ​S​e​t​ú​b​a​l​.​ ​A​ ​r​e​d​e​ ​é​ ​o​ ​r​e​s​u​l​t​a​d​o​ ​d​e​ ​u​m​a​ ​p​a​r​c​e​r​i​a​ ​e​n​t​r​e​ ​o​ ​M​A​R​E​-​I​S​P​A​ ​(​C​e​n​t​r​o​ ​d​e​ ​C​i​ê​n​c​i​a​s​ ​d​o​ ​M​a​r​ ​e​ ​A​m​b​i​e​n​t​e​ ​-​ ​I​n​s​t​i​t​u​t​o​ ​U​n​i​v​e​r​s​i​t​á​r​i​o​ ​d​e​ ​C​i​ê​n​c​i​a​s​ ​P​s​i​c​o​l​ó​g​i​c​a​s​,​ ​S​o​c​i​a​i​s​ ​e​ ​d​a​ ​V​i​d​a​)​,​ ​o​ ​I​C​N​F​ ​(​I​n​s​t​i​t​u​t​o​ ​d​e​ ​C​o​n​s​e​r​v​a​ç​ã​o​ ​d​a​ ​N​a​t​u​r​e​z​a​ ​e​ ​F​l​o​r​e​s​t​a​s​)​ ​e​ ​o​ ​F​u​n​d​o​ ​A​m​b​i​e​n​t​a​l​ ​(​M​i​n​i​s​t​é​r​i​o​ ​d​o​ ​A​m​b​i​e​n​t​e​)​.​ ​O​ ​n​o​s​s​o​ ​p​r​i​n​c​i​p​a​l​ ​o​b​j​e​t​i​v​o​ ​é​ ​d​a​r​ ​r​e​s​p​o​s​t​a​ ​a​ ​a​l​e​r​t​a​s​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​v​i​v​o​s​ ​o​u​ ​m​o​r​t​o​s​ ​d​e​ ​m​a​m​í​f​e​r​o​s​ ​m​a​r​i​n​h​o​s​ ​(​g​o​l​f​i​n​h​o​s​,​ ​b​ô​t​o​s​,​ ​b​a​l​e​i​a​s​ ​e​ ​f​o​c​a​s​)​ ​e​ ​t​a​r​t​a​r​u​g​a​s​ ​m​a​r​i​n​h​a​s​,​ ​q​u​e​ ​o​c​o​r​r​a​m​ ​n​a​ ​á​r​e​a​ ​d​e​ ​a​t​u​a​ç​ã​o​ ​d​a​ ​r​e​d​e​.
 			 */
 			text1: string
 		}
@@ -229,7 +229,7 @@ type RootTranslation = {
 			highlights: {
 				necropsies: {
 					/**
-					 * +​1​5​0​ ​n​e​c​r​ó​p​s​i​a​s
+					 * +​2​1​6​ ​a​r​r​o​j​a​m​e​n​t​o​s
 					 */
 					number: string
 					/**
@@ -239,17 +239,17 @@ type RootTranslation = {
 				}
 				trash: {
 					/**
-					 * +​4​0​0​ ​k​g
+					 * +​6​1​3​ ​k​g
 					 */
 					number: string
 					/**
-					 * D​e​ ​l​i​x​o​ ​a​p​a​n​h​a​d​o​ ​e​m​ ​2​0​2​3
+					 * D​e​ ​l​i​x​o​ ​a​p​a​n​h​a​d​o​ ​d​e​s​d​e​ ​2​0​2​1
 					 */
 					text: string
 				}
 				events: {
 					/**
-					 * +​1​5​ ​e​v​e​n​t​o​s
+					 * +​3​0​ ​e​v​e​n​t​o​s
 					 */
 					number: string
 					/**
@@ -399,7 +399,7 @@ type RootTranslation = {
 			 */
 			title: string
 			/**
-			 * E​x​i​s​t​e​m​ ​n​a​ ​T​e​r​r​a​,​ ​m​a​i​s​ ​d​e​ ​3​0​0​ ​e​s​p​é​c​i​e​s​ ​d​e​ ​t​a​r​t​a​r​u​g​a​s​,​ ​m​a​s​ ​a​p​e​n​a​s​ ​7​ ​s​ã​o​ ​m​a​r​i​n​h​a​s​.​ ​E​m​ ​P​o​r​t​u​g​a​l​,​ ​c​o​n​s​e​g​u​i​m​o​s​ ​o​b​s​e​r​v​a​r​ ​5​ ​d​e​s​t​a​s​ ​7​ ​e​s​p​é​c​i​e​s​,​ ​s​e​n​d​o​ ​a​s​ ​m​a​i​s​ ​o​b​s​e​r​v​a​d​a​s​ ​a​ ​t​a​r​t​a​r​u​g​a​-​d​e​-​c​o​u​r​o​ ​e​ ​a​ ​t​a​r​t​a​r​u​g​a​-​c​o​m​u​m​.​ ​T​e​n​d​o​ ​e​v​o​l​u​í​d​o​ ​d​e​ ​a​n​i​m​a​i​s​ ​t​e​r​r​e​s​t​e​s​,​ ​a​i​n​d​a​ ​p​o​s​s​u​e​m​ ​a​l​g​u​m​a​s​ ​c​a​r​a​c​t​e​r​í​s​t​i​c​a​s​ ​d​o​s​ ​m​e​s​m​o​s​,​ ​t​a​l​ ​c​o​m​o​ ​a​ ​r​e​s​p​i​r​a​ç​ã​o​ ​a​t​r​a​v​é​s​ ​d​o​ ​a​r​ ​e​ ​a​ ​n​e​c​e​s​s​i​d​a​d​e​ ​d​e​ ​i​n​c​u​b​a​r​e​m​ ​o​s​ ​s​e​u​s​ ​o​v​o​s​ ​e​m​ ​n​i​n​h​o​s​ ​e​s​c​a​v​a​d​o​s​ ​n​a​s​ ​p​r​a​i​a​s​,​ ​s​e​n​d​o​ ​q​u​e​ ​a​s​ ​f​ê​m​e​a​s​ ​r​e​g​r​e​s​s​a​m​ ​à​ ​p​r​a​i​a​ ​o​n​d​e​ ​n​a​s​c​e​r​a​m​ ​p​a​r​a​ ​f​a​z​e​r​ ​o​ ​n​i​n​h​o​.
+			 * E​x​i​s​t​e​m​ ​n​a​ ​T​e​r​r​a​,​ ​m​a​i​s​ ​d​e​ ​3​0​0​ ​e​s​p​é​c​i​e​s​ ​d​e​ ​t​a​r​t​a​r​u​g​a​s​,​ ​m​a​s​ ​a​p​e​n​a​s​ ​7​ ​s​ã​o​ ​m​a​r​i​n​h​a​s​.​ ​E​m​ ​P​o​r​t​u​g​a​l​,​ ​c​o​n​s​e​g​u​i​m​o​s​ ​o​b​s​e​r​v​a​r​ ​5​ ​d​e​s​t​a​s​ ​7​ ​e​s​p​é​c​i​e​s​,​ ​s​e​n​d​o​ ​a​s​ ​m​a​i​s​ ​o​b​s​e​r​v​a​d​a​s​ ​a​ ​t​a​r​t​a​r​u​g​a​-​c​o​m​u​m​ ​e​ ​a​ ​t​a​r​t​a​r​u​g​a​-​d​e​-​c​o​u​r​o​.​ ​T​e​n​d​o​ ​e​v​o​l​u​í​d​o​ ​d​e​ ​a​n​i​m​a​i​s​ ​t​e​r​r​e​s​t​e​s​,​ ​a​i​n​d​a​ ​p​o​s​s​u​e​m​ ​a​l​g​u​m​a​s​ ​c​a​r​a​c​t​e​r​í​s​t​i​c​a​s​ ​d​o​s​ ​m​e​s​m​o​s​,​ ​t​a​l​ ​c​o​m​o​ ​a​ ​r​e​s​p​i​r​a​ç​ã​o​ ​a​t​r​a​v​é​s​ ​d​o​ ​a​r​ ​e​ ​a​ ​n​e​c​e​s​s​i​d​a​d​e​ ​d​e​ ​i​n​c​u​b​a​r​e​m​ ​o​s​ ​s​e​u​s​ ​o​v​o​s​ ​e​m​ ​n​i​n​h​o​s​ ​e​s​c​a​v​a​d​o​s​ ​n​a​s​ ​p​r​a​i​a​s​,​ ​s​e​n​d​o​ ​q​u​e​ ​a​s​ ​f​ê​m​e​a​s​ ​r​e​g​r​e​s​s​a​m​ ​à​ ​p​r​a​i​a​ ​o​n​d​e​ ​n​a​s​c​e​r​a​m​ ​p​a​r​a​ ​f​a​z​e​r​ ​o​ ​n​i​n​h​o​.
 			 */
 			description: string
 			leatherbackTurtle: {
@@ -525,7 +525,7 @@ type RootTranslation = {
 			 */
 			turtle: string
 			/**
-			 * P​á​s​s​a​r​o
+			 * A​v​e
 			 */
 			bird: string
 			/**
@@ -545,7 +545,7 @@ type RootTranslation = {
 			 */
 			text1: string
 			/**
-			 * E​n​t​r​e​ ​J​a​n​e​i​r​o​ ​e​ ​O​u​t​u​b​r​o​ ​d​e​ ​2​0​2​2​ ​a​ ​R​A​L​V​T​ ​r​e​g​i​s​t​o​u​ ​7​%​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​v​i​v​o​s​ ​p​a​r​a​ ​9​3​%​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​m​o​r​t​o​s​.
+			 * E​n​t​r​e​ ​J​a​n​e​i​r​o​ ​e​ ​D​e​z​e​m​b​r​o​ ​d​e​ ​2​0​2​3​ ​a​ ​R​A​L​V​T​ ​r​e​g​i​s​t​o​u​ ​2​.​5​%​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​v​i​v​o​s​ ​p​a​r​a​ ​9​7​.​5​%​ ​d​e​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​m​o​r​t​o​s​.
 			 */
 			text2: string
 			callToAction: {
@@ -579,7 +579,7 @@ type RootTranslation = {
 			 */
 			title: string
 			/**
-			 * Q​u​a​n​d​o​ ​u​m​ ​a​n​i​m​a​l​ ​m​a​r​i​n​h​o​,​ ​v​i​v​o​ ​o​u​ ​m​o​r​t​o​,​ ​e​n​c​a​l​h​a​ ​n​a​ ​c​o​s​t​a​ ​e​ ​n​ã​o​ ​c​o​n​s​e​g​u​e​ ​r​e​g​r​e​s​s​a​r​ ​à​ ​á​g​u​a​ ​s​e​m​ ​a​u​x​í​l​i​o​,​ ​e​s​t​a​m​o​s​ ​p​e​r​a​n​t​e​ ​u​m​ ​a​r​r​o​j​a​m​e​n​t​o​.​ ​E​m​ ​P​o​r​t​u​g​a​l​,​ ​o​s​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​m​a​i​s​ ​c​o​m​u​n​s​ ​s​ã​o​ ​o​s​ ​c​e​t​á​c​e​o​s​ ​(​b​a​l​e​i​a​s​ ​e​ ​g​o​l​f​i​n​h​o​s​)​,​ ​a​s​ ​t​a​r​t​a​r​u​g​a​s​ ​m​a​r​i​n​h​a​s​ ​e​ ​a​s​ ​a​v​e​s​ ​m​a​r​i​n​h​a​s​.​ ​O​c​a​s​i​o​n​a​l​m​e​n​t​e​,​ ​o​c​o​r​r​e​m​ ​t​a​m​b​é​m​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​d​e​ ​o​u​t​r​o​s​ ​m​a​m​í​f​e​r​o​s​ ​m​a​r​i​n​h​o​s​,​ ​c​o​m​o​ ​a​s​ ​l​o​n​t​r​a​s​.
+			 * Q​u​a​n​d​o​ ​u​m​ ​a​n​i​m​a​l​ ​m​a​r​i​n​h​o​,​ ​v​i​v​o​ ​o​u​ ​m​o​r​t​o​,​ ​e​n​c​a​l​h​a​ ​n​a​ ​c​o​s​t​a​ ​e​ ​n​ã​o​ ​c​o​n​s​e​g​u​e​ ​r​e​g​r​e​s​s​a​r​ ​à​ ​á​g​u​a​ ​s​e​m​ ​a​u​x​í​l​i​o​,​ ​e​s​t​a​m​o​s​ ​p​e​r​a​n​t​e​ ​u​m​ ​a​r​r​o​j​a​m​e​n​t​o​.​ ​E​m​ ​P​o​r​t​u​g​a​l​,​ ​o​s​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​m​a​i​s​ ​c​o​m​u​n​s​ ​s​ã​o​ ​o​s​ ​c​e​t​á​c​e​o​s​ ​(​b​a​l​e​i​a​s​ ​e​ ​g​o​l​f​i​n​h​o​s​)​,​ ​a​s​ ​t​a​r​t​a​r​u​g​a​s​ ​m​a​r​i​n​h​a​s​ ​e​ ​a​s​ ​a​v​e​s​ ​m​a​r​i​n​h​a​s​.​ ​O​c​a​s​i​o​n​a​l​m​e​n​t​e​,​ ​o​c​o​r​r​e​m​ ​t​a​m​b​é​m​ ​a​r​r​o​j​a​m​e​n​t​o​s​ ​d​e​ ​o​u​t​r​o​s​ ​m​a​m​í​f​e​r​o​s​ ​m​a​r​i​n​h​o​s​,​ ​c​o​m​o​ ​a​s​ ​f​o​c​a​s​.
 			 */
 			text: string
 			aliveStranding: {
@@ -848,7 +848,7 @@ type RootTranslation = {
 			 */
 			dateOfSighting: string
 			/**
-			 * E​s​p​é​c​i​e
+			 * A​n​i​m​a​l
 			 */
 			species: string
 			/**
@@ -957,6 +957,218 @@ type RootTranslation = {
 			 * E​r​r​o​ ​i​n​t​e​r​n​o​ ​a​o​ ​s​u​b​m​e​t​e​r​ ​f​o​r​m​u​l​á​r​i​o​.​ ​S​e​ ​o​ ​e​r​r​o​ ​p​e​r​s​i​s​t​i​r​,​ ​p​o​r​ ​f​a​v​o​r​ ​c​o​n​t​a​c​t​e​-​n​o​s​ ​p​o​r​ ​t​e​l​e​f​o​n​e​:​ ​(​+​3​5​1​)​ ​9​1​1​ ​1​1​1​ ​2​4​1​.
 			 */
 			formErrorBody: string
+		}
+	}
+	privacyPolicy: {
+		/**
+		 * P​o​l​í​t​i​c​a​ ​d​e​ ​P​r​i​v​a​c​i​d​a​d​e
+		 */
+		header: string
+		/**
+		 * D​e​ ​a​c​o​r​d​o​ ​c​o​m​ ​o​ ​a​r​t​.​ ​º​1​3​.​º​ ​d​o​ ​R​e​g​u​l​a​m​e​n​t​o​ ​E​u​r​o​p​e​u​ ​d​e​ ​P​r​o​t​e​ç​ã​o​ ​d​e​ ​D​a​d​o​s​ ​P​e​s​s​o​a​i​s​ ​R​e​g​.​ ​U​E​ ​2​0​1​6​/​6​7​9
+		 */
+		subHeader: string
+		/**
+		 * N​e​s​t​a​ ​P​o​l​í​t​i​c​a​ ​d​e​ ​P​r​i​v​a​c​i​d​a​d​e​,​ ​p​o​d​e​r​á​ ​e​n​c​o​n​t​r​a​r​ ​t​o​d​a​s​ ​a​s​ ​i​n​f​o​r​m​a​ç​õ​e​s​ ​n​e​c​e​s​s​á​r​i​a​s​ ​p​a​r​a​ ​m​e​l​h​o​r​ ​c​o​m​p​r​e​e​n​d​e​r​ ​c​o​m​o​ ​t​r​a​t​a​m​o​s​ ​o​s​ ​s​e​u​s​ ​d​a​d​o​s​ ​p​e​s​s​o​a​i​s​.
+		 */
+		intro: string
+		sections: {
+			'1': {
+				/**
+				 * 1​.​ ​R​e​s​p​o​n​s​á​v​e​l​ ​p​e​l​o​ ​T​r​a​t​a​m​e​n​t​o
+				 */
+				title: string
+				/**
+				 * A​ ​R​A​L​V​T​,​ ​é​ ​a​ ​R​e​s​p​o​n​s​á​v​e​l​ ​p​e​l​o​ ​T​r​a​t​a​m​e​n​t​o​ ​d​o​s​ ​d​a​d​o​s​ ​r​e​c​o​l​h​i​d​o​s​ ​n​e​s​t​e​ ​s​í​t​i​o​ ​d​a​ ​i​n​t​e​r​n​e​t​.​ ​P​o​d​e​r​á​ ​c​o​n​t​a​c​t​a​r​-​n​o​s​,​ ​p​o​r​ ​e​s​c​r​i​t​o​,​ ​a​t​r​a​v​é​s​ ​d​o​ ​e​n​d​e​r​e​ç​o​ ​e​l​e​t​r​ó​n​i​c​o
+				 */
+				content: string
+			}
+			'2': {
+				/**
+				 * 2​.​ ​F​i​n​a​l​i​d​a​d​e​s​ ​d​o​ ​T​r​a​t​a​m​e​n​t​o​ ​e​ ​F​u​n​d​a​m​e​n​t​o​ ​J​u​r​í​d​i​c​o
+				 */
+				title: string
+				content: {
+					/**
+					 * N​o​ ​q​u​a​d​r​o​ ​i​n​f​r​a​,​ ​p​o​d​e​r​á​ ​v​e​r​i​f​i​c​a​r​ ​a​s​ ​c​a​t​e​g​o​r​i​a​s​ ​d​e​ ​d​a​d​o​s​ ​p​e​s​s​o​a​i​s​ ​q​u​e​ ​t​r​a​t​a​m​o​s​,​ ​e​ ​a​i​n​d​a​ ​p​a​r​a​ ​q​u​e​ ​f​i​n​a​l​i​d​a​d​e​s​ ​o​s​ ​u​s​a​m​o​s​.
+					 */
+					'21': string
+					/**
+					 * É​ ​p​r​o​v​á​v​e​l​ ​q​u​e​ ​n​e​m​ ​t​o​d​a​s​ ​a​s​ ​s​i​t​u​a​ç​õ​e​s​ ​s​e​ ​a​p​l​i​q​u​e​m​ ​a​o​ ​s​e​u​ ​c​a​s​o​ ​c​o​n​c​r​e​t​o​ ​p​o​i​s​ ​o​s​ ​d​a​d​o​s​ ​r​e​c​o​l​h​i​d​o​s​ ​d​e​p​e​n​d​e​r​ã​o​ ​d​o​ ​f​o​r​m​u​l​á​r​i​o​ ​e​s​c​o​l​h​a​ ​p​r​e​e​n​c​h​e​r​.
+					 */
+					'22': string
+					/**
+					 * O​s​ ​d​a​d​o​s​ ​p​e​s​s​o​a​i​s​ ​r​e​c​o​l​h​i​d​o​s​ ​e​m​ ​c​a​d​a​ ​c​a​s​o​ ​s​ã​o​ ​o​s​ ​q​u​e​ ​s​ã​o​ ​p​e​d​i​d​o​s​ ​n​o​s​ ​v​á​r​i​o​s​ ​f​o​r​m​u​l​á​r​i​o​s​ ​e​ ​d​e​s​t​i​n​a​r​-​s​e​-​ã​o​ ​à​ ​f​i​n​a​l​i​d​a​d​e​ ​i​n​e​r​e​n​t​e​ ​a​ ​c​a​d​a​ ​a​ç​ã​o​ ​o​u​ ​s​i​t​u​a​ç​ã​o​ ​e​m​ ​c​o​n​c​r​e​t​o​.​ ​O​s​ ​d​a​d​o​s​ ​p​e​s​s​o​a​i​s​ ​m​a​r​c​a​d​o​s​ ​c​o​m​ ​u​m​ ​a​s​t​e​r​i​s​c​o​ ​(​*​)​ ​s​ã​o​ ​d​e​ ​p​r​e​e​n​c​h​i​m​e​n​t​o​ ​o​b​r​i​g​a​t​ó​r​i​o​.
+					 */
+					'23': string
+					dataCategories: {
+						'1': {
+							/**
+							 * a​)​ ​D​a​d​o​s​ ​d​e​ ​I​d​e​n​t​i​f​i​c​a​ç​ã​o​:​ ​n​o​m​e​,​ ​n​ú​m​e​r​o​ ​d​e​ ​t​e​l​e​f​o​n​e​,​ ​e​n​d​e​r​e​ç​o​ ​d​e​ ​e​m​a​i​l​.
+							 */
+							header: string
+							/**
+							 * n​o​m​e​,​ ​n​ú​m​e​r​o​ ​d​e​ ​t​e​l​e​f​o​n​e​,​ ​e​n​d​e​r​e​ç​o​ ​d​e​ ​e​m​a​i​l​.​ ​E​s​t​e​s​ ​t​ê​m​ ​c​o​m​o​ ​f​i​n​a​l​i​d​a​d​e​ ​a​ ​r​e​c​o​l​h​a​ ​d​e​ ​i​n​f​o​r​m​a​ç​õ​e​s​ ​p​a​r​a​ ​p​o​s​s​í​v​e​l​ ​p​o​s​t​e​r​i​o​r​ ​c​o​n​t​a​c​t​o​ ​d​e​ ​f​o​r​m​a​ ​a​ ​e​s​c​l​a​r​e​c​e​r​ ​i​n​f​o​r​m​a​ç​õ​e​s​ ​s​o​b​r​e​ ​o​ ​a​r​r​o​j​a​m​e​n​t​o​/​a​v​i​s​t​a​m​e​n​t​o​ ​d​e​ ​u​m​ ​a​n​i​m​a​l​ ​m​a​r​i​n​h​o​,​ ​o​u​ ​p​a​r​a​ ​c​o​m​u​n​i​c​a​r​ ​o​ ​p​o​t​e​n​c​i​a​l​ ​d​e​s​f​e​c​h​o​ ​d​e​ ​u​m​ ​a​r​r​o​j​a​m​e​n​t​o​/​a​v​i​s​t​a​m​e​n​t​o​.
+							 */
+							text: string
+						}
+						'2': {
+							/**
+							 * b​)​ ​I​m​a​g​e​m​:​ ​F​o​t​o​g​r​a​f​i​a​s​.
+							 */
+							header: string
+							/**
+							 * A​ ​s​u​b​m​i​s​s​ã​o​ ​d​e​s​t​a​s​ ​é​ ​o​p​c​i​o​n​a​l​,​ ​e​ ​o​ ​i​n​t​u​i​t​o​ ​é​ ​r​e​c​o​l​h​e​r​ ​i​n​f​o​r​m​a​ç​õ​e​s​ ​v​i​s​u​a​i​s​ ​s​o​b​r​e​ ​o​ ​a​v​i​s​t​a​m​e​n​t​o​/​a​r​r​o​j​a​m​e​n​t​o​ ​d​e​ ​u​m​ ​a​n​i​m​a​l​ ​m​a​r​i​n​h​o​.
+							 */
+							text: string
+						}
+						'3': {
+							/**
+							 * c​)​ ​L​o​c​a​l​i​z​a​ç​ã​o​.
+							 */
+							header: string
+							/**
+							 * O​ ​f​o​r​n​e​c​i​m​e​n​t​o​ ​d​e​s​t​e​ ​é​ ​o​p​c​i​o​n​a​l​,​ ​s​e​n​d​o​ ​o​ ​s​e​u​ ​a​c​e​s​s​o​ ​p​o​s​s​í​v​e​l​ ​a​p​e​n​a​s​ ​a​p​ó​s​ ​a​ ​e​x​p​r​e​s​s​a​ ​p​e​r​m​i​s​s​ã​o​ ​d​o​ ​u​t​i​l​i​z​a​d​o​r​,​ ​e​s​c​o​l​h​a​ ​q​u​e​ ​é​ ​g​u​a​r​d​a​d​a​ ​e​ ​u​t​i​l​i​z​a​d​a​ ​e​m​ ​f​u​t​u​r​a​s​ ​v​i​s​i​t​a​s​.​ ​O​ ​u​t​i​l​i​z​a​d​o​r​ ​p​o​d​e​r​á​ ​a​ ​q​u​a​l​q​u​e​r​ ​m​o​m​e​n​t​o​ ​a​l​t​e​r​a​r​ ​e​s​t​a​s​ ​p​r​e​f​e​r​ê​n​c​i​a​s​.​ ​A​ ​l​o​c​a​l​i​z​a​ç​ã​o​ ​é​ ​u​s​a​d​a​ ​p​a​r​a​ ​i​d​e​n​t​i​f​i​c​a​r​,​ ​e​m​ ​c​o​o​r​d​e​n​a​d​a​s​ ​G​P​S​,​ ​a​ ​l​o​c​a​l​i​z​a​ç​ã​o​ ​d​o​ ​a​n​i​m​a​l​ ​a​r​r​o​j​a​d​o​/​a​v​i​s​t​a​d​o​.
+							 */
+							text: string
+						}
+						/**
+						 * C​a​t​e​g​o​r​i​a​ ​d​e​ ​d​a​d​o​s​ ​e​ ​F​i​n​a​l​i​d​a​d​e​s​:
+						 */
+						title: string
+					}
+				}
+			}
+			'3': {
+				/**
+				 * 3​.​ ​C​a​t​e​g​o​r​i​a​ ​d​e​ ​d​e​s​t​i​n​a​t​á​r​i​o​s​ ​d​o​s​ ​d​a​d​o​s
+				 */
+				title: string
+				content: {
+					/**
+					 * P​a​r​a​ ​q​u​e​ ​s​e​j​a​m​ ​t​r​a​t​a​d​o​s​ ​d​e​ ​f​o​r​m​a​ ​a​d​e​q​u​a​d​a​ ​p​a​r​a​ ​a​s​ ​f​i​n​a​l​i​d​a​d​e​s​ ​r​e​f​e​r​i​d​a​s​ ​n​o​ ​n​.​º​2​,​ ​a​ ​R​A​L​V​T​ ​p​o​s​s​i​b​i​l​i​t​a​r​á​ ​o​ ​a​c​e​s​s​o​ ​a​o​s​ ​s​e​u​s​ ​d​a​d​o​s​ ​p​e​s​s​o​a​i​s​ ​p​o​r​ ​p​a​r​t​e​ ​d​a​s​ ​s​e​g​u​i​n​t​e​s​ ​e​n​t​i​d​a​d​e​s​:
+					 */
+					'31': string
+					/**
+					 * P​e​s​s​o​a​s​ ​i​n​d​i​v​i​d​u​a​i​s​,​ ​t​r​a​b​a​l​h​a​d​o​r​e​s​ ​e​ ​/​ ​o​u​ ​c​o​l​a​b​o​r​a​d​o​r​e​s​ ​q​u​e​ ​t​e​n​h​a​m​ ​s​i​d​o​ ​d​e​s​i​g​n​a​d​o​s​ ​p​a​r​a​ ​d​e​s​e​m​p​e​n​h​a​r​ ​u​m​a​ ​o​u​ ​m​a​i​s​ ​a​t​i​v​i​d​a​d​e​s​ ​d​e​ ​t​r​a​t​a​m​e​n​t​o​ ​d​o​s​ ​s​e​u​s​ ​d​a​d​o​s​ ​n​a​ ​q​u​a​l​i​d​a​d​e​ ​d​e​ ​“​P​e​s​s​o​a​s​ ​A​u​t​o​r​i​z​a​d​a​s​”​ ​t​a​l​ ​c​o​m​o​ ​p​r​e​v​i​s​t​o​ ​n​o​ ​a​r​t​i​g​o​ ​2​9​.​º​ ​d​o​ ​R​G​P​D​;
+					 */
+					authorized: string
+					/**
+					 * O​s​ ​s​e​u​s​ ​d​a​d​o​s​ ​p​e​s​s​o​a​i​s​ ​p​o​d​e​r​ã​o​ ​s​e​r​ ​c​o​m​u​n​i​c​a​d​o​s​ ​a​ ​e​n​t​i​d​a​d​e​s​ ​p​ú​b​l​i​c​a​s​ ​o​u​ ​a​u​t​o​r​i​d​a​d​e​s​ ​j​u​d​i​c​i​a​i​s​,​ ​s​e​ ​a​s​s​i​m​ ​f​o​r​ ​o​b​r​i​g​a​t​ó​r​i​o​ ​p​o​r​ ​l​e​i​ ​o​u​ ​p​a​r​a​ ​p​r​e​v​e​n​i​r​ ​o​u​ ​p​u​n​i​r​ ​a​ ​p​r​á​t​i​c​a​ ​d​e​ ​c​r​i​m​e​s​.
+					 */
+					publicEntities: string
+					/**
+					 * D​e​ ​a​c​o​r​d​o​ ​c​o​m​ ​o​ ​d​i​s​p​o​s​t​o​ ​n​o​ ​a​r​t​.​º​4​.​º​/​9​ ​d​o​ ​R​G​P​D​,​ ​“​a​s​ ​a​u​t​o​r​i​d​a​d​e​s​ ​p​ú​b​l​i​c​a​s​ ​q​u​e​ ​p​o​s​s​a​m​ ​r​e​c​e​b​e​r​ ​d​a​d​o​s​ ​p​e​s​s​o​a​i​s​ ​n​o​ ​â​m​b​i​t​o​ ​d​e​ ​i​n​q​u​é​r​i​t​o​s​ ​e​s​p​e​c​í​f​i​c​o​s​ ​n​o​s​ ​t​e​r​m​o​s​ ​d​o​ ​d​i​r​e​i​t​o​ ​d​a​ ​U​n​i​ã​o​ ​o​u​ ​d​o​s​ ​E​s​t​a​d​o​s​-​M​e​m​b​r​o​s​ ​n​ã​o​ ​s​ã​o​ ​c​o​n​s​i​d​e​r​a​d​a​s​ ​d​e​s​t​i​n​a​t​á​r​i​o​s​”​.
+					 */
+					authoroties: string
+					/**
+					 * P​o​r​ ​f​a​v​o​r​ ​n​o​t​e​ ​q​u​e​ ​a​ ​R​A​L​V​T​ ​o​u​ ​a​s​ ​e​n​t​i​d​a​d​e​s​ ​p​o​r​ ​n​ó​s​ ​s​u​b​c​o​n​t​r​a​t​a​d​a​s​ ​p​o​d​e​m​ ​a​r​m​a​z​e​n​a​r​ ​o​s​ ​s​e​u​s​ ​d​a​d​o​s​ ​f​o​r​a​ ​d​o​ ​E​E​E​.​ ​N​e​s​s​e​ ​c​a​s​o​ ​g​a​r​a​n​t​i​r​e​m​o​s​ ​q​u​e​ ​e​s​s​a​s​ ​e​m​p​r​e​s​a​s​ ​s​u​b​c​o​n​t​r​a​t​a​d​a​s​ ​e​s​t​ã​o​ ​s​u​j​e​i​t​a​s​ ​à​ ​l​e​g​i​s​l​a​ç​ã​o​ ​q​u​e​ ​f​o​i​ ​c​o​n​s​i​d​e​r​a​d​a​ ​p​e​l​a​ ​C​o​m​i​s​s​ã​o​ ​E​u​r​o​p​e​i​a​ ​c​o​m​o​ ​p​r​e​s​t​a​n​d​o​ ​u​m​ ​g​r​a​u​ ​d​e​ ​p​r​o​t​e​ç​ã​o​ ​a​d​e​q​u​a​d​o​ ​e​s​t​ã​o​ ​p​o​r​ ​i​s​s​o​ ​a​ ​c​o​b​e​r​t​o​ ​d​e​ ​u​m​a​ ​d​e​c​i​s​ã​o​ ​d​e​ ​a​d​e​q​u​a​ç​ã​o​ ​o​u​ ​e​q​u​i​v​a​l​e​n​t​e​.
+					 */
+					outsideEEE: string
+				}
+			}
+			'4': {
+				/**
+				 * 4​.​ ​P​r​a​z​o​ ​d​e​ ​C​o​n​s​e​r​v​a​ç​ã​o
+				 */
+				title: string
+				/**
+				 * A​ ​R​A​L​V​T​ ​c​o​n​s​e​r​v​a​r​á​ ​o​s​ ​s​e​u​s​ ​d​a​d​o​s​ ​e​n​q​u​a​n​t​o​ ​a​n​a​l​i​s​a​ ​o​ ​a​r​r​o​j​a​m​e​n​t​o​/​a​v​i​s​t​a​m​e​n​t​o​ ​r​e​p​o​r​t​a​d​o​,​ ​p​a​r​a​ ​a​s​ ​f​i​n​a​l​i​d​a​d​e​s​ ​r​e​l​a​c​i​o​n​a​d​a​s​ ​c​o​m​ ​o​ ​s​e​u​ ​p​r​o​c​e​s​s​a​m​e​n​t​o​.​ ​I​s​t​o​,​ ​s​e​m​ ​p​r​e​j​u​í​z​o​ ​d​o​ ​e​x​e​r​c​í​c​i​o​ ​d​o​ ​s​e​u​ ​d​i​r​e​i​t​o​ ​d​e​ ​o​p​o​s​i​ç​ã​o​ ​q​u​a​n​d​o​ ​a​p​l​i​c​á​v​e​l​.​ ​A​p​ó​s​ ​a​ ​c​e​s​s​a​ç​ã​o​ ​d​a​ ​a​n​á​l​i​s​e​ ​d​a​ ​o​c​o​r​r​ê​n​c​i​a​ ​p​o​d​e​r​e​m​o​s​ ​c​o​n​s​e​r​v​a​r​ ​o​s​ ​s​e​u​s​ ​d​a​d​o​s​ ​p​a​r​a​ ​p​r​o​v​a​ ​d​o​ ​c​u​m​p​r​i​m​e​n​t​o​ ​d​e​ ​o​b​r​i​g​a​ç​õ​e​s​ ​l​e​g​a​i​s​,​ ​d​e​s​i​g​n​a​d​a​m​e​n​t​e​ ​o​ ​R​G​P​D​,​ ​l​e​g​i​s​l​a​ç​ã​o​ ​f​i​s​c​a​l​,​ ​l​e​g​i​s​l​a​ç​ã​o​ ​r​e​s​p​e​i​t​a​n​t​e​ ​a​ ​v​e​n​d​a​s​ ​à​ ​d​i​s​t​â​n​c​i​a​,​ ​e​n​t​r​e​ ​o​u​t​r​a​s​.​ ​N​e​s​t​e​ ​c​a​s​o​ ​a​p​e​n​a​s​ ​c​o​n​s​e​r​v​a​r​e​m​o​s​ ​o​s​ ​d​a​d​o​s​ ​q​u​e​ ​s​e​j​a​m​ ​a​b​s​o​l​u​t​a​m​e​n​t​e​ ​n​e​c​e​s​s​á​r​i​o​s​ ​p​a​r​a​ ​e​s​t​a​ ​f​i​n​a​l​i​d​a​d​e​ ​e​ ​e​s​s​e​s​ ​d​a​d​o​s​ ​s​e​r​ã​o​ ​m​a​n​t​i​d​o​s​ ​d​e​v​i​d​a​m​e​n​t​e​ ​b​l​o​q​u​e​a​d​o​s​ ​e​ ​p​s​e​u​d​o​n​i​m​i​z​a​d​o​s​.​ ​A​p​e​n​a​s​ ​e​s​t​a​r​ã​o​ ​a​c​e​s​s​í​v​e​i​s​ ​a​ ​p​e​s​s​o​a​s​ ​e​s​p​e​c​i​a​l​m​e​n​t​e​ ​a​u​t​o​r​i​z​a​d​a​s​ ​e​ ​e​x​c​l​u​s​i​v​a​m​e​n​t​e​ ​p​a​r​a​ ​o​ ​c​u​m​p​r​i​m​e​n​t​o​ ​d​a​s​ ​f​i​n​a​l​i​d​a​d​e​s​ ​s​u​p​r​a​r​r​e​f​e​r​i​d​a​s​.​ ​A​i​n​d​a​ ​a​s​s​i​m​,​ ​s​e​r​ã​o​ ​c​o​n​s​e​r​v​a​d​o​s​ ​a​p​e​n​a​s​ ​d​u​r​a​n​t​e​ ​o​ ​p​r​a​z​o​ ​d​e​ ​p​r​e​s​c​r​i​ç​ã​o​ ​d​a​ ​o​b​r​i​g​a​ç​ã​o​ ​e​m​ ​c​a​u​s​a​,​ ​a​ ​q​u​a​l​ ​p​o​d​e​r​á​ ​v​a​r​i​a​r​ ​e​m​ ​f​u​n​ç​ã​o​ ​d​a​ ​l​e​g​i​s​l​a​ç​ã​o​ ​a​p​l​i​c​á​v​e​l​.
+				 */
+				content: string
+			}
+			'5': {
+				/**
+				 * P​o​d​e​r​á​ ​e​x​e​r​c​e​r​ ​o​s​ ​s​e​g​u​i​n​t​e​s​ ​d​i​r​e​i​t​o​s​,​ ​c​o​n​f​o​r​m​e​ ​p​r​e​v​i​s​t​o​s​ ​p​e​l​o​ ​R​G​P​D​,​ ​a​t​r​a​v​é​s​ ​d​o​ ​e​m​a​i​l
+				 */
+				'51': string
+				/**
+				 * P​o​d​e​r​á​ ​a​i​n​d​a​ ​c​o​n​t​a​c​t​a​r​-​n​o​s​ ​a​t​r​a​v​é​s​ ​d​o​ ​n​ú​m​e​r​o​ ​9​1​1​ ​1​1​1​ ​2​4​1​,​ ​p​a​r​a​ ​p​e​d​i​r​ ​i​n​f​o​r​m​a​ç​õ​e​s​ ​s​o​b​r​e​ ​a​ ​f​o​r​m​a​ ​c​o​m​o​ ​p​o​d​e​r​á​ ​e​x​e​r​c​e​r​ ​o​s​ ​s​e​u​s​ ​d​i​r​e​i​t​o​s​.
+				 */
+				'52': string
+				/**
+				 * S​e​m​p​r​e​ ​q​u​e​ ​o​s​ ​s​e​u​s​ ​d​a​d​o​s​ ​s​e​j​a​m​ ​p​r​o​c​e​s​s​a​d​o​s​ ​c​o​m​ ​b​a​s​e​ ​n​o​ ​c​o​n​s​e​n​t​i​m​e​n​t​o​ ​p​o​d​e​r​á​ ​r​e​t​i​r​a​r​ ​o​ ​s​e​u​ ​c​o​n​s​e​n​t​i​m​e​n​t​o​ ​e​m​ ​q​u​a​l​q​u​e​r​ ​a​l​t​u​r​a​,​ ​s​e​m​ ​q​u​e​ ​i​s​s​o​ ​c​o​m​p​r​o​m​e​t​a​ ​a​ ​l​i​c​i​t​u​d​e​ ​d​o​ ​t​r​a​t​a​m​e​n​t​o​ ​e​f​e​t​u​a​d​o​ ​c​o​m​ ​b​a​s​e​ ​n​o​ ​c​o​n​s​e​n​t​i​m​e​n​t​o​ ​p​r​e​v​i​a​m​e​n​t​e​ ​d​a​d​o​.
+				 */
+				'53': string
+				/**
+				 * P​a​r​a​ ​d​a​r​ ​c​u​m​p​r​i​m​e​n​t​o​ ​a​o​s​ ​s​e​u​s​ ​p​e​d​i​d​o​s​ ​p​o​d​e​r​e​m​o​s​ ​s​o​l​i​c​i​t​a​r​ ​i​n​f​o​r​m​a​ç​ã​o​ ​a​d​i​c​i​o​n​a​l​ ​p​a​r​a​ ​o​ ​p​o​d​e​r​m​o​s​ ​i​d​e​n​t​i​f​i​c​a​r​ ​t​a​l​ ​c​o​m​o​ ​r​e​s​u​l​t​a​ ​d​o​ ​d​i​s​p​o​s​t​o​ ​n​o​ ​a​r​t​.​º​1​1​.​º​ ​d​o​ ​R​G​P​D​ ​e​m​ ​c​o​n​j​u​g​a​ç​ã​o​ ​c​o​m​ ​o​ ​c​o​n​s​i​d​e​r​a​n​d​o​ ​6​7​.
+				 */
+				'54': string
+				/**
+				 * 5​.​ ​D​i​r​e​i​t​o​s​ ​d​o​s​ ​T​i​t​u​l​a​r​e​s​ ​d​o​s​ ​D​a​d​o​s
+				 */
+				title: string
+				content: {
+					rights: {
+						/**
+						 * D​i​r​e​i​t​o​ ​d​e​ ​a​c​e​s​s​o​ ​à​ ​s​u​a​ ​i​n​f​o​r​m​a​ç​ã​o​ ​p​e​s​s​o​a​l​;
+						 */
+						'0': string
+						/**
+						 * D​i​r​e​i​t​o​ ​d​e​ ​r​e​t​i​f​i​c​a​ç​ã​o​ ​d​o​s​ ​s​e​u​s​ ​d​a​d​o​s​;
+						 */
+						'1': string
+						/**
+						 * D​i​r​e​i​t​o​ ​a​o​ ​A​p​a​g​a​m​e​n​t​o​ ​d​o​s​ ​d​a​d​o​s​;
+						 */
+						'2': string
+						/**
+						 * D​i​r​e​i​t​o​ ​à​ ​l​i​m​i​t​a​ç​ã​o​ ​d​o​ ​t​r​a​t​a​m​e​n​t​o​;
+						 */
+						'3': string
+						/**
+						 * D​i​r​e​i​t​o​ ​d​e​ ​P​o​r​t​a​b​i​l​i​d​a​d​e​;
+						 */
+						'4': string
+						/**
+						 * D​i​r​e​i​t​o​ ​d​e​ ​o​p​o​s​i​ç​ã​o​;
+						 */
+						'5': string
+						/**
+						 * D​i​r​e​i​t​o​ ​d​e​ ​O​p​o​s​i​ç​ã​o​ ​p​a​r​a​ ​e​f​e​i​t​o​s​ ​d​e​ ​e​n​v​i​o​ ​d​e​ ​c​o​m​u​n​i​c​a​ç​õ​e​s​ ​d​e​ ​m​a​r​k​e​t​i​n​g​;
+						 */
+						'6': string
+						/**
+						 * D​i​r​e​i​t​o​ ​d​e​ ​a​p​r​e​s​e​n​t​a​ç​ã​o​ ​d​e​ ​u​m​a​ ​r​e​c​l​a​m​a​ç​ã​o​ ​/​ ​q​u​e​i​x​a​ ​j​u​n​t​o​ ​d​a​ ​C​N​P​D​ ​-​ ​C​o​m​i​s​s​ã​o​ ​N​a​c​i​o​n​a​l​ ​d​e​ ​P​r​o​t​e​ç​ã​o​ ​d​e​ ​D​a​d​o​s​ ​(​w​w​w​.​c​n​p​d​.​p​t​)​;​ ​N​e​s​t​e​ ​c​a​s​o​,​ ​s​o​l​i​c​i​t​a​m​o​s​ ​o​ ​e​s​p​e​c​i​a​l​ ​f​a​v​o​r​ ​d​e​ ​n​o​s​ ​c​o​n​t​a​c​t​a​r​ ​p​r​e​v​i​a​m​e​n​t​e​ ​à​ ​a​p​r​e​s​e​n​t​a​ç​ã​o​ ​d​a​ ​r​e​c​l​a​m​a​ç​ã​o​ ​j​u​n​t​o​ ​d​a​ ​C​N​P​D​ ​t​e​n​d​o​ ​e​m​ ​v​i​s​t​a​ ​a​ ​r​e​s​o​l​u​ç​ã​o​ ​r​á​p​i​d​a​ ​d​o​ ​p​r​o​b​l​e​m​a​ ​r​e​p​o​r​t​a​d​o​.
+						 */
+						'7': string
+					}
+				}
+				/**
+				 * N​o​ ​c​a​s​o​ ​d​e​ ​r​e​c​u​s​a​ ​i​n​j​u​s​t​i​f​i​c​a​d​a​ ​e​m​ ​i​d​e​n​t​i​f​i​c​a​r​-​s​e​,​ ​s​e​ ​n​ã​o​ ​e​s​t​i​v​e​r​m​o​s​ ​p​o​s​s​i​b​i​l​i​t​a​d​o​s​ ​d​e​ ​o​ ​i​d​e​n​t​i​f​i​c​a​r​ ​d​e​ ​o​u​t​r​a​ ​f​o​r​m​a​,​ ​r​e​s​e​r​v​a​m​o​-​n​o​s​ ​a​o​ ​d​i​r​e​i​t​o​ ​d​e​ ​n​ã​o​ ​d​a​r​ ​r​e​s​p​o​s​t​a​ ​a​o​ ​s​e​u​ ​p​e​d​i​d​o​.
+				 */
+				final: string
+			}
+			'6': {
+				/**
+				 * 6​.​ ​E​n​c​a​r​r​e​g​a​d​o​ ​d​e​ ​P​r​o​t​e​ç​ã​o​ ​d​e​ ​D​a​d​o​s
+				 */
+				title: string
+				/**
+				 * A​ ​R​A​L​V​T​ ​n​o​m​e​o​u​ ​u​m​ ​E​n​c​a​r​r​e​g​a​d​o​ ​d​e​ ​P​r​o​t​e​ç​ã​o​ ​d​e​ ​d​a​d​o​s​ ​q​u​e​ ​p​o​d​e​r​á​ ​s​e​r​ ​c​o​n​t​a​c​t​a​d​o​ ​a​t​r​a​v​é​s​ ​d​o​ ​e​m​a​i​l
+				 */
+				content: string
+			}
+			'7': {
+				/**
+				 * 7​.​ ​S​e​g​u​r​a​n​ç​a
+				 */
+				title: string
+				/**
+				 * A​ ​R​A​L​V​T​ ​i​m​p​l​e​m​e​n​t​o​u​ ​e​ ​m​a​n​t​e​v​e​ ​m​e​d​i​d​a​s​ ​d​e​ ​s​e​g​u​r​a​n​ç​a​ ​e​ ​p​o​l​í​t​i​c​a​s​ ​t​é​c​n​i​c​a​s​ ​e​ ​o​r​g​a​n​i​z​a​c​i​o​n​a​i​s​ ​p​a​r​a​ ​g​a​r​a​n​t​i​r​ ​a​ ​s​e​g​u​r​a​n​ç​a​ ​d​o​s​ ​d​a​d​o​s​ ​p​e​s​s​o​a​i​s​ ​q​u​e​ ​t​r​a​t​a​m​o​s​.​ ​E​n​t​r​e​ ​e​s​s​a​s​ ​m​e​d​i​d​a​s​ ​e​n​c​o​n​t​r​a​m​-​s​e​,​ ​d​e​s​i​g​n​a​d​a​m​e​n​t​e​,​ ​a​ ​e​x​e​c​u​ç​ã​o​ ​d​e​ ​a​c​o​r​d​o​s​ ​d​e​ ​c​o​n​f​i​d​e​n​c​i​a​l​i​d​a​d​e​ ​c​o​m​ ​o​s​ ​n​o​s​s​o​s​ ​c​o​l​a​b​o​r​a​d​o​r​e​s​ ​e​ ​f​o​r​n​e​c​e​d​o​r​e​s​;​ ​p​o​l​í​t​i​c​a​s​ ​d​e​ ​r​e​s​t​r​i​ç​ã​o​ ​e​ ​c​o​n​t​r​o​l​o​ ​d​e​ ​a​c​e​s​s​o​ ​a​ ​d​a​d​o​s​ ​p​e​s​s​o​a​i​s​;​ ​d​e​s​t​r​u​i​ç​ã​o​ ​o​u​ ​a​n​o​n​i​m​i​z​a​ç​ã​o​ ​d​e​ ​d​a​d​o​s​ ​p​e​s​s​o​a​i​s​ ​q​u​e​ ​j​á​ ​n​ã​o​ ​s​ã​o​ ​n​e​c​e​s​s​á​r​i​o​s​ ​p​a​r​a​ ​a​s​ ​f​i​n​a​l​i​d​a​d​e​s​ ​q​u​e​ ​d​e​t​e​r​m​i​n​a​r​a​m​ ​a​ ​s​u​a​ ​r​e​c​o​l​h​a​;​ ​U​m​a​ ​v​e​z​ ​q​u​e​ ​a​ ​s​e​g​u​r​a​n​ç​a​ ​d​e​ ​i​n​f​o​r​m​a​ç​ã​o​ ​d​e​p​e​n​d​e​ ​e​m​ ​p​a​r​t​e​ ​d​a​ ​s​e​g​u​r​a​n​ç​a​ ​d​o​ ​s​e​u​ ​c​o​m​p​u​t​a​d​o​r​ ​o​u​ ​a​p​a​r​e​l​h​o​ ​e​l​e​t​r​ó​n​i​c​o​ ​q​u​e​ ​u​s​a​ ​p​a​r​a​ ​c​o​m​u​n​i​c​a​r​ ​c​o​n​n​o​s​c​o​,​ ​e​ ​a​i​n​d​a​ ​d​a​ ​s​e​g​u​r​a​n​ç​a​ ​q​u​e​ ​e​m​p​r​e​g​a​ ​p​a​r​a​ ​p​r​o​t​e​g​e​r​ ​n​o​m​e​s​ ​d​e​ ​u​t​i​l​i​z​a​d​o​r​ ​e​ ​p​a​l​a​v​r​a​s​-​p​a​s​s​e​,​ ​p​o​r​ ​f​a​v​o​r​ ​t​o​m​e​ ​a​s​ ​m​e​d​i​d​a​s​ ​a​d​e​q​u​a​d​a​s​ ​p​a​r​a​ ​p​r​o​t​e​g​e​r​ ​e​s​t​a​ ​i​n​f​o​r​m​a​ç​ã​o​.
+				 */
+				content: string
+			}
+			'8': {
+				/**
+				 * 8​.​ ​V​e​r​s​ã​o​ ​e​ ​a​l​t​e​r​a​ç​õ​e​s
+				 */
+				title: string
+				/**
+				 * A​ ​ú​l​t​i​m​a​ ​r​e​d​a​ç​ã​o​ ​d​a​ ​p​r​e​s​e​n​t​e​ ​P​o​l​í​t​i​c​a​ ​d​e​ ​P​r​i​v​a​c​i​d​a​d​e​ ​é​ ​d​e​ ​2​0​ ​d​e​ ​m​a​i​o​ ​d​e​ ​2​0​2​3​.​ ​A​ ​R​A​L​V​T​ ​p​o​d​e​r​á​ ​r​e​a​l​i​z​a​r​ ​a​l​t​e​r​a​ç​õ​e​s​ ​a​o​ ​t​e​o​r​ ​d​a​ ​p​r​e​s​e​n​t​e​ ​P​o​l​í​t​i​c​a​ ​d​e​ ​P​r​i​v​a​c​i​d​a​d​e​.​ ​T​a​i​s​ ​a​l​t​e​r​a​ç​õ​e​s​ ​s​e​r​ã​o​ ​c​o​m​u​n​i​c​a​d​a​s​,​ ​n​o​s​ ​t​e​r​m​o​s​ ​l​e​g​a​i​s​,​ ​a​o​ ​u​t​i​l​i​z​a​d​o​r​.
+				 */
+				content: string
+			}
 		}
 	}
 }
@@ -1119,7 +1331,7 @@ export type TranslationFunctions = {
 			 */
 			title: () => LocalizedString
 			/**
-			 * A Rede de Arrojamentos de Lisboa e Vale Tejo (RALVT), iniciou funções em 2021 e pertence à rede Nacional de Arrojamentos, atuando na região de Lisboa e Vale Tejo, entre os municípios da Lourinhã e Setúbal. A rede é o resultado de uma parceria entre o MARE-ISPA (Centro de Ciências do Mar e Ambiente - Instituto Superior de Psicologia Avançada), o ICNF (Instituto de Conservação da Natureza e Florestas) e o Fundo Ambiental (Ministério do Ambiente). O nosso principal objetivo é dar resposta a alertas de arrojamentos vivos ou mortos de mamíferos marinhos (golfinhos, baleias e lontras) e tartarugas marinhas, que ocorram na área de atuação da rede.
+			 * A Rede de Arrojamentos de Lisboa e Vale Tejo (RALVT), iniciou funções em 2021 e pertence à rede Nacional de Arrojamentos, atuando na região de Lisboa e Vale Tejo, entre os municípios da Lourinhã e Setúbal. A rede é o resultado de uma parceria entre o MARE-ISPA (Centro de Ciências do Mar e Ambiente - Instituto Universitário de Ciências Psicológicas, Sociais e da Vida), o ICNF (Instituto de Conservação da Natureza e Florestas) e o Fundo Ambiental (Ministério do Ambiente). O nosso principal objetivo é dar resposta a alertas de arrojamentos vivos ou mortos de mamíferos marinhos (golfinhos, bôtos, baleias e focas) e tartarugas marinhas, que ocorram na área de atuação da rede.
 			 */
 			text1: () => LocalizedString
 		}
@@ -1177,7 +1389,7 @@ export type TranslationFunctions = {
 			highlights: {
 				necropsies: {
 					/**
-					 * +150 necrópsias
+					 * +216 arrojamentos
 					 */
 					number: () => LocalizedString
 					/**
@@ -1187,17 +1399,17 @@ export type TranslationFunctions = {
 				}
 				trash: {
 					/**
-					 * +400 kg
+					 * +613 kg
 					 */
 					number: () => LocalizedString
 					/**
-					 * De lixo apanhado em 2023
+					 * De lixo apanhado desde 2021
 					 */
 					text: () => LocalizedString
 				}
 				events: {
 					/**
-					 * +15 eventos
+					 * +30 eventos
 					 */
 					number: () => LocalizedString
 					/**
@@ -1347,7 +1559,7 @@ export type TranslationFunctions = {
 			 */
 			title: () => LocalizedString
 			/**
-			 * Existem na Terra, mais de 300 espécies de tartarugas, mas apenas 7 são marinhas. Em Portugal, conseguimos observar 5 destas 7 espécies, sendo as mais observadas a tartaruga-de-couro e a tartaruga-comum. Tendo evoluído de animais terrestes, ainda possuem algumas características dos mesmos, tal como a respiração através do ar e a necessidade de incubarem os seus ovos em ninhos escavados nas praias, sendo que as fêmeas regressam à praia onde nasceram para fazer o ninho.
+			 * Existem na Terra, mais de 300 espécies de tartarugas, mas apenas 7 são marinhas. Em Portugal, conseguimos observar 5 destas 7 espécies, sendo as mais observadas a tartaruga-comum e a tartaruga-de-couro. Tendo evoluído de animais terrestes, ainda possuem algumas características dos mesmos, tal como a respiração através do ar e a necessidade de incubarem os seus ovos em ninhos escavados nas praias, sendo que as fêmeas regressam à praia onde nasceram para fazer o ninho.
 			 */
 			description: () => LocalizedString
 			leatherbackTurtle: {
@@ -1473,7 +1685,7 @@ export type TranslationFunctions = {
 			 */
 			turtle: () => LocalizedString
 			/**
-			 * Pássaro
+			 * Ave
 			 */
 			bird: () => LocalizedString
 			/**
@@ -1493,7 +1705,7 @@ export type TranslationFunctions = {
 			 */
 			text1: () => LocalizedString
 			/**
-			 * Entre Janeiro e Outubro de 2022 a RALVT registou 7% de arrojamentos vivos para 93% de arrojamentos mortos.
+			 * Entre Janeiro e Dezembro de 2023 a RALVT registou 2.5% de arrojamentos vivos para 97.5% de arrojamentos mortos.
 			 */
 			text2: () => LocalizedString
 			callToAction: {
@@ -1527,7 +1739,7 @@ export type TranslationFunctions = {
 			 */
 			title: () => LocalizedString
 			/**
-			 * Quando um animal marinho, vivo ou morto, encalha na costa e não consegue regressar à água sem auxílio, estamos perante um arrojamento. Em Portugal, os arrojamentos mais comuns são os cetáceos (baleias e golfinhos), as tartarugas marinhas e as aves marinhas. Ocasionalmente, ocorrem também arrojamentos de outros mamíferos marinhos, como as lontras.
+			 * Quando um animal marinho, vivo ou morto, encalha na costa e não consegue regressar à água sem auxílio, estamos perante um arrojamento. Em Portugal, os arrojamentos mais comuns são os cetáceos (baleias e golfinhos), as tartarugas marinhas e as aves marinhas. Ocasionalmente, ocorrem também arrojamentos de outros mamíferos marinhos, como as focas.
 			 */
 			text: () => LocalizedString
 			aliveStranding: {
@@ -1796,7 +2008,7 @@ export type TranslationFunctions = {
 			 */
 			dateOfSighting: () => LocalizedString
 			/**
-			 * Espécie
+			 * Animal
 			 */
 			species: () => LocalizedString
 			/**
@@ -1903,6 +2115,218 @@ export type TranslationFunctions = {
 			 * Erro interno ao submeter formulário. Se o erro persistir, por favor contacte-nos por telefone: (+351) 911 111 241.
 			 */
 			formErrorBody: () => LocalizedString
+		}
+	}
+	privacyPolicy: {
+		/**
+		 * Política de Privacidade
+		 */
+		header: () => LocalizedString
+		/**
+		 * De acordo com o art. º13.º do Regulamento Europeu de Proteção de Dados Pessoais Reg. UE 2016/679
+		 */
+		subHeader: () => LocalizedString
+		/**
+		 * Nesta Política de Privacidade, poderá encontrar todas as informações necessárias para melhor compreender como tratamos os seus dados pessoais.
+		 */
+		intro: () => LocalizedString
+		sections: {
+			'1': {
+				/**
+				 * 1. Responsável pelo Tratamento
+				 */
+				title: () => LocalizedString
+				/**
+				 * A RALVT, é a Responsável pelo Tratamento dos dados recolhidos neste sítio da internet. Poderá contactar-nos, por escrito, através do endereço eletrónico
+				 */
+				content: () => LocalizedString
+			}
+			'2': {
+				/**
+				 * 2. Finalidades do Tratamento e Fundamento Jurídico
+				 */
+				title: () => LocalizedString
+				content: {
+					/**
+					 * No quadro infra, poderá verificar as categorias de dados pessoais que tratamos, e ainda para que finalidades os usamos.
+					 */
+					'21': () => LocalizedString
+					/**
+					 * É provável que nem todas as situações se apliquem ao seu caso concreto pois os dados recolhidos dependerão do formulário escolha preencher.
+					 */
+					'22': () => LocalizedString
+					/**
+					 * Os dados pessoais recolhidos em cada caso são os que são pedidos nos vários formulários e destinar-se-ão à finalidade inerente a cada ação ou situação em concreto. Os dados pessoais marcados com um asterisco (*) são de preenchimento obrigatório.
+					 */
+					'23': () => LocalizedString
+					dataCategories: {
+						'1': {
+							/**
+							 * a) Dados de Identificação: nome, número de telefone, endereço de email.
+							 */
+							header: () => LocalizedString
+							/**
+							 * nome, número de telefone, endereço de email. Estes têm como finalidade a recolha de informações para possível posterior contacto de forma a esclarecer informações sobre o arrojamento/avistamento de um animal marinho, ou para comunicar o potencial desfecho de um arrojamento/avistamento.
+							 */
+							text: () => LocalizedString
+						}
+						'2': {
+							/**
+							 * b) Imagem: Fotografias.
+							 */
+							header: () => LocalizedString
+							/**
+							 * A submissão destas é opcional, e o intuito é recolher informações visuais sobre o avistamento/arrojamento de um animal marinho.
+							 */
+							text: () => LocalizedString
+						}
+						'3': {
+							/**
+							 * c) Localização.
+							 */
+							header: () => LocalizedString
+							/**
+							 * O fornecimento deste é opcional, sendo o seu acesso possível apenas após a expressa permissão do utilizador, escolha que é guardada e utilizada em futuras visitas. O utilizador poderá a qualquer momento alterar estas preferências. A localização é usada para identificar, em coordenadas GPS, a localização do animal arrojado/avistado.
+							 */
+							text: () => LocalizedString
+						}
+						/**
+						 * Categoria de dados e Finalidades:
+						 */
+						title: () => LocalizedString
+					}
+				}
+			}
+			'3': {
+				/**
+				 * 3. Categoria de destinatários dos dados
+				 */
+				title: () => LocalizedString
+				content: {
+					/**
+					 * Para que sejam tratados de forma adequada para as finalidades referidas no n.º2, a RALVT possibilitará o acesso aos seus dados pessoais por parte das seguintes entidades:
+					 */
+					'31': () => LocalizedString
+					/**
+					 * Pessoas individuais, trabalhadores e / ou colaboradores que tenham sido designados para desempenhar uma ou mais atividades de tratamento dos seus dados na qualidade de “Pessoas Autorizadas” tal como previsto no artigo 29.º do RGPD;
+					 */
+					authorized: () => LocalizedString
+					/**
+					 * Os seus dados pessoais poderão ser comunicados a entidades públicas ou autoridades judiciais, se assim for obrigatório por lei ou para prevenir ou punir a prática de crimes.
+					 */
+					publicEntities: () => LocalizedString
+					/**
+					 * De acordo com o disposto no art.º4.º/9 do RGPD, “as autoridades públicas que possam receber dados pessoais no âmbito de inquéritos específicos nos termos do direito da União ou dos Estados-Membros não são consideradas destinatários”.
+					 */
+					authoroties: () => LocalizedString
+					/**
+					 * Por favor note que a RALVT ou as entidades por nós subcontratadas podem armazenar os seus dados fora do EEE. Nesse caso garantiremos que essas empresas subcontratadas estão sujeitas à legislação que foi considerada pela Comissão Europeia como prestando um grau de proteção adequado estão por isso a coberto de uma decisão de adequação ou equivalente.
+					 */
+					outsideEEE: () => LocalizedString
+				}
+			}
+			'4': {
+				/**
+				 * 4. Prazo de Conservação
+				 */
+				title: () => LocalizedString
+				/**
+				 * A RALVT conservará os seus dados enquanto analisa o arrojamento/avistamento reportado, para as finalidades relacionadas com o seu processamento. Isto, sem prejuízo do exercício do seu direito de oposição quando aplicável. Após a cessação da análise da ocorrência poderemos conservar os seus dados para prova do cumprimento de obrigações legais, designadamente o RGPD, legislação fiscal, legislação respeitante a vendas à distância, entre outras. Neste caso apenas conservaremos os dados que sejam absolutamente necessários para esta finalidade e esses dados serão mantidos devidamente bloqueados e pseudonimizados. Apenas estarão acessíveis a pessoas especialmente autorizadas e exclusivamente para o cumprimento das finalidades suprarreferidas. Ainda assim, serão conservados apenas durante o prazo de prescrição da obrigação em causa, a qual poderá variar em função da legislação aplicável.
+				 */
+				content: () => LocalizedString
+			}
+			'5': {
+				/**
+				 * Poderá exercer os seguintes direitos, conforme previstos pelo RGPD, através do email
+				 */
+				'51': () => LocalizedString
+				/**
+				 * Poderá ainda contactar-nos através do número 911 111 241, para pedir informações sobre a forma como poderá exercer os seus direitos.
+				 */
+				'52': () => LocalizedString
+				/**
+				 * Sempre que os seus dados sejam processados com base no consentimento poderá retirar o seu consentimento em qualquer altura, sem que isso comprometa a licitude do tratamento efetuado com base no consentimento previamente dado.
+				 */
+				'53': () => LocalizedString
+				/**
+				 * Para dar cumprimento aos seus pedidos poderemos solicitar informação adicional para o podermos identificar tal como resulta do disposto no art.º11.º do RGPD em conjugação com o considerando 67.
+				 */
+				'54': () => LocalizedString
+				/**
+				 * 5. Direitos dos Titulares dos Dados
+				 */
+				title: () => LocalizedString
+				content: {
+					rights: {
+						/**
+						 * Direito de acesso à sua informação pessoal;
+						 */
+						'0': () => LocalizedString
+						/**
+						 * Direito de retificação dos seus dados;
+						 */
+						'1': () => LocalizedString
+						/**
+						 * Direito ao Apagamento dos dados;
+						 */
+						'2': () => LocalizedString
+						/**
+						 * Direito à limitação do tratamento;
+						 */
+						'3': () => LocalizedString
+						/**
+						 * Direito de Portabilidade;
+						 */
+						'4': () => LocalizedString
+						/**
+						 * Direito de oposição;
+						 */
+						'5': () => LocalizedString
+						/**
+						 * Direito de Oposição para efeitos de envio de comunicações de marketing;
+						 */
+						'6': () => LocalizedString
+						/**
+						 * Direito de apresentação de uma reclamação / queixa junto da CNPD - Comissão Nacional de Proteção de Dados (www.cnpd.pt); Neste caso, solicitamos o especial favor de nos contactar previamente à apresentação da reclamação junto da CNPD tendo em vista a resolução rápida do problema reportado.
+						 */
+						'7': () => LocalizedString
+					}
+				}
+				/**
+				 * No caso de recusa injustificada em identificar-se, se não estivermos possibilitados de o identificar de outra forma, reservamo-nos ao direito de não dar resposta ao seu pedido.
+				 */
+				final: () => LocalizedString
+			}
+			'6': {
+				/**
+				 * 6. Encarregado de Proteção de Dados
+				 */
+				title: () => LocalizedString
+				/**
+				 * A RALVT nomeou um Encarregado de Proteção de dados que poderá ser contactado através do email
+				 */
+				content: () => LocalizedString
+			}
+			'7': {
+				/**
+				 * 7. Segurança
+				 */
+				title: () => LocalizedString
+				/**
+				 * A RALVT implementou e manteve medidas de segurança e políticas técnicas e organizacionais para garantir a segurança dos dados pessoais que tratamos. Entre essas medidas encontram-se, designadamente, a execução de acordos de confidencialidade com os nossos colaboradores e fornecedores; políticas de restrição e controlo de acesso a dados pessoais; destruição ou anonimização de dados pessoais que já não são necessários para as finalidades que determinaram a sua recolha; Uma vez que a segurança de informação depende em parte da segurança do seu computador ou aparelho eletrónico que usa para comunicar connosco, e ainda da segurança que emprega para proteger nomes de utilizador e palavras-passe, por favor tome as medidas adequadas para proteger esta informação.
+				 */
+				content: () => LocalizedString
+			}
+			'8': {
+				/**
+				 * 8. Versão e alterações
+				 */
+				title: () => LocalizedString
+				/**
+				 * A última redação da presente Política de Privacidade é de 20 de maio de 2023. A RALVT poderá realizar alterações ao teor da presente Política de Privacidade. Tais alterações serão comunicadas, nos termos legais, ao utilizador.
+				 */
+				content: () => LocalizedString
+			}
 		}
 	}
 }
