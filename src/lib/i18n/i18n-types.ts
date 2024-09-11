@@ -776,6 +776,10 @@ type RootTranslation = {
 			 * E​C​O​M​A​R​E​ ​-​ ​C​e​n​t​r​o​ ​d​e​ ​R​e​a​b​i​l​i​t​a​ç​ã​o​ ​d​e​ ​A​n​i​m​a​i​s​ ​M​a​r​i​n​h​o​s​ ​(​C​R​A​M​)
 			 */
 			ecomare: string
+			/**
+			 * C​e​n​t​r​o​ ​d​e​ ​R​e​c​u​p​e​r​a​ç​ã​o​ ​d​e​ ​A​n​i​m​a​i​s​ ​S​e​l​v​a​g​e​n​s​ ​d​e​ ​M​o​n​t​e​j​u​n​t​o​ ​(​C​R​A​S​M​)
+			 */
+			crasm: string
 		}
 	}
 	floating: {
@@ -1936,6 +1940,10 @@ export type TranslationFunctions = {
 			 * ECOMARE - Centro de Reabilitação de Animais Marinhos (CRAM)
 			 */
 			ecomare: () => LocalizedString
+			/**
+			 * Centro de Recuperação de Animais Selvagens de Montejunto (CRASM)
+			 */
+			crasm: () => LocalizedString
 		}
 	}
 	floating: {

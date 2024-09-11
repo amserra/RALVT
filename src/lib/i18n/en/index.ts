@@ -290,7 +290,8 @@ const en = {
 			crassa: 'CRASSA - Santo André Wild Animal Recovery Center',
 			zoomarine: "Porto d'Abrigo do Zoomarine (Albufeira)",
 			lxcras: 'LxCRAS- Lisbon Wild Animal Recovery Center',
-			ecomare: 'ECOMARE - Marine Animal Rehabilitation Center (CRAM)'
+			ecomare: 'ECOMARE - Marine Animal Rehabilitation Center (CRAM)',
+			crasm: 'Centro de Recuperação de Animais Selvagens de Montejunto (CRASM)'
 		}
 	},
 	floating: {
