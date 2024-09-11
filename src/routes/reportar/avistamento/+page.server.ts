@@ -20,7 +20,7 @@ const schema = z.object({
 	description: z.string(),
 	location: z.string({ invalid_type_error: 'Enter a location' }).nonempty('Enter a location'),
 	sightingDate: z.coerce.date().max(new Date(), { message: 'Future dates are not allowed' }),
-	species: z.enum(['dolphin', 'whale', 'turtle', 'bird']).default('dolphin'),
+	species: z.enum(['dolphin', 'whale', 'turtle']).default('dolphin'),
 	photos: photosSchema
 });
 

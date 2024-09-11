@@ -135,7 +135,6 @@
 					<option value="dolphin" selected>{$LL.species.names.dolphin()}</option>
 					<option value="whale">{$LL.species.names.whale()}</option>
 					<option value="turtle">{$LL.species.names.turtle()}</option>
-					<option value="bird">{$LL.species.names.bird()}</option>
 				</select>
 				<label for="species" class="form-label">{$LL.form.fields.species()}</label>
 			</div>
