@@ -2,6 +2,18 @@ import type { Actions, PageServerLoad } from './$types';
 import { z } from 'zod';
 import { fail } from '@sveltejs/kit';
 import { setError, superValidate, message } from 'sveltekit-superforms/server';
+import nodemailer from 'nodemailer';
+import { EMAIL_HOST, EMAIL_USER, EMAIL_PASS } from '$env/static/private';
+
+const transporter = nodemailer.createTransport({
+	host: EMAIL_HOST,
+	port: 587,
+	secure: false,
+	auth: {
+		user: EMAIL_USER,
+		pass: EMAIL_PASS
+	}
+});
 
 const MAX_FILE_SIZE = 5242880; // 5 MB
 const ACCEPTED_IMAGE_TYPES = ['image/jpeg', 'image/jpg', 'image/png', 'image/webp'];
@@ -70,11 +82,14 @@ export const actions: Actions = {
 			}
 		}
 
+		const name = form.data.name?.trim();
+		const description = form.data.description.trim();
+		const beachName = form.data.beachName.trim();
 		const { error } = await locals.sb.from('Stranding').insert({
-			name: form.data.name?.trim(),
+			name: name,
 			phoneNumber: form.data.phoneNumber,
-			description: form.data.description.trim(),
-			beachName: form.data.beachName.trim(),
+			description: description,
+			beachName: beachName,
 			location: form.data.location,
 			email: form.data.email,
 			sightingDate: form.data.sightingDate,
@@ -88,6 +103,17 @@ export const actions: Actions = {
 				status: 500
 			});
 		}
+
+		const emailText = `Existe um novo alerta de arrojamento no site, de um ${form.data.species}.
+    Submetido por ${name ?? 'Anónimo'} com a mensagem "${description}, na ${beachName}".`;
+
+		transporter.sendMail({
+			from: '"RALVT" <geral@ralvt.pt>',
+			to: 'geral@ralvt.pt',
+			subject: 'Novo alerta de arrojamento',
+			text: emailText,
+			html: emailText
+		});
 
 		return message(form, 'valid');
 	}
