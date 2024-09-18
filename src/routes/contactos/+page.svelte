@@ -94,6 +94,11 @@
 					name: $LL.contacts.recoveryCenters.ecomare(),
 					email: null,
 					phone: '919 618 705'
+				},
+				{
+					name: $LL.contacts.recoveryCenters.crasm(),
+					email: 'crasm@crasmontejunto.org',
+					phone: '262 771 060/966 775 515'
 				}
 			]
 		}

@@ -2,6 +2,18 @@ import type { Actions, PageServerLoad } from './$types';
 import { z } from 'zod';
 import { fail } from '@sveltejs/kit';
 import { setError, superValidate, message } from 'sveltekit-superforms/server';
+import nodemailer from 'nodemailer';
+import { EMAIL_HOST, EMAIL_USER, EMAIL_PASS } from '$env/static/private';
+
+const transporter = nodemailer.createTransport({
+	host: EMAIL_HOST,
+	port: 587,
+	secure: false,
+	auth: {
+		user: EMAIL_USER,
+		pass: EMAIL_PASS
+	}
+});
 
 const MAX_FILE_SIZE = 5242880; // 5 MB
 const ACCEPTED_IMAGE_TYPES = ['image/jpeg', 'image/jpg', 'image/png', 'image/webp'];
@@ -20,7 +32,7 @@ const schema = z.object({
 	description: z.string(),
 	location: z.string({ invalid_type_error: 'Enter a location' }).nonempty('Enter a location'),
 	sightingDate: z.coerce.date().max(new Date(), { message: 'Future dates are not allowed' }),
-	species: z.enum(['dolphin', 'whale', 'turtle', 'bird']).default('dolphin'),
+	species: z.enum(['dolphin', 'whale', 'turtle']).default('dolphin'),
 	photos: photosSchema
 });
 
@@ -66,9 +78,11 @@ export const actions: Actions = {
 			}
 		}
 
+		const name = form.data.name?.trim();
+		const description = form.data.description.trim();
 		const { error } = await locals.sb.from('Sighting').insert({
-			name: form.data.name?.trim(),
-			description: form.data.description.trim(),
+			name: name,
+			description: description,
 			location: form.data.location,
 			sightingDate: form.data.sightingDate,
 			species: form.data.species,
@@ -80,6 +94,17 @@ export const actions: Actions = {
 				status: 500
 			});
 		}
+
+		const emailText = `Existe um novo alerta de avistamento no site, de um ${form.data.species}.
+    Submetido por ${name ?? 'Anónimo'} com a mensagem "${description}".`;
+
+		transporter.sendMail({
+			from: '"RALVT" <geral@ralvt.pt>',
+			to: 'geral@ralvt.pt',
+			subject: 'Novo alerta de avistamento',
+			text: emailText,
+			html: emailText
+		});
 
 		return message(form, 'valid');
 	}
