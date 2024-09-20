@@ -363,7 +363,7 @@ const en = {
 			'1': {
 				title: '1. Responsible for the treatment,
 				content:
-					'RALVT is responsible for treating the  data we collected on our website. You can contact us, via email, at the mailing address geral@ralvt.pt.'
+					'RALVT is responsible for treating the  data we collected on our website. You can contact us, via email, at the mailing address.'
 			},
 			'2': {
 				title: '2. Purpose of the treatment and legal basis.',
