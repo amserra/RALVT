@@ -350,20 +350,20 @@ const en = {
 			formSuccessTitle: 'Form submitted',
 			formErrorTitle: 'Error submitting form',
 			formSuccessBody: 'Thank you for submitting the form',
-			formErrorBody: 'Internal error when submitting form. '
+			formErrorBody: 'Internal error when submitting the form. '
 		}
 	},
 	privacyPolicy: {
-		header: 'Política de Privacidade',
+		header: 'Privacy Policy',
 		subHeader:
 			'According to article 13th of Regulation of the European Data Protection (Reg. UE 2016/679)',
 		intro:
 			'In this Privacy Policy, you can find all the information to understand better how we will process your data. ',
 		sections: {
 			'1': {
-				title: '1. Responsible for the treatment',
+				title: '1. Responsible for the treatment,
 				content:
-					'RALVT, is responsible for treating of the  data we collected in our website. You can contact us, via email, to the mailing address geral@ralvt.pt.'
+					'RALVT is responsible for treating the  data we collected on our website. You can contact us, via email, at the mailing address geral@ralvt.pt.'
 			},
 			'2': {
 				title: '2. Purpose of the treatment and legal basis.',
@@ -379,69 +379,69 @@ const en = {
 						},
 						'2': {
 							header: 'b) Photographs',
-							text: 'their submission is optional, and they are used to collect visual information about the sighting/stranding of the marine animal. '
+							text: 'Their submission is optional, and they are used to collect visual information about the sighting/stranding of the marine animal. '
 						},
 						'3': {
 							header: 'c) Location.',
-							text: 'the submission of the location is optional, and the information is only available after the user’s permission. The choice is saved and utilized in future; however, the user can change their preference at any time. The location is used to identify, in GPS coordinates the location of the sighting/stranding.'
+							text: 'The submission of the location is optional, and the information is only available after the user’s permission. The choice is saved and utilized in future; however, the user can change their preference at any time. The location is used to identify, in GPS coordinates the location of the sighting/stranding.'
 						}
 					}
 				}
 			},
 			'3': {
-				title: '3. Categories of Data Recipients',
+				title: '3. Categories of Data Recipients,
 				content: {
-					'31': 'Para que sejam tratados de forma adequada para as finalidades referidas no n.º2, a RALVT possibilitará o acesso aos seus dados pessoais por parte das seguintes entidades:',
+					'31': 'In order for the data to be processed adequately, for the purposes identified in 2., RALVT will allow your personal data to be processed by the following entities:',
 					authorized:
-						'Pessoas individuais, trabalhadores e / ou colaboradores que tenham sido designados para desempenhar uma ou mais atividades de tratamento dos seus dados na qualidade de “Pessoas Autorizadas” tal como previsto no artigo 29.º do RGPD;',
+						'Individuals, employees, or collaborators designated to carry out one or more of the data processing activities. These are classified as “Authorized Personnel”, as per article 29 of the data protection regulation;',
 					publicEntities:
-						'Os seus dados pessoais poderão ser comunicados a entidades públicas ou autoridades judiciais, se assim for obrigatório por lei ou para prevenir ou punir a prática de crimes.',
+						'Individuals, employees, or collaborators designated to carry out one or more of the data processing activities. These are classified as “Authorized Personnel”, as per article 29 of the data protection regulation.',
 					authoroties:
-						'De acordo com o disposto no art.º4.º/9 do RGPD, “as autoridades públicas que possam receber dados pessoais no âmbito de inquéritos específicos nos termos do direito da União ou dos Estados-Membros não são consideradas destinatários”.',
+						'According to article 4/9 of the regulation, “public authorities which may receive personal data in the framework of a particular inquiry per Union or Member State law shall not be regarded as recipients”.',
 					outsideEEE:
-						'Por favor note que a RALVT ou as entidades por nós subcontratadas podem armazenar os seus dados fora do EEE. Nesse caso garantiremos que essas empresas subcontratadas estão sujeitas à legislação que foi considerada pela Comissão Europeia como prestando um grau de proteção adequado estão por isso a coberto de uma decisão de adequação ou equivalente.'
+						'Please note that RALVT or our subcontractors may store your data outside de EEE. In that case, we will ensure that these subcontractors are subject to legislation that has been deemed by the European Commission to provide an adequate degree of protection and are therefore covered by an adequacy decision or equivalent.'
 				}
 			},
 			'4': {
-				title: '4. Prazo de Conservação',
+				title: '4. Retention Period',
 				content:
-					'A RALVT conservará os seus dados enquanto analisa o arrojamento/avistamento reportado, para as finalidades relacionadas com o seu processamento. Isto, sem prejuízo do exercício do seu direito de oposição quando aplicável. Após a cessação da análise da ocorrência poderemos conservar os seus dados para prova do cumprimento de obrigações legais, designadamente o RGPD, legislação fiscal, legislação respeitante a vendas à distância, entre outras. Neste caso apenas conservaremos os dados que sejam absolutamente necessários para esta finalidade e esses dados serão mantidos devidamente bloqueados e pseudonimizados. Apenas estarão acessíveis a pessoas especialmente autorizadas e exclusivamente para o cumprimento das finalidades suprarreferidas. Ainda assim, serão conservados apenas durante o prazo de prescrição da obrigação em causa, a qual poderá variar em função da legislação aplicável.'
+					'RALVT will retain your data while analysing the reported stranding/sighting, for the purposes related to its processing. This process occurs, without prejudice to the exercise of your right to object where applicable. After the end of the analysis of the occurrence, we may keep your data to prove compliance with legal obligations, namely the data protection regulation, fiscal legislation, and legislation regarding distance selling, among others. In this case, we will only keep the data that is necessary for this purpose and this data will be kept fully blocked and pseudonymised. They will only be accessible to specially authorized persons and exclusively for the fulfilment of the above-mentioned purposes. Even so, they will only be kept for the duration of the limitation period of the obligation in question, which may vary depending on the applicable legislation.'
 			},
 			'5': {
-				title: '5. Direitos dos Titulares dos Dados',
-				'51': 'Poderá exercer os seguintes direitos, conforme previstos pelo RGPD, através do email',
+				title: '5. Rights of the Data Provider',
+				'51': 'You may exercise the following rights, as provided for by the data protection regulation, by emailing geral@ralvt.pt.',
 				content: {
 					rights: [
-						'Direito de acesso à sua informação pessoal;',
-						'Direito de retificação dos seus dados;',
-						'Direito ao Apagamento dos dados;',
-						'Direito à limitação do tratamento;',
-						'Direito de Portabilidade;',
-						'Direito de oposição;',
-						'Direito de Oposição para efeitos de envio de comunicações de marketing;',
-						'Direito de apresentação de uma reclamação / queixa junto da CNPD - Comissão Nacional de Proteção de Dados (www.cnpd.pt); Neste caso, solicitamos o especial favor de nos contactar previamente à apresentação da reclamação junto da CNPD tendo em vista a resolução rápida do problema reportado.'
+						'Right to access your personal information;',
+						'Right to rectify your data;',
+						'Right to delete your data;',
+						'Right to limit the processing of the data;',
+						'Right to portability;',
+						'Right to object;',
+						'Right to object to marketing communications;',
+						'Right to file a complaint with the CNPD - National Data Protection Commission (www.cnpd.pt); In this case, we ask you to contact us before filing the complaint with the CNPD to quickly resolve the reported problem.'
 					]
 				},
-				'52': 'Poderá ainda contactar-nos através do número 911 111 241, para pedir informações sobre a forma como poderá exercer os seus direitos.',
-				'53': 'Sempre que os seus dados sejam processados com base no consentimento poderá retirar o seu consentimento em qualquer altura, sem que isso comprometa a licitude do tratamento efetuado com base no consentimento previamente dado.',
-				'54': 'Para dar cumprimento aos seus pedidos poderemos solicitar informação adicional para o podermos identificar tal como resulta do disposto no art.º11.º do RGPD em conjugação com o considerando 67.',
+				'52': 'You can contact us, at 911 111 241, to request information on how to exercise your rights.',
+				'53': 'Whenever your data is processed based on consent, you may withdraw your consent at any time, without compromising the lawfulness of the processing carried out based on the consent previously given.',
+				'54': 'To complete your request, we can request additional information to identify it, as per article 11 of the data protection regulation in conjunction with recital 67.',
 				final:
-					'No caso de recusa injustificada em identificar-se, se não estivermos possibilitados de o identificar de outra forma, reservamo-nos ao direito de não dar resposta ao seu pedido.'
+					'In the event of an unjustified refusal to identify yourself, if we are unable to identify you in any other way, we reserve the right not to respond to your request.'
 			},
 			'6': {
-				title: '6. Encarregado de Proteção de Dados',
+				title: '6. Data Protection Officer',
 				content:
-					'A RALVT nomeou um Encarregado de Proteção de dados que poderá ser contactado através do email'
+					'RALVT has appointed a data protection officer that can be contacted via email, at geral@ralvt.pt'
 			},
 			'7': {
-				title: '7. Segurança',
+				title: '7. Security',
 				content:
-					'A RALVT implementou e manteve medidas de segurança e políticas técnicas e organizacionais para garantir a segurança dos dados pessoais que tratamos. Entre essas medidas encontram-se, designadamente, a execução de acordos de confidencialidade com os nossos colaboradores e fornecedores; políticas de restrição e controlo de acesso a dados pessoais; destruição ou anonimização de dados pessoais que já não são necessários para as finalidades que determinaram a sua recolha; Uma vez que a segurança de informação depende em parte da segurança do seu computador ou aparelho eletrónico que usa para comunicar connosco, e ainda da segurança que emprega para proteger nomes de utilizador e palavras-passe, por favor tome as medidas adequadas para proteger esta informação.'
+					'RALVT has implemented and maintained security measures and technical and organization policies to assure the safety of the personal data that we process. These measures include, in particular, the execution of confidentiality agreements with our employees and suppliers; policies restricting and controlling access to personal data; destruction or anonymization of personal data that is no longer necessary for the purpose it was collected; Because information security depends in part on the security of your computer or electronic device that you use to communicate with us, and the security you employ to protect usernames and passcodes, please take appropriate steps to protect this information.'
 			},
 			'8': {
-				title: '8. Versão e alterações',
+				title: '8. Version and Changes',
 				content:
-					'A última redação da presente Política de Privacidade é de 20 de maio de 2023. A RALVT poderá realizar alterações ao teor da presente Política de Privacidade. Tais alterações serão comunicadas, nos termos legais, ao utilizador.'
+					'This privacy policy was last amended on May 20th, 2023. RALVT may make changes to the content of this privacy policy. Such changes shall be communicated to the user, per the law.'
 			}
 		}
 	}
