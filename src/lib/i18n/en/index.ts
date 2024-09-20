@@ -356,40 +356,40 @@ const en = {
 	privacyPolicy: {
 		header: 'Política de Privacidade',
 		subHeader:
-			'De acordo com o art. º13.º do Regulamento Europeu de Proteção de Dados Pessoais Reg. UE 2016/679',
+			'According to article 13th of Regulation of the European Data Protection (Reg. UE 2016/679)',
 		intro:
-			'Nesta Política de Privacidade, poderá encontrar todas as informações necessárias para melhor compreender como tratamos os seus dados pessoais.',
+			'In this Privacy Policy, you can find all the information to understand better how we will process your data. ',
 		sections: {
 			'1': {
-				title: '1. Responsável pelo Tratamento',
+				title: '1. Responsible for the treatment',
 				content:
-					'A RALVT, é a Responsável pelo Tratamento dos dados recolhidos neste sítio da internet. Poderá contactar-nos, por escrito, através do endereço eletrónico'
+					'RALVT, is responsible for treating of the  data we collected in our website. You can contact us, via email, to the mailing address geral@ralvt.pt.'
 			},
 			'2': {
-				title: '2. Finalidades do Tratamento e Fundamento Jurídico',
+				title: '2. Purpose of the treatment and legal basis.',
 				content: {
-					'21': 'No quadro infra, poderá verificar as categorias de dados pessoais que tratamos, e ainda para que finalidades os usamos.',
-					'22': 'É provável que nem todas as situações se apliquem ao seu caso concreto pois os dados recolhidos dependerão do formulário escolha preencher.',
-					'23': 'Os dados pessoais recolhidos em cada caso são os que são pedidos nos vários formulários e destinar-se-ão à finalidade inerente a cada ação ou situação em concreto. Os dados pessoais marcados com um asterisco (*) são de preenchimento obrigatório.',
+					'21': 'In the table below, you can verify the categories of the data we process and how we use it.',
+					'22': 'Not all situations will likely apply to your case, as the data we collect is dependent on the form you complete. However, we choose to provide information on all possible scenarios.',
+					'23': 'The personal data collected in each is requested in the various forms and will be intended for the purpose inherent to each specific action or situation. Personal data marked with an asterisk (*) is mandatory.',
 					dataCategories: {
-						title: 'Categoria de dados e Finalidades:',
+						title: 'Data Categories and Purpose:',
 						'1': {
-							header: 'a) Dados de Identificação: nome, número de telefone, endereço de email.',
-							text: 'nome, número de telefone, endereço de email. Estes têm como finalidade a recolha de informações para possível posterior contacto de forma a esclarecer informações sobre o arrojamento/avistamento de um animal marinho, ou para comunicar o potencial desfecho de um arrojamento/avistamento.'
+							header: 'a) Identification data: name, phone number and email address',
+							text: 'name, phone number and email address – These serve as a way to allow future contact to obtain further information or clarify the information given about the stranding/sighting of a marine animal, or to communicate feedback on your report.'
 						},
 						'2': {
-							header: 'b) Imagem: Fotografias.',
-							text: 'A submissão destas é opcional, e o intuito é recolher informações visuais sobre o avistamento/arrojamento de um animal marinho.'
+							header: 'b) Photographs',
+							text: 'their submission is optional, and they are used to collect visual information about the sighting/stranding of the marine animal. '
 						},
 						'3': {
-							header: 'c) Localização.',
-							text: 'O fornecimento deste é opcional, sendo o seu acesso possível apenas após a expressa permissão do utilizador, escolha que é guardada e utilizada em futuras visitas. O utilizador poderá a qualquer momento alterar estas preferências. A localização é usada para identificar, em coordenadas GPS, a localização do animal arrojado/avistado.'
+							header: 'c) Location.',
+							text: 'the submission of the location is optional, and the information is only available after the user’s permission. The choice is saved and utilized in future; however, the user can change their preference at any time. The location is used to identify, in GPS coordinates the location of the sighting/stranding.'
 						}
 					}
 				}
 			},
 			'3': {
-				title: '3. Categoria de destinatários dos dados',
+				title: '3. Categories of Data Recipients',
 				content: {
 					'31': 'Para que sejam tratados de forma adequada para as finalidades referidas no n.º2, a RALVT possibilitará o acesso aos seus dados pessoais por parte das seguintes entidades:',
 					authorized:
