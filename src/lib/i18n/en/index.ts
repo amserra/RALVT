@@ -426,7 +426,7 @@ const en = {
 				'53': 'Whenever your data is processed based on consent, you may withdraw your consent at any time, without compromising the lawfulness of the processing carried out based on the consent previously given.',
 				'54': 'To complete your request, we can request additional information to identify it, as per article 11 of the data protection regulation in conjunction with recital 67.',
 				final:
-					'In the event of an unjustified refusal to identify yourself, if we are unable to identify you in any other way, we reserve the right not to respond to your request.'
+					'In the event of an unjustified refusal to identify yourself, if we cannot identify you in any other way, we reserve the right not to respond to your request.'
 			},
 			'6': {
 				title: '6. Data Protection Officer',
